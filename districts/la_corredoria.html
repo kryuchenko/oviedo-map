@@ -8,78 +8,213 @@
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
+            line-height: 1.7;
             color: #333;
             padding: 20px;
             background: #fafafa;
         }
         .header {
-            background: linear-gradient(135deg, #2c3e50, #34495e);
+            background: linear-gradient(135deg, #64748b, #475569);
             color: white;
-            padding: 20px;
+            padding: 25px;
             margin: -20px -20px 20px -20px;
         }
         .header h1 {
-            font-size: 1.4rem;
+            font-size: 1.5rem;
             margin-bottom: 5px;
         }
         .header .subtitle {
-            font-size: 0.85rem;
-            opacity: 0.8;
+            font-size: 1rem;
+            opacity: 0.9;
+            font-style: italic;
         }
         .content {
             background: white;
-            padding: 20px;
+            padding: 25px;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
+        h2 {
+            color: #475569;
+            margin: 30px 0 15px 0;
+            font-size: 1.3rem;
+            border-bottom: 3px solid #94a3b8;
+            padding-bottom: 8px;
+        }
         h3 {
-            color: #2c3e50;
+            color: #64748b;
             margin: 20px 0 10px 0;
-            font-size: 1.1rem;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 5px;
+            font-size: 1.05rem;
         }
         p {
-            margin-bottom: 12px;
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        .intro {
+            font-size: 1.05rem;
+            color: #444;
+            border-left: 4px solid #94a3b8;
+            padding-left: 15px;
+            margin-bottom: 25px;
+        }
+        .type-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            margin-top: 10px;
+            background: #94a3b8;
+            color: white;
         }
         ul {
             margin: 10px 0 15px 20px;
         }
         li {
+            margin-bottom: 10px;
+        }
+        .highlight {
+            background: #f1f5f9;
+            border-left: 4px solid #94a3b8;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        .two-parts {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin: 15px 0;
+        }
+        .part {
+            background: #f8fafc;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+        }
+        .part h4 {
+            color: #475569;
             margin-bottom: 8px;
+            font-size: 0.95rem;
         }
-        strong {
-            color: #2c3e50;
+        .pros-cons {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 20px 0;
         }
-        .type-badge {
-            display: inline-block;
-            padding: 3px 10px;
-            border-radius: 12px;
-            font-size: 0.75rem;
-            margin-top: 8px;
+        .pros, .cons {
+            padding: 15px;
+            border-radius: 8px;
         }
-        .urban { background: #e74c3c; color: white; }
-        .rural { background: #27ae60; color: white; }
+        .pros {
+            background: #f0fdf4;
+            border: 1px solid #86efac;
+        }
+        .cons {
+            background: #fef2f2;
+            border: 1px solid #fca5a5;
+        }
+        .pros h4 {
+            color: #166534;
+            margin-bottom: 10px;
+        }
+        .cons h4 {
+            color: #991b1b;
+            margin-bottom: 10px;
+        }
+        .verdict {
+            background: linear-gradient(135deg, #64748b, #475569);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+        .verdict p {
+            text-align: left;
+            margin-bottom: 0;
+        }
+        @media (max-width: 600px) {
+            .two-parts, .pros-cons {
+                grid-template-columns: 1fr;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="header">
         <h1>La Corredoria</h1>
-        <div class="subtitle">Ла-Корредория</div>
-        <span class="type-badge urban">Городской район</span>
+        <div class="subtitle">Астурийская Коммунарка — большой спальник</div>
+        <span class="type-badge">Городской район</span>
     </div>
     <div class="content">
-        
-            <p>Самый быстрорастущий район Овьедо — современная зона на северо-востоке.</p>
-            <h3>Достопримечательности</h3>
-            <ul>
-                <li><strong>ТЦ Парке Принсипадо</strong> — крупнейший торговый центр региона</li>
-                <li><strong>Новые жилые комплексы</strong> — современное жильё</li>
-            </ul>
-            <h3>Характер района</h3>
-            <p>Современный район, популярный среди молодых семей. Вся необходимая инфраструктура.</p>
-        
+        <p class="intro">Если тебе нужно место в Овьедо, которое ощущается как "за МКАДом" (Коммунарка/Южное Бутово по духу) — это оно. Ла-Корредория скорее город-спутник, который по недоразумению считается частью Овьедо: многоэтажки, широкие проспекты, минимум "старого города", максимум быта и квадратных метров.</p>
+
+        <h2>1. Как устроен район</h2>
+
+        <p>Это <strong>типичный спальный массив</strong>, выросший на строительном буме 90-х и нулевых: из деревни → в район на <strong>20 000+ жителей</strong>.</p>
+
+        <div class="two-parts">
+            <div class="part">
+                <h4>La Corredoria Vieja</h4>
+                <p style="margin-bottom:0">Кусочек "старого поселка" вокруг площади Cuatro Caños. Душевнее, но теряется на фоне новостроек.</p>
+            </div>
+            <div class="part">
+                <h4>Новая Корредория</h4>
+                <p style="margin-bottom:0">"Кирпичный тетрис": кварталы стеной, ветра, широкие улицы, ощущение человейника.</p>
+            </div>
+        </div>
+
+        <p><strong>Prado de la Vega</strong> — более "прилизанная" часть, рядом больница HUCA, понтов чуть больше.</p>
+
+        <h2>2. Главная местная религия — парковка и выезды</h2>
+
+        <ul>
+            <li><strong>Парковки не хватает:</strong> вечером дворы превращаются в "Голодные игры", машины стоят где угодно.</li>
+            <li>Дополнительно мешают <strong>работники промзоны Espíritu Santo</strong> и посетители <strong>HUCA</strong>, которые часто паркуются в жилых дворах.</li>
+            <li><strong>Транспортное узкое горлышко</strong> — отдельная боль: район регулярно стоит, а "решения" от властей выглядят как бюрократический цирк (в духе "мост есть, но закрыт").</li>
+        </ul>
+
+        <h2>3. Ротонды как навигация</h2>
+
+        <div class="highlight">
+            <p style="margin-bottom:0">Район реально "на круговых": ориентироваться проще по ротондам, чем по улицам. Это не шутка — ты постоянно крутишься по кольцам.</p>
+        </div>
+
+        <h2>4. Кто тут живёт</h2>
+
+        <ul>
+            <li>В основном <strong>молодой средний класс:</strong> семьи, ипотека, дети, собака, работа где-то "в городе".</li>
+            <li>Днём район <strong>пустеет</strong> (все уезжают), вечером — <strong>пробки на въезд</strong>.</li>
+            <li><strong>Школы и социнфраструктура</strong> местами не успевают за ростом населения: ощущение "понастроили домов — потом подумали".</li>
+        </ul>
+
+        <h2>5. Идентичность</h2>
+
+        <p>Жители легко говорят <strong>"поехать в Овьедо"</strong>, имея в виду центр, как будто они сами живут отдельно.</p>
+
+        <p>Район живой, со своими локальными точками притяжения, спортом и праздниками — но психологически это всё равно "спутник".</p>
+
+        <div class="pros-cons">
+            <div class="pros">
+                <h4>Плюсы</h4>
+                <ul>
+                    <li><strong>Дешевле центра</strong> и "честное жильё для жизни"</li>
+                    <li><strong>Бытовая инфраструктура:</strong> магазины, бары, спорткомплексы</li>
+                    <li><strong>Живой район</strong> (много людей, не "музейный" центр)</li>
+                </ul>
+            </div>
+            <div class="cons">
+                <h4>Минусы</h4>
+                <ul>
+                    <li><strong>Транспорт и парковка</strong> — системная проблема</li>
+                    <li><strong>Эстетика спальника:</strong> однотипность, шум, теснота</li>
+                    <li>Ощущение, что ты <strong>не в городе</strong>, а в отдельном жилмассиве</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="verdict">
+            <p><strong>Итог:</strong> Ла-Корредория — хороший вариант, если твоя жизнь состоит из "работа-семья-сон", и ты готов платить за это пробками, ротондами и парковочной войной.</p>
+        </div>
     </div>
 </body>
 </html>
