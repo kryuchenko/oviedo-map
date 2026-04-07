@@ -1,0 +1,506 @@
+[
+  {
+    "name": "CIFP Cerdeño",
+    "lat": null,
+    "lon": null,
+    "addr": "",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Colegio Público San Claudio",
+    "lat": null,
+    "lon": null,
+    "addr": "Calle San Roque",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Colegio Palacio de Granda",
+    "lat": null,
+    "lon": null,
+    "addr": "",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Colegio Público Colloto",
+    "lat": null,
+    "lon": null,
+    "addr": "",
+    "operator": "Publico",
+    "isced": ""
+  },
+  {
+    "name": "Escuela de Adultos El Fontán",
+    "lat": null,
+    "lon": null,
+    "addr": "",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Colegio Pablo Miaja",
+    "lat": 43.36737,
+    "lon": -5.8480091,
+    "addr": "Calle General Elorza 66",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "C.E.P. Juan Rodríguez Muñiz",
+    "lat": 43.3657262,
+    "lon": -5.8881789,
+    "addr": "",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Colegio Santa Teresa de Jesús",
+    "lat": 43.3742845,
+    "lon": -5.8673741,
+    "addr": "",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Colegio Público Fozaneldi",
+    "lat": 43.3599388,
+    "lon": -5.8376444,
+    "addr": "14",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "CP Ventanielles",
+    "lat": 43.3697042,
+    "lon": -5.824262,
+    "addr": "",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Centro de Educación Infantil de Ventanielles",
+    "lat": 43.3668913,
+    "lon": -5.8330749,
+    "addr": "",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "CP Fozaneldi",
+    "lat": 43.3600608,
+    "lon": -5.8369832,
+    "addr": "",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Colegio Público Villafría",
+    "lat": 43.3571453,
+    "lon": -5.8338399,
+    "addr": "",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "C.P. Villafría",
+    "lat": 43.3568539,
+    "lon": -5.8340992,
+    "addr": "",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Colegio Santo Ángel de la Guarda",
+    "lat": 43.3547341,
+    "lon": -5.8374015,
+    "addr": "Calle de Julián Cañedo 9",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Colegio de Educación Primaria Buenavista I",
+    "lat": 43.3567218,
+    "lon": -5.8606583,
+    "addr": "",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Colegio de Educación Primaria Buenavista II",
+    "lat": 43.358249,
+    "lon": -5.8623798,
+    "addr": "",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Colegio Loyola Padres Escolapios",
+    "lat": 43.3729362,
+    "lon": -5.8560281,
+    "addr": "Calle Fernández de Oviedo 47",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Colegio San Ignacio",
+    "lat": 43.3419888,
+    "lon": -5.8703063,
+    "addr": "",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Instituto de Educación Secundaria Pérez de Ayala",
+    "lat": 43.3712974,
+    "lon": -5.8221017,
+    "addr": "",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Colegio de Educación Primaria Baudilio Arce",
+    "lat": 43.3579789,
+    "lon": -5.8583954,
+    "addr": "Calle de Guillermo Estrada 6",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Colegio Público \"La Corredoria\"",
+    "lat": 43.383193,
+    "lon": -5.8219989,
+    "addr": "C/ El Cortijo",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Instituto de Educación Secundaria Alfonso II",
+    "lat": 43.3586742,
+    "lon": -5.8503386,
+    "addr": "Calle Santa Susana",
+    "operator": "",
+    "isced": "2;3;5"
+  },
+  {
+    "name": "Colegio Público Veneranda Manzano",
+    "lat": 43.3528407,
+    "lon": -5.8457513,
+    "addr": "Calle Gil Blas 15",
+    "operator": "",
+    "isced": "0;1"
+  },
+  {
+    "name": "Instituto de Educación Secundaria Leopoldo Alas Clarín",
+    "lat": 43.3552629,
+    "lon": -5.8391721,
+    "addr": "Calle Julián Cañedo",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Escuela de Educación Infantil María Balbín",
+    "lat": 43.354873,
+    "lon": -5.8402656,
+    "addr": "Calle San Mateo 12",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Colegio Santo Domingo",
+    "lat": 43.3583223,
+    "lon": -5.8419074,
+    "addr": "Plaza Santo Domingo",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Colegio Nazaret",
+    "lat": 43.3626064,
+    "lon": -5.8644528,
+    "addr": "Avenida de Valentín Masip 31",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Colegio Sagrada Familia de Oviedo",
+    "lat": 43.3528238,
+    "lon": -5.8406142,
+    "addr": "Calle San Lázaro 23",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Colegio de Educación Primaria \"San Pedro de los Arcos\"",
+    "lat": 43.3676673,
+    "lon": -5.8580623,
+    "addr": "",
+    "operator": "Gobierno del Principado de Asturias",
+    "isced": ""
+  },
+  {
+    "name": "Colegio Auseva",
+    "lat": 43.3664318,
+    "lon": -5.8577875,
+    "addr": "",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Colegio Fundación Masaveu",
+    "lat": 43.3523784,
+    "lon": -5.8539169,
+    "addr": "",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Instituto de Educación Secundaria La Ería",
+    "lat": 43.3609981,
+    "lon": -5.8656249,
+    "addr": "Calle de la Regenta 4",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Colegio de Educación Infantil y Primaria La Ería",
+    "lat": 43.3610496,
+    "lon": -5.864607,
+    "addr": "",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Instituto de Educación Secundaria Aramo",
+    "lat": 43.3583353,
+    "lon": -5.8563735,
+    "addr": "Calle Antonio Suárez Gutiérrez 7",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Colegio de Educación Primaria La Gesta I/II",
+    "lat": 43.3571772,
+    "lon": -5.8547755,
+    "addr": "",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Instituto de Educación Secundaria Monte Naranco",
+    "lat": 43.3739002,
+    "lon": -5.8604013,
+    "addr": "",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Colegio de Educación Primaria \"Parque Infantil\"",
+    "lat": 43.372922,
+    "lon": -5.8598334,
+    "addr": "",
+    "operator": "Gobierno del Principado de Asturias",
+    "isced": ""
+  },
+  {
+    "name": "Colegio Laude Palacio de Granda",
+    "lat": 43.3794286,
+    "lon": -5.7826397,
+    "addr": "",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Colegio Público Lorenzo Novo Mier",
+    "lat": 43.3675891,
+    "lon": -5.8436058,
+    "addr": "Calle Comandante Bruzo 4",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Colegio Público Dolores Medio",
+    "lat": 43.3636975,
+    "lon": -5.8457267,
+    "addr": "Calle Luna 4",
+    "operator": "",
+    "isced": "0;1"
+  },
+  {
+    "name": "CP Poeta Ángel González (Corredoria II)",
+    "lat": 43.387103,
+    "lon": -5.8149694,
+    "addr": "",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Instituto de Educación Secundaria La Corredoria",
+    "lat": 43.38912,
+    "lon": -5.8262031,
+    "addr": "",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Colegio Dulce Nombre de Jesús",
+    "lat": 43.3567436,
+    "lon": -5.8507551,
+    "addr": "Calle Pérez de la Sala 31",
+    "operator": "",
+    "isced": "0;1;2;3"
+  },
+  {
+    "name": "Colegio Amor de Dios",
+    "lat": 43.3708152,
+    "lon": -5.8457144,
+    "addr": "",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Instituto de Educación Secundaria Pando",
+    "lat": 43.3725624,
+    "lon": -5.8424135,
+    "addr": "",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Cáritas",
+    "lat": 43.3634471,
+    "lon": -5.8514161,
+    "addr": "Calle González del Valle 5",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Escuela Infantil de Rubín",
+    "lat": 43.3726077,
+    "lon": -5.8261302,
+    "addr": "",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Colegio de La Inmaculada",
+    "lat": 43.3701588,
+    "lon": -5.8397927,
+    "addr": "",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Centro Educativo Ángel de la Guarda",
+    "lat": 43.3425088,
+    "lon": -5.8802259,
+    "addr": "",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "La Quinta'l Texu",
+    "lat": 43.3717689,
+    "lon": -5.8604129,
+    "addr": "",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Colegio Público San Lázaro - Escuelas Blancas",
+    "lat": 43.3559145,
+    "lon": -5.8426529,
+    "addr": "",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Colegio La Milagrosa",
+    "lat": 43.3642018,
+    "lon": -5.8528462,
+    "addr": "Calle Marqués de Pidal 16",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Colegio Público Maestro Jaime Borrás",
+    "lat": 43.3722831,
+    "lon": -5.8211385,
+    "addr": "",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Colegio Amor Misericordioso",
+    "lat": 43.3752383,
+    "lon": -5.7926494,
+    "addr": "",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Colegio \"Germán Fernández Ramos\"",
+    "lat": 43.3729484,
+    "lon": -5.8405361,
+    "addr": "",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Instituto de Educación Secundaria Doctor Fleming",
+    "lat": 43.357631,
+    "lon": -5.8561555,
+    "addr": "",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "C.P. San Claudio",
+    "lat": 43.3604119,
+    "lon": -5.9159205,
+    "addr": "",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Instituto de Educación Secundaria La Florida",
+    "lat": 43.3650897,
+    "lon": -5.8788507,
+    "addr": "Calle Navia",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "CP Carmen Ruíz Tilve (Corredoria III)",
+    "lat": 43.3803504,
+    "lon": -5.8155377,
+    "addr": "",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Colegio Santa María del Naranco",
+    "lat": 43.369737,
+    "lon": -5.8583542,
+    "addr": "",
+    "operator": "Fundación Educación Católica",
+    "isced": ""
+  },
+  {
+    "name": "Escuela de educación infantil Jardín de la Infancia La Carisa",
+    "lat": 43.3832963,
+    "lon": -5.8199034,
+    "addr": "",
+    "operator": "",
+    "isced": ""
+  },
+  {
+    "name": "Colegio Rural Agrupado Viella",
+    "lat": 43.3994614,
+    "lon": -5.788642,
+    "addr": "",
+    "operator": "",
+    "isced": ""
+  }
+]
