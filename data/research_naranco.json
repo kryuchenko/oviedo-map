@@ -1,0 +1,39 @@
+{
+  "district": "Naranco (Наранко)",
+  "district_type": "rural",
+  "summary_ru": "Сельская часть горы Наранко. Дороманские памятники ЮНЕСКО (Санта-Мария, Сан-Мигель). Статуя Христа.",
+  "total_validated_pois": 2,
+  "pois": [
+    {
+      "name": "Santa María del Naranco",
+      "name_ru": "Санта-Мария-дель-Наранко",
+      "category": "church",
+      "lat": 43.3790469,
+      "lon": -5.8659892,
+      "description": "Дороманский дворец/церковь IX века (842). ЮНЕСКО. Шедевр астурийского дороманского искусства на склоне горы Наранко."
+    },
+    {
+      "name": "Centro de Interpretación del Prerrománico",
+      "name_ru": "Центр интерпретации дороманского искусства",
+      "category": "museum",
+      "lat": 43.3786754,
+      "lon": -5.8673931,
+      "description": "Музей в здании бывшей школы Наранко. Мультимедийные экспозиции об астурийском дороманском искусстве."
+    }
+  ],
+  "demographics": {
+    "source": "Padrón Municipal 2024",
+    "total_population": 94,
+    "foreign_total": 5,
+    "pct_foreign": 5.3,
+    "foreign_by_continent": {
+      "eu": 5,
+      "europe_non_eu": 0,
+      "america": 0,
+      "africa": 0,
+      "asia": 0,
+      "oceania": 0,
+      "stateless": 0
+    }
+  }
+}

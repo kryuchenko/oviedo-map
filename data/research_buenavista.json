@@ -1,0 +1,70 @@
+{
+  "district": "Buenavista (Буэнависта)",
+  "district_type": "urban",
+  "summary_ru": "Жилой район к западу от центра. Историческое место стадиона Карлос Тартьере (1932-2000, ЧМ-1982). Здесь же Plaza de Toros — арена для корриды, которую в 2026 переделают в культурное пространство. Население ~7941 чел., снижение на 4.5% за 10 лет, преобладают 65+.",
+  "total_validated_pois": 5,
+  "pois": [
+    {
+      "name": "Palacio de Congresos (Calatrava)",
+      "name_ru": "Дворец конгрессов (Калатрава)",
+      "category": "congress_center",
+      "lat": 43.358056,
+      "lon": -5.860833,
+      "description": "Выставочный и конгресс-центр арх. Сантьяго Калатравы. Зал на 2144 мест, белый купол 45 м. На месте старого стадиона (parcela de Buenavista)."
+    },
+    {
+      "name": "Parroquia de los Santos Apóstoles",
+      "name_ru": "Приход Святых Апостолов",
+      "category": "church",
+      "lat": 43.359216,
+      "lon": -5.860892,
+      "description": "Приходская церковь района Буэнависта на ул. Артуро Альварес Буйя, 7."
+    },
+    {
+      "name": "Parque de Buenavista",
+      "name_ru": "Парк Буэнависта",
+      "category": "park",
+      "lat": 43.358116,
+      "lon": -5.86764,
+      "description": "Парк отдыха напротив бывшего стадиона Карлос Тартьере."
+    },
+    {
+      "name": "Plaza de Toros de Oviedo",
+      "name_ru": "Плаcа де Торос (арена для боя быков)",
+      "category": "building",
+      "lat": 43.357951,
+      "lon": -5.867011,
+      "description": "Историческая арена для корриды (памятник культуры). В 2026 планируется реконструкция в многофункциональное пространство БЕЗ корриды."
+    },
+    {
+      "name": "Parque Clarín",
+      "name_ru": "Парк Кларин",
+      "category": "park",
+      "lat": 43.359049,
+      "lon": -5.860479,
+      "description": "Рекреационный парк рядом с церковью Святых Апостолов и административными зданиями."
+    }
+  ],
+  "demographics": {
+    "source": "Padrón Municipal 2024 (Odina/Ayuntamiento de Oviedo)",
+    "total_population": 8504,
+    "foreign_total": 1003,
+    "pct_foreign": 11.8,
+    "foreign_by_continent": {
+      "eu": 234,
+      "europe_non_eu": 139,
+      "america": 488,
+      "africa": 82,
+      "asia": 60,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "income": {
+    "source": "Agencia Tributaria IRPF 2023, via La Voz de Asturias",
+    "renta_bruta_media_2023": 35344,
+    "oviedo_average_2023": 33407,
+    "rank_in_oviedo": 4,
+    "postal_code": "33006"
+  }
+}

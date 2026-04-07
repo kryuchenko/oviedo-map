@@ -1,0 +1,22 @@
+{
+  "district": "Lloriana (Лориана)",
+  "district_type": "rural",
+  "summary_ru": "Сельский район к западу.",
+  "total_validated_pois": 0,
+  "pois": [],
+  "demographics": {
+    "source": "Padrón Municipal 2024",
+    "total_population": 212,
+    "foreign_total": 16,
+    "pct_foreign": 7.5,
+    "foreign_by_continent": {
+      "eu": 1,
+      "europe_non_eu": 1,
+      "america": 0,
+      "africa": 14,
+      "asia": 0,
+      "oceania": 0,
+      "stateless": 0
+    }
+  }
+}

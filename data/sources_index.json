@@ -1,0 +1,48 @@
+{
+  "demographics": {
+    "padron_2024": "https://www.odina.es/data/ficheros/2024/04/1144_ODINA_Poblaci%C3%B3n_extranjera_Oviedo_1_enero_2024-1.xlsx",
+    "padron_2025_article": "https://www.lavozdeasturias.es/noticia/oviedo/2025/09/29/oviedo-24345-vecinos-extranjeros-106-paises-mayoria-vive-pumarin-arganosa-teatinos/00031759144868897234309.htm"
+  },
+  "income": {
+    "irpf_2021": "https://www.lavozdeasturias.es/noticia/oviedo/voz-oviedo/2023/10/23/riqueza-va-barrios-ricos-pobres-oviedo/00031698046663312339866.htm",
+    "irpf_2023": "https://www.lavozdeasturias.es/noticia/asturias/2025/10/09/barrio-barrio-cambiado-riqueza-oviedo-gijon/00031760028933658467784.htm",
+    "ine_atlas": "https://www.ine.es/jaxiT3/Tabla.htm?t=69278"
+  },
+  "real_estate": {
+    "idealista_2026": "https://www.idealista.com/sala-de-prensa/informes-precio-vivienda/venta/asturias/asturias/oviedo/",
+    "fotocasa_2026": "https://www.fotocasa.es/indice-precio-vivienda/oviedo/todas-las-zonas"
+  },
+  "landmarks": {
+    "foncalada_unesco": "https://www.turismoasturias.es/en/descubre/cultura/prerromanico/la-foncalada",
+    "unesco_oviedo": "https://whc.unesco.org/en/list/312/",
+    "cathedral": "https://catedraldeoviedo.com",
+    "campoamor": "https://www.tripadvisor.es/Attraction_Review-g187452-d2104404-Reviews-Teatro_Campoamor-Oviedo_Asturias.html",
+    "san_francisco": "https://es.wikipedia.org/wiki/Campo_de_San_Francisco_(Oviedo)",
+    "woody_allen": "https://en.wikipedia.org/wiki/Monument_to_Woody_Allen",
+    "san_juan_real": "https://es.wikipedia.org/wiki/San_Juan_el_Real_(Oviedo)",
+    "casas_cuitu": "https://www.tripadvisor.ie/Attraction_Review-g187452-d32873470-Reviews-Casas_Del_Cuitu-Oviedo_Asturias.html",
+    "palacio_congresos": "https://es.wikipedia.org/wiki/Palacio_de_Congresos_de_Oviedo",
+    "concordia": "https://es.wikipedia.org/wiki/Monumento_a_la_Concordia",
+    "pelayo": "https://es.wikipedia.org/wiki/Calle_Pelayo_(Oviedo)",
+    "carbay%C3%B3n": "https://es.wikipedia.org/wiki/Plaza_del_Carbay%C3%B3n",
+    "corredoria_wiki": "https://es.wikipedia.org/wiki/La_Corredoria",
+    "colloto_wiki": "https://es.wikipedia.org/wiki/Colloto",
+    "maternidad_botero": "https://www.tripadvisor.com/Attraction_Review-g187452-d21331061-Reviews-Escultura_La_Maternidad-Oviedo_Asturias.html",
+    "tartiere_viejo": "https://es.wikipedia.org/wiki/Estadio_Carlos_Tartiere_(1932)",
+    "plaza_toros_2026": "https://www.larazon.es/cultura/toros/plaza-toros-oviedo-iniciara-obras-2026-futuro-tauromaquia_202507306889c308abb2960d1fb97a52.html",
+    "deporte_cristo": "https://deporteasturiano.org/instalaciones/instalaciones-propias/instalaciones-de-el-cristo/",
+    "santo_cristo": "http://iglesiascapillasoviedo.blogspot.com/2018/11/santuario-del-santisimo-cristo-de-las.html",
+    "campus_cristo": "https://www.uniovi.es/en/el-cristo-a",
+    "santos_apostoles": "https://santosapostoles.es",
+    "parque_invierno": "https://parquesdeoviedo.com/PARQUES/Parque%20Invierno/paginas/parque%20invierno.html",
+    "san_jose_pumarin": "https://www.gpsmycity.com/attractions/parroquia-de-san-jose-de-pumarin-(the-parish-of-saint-joseph-of-pumarin)-54472.html",
+    "sculptures_oviedo": "https://spainbyhanne.dk/en/explore-the-sculptures-of-oviedo/",
+    "reconquista_hotel": "https://www.tripadvisor.com/HotelsNear-g187452-d2104438-Calle_Uria-Oviedo_Asturias.html",
+    "escandalera": "https://es.wikipedia.org/wiki/Plaza_de_la_Escandalera",
+    "sagrado_corazon": "https://es.wikipedia.org/wiki/Monumento_al_Sagrado_Coraz%C3%B3n_de_Jes%C3%BAs_(Oviedo)",
+    "san_julian_prados": "https://www.turismoasturias.es/descubre/cultura/prerromanico/iglesia-de-san-julian-de-los-prados",
+    "naranco_church": "https://www.senditur.com/en/point-of-interest/church-of-santa-maria-del-naranco/",
+    "cine_aramo": "https://www.lavozdeasturias.es/noticia/oviedo/2019/10/21/cine-aramo-era-/00031571676628259271177.htm",
+    "casa_blanca": "https://docomomoiberico.com/en/buildings/casa-blanca/"
+  }
+}

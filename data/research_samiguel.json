@@ -1,0 +1,31 @@
+{
+  "district": "Samiguel (Лильо)",
+  "district_type": "rural",
+  "summary_ru": "Сельский район.",
+  "total_validated_pois": 1,
+  "pois": [
+    {
+      "name": "San Miguel de Lillo",
+      "name_ru": "Сан-Мигель-де-Лильо",
+      "category": "church",
+      "lat": 43.3802931,
+      "lon": -5.8683684,
+      "description": "Дороманская церковь IX века (848). ЮНЕСКО. Рядом с Санта-Мария-дель-Наранко."
+    }
+  ],
+  "demographics": {
+    "source": "Padrón Municipal 2024",
+    "total_population": 331,
+    "foreign_total": 8,
+    "pct_foreign": 2.4,
+    "foreign_by_continent": {
+      "eu": 3,
+      "europe_non_eu": 0,
+      "america": 5,
+      "africa": 0,
+      "asia": 0,
+      "oceania": 0,
+      "stateless": 0
+    }
+  }
+}

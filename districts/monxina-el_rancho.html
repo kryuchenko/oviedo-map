@@ -6,75 +6,82 @@
     <title>Monxina - El Rancho - Овьедо</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            padding: 20px;
-            background: #fafafa;
-        }
-        .header {
-            background: linear-gradient(135deg, #2c3e50, #34495e);
-            color: white;
-            padding: 20px;
-            margin: -20px -20px 20px -20px;
-        }
-        .header h1 {
-            font-size: 1.4rem;
-            margin-bottom: 5px;
-        }
-        .header .subtitle {
-            font-size: 0.85rem;
-            opacity: 0.8;
-        }
-        .content {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        h3 {
-            color: #2c3e50;
-            margin: 20px 0 10px 0;
-            font-size: 1.1rem;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 5px;
-        }
-        p {
-            margin-bottom: 12px;
-        }
-        ul {
-            margin: 10px 0 15px 20px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        strong {
-            color: #2c3e50;
-        }
-        .type-badge {
-            display: inline-block;
-            padding: 3px 10px;
-            border-radius: 12px;
-            font-size: 0.75rem;
-            margin-top: 8px;
-        }
-        .urban { background: #e74c3c; color: white; }
-        .rural { background: #27ae60; color: white; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: #333; padding: 20px; background: #fafafa; }
+        .header { background: linear-gradient(135deg, #5d4037, #795548); color: white; padding: 25px; margin: -20px -20px 20px -20px; }
+        .header h1 { font-size: 1.5rem; margin-bottom: 5px; }
+        .header .subtitle { font-size: 1rem; opacity: 0.9; font-style: italic; }
+        .content { background: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h2 { color: #5d4037; margin: 25px 0 12px 0; font-size: 1.25rem; border-bottom: 3px solid #a1887f; padding-bottom: 6px; }
+        p { margin-bottom: 14px; text-align: justify; }
+        .intro { font-size: 1.05rem; color: #444; border-left: 4px solid #a1887f; padding-left: 15px; margin-bottom: 20px; }
+        .type-badge { display: inline-block; padding: 4px 12px; border-radius: 12px; font-size: 0.8rem; margin-top: 10px; background: #a1887f; color: white; }
+        strong { color: #5d4037; }
+        sup a { color: #e67e22; text-decoration: none; font-weight: bold; }
+        sup a:hover { text-decoration: underline; }
+        .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 15px 0; }
+        .stats-grid div { display: flex; justify-content: space-between; padding: 8px 12px; background: #efebe9; border-radius: 4px; border: 1px solid #d7ccc8; font-size: 0.9rem; }
+        .stats-grid span:last-child { font-weight: bold; color: #5d4037; }
+        .rating-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 15px 0; }
+        .rating-grid div { display: flex; justify-content: space-between; padding: 8px 12px; background: #efebe9; border-radius: 4px; border: 1px solid #d7ccc8; }
+        .rating-grid span:last-child { font-weight: bold; color: #5d4037; }
+        .verdict { background: linear-gradient(135deg, #5d4037, #795548); color: white; padding: 20px; border-radius: 8px; margin-top: 25px; text-align: center; }
+        .verdict h3 { color: #d7ccc8; margin-bottom: 10px; }
+        .rating { font-size: 1.5rem; font-weight: bold; color: #d7ccc8; }
+        .references { margin-top: 25px; padding-top: 15px; border-top: 2px solid #a1887f; font-size: 0.8rem; color: #888; }
+        .references h2 { font-size: 1.1rem; color: #a1887f; border-bottom: 1px solid #a1887f; }
+        .references ol { margin: 10px 0 0 20px; }
+        .references li { margin-bottom: 5px; }
+        .references a { color: #e67e22; word-break: break-all; }
     </style>
 </head>
 <body>
     <div class="header">
         <h1>Monxina - El Rancho</h1>
-        <div class="subtitle">Монхина-Эль Ранчо</div>
-        <span class="type-badge urban">Городской район</span>
+        <div class="subtitle">Колония Кармен Поло и панельки 80-х: два района, одна судьба</div>
+        <span class="type-badge">Городской район</span>
     </div>
     <div class="content">
-        
-            <p>Район на северо-востоке города.</p>
-            <h3>Характер района</h3>
-            <p>Жилой район с развивающейся инфраструктурой.</p>
-        
+        <p class="intro">Монхина и Эль Ранчо -- два микрорайона, слепленных в один административный бутерброд. Эль Ранчо -- это 102 дома 1945 года, построенные для рабочих и торжественно открытые Кармен Поло де Франко<sup><a href="#ref1">[1]</a></sup>. Монхина -- блочная застройка 1980-х на возвышенности<sup><a href="#ref3">[3]</a></sup>. Общее у них одно: оба района никогда не были в списке мест, куда стремятся переехать.</p>
+
+        <h2>El Rancho: Колония Гильена Лафуэрсы</h2>
+        <p>В 1945 году Obra Sindical del Hogar построила здесь «Colonia Guillén Lafuerza» -- 102 дома для рабочих семей<sup><a href="#ref1">[1]</a></sup>. Название дали в честь фалангиста Рамона Гильена Лафуэрсы, павшего в Гражданскую войну. Колонию открывала лично жена каудильо, Кармен Поло<sup><a href="#ref2">[2]</a></sup>. Представьте: первая леди Испании разрезает ленточку перед рядами одинаковых домиков для пролетариев. Франкистская благотворительность в чистом виде -- дёшево, сердито, с портретом вождя в каждой прихожей.</p>
+
+        <p>Домики сохранились до наших дней и представляют собой своеобразный архитектурный памятник эпохи -- два ряда одноэтажных строений с общими стенами, типичная «колония» послевоенной Испании<sup><a href="#ref2">[2]</a></sup>.</p>
+
+        <h2>La Monxina: Вентаньельес-верхний</h2>
+        <p>Монхина выросла в 1980-х годах на возвышенности над Вентаньельес<sup><a href="#ref3">[3]</a></sup>. Ассоциация соседей «La Monxina -- Ventanielles Alto» была создана в 2004 году, когда жители осознали, что без организованного крика на мэрию тут ничего не добьёшься. И были правы: район долго страдал от недостатка инфраструктуры, плохого освещения и дорог, которые весной превращались в ручьи.</p>
+
+        <h2>Демография</h2>
+        <div class="stats-grid">
+            <div><span>Население</span><span>1 850</span></div>
+            <div><span>Иностранцев</span><span>141 (7,6%)</span></div>
+        </div>
+        <p>7,6% иностранцев<sup><a href="#ref4">[4]</a></sup> -- заметно выше среднегородского. Район рабочий, жильё дешёвое, а значит -- привлекательное для иммигрантов. Соседство с Вентаньельес и Аргоньосой задаёт социальный контекст: это зона, где живут те, кто зарабатывает руками, а не клавиатурой.</p>
+
+        <div class="rating-grid">
+            <div><span>Безопасность</span><span>Средняя</span></div>
+            <div><span>Историческая ценность</span><span>Колония 1945</span></div>
+            <div><span>Транспорт</span><span>Сносный</span></div>
+            <div><span>Инфраструктура</span><span>Базовая</span></div>
+            <div><span>Атмосфера</span><span>Рабочий класс</span></div>
+            <div><span>Цены</span><span>Дёшево</span></div>
+        </div>
+
+        <div class="verdict">
+            <h3>Вердикт</h3>
+            <p class="rating">4.5 / 10</p>
+            <p>Два микрорайона с франкистским прошлым и панельным настоящим. Кармен Поло давно нет, а домики стоят. Район честный, как кирпич: что видишь, то и получаешь.</p>
+        </div>
+
+        <div class="references">
+            <h2>Источники</h2>
+            <ol>
+                <li id="ref1">El Rancho (Oviedo) -- <a href="https://es.wikipedia.org/wiki/El_Rancho_(Oviedo)" target="_blank">Wikipedia</a></li>
+                <li id="ref2">Casas de la Colonia Guillén Lafuerza -- <a href="https://oviedo.vivirasturias.com/patrimonio-civil/i/60703563/casas-la-colonia-guillen-lafuerza-rancho-oviedo" target="_blank">Vivir Asturias</a></li>
+                <li id="ref3">Historia del barrio y Asociación de Vecinos La Monxina -- <a href="https://lamonxina.com/historia-barrio-y-asociacion-de-vecinos-la-monxina-ventanielles-alto/" target="_blank">lamonxina.com</a></li>
+                <li id="ref4">Padrón Municipal, 1 de enero de 2024 -- <a href="https://www.odina.es/data/ficheros/2024/04/1144_ODINA_Poblaci%C3%B3n_extranjera_Oviedo_1_enero_2024-1.xlsx" target="_blank">Odina / Ayuntamiento de Oviedo</a></li>
+            </ol>
+        </div>
     </div>
 </body>
 </html>

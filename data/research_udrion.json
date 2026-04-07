@@ -1,0 +1,22 @@
+{
+  "district": "Udrión (Удрион)",
+  "district_type": "rural",
+  "summary_ru": "Крошечный район. Рекордные 19.2% иностранцев (15 из 78 жителей).",
+  "total_validated_pois": 0,
+  "pois": [],
+  "demographics": {
+    "source": "Padrón Municipal 2024",
+    "total_population": 78,
+    "foreign_total": 15,
+    "pct_foreign": 19.2,
+    "foreign_by_continent": {
+      "eu": 4,
+      "europe_non_eu": 1,
+      "america": 1,
+      "africa": 9,
+      "asia": 0,
+      "oceania": 0,
+      "stateless": 0
+    }
+  }
+}

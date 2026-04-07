@@ -1,0 +1,46 @@
+{
+  "district": "Centro Sur (Центр Юг)",
+  "district_type": "urban",
+  "summary_ru": "Южная часть центра Овьедо — район крупных общественных зданий: Дворец конгрессов Калатравы с 45-метровым куполом, концертный зал Аудиторио Принсипе Фелипе (дом Симфонического оркестра Астурии). Район активно развивается как центр деловой и культурной жизни города.",
+  "total_validated_pois": 2,
+  "pois": [
+    {
+      "name": "Auditorio Príncipe Felipe",
+      "name_ru": "Аудиторио Принсипе Фелипе",
+      "category": "auditorium",
+      "lat": 43.35859,
+      "lon": -5.85044,
+      "description": "Многоцелевой концертный зал (1999) на 2000+ мест. Дом Симфонического оркестра Астурии. Неоклассика с модерном, построен на месте водохранилища 1846 года."
+    },
+    {
+      "name": "Plaza de la Gesta",
+      "name_ru": "Площадь ла Хеста",
+      "category": "plaza",
+      "lat": 43.357556,
+      "lon": -5.851962,
+      "description": "Площадь перед Аудиторио, место проведения мероприятий Фонда Принцессы Астурийской."
+    }
+  ],
+  "demographics": {
+    "source": "Padrón Municipal 2024 (Odina/Ayuntamiento de Oviedo)",
+    "total_population": 7131,
+    "foreign_total": 405,
+    "pct_foreign": 5.7,
+    "foreign_by_continent": {
+      "eu": 104,
+      "europe_non_eu": 53,
+      "america": 206,
+      "africa": 18,
+      "asia": 24,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "income": {
+    "source": "Agencia Tributaria IRPF 2023, via La Voz de Asturias",
+    "renta_bruta_media_2023": 46254,
+    "oviedo_average_2023": 33407,
+    "rank_in_oviedo": 3,
+    "postal_code": "33003"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "district": "Lugones / Llugones (Лугонес)",
+  "district_type": "urban",
+  "summary_ru": "Город-спутник к северу от Овьедо. Промышленное наследие, торговый центр Parque Principado.",
+  "total_validated_pois": 1,
+  "pois": [
+    {
+      "name": "Parque Principado",
+      "name_ru": "Парке Принсипадо",
+      "category": "commerce",
+      "lat": 43.3899644,
+      "lon": -5.8019998,
+      "description": "Крупнейший торгово-развлекательный центр Астурии. Кино, боулинг, рестораны.",
+      "coord_source": "Nominatim: Centro Comercial Parque Principado, Siero, Asturias"
+    }
+  ]
+}

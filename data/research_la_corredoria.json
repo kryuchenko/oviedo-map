@@ -1,0 +1,38 @@
+{
+  "district": "La Corredoria (Ла-Корредория)",
+  "district_type": "urban",
+  "total_validated_pois": 2,
+  "pois": [
+    {
+      "name": "Corredoria Arena",
+      "name_ru": "Арена Корредория",
+      "category": "sports",
+      "lat": 43.3822054,
+      "lon": -5.8230385,
+      "description": "Многофункциональный спортивный/развлекательный центр (2010, арх. Сальвадор Перес Арройо). 414 мест."
+    },
+    {
+      "name": "Mercado semanal de La Corredoria",
+      "name_ru": "Еженедельный рынок Корредории",
+      "category": "market",
+      "lat": 43.3849581,
+      "lon": -5.8193895,
+      "description": "Субботний рынок 9:00-14:30 на Пласа дель Консехин. Мода, ремёсла, местные продукты."
+    }
+  ],
+  "demographics": {
+    "source": "Padrón Municipal 2024",
+    "total_population": 19866,
+    "foreign_total": 1078,
+    "pct_foreign": 5.4,
+    "foreign_by_continent": {
+      "eu": 222,
+      "europe_non_eu": 97,
+      "america": 561,
+      "africa": 135,
+      "asia": 57,
+      "oceania": 0,
+      "stateless": 6
+    }
+  }
+}

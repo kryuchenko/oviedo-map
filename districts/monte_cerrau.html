@@ -6,75 +6,101 @@
     <title>Monte Cerráu - Овьедо</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            padding: 20px;
-            background: #fafafa;
-        }
-        .header {
-            background: linear-gradient(135deg, #2c3e50, #34495e);
-            color: white;
-            padding: 20px;
-            margin: -20px -20px 20px -20px;
-        }
-        .header h1 {
-            font-size: 1.4rem;
-            margin-bottom: 5px;
-        }
-        .header .subtitle {
-            font-size: 0.85rem;
-            opacity: 0.8;
-        }
-        .content {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        h3 {
-            color: #2c3e50;
-            margin: 20px 0 10px 0;
-            font-size: 1.1rem;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 5px;
-        }
-        p {
-            margin-bottom: 12px;
-        }
-        ul {
-            margin: 10px 0 15px 20px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        strong {
-            color: #2c3e50;
-        }
-        .type-badge {
-            display: inline-block;
-            padding: 3px 10px;
-            border-radius: 12px;
-            font-size: 0.75rem;
-            margin-top: 8px;
-        }
-        .urban { background: #e74c3c; color: white; }
-        .rural { background: #27ae60; color: white; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: #333; padding: 20px; background: #fafafa; }
+        .header { background: linear-gradient(135deg, #00695c, #00897b); color: white; padding: 25px; margin: -20px -20px 20px -20px; }
+        .header h1 { font-size: 1.5rem; margin-bottom: 5px; }
+        .header .subtitle { font-size: 1rem; opacity: 0.9; font-style: italic; }
+        .content { background: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h2 { color: #00695c; margin: 30px 0 15px 0; font-size: 1.3rem; border-bottom: 3px solid #4db6ac; padding-bottom: 8px; }
+        h3 { color: #00897b; margin: 20px 0 10px 0; font-size: 1.05rem; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .intro { font-size: 1.05rem; color: #444; border-left: 4px solid #4db6ac; padding-left: 15px; margin-bottom: 25px; }
+        .type-badge { display: inline-block; padding: 4px 12px; border-radius: 12px; font-size: 0.8rem; margin-top: 10px; background: #4db6ac; color: white; }
+        ul { margin: 10px 0 15px 20px; } li { margin-bottom: 10px; }
+        .highlight { background: #e0f2f1; border-left: 4px solid #4db6ac; padding: 15px; margin: 15px 0; }
+        .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 15px 0; }
+        .stat-item { display: flex; justify-content: space-between; padding: 8px 12px; background: #e0f2f1; border-radius: 4px; border: 1px solid #b2dfdb; }
+        .stat-value { font-weight: bold; color: #00695c; }
+        .verdict { background: linear-gradient(135deg, #00695c, #00897b); color: white; padding: 20px; border-radius: 8px; margin-top: 30px; }
+        .verdict p { text-align: left; margin-bottom: 0; }
+        sup a { color: #00897b; text-decoration: none; font-weight: bold; } sup a:hover { text-decoration: underline; }
+        .references { margin-top: 30px; padding-top: 15px; border-top: 2px solid #4db6ac; font-size: 0.8rem; color: #666; }
+        .references h2 { font-size: 1.1rem; border-bottom: 1px solid #4db6ac; }
+        .references ol { margin: 10px 0 0 20px; } .references li { margin-bottom: 5px; }
+        .references a { color: #00897b; word-break: break-all; }
+        @media (max-width: 600px) { .stats-grid { grid-template-columns: 1fr; } }
     </style>
 </head>
 <body>
     <div class="header">
-        <h1>Monte Cerráu</h1>
-        <div class="subtitle">Монтесеррао</div>
-        <span class="type-badge urban">Городской район</span>
+        <h1>Monte Cerráu (Montecerrao)</h1>
+        <div class="subtitle">Самый молодой район Овьедо: ипотека, коляски и смертельная скука</div>
+        <span class="type-badge">Городской район</span>
     </div>
     <div class="content">
-        
-            <p>Жилой район на востоке с частными домами.</p>
-            <h3>Характер района</h3>
-            <p>Район с частными домами и таунхаусами, предпочитаемый семьями.</p>
-        
+        <p class="intro">Монтесеррао — район, которому ещё нет и тридцати лет. Урбанизация началась в 1997 году<sup><a href="#ref1">[1]</a></sup>, и с тех пор тут выросло целое поколение детей, которые искренне считают, что весь мир состоит из таунхаусов, детских площадок и ипотечных платежей. Это район-утопия для семейных людей и район-приговор для всех остальных.</p>
+
+        <h2>История: От горы к урбанизации</h2>
+
+        <p>Название Monte Cerráu буквально означает «закрытая гора» — и до конца 1990-х это было именно то, чем район являлся: холм с сельскохозяйственными угодьями на восточной окраине Овьедо. Всё изменилось, когда в 1997 году стартовал проект урбанизации<sup><a href="#ref1">[1]</a></sup>, превративший пастбища в квадратные километры жилой застройки.</p>
+
+        <p>Район делится на две чётко различимые зоны<sup><a href="#ref2">[2]</a></sup>: западная часть — это кварталы многоэтажных блоков (pisos), типичная испанская панель с претензией на современность; восточная — зона шале и таунхаусов (adosados), где живут те, кто смог позволить себе ещё одну комнату и кусочек газона. Основная волна строительства пришлась на 2000-2010 годы: из 3 196 жилых единиц подавляющее большинство построено именно тогда<sup><a href="#ref3">[3]</a></sup>.</p>
+
+        <h2>Инфраструктура: Минимализм как философия</h2>
+
+        <p>Единственное по-настоящему заметное общественное сооружение — <strong>Centro Deportivo Municipal Monte Cerráu</strong>, открытый в 2014 году<sup><a href="#ref2">[2]</a></sup>. Бассейн, тренажёрный зал, залы для групповых занятий. Это место паломничества для каждой второй мамочки из района (Pilates по расписанию, йога по пятницам) и для пап, которым нужен предлог уйти из дома.</p>
+
+        <p>Главная зелёная зона — <strong>Parque Tuero Bertrand</strong><sup><a href="#ref2">[2]</a></sup>, который выполняет функцию районного Центрального парка. Дети, собаки, бегуны, пенсионеры на скамейках — полный набор. Парк приличный, но после третьего круга хочется чего-то большего.</p>
+
+        <div class="highlight">
+            <strong>Фиесты:</strong> Районные праздники (fiestas del barrio) были приостановлены<sup><a href="#ref2">[2]</a></sup>. Причины туманны, но, вероятно, в районе, где средний возраст жителей 36-49 лет<sup><a href="#ref3">[3]</a></sup>, а основное развлечение — выплата ипотеки, организовать праздник некому и не на что.
+        </div>
+
+        <h2>Демография</h2>
+
+        <p>Монтесеррао — район молодых семей. Возрастная группа 36-49 лет составляет большинство населения<sup><a href="#ref3">[3]</a></sup>. По данным Idealista, в районе проживает около 6 896 человек<sup><a href="#ref3">[3]</a></sup> с ростом на 11,6%<sup><a href="#ref3">[3]</a></sup> за последние годы. По данным Падрона 2024 года, в нашем полигоне баррио — 4 969 человек<sup><a href="#ref4">[4]</a></sup>.</p>
+
+        <div class="stats-grid">
+            <div class="stat-item"><span>Население</span><span class="stat-value">4 969</span></div>
+            <div class="stat-item"><span>Иностранцев</span><span class="stat-value">4,4% (217)</span></div>
+            <div class="stat-item"><span>Европа (ЕС)</span><span class="stat-value">63</span></div>
+            <div class="stat-item"><span>Латинская Америка</span><span class="stat-value">116</span></div>
+            <div class="stat-item"><span>Африка</span><span class="stat-value">7</span></div>
+            <div class="stat-item"><span>Азия</span><span class="stat-value">4</span></div>
+        </div>
+
+        <p>Доля иностранцев — всего 4,4%<sup><a href="#ref4">[4]</a></sup>. Это один из самых «испанских» районов Овьедо. Латиноамериканцы — крупнейшая иммигрантская группа (116 человек), что логично: район семейный, испаноязычные мигранты с детьми чувствуют себя тут комфортно.</p>
+
+        <h2>Характер района: Субурбия по-испански</h2>
+
+        <p>Монтесеррао — это испанская версия американской субурбии. Только вместо белых заборов — бетонные ограждения, вместо барбекю — террасы с хамоном, а вместо двух машин в гараже — одна, зато в кредит. Район идеально чист, безопасен и безнадёжно скучен.</p>
+
+        <p>Плюсы очевидны: свежие дома, хорошая звукоизоляция (не Вентаньельес!), детские площадки на каждом углу, спорткомплекс. Минусы тоже: до центра далековато, ночная жизнь отсутствует как класс, ближайший приличный бар — это уже Буэнависта. Если ваша идея хорошего вечера — стакан вина на диване под Netflix, район для вас. Если хочется чего-то большего — сочувствуем.</p>
+
+        <div class="rating-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:15px 0">
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#e0f2f1;border-radius:4px;border:1px solid #b2dfdb"><span>Жильё</span><span style="font-weight:bold;color:#00695c">Новое, дорогое</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#e0f2f1;border-radius:4px;border:1px solid #b2dfdb"><span>Безопасность</span><span style="font-weight:bold;color:#00695c">Отлично</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#e0f2f1;border-radius:4px;border:1px solid #b2dfdb"><span>Транспорт</span><span style="font-weight:bold;color:#00695c">Терпимо</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#e0f2f1;border-radius:4px;border:1px solid #b2dfdb"><span>Для семей</span><span style="font-weight:bold;color:#00695c">Идеально</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#e0f2f1;border-radius:4px;border:1px solid #b2dfdb"><span>Развлечения</span><span style="font-weight:bold;color:#00695c">Пусто</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#e0f2f1;border-radius:4px;border:1px solid #b2dfdb"><span>Атмосфера</span><span style="font-weight:bold;color:#00695c">Субурбия</span></div>
+        </div>
+
+        <div class="verdict">
+            <h3 style="color:#4db6ac;margin-bottom:10px">Вердикт</h3>
+            <p>Монтесеррао — район для тех, кто уже всё понял про жизнь и хочет тишины, квадратных метров и детского сада в шаговой доступности. Молодой, растущий, безопасный — и абсолютно стерильный. Идеальный выбор для семьи с детьми, которая не планирует развлекаться ближайшие 18 лет.</p>
+            <p class="rating" style="font-size:1.5rem;text-align:center;margin-top:15px"><strong>7 из 10</strong></p>
+        </div>
+
+        <div class="references">
+            <h2>Источники</h2>
+            <ol>
+                <li id="ref1">Proyecto de urbanización de Monte Cerrao — <a href="https://www.noegasl.com/proyectos/proyecto-de-urbanizacion-de-monte-cerrao/" target="_blank">Noega S.L.</a>, 1997</li>
+                <li id="ref2">Montecerrao — <a href="https://es.wikipedia.org/wiki/Montecerrao" target="_blank">Wikipedia</a></li>
+                <li id="ref3">Montecerrao: datos demográficos y vivienda — <a href="https://www.idealista.com/maps/oviedo/buenavista-eria-montecerrao/montecerrao/" target="_blank">Idealista</a></li>
+                <li id="ref4">Padrón Municipal, 1 de enero de 2024 — <a href="https://www.odina.es" target="_blank">Odina / Ayuntamiento de Oviedo</a></li>
+            </ol>
+        </div>
     </div>
 </body>
 </html>

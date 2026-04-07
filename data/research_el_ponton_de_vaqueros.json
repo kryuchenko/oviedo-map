@@ -1,0 +1,22 @@
+{
+  "district": "El Pontón de Vaqueros (Понтон-де-Вакерос)",
+  "district_type": "urban",
+  "summary_ru": "Жилой район к юго-востоку от центра.",
+  "total_validated_pois": 0,
+  "pois": [],
+  "demographics": {
+    "source": "Padrón Municipal 2024",
+    "total_population": 2945,
+    "foreign_total": 177,
+    "pct_foreign": 6.0,
+    "foreign_by_continent": {
+      "eu": 34,
+      "europe_non_eu": 16,
+      "america": 115,
+      "africa": 8,
+      "asia": 4,
+      "oceania": 0,
+      "stateless": 0
+    }
+  }
+}

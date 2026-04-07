@@ -1,0 +1,22 @@
+{
+  "district": "San Claudio / San Cloyo (Сан-Клаудио)",
+  "district_type": "rural",
+  "summary_ru": "Сельский район. Есть также городская часть.",
+  "total_validated_pois": 0,
+  "pois": [],
+  "demographics": {
+    "source": "Padrón Municipal 2024",
+    "total_population": 856,
+    "foreign_total": 76,
+    "pct_foreign": 8.9,
+    "foreign_by_continent": {
+      "eu": 17,
+      "europe_non_eu": 3,
+      "america": 40,
+      "africa": 10,
+      "asia": 5,
+      "oceania": 0,
+      "stateless": 1
+    }
+  }
+}

@@ -8,78 +8,179 @@
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
+            line-height: 1.7;
             color: #333;
             padding: 20px;
-            background: #fafafa;
+            background: #f5f5f0;
         }
         .header {
-            background: linear-gradient(135deg, #2c3e50, #34495e);
+            background: linear-gradient(135deg, #2d3436, #636e72);
             color: white;
-            padding: 20px;
+            padding: 25px;
             margin: -20px -20px 20px -20px;
+            border-bottom: 3px solid #00b894;
         }
-        .header h1 {
-            font-size: 1.4rem;
-            margin-bottom: 5px;
-        }
-        .header .subtitle {
-            font-size: 0.85rem;
-            opacity: 0.8;
-        }
+        .header h1 { font-size: 1.5rem; margin-bottom: 5px; }
+        .header .subtitle { font-size: 1rem; opacity: 0.9; font-style: italic; color: #55efc4; }
         .content {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            background: white; padding: 25px; border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
         }
-        h3 {
-            color: #2c3e50;
-            margin: 20px 0 10px 0;
-            font-size: 1.1rem;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 5px;
+        h2 {
+            color: #2d3436; margin: 30px 0 15px 0; font-size: 1.3rem;
+            border-bottom: 3px solid #00b894; padding-bottom: 8px;
         }
-        p {
-            margin-bottom: 12px;
-        }
-        ul {
-            margin: 10px 0 15px 20px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        strong {
-            color: #2c3e50;
+        h3 { color: #636e72; margin: 20px 0 10px 0; font-size: 1.05rem; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .intro {
+            font-size: 1.05rem; color: #444;
+            border-left: 4px solid #00b894;
+            padding-left: 15px; margin-bottom: 25px;
         }
         .type-badge {
-            display: inline-block;
-            padding: 3px 10px;
-            border-radius: 12px;
-            font-size: 0.75rem;
-            margin-top: 8px;
+            display: inline-block; padding: 4px 12px; border-radius: 12px;
+            font-size: 0.8rem; margin-top: 10px;
+            background: #00b894; color: white;
         }
-        .urban { background: #e74c3c; color: white; }
-        .rural { background: #27ae60; color: white; }
+        ul { margin: 10px 0 15px 20px; }
+        li { margin-bottom: 10px; }
+        strong { color: #2d3436; }
+        .uni-box {
+            background: #e8f8f5; border: 1px solid #00b894;
+            padding: 15px; border-radius: 8px; margin: 15px 0;
+        }
+        .uni-box h4 { color: #00695c; margin-bottom: 8px; }
+        .fact-box {
+            background: #f0f5f0; border-left: 4px solid #00b894;
+            padding: 15px; margin: 15px 0;
+        }
+        .quote {
+            background: #f5f5f0; border-left: 4px solid #636e72;
+            padding: 15px 20px; margin: 20px 0;
+            font-style: italic; color: #666;
+        }
+        .stats-grid {
+            display: grid; grid-template-columns: 1fr 1fr;
+            gap: 10px; margin: 15px 0;
+        }
+        .stat-item {
+            display: flex; justify-content: space-between;
+            padding: 8px 12px; background: #f5f5f0; border-radius: 4px;
+            border: 1px solid #dfe6e0;
+        }
+        .stat-value { font-weight: bold; color: #2d3436; }
+        .verdict {
+            background: linear-gradient(135deg, #2d3436, #636e72);
+            color: white; padding: 20px; border-radius: 8px; margin-top: 30px;
+        }
+        .verdict p { text-align: left; margin-bottom: 10px; color: #dfe6e0; }
+        .verdict .rating { font-size: 1.5rem; text-align: center; margin-top: 15px; color: #55efc4; }
+        sup a { color: #00695c; text-decoration: none; font-weight: bold; }
+        sup a:hover { text-decoration: underline; }
+        .references {
+            margin-top: 30px; padding-top: 15px;
+            border-top: 2px solid #00b894; font-size: 0.8rem; color: #666;
+        }
+        .references h2 { font-size: 1.1rem; border-bottom: 1px solid #00b894; }
+        .references ol { margin: 10px 0 0 20px; }
+        .references li { margin-bottom: 5px; }
+        .references a { color: #00695c; word-break: break-all; }
+        @media (max-width: 600px) { .stats-grid { grid-template-columns: 1fr; } }
     </style>
 </head>
 <body>
     <div class="header">
         <h1>El Cristo</h1>
-        <div class="subtitle">Эль-Кристо</div>
-        <span class="type-badge urban">Городской район</span>
+        <div class="subtitle">Университетский холм: студенты, бассейны и вторые доходы в городе</div>
+        <span class="type-badge">Городской район</span>
     </div>
     <div class="content">
-        
-            <p>Жилой район к северу от центра, развитый в XX веке.</p>
-            <h3>Достопримечательности</h3>
-            <ul>
-                <li><strong>Церковь Эль-Кристо</strong> — приходская церковь района</li>
-                <li><strong>Зелёные зоны</strong> — парки для отдыха</li>
+        <p class="intro">El Cristo — район-парадокс. С одной стороны: второй по доходам в Овьедо (49 333 €)<sup><a href="#ref1">[1]</a></sup>, факультеты медицины и права<sup><a href="#ref2">[2]</a></sup>, первый публичный спорткомплекс Астурии<sup><a href="#ref3">[3]</a></sup>. С другой: 11,3% иностранцев<sup><a href="#ref4">[4]</a></sup>, стареющее население, и единственная святыня — храм, построенный после Гражданской войны из обломков предыдущего<sup><a href="#ref5">[5]</a></sup>. Университетский район, где студенты — гости, а хозяева — пенсионеры.</p>
+
+        <h2>Университет: Campus del Cristo</h2>
+
+        <p><strong>Кампус дель Кристо</strong><sup><a href="#ref2">[2]</a></sup> — один из семи кампусов Университета Овьедо<sup><a href="#ref6">[6]</a></sup>. Здесь сосредоточены:</p>
+
+        <div class="uni-box">
+            <h4>Факультеты на Campus del Cristo</h4>
+            <ul style="margin-bottom:0">
+                <li><strong>Факультет права</strong> — три здания: «Кампоманес», «Ховельянос», «Мартинес Марина»</li>
+                <li><strong>Факультет экономики и бизнеса</strong></li>
+                <li><strong>Факультет медицины и медицинских наук</strong> — медсестринское дело, физиотерапия, стоматология, биохимия</li>
+                <li><strong>Факультет химии</strong></li>
+                <li><strong>Факультет биологии</strong></li>
+                <li><strong>Школа государственного управления</strong></li>
             </ul>
-            <h3>Характер района</h3>
-            <p>Тихий жилой район с хорошей инфраструктурой и транспортным сообщением.</p>
-        
+        </div>
+
+        <p>По будням район оживает: тысячи студентов заполняют улицы, кафетерии и копировальные центры. По вечерам и на выходных — тишина. Типичная жизнь университетского квартала.</p>
+
+        <h2>Спорткомплекс El Cristo</h2>
+
+        <p><strong>Instalaciones Deportivas de El Cristo</strong> (1952)<sup><a href="#ref3">[3]</a></sup> — <strong>первый публичный спортивный комплекс во всей Астурии</strong><sup><a href="#ref3">[3]</a></sup>. Изначально назывался «Стадион Молодёжи» (Estadio de la Juventud)<sup><a href="#ref3">[3]</a></sup>. Управляется Региональной Дирекцией Спорта.</p>
+
+        <ul>
+            <li>3 крытых бассейна + 2 открытых</li>
+            <li>5 теннисных кортов + 2 падел-корта</li>
+            <li>Футбольное поле с искусственным газоном</li>
+            <li>Многофункциональный павильон</li>
+            <li>2 зала единоборств, фитнес-центр, термальная зона</li>
+            <li><strong>Центр спортивной подготовки</strong> по плаванию и бадминтону</li>
+        </ul>
+
+        <p>Доступен всем жителям Астурии, не только студентам. Тел.: 985 23 99 04.</p>
+
+        <h2>Святилище Христа в Цепях</h2>
+
+        <p><strong>Santuario del Santísimo Cristo de las Cadenas</strong><sup><a href="#ref5">[5]</a></sup> — храм, давший имя району<sup><a href="#ref7">[7]</a></sup> (формально на границе с Buenavista). Оригинальная неоготическая часовня была уничтожена в Гражданскую войну. Нынешнее здание построено «Дирекцией опустошённых регионов» (Dirección General de Regiones Devastadas)<sup><a href="#ref5">[5]</a></sup> — название говорит само за себя. Архитектор Хуан Антонио Миральес Састре решил не восстанавливать готику, а построить храм в стиле <strong>сельской астурийской архитектуры</strong><sup><a href="#ref5">[5]</a></sup>. Получилось скромно и честно.</p>
+
+        <p>Братство Христа в Цепях (cofradía) основано в 2002 году, насчитывает 108 членов<sup><a href="#ref5">[5]</a></sup>. Мессы: ежедневно в 18:30, воскресенье/праздники — 13:00 и 18:30. Адрес: Avenida del Cristo, 99.</p>
+
+        <h2>Демография</h2>
+
+        <div class="stats-grid">
+            <div class="stat-item"><span>Население</span><span class="stat-value">6 736</span></div>
+            <div class="stat-item"><span>Иностранцев</span><span class="stat-value">11,3%</span></div>
+            <div class="stat-item"><span>Латинская Америка</span><span class="stat-value">422</span></div>
+            <div class="stat-item"><span>Европа (ЕС)</span><span class="stat-value">231</span></div>
+            <div class="stat-item"><span>Африка</span><span class="stat-value">26</span></div>
+            <div class="stat-item"><span>Азия</span><span class="stat-value">23</span></div>
+            <div class="stat-item"><span>Доход (ранг)</span><span class="stat-value">#2 в Овьедо</span></div>
+            <div class="stat-item"><span>Доход (€/год)</span><span class="stat-value">49 333 €</span></div>
+        </div>
+
+        <div class="fact-box">
+            <p style="margin-bottom:0"><strong>49 333 €/год</strong> — второй доход в городе, после Centro Oeste<sup><a href="#ref1">[1]</a></sup>. Кажется странным для университетского района с 11% иммигрантов<sup><a href="#ref4">[4]</a></sup>, но объяснение простое: здесь живут <strong>профессора, врачи, юристы</strong> — рабочий костяк кампуса, а не студенты (студенты снимают жильё в Тендерине, потому что дешевле). Большинство жителей — 65+. В 2014 году HUCA переехал в La Cadellada, район потерял 17 000 ежедневных посетителей и до сих пор не оправился<sup><a href="#ref8">[8]</a></sup>.</p>
+        </div>
+
+        <h2>Вердикт</h2>
+
+        <div class="rating-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:15px 0">
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f5f5f0;border-radius:4px;border:1px solid #d0d0c8"><span>Жильё</span><span style="font-weight:bold;color:#00b894">Средне-дорого</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f5f5f0;border-radius:4px;border:1px solid #d0d0c8"><span>Университет</span><span style="font-weight:bold;color:#00b894">Весь тут</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f5f5f0;border-radius:4px;border:1px solid #d0d0c8"><span>Спорт</span><span style="font-weight:bold;color:#00b894">Первый в Астурии</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f5f5f0;border-radius:4px;border:1px solid #d0d0c8"><span>Ночная жизнь</span><span style="font-weight:bold;color:#00b894">Мертво после 8</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f5f5f0;border-radius:4px;border:1px solid #d0d0c8"><span>Атмосфера</span><span style="font-weight:bold;color:#00b894">Студенты днём, тишина ночью</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f5f5f0;border-radius:4px;border:1px solid #d0d0c8"><span>Для пенсионеров</span><span style="font-weight:bold;color:#00b894">Идеально</span></div>
+        </div>
+
+        <div class="verdict">
+            <p><strong>Суть:</strong> El Cristo — район, где днём шумят студенты, а ночью — тишина пенсионерского квартала. Богатый, зелёный, со спортивной инфраструктурой, которой позавидует половина города. Минус один: после 8 вечера тут нечего делать, кроме как готовиться к экзамену.</p>
+            <p class="rating"><strong>7 из 10</strong></p>
+        </div>
+        <div class="references">
+            <h2>Источники</h2>
+            <ol>
+                <li id="ref1">Агенция Трибутария, IRPF 2023 — <a href="https://www.lavozdeasturias.es/noticia/asturias/2025/10/09/barrio-barrio-cambiado-riqueza-oviedo-gijon/00031760028933658467784.htm" target="_blank">La Voz de Asturias: «Barrio a barrio: así ha cambiado la riqueza»</a>, 09.10.2025</li>
+                <li id="ref2">Campus del Cristo — <a href="https://es.wikipedia.org/wiki/Campus_del_Cristo" target="_blank">Wikipedia (es)</a></li>
+                <li id="ref3">Instalaciones Deportivas de El Cristo — <a href="https://deporteasturiano.org/instalaciones/instalaciones-propias/instalaciones-de-el-cristo/" target="_blank">Deporte Asturiano (Gobierno del Principado)</a></li>
+                <li id="ref4">Padrón Municipal, 1 de enero de 2024 — <a href="https://www.odina.es/data/ficheros/2024/04/1144_ODINA_Poblaci%C3%B3n_extranjera_Oviedo_1_enero_2024-1.xlsx" target="_blank">Odina / Ayuntamiento de Oviedo</a></li>
+                <li id="ref5">Santuario del Santísimo Cristo de las Cadenas — <a href="http://iglesiascapillasoviedo.blogspot.com/2018/11/santuario-del-santisimo-cristo-de-las.html" target="_blank">Iglesias y Capillas de Oviedo (blog)</a></li>
+                <li id="ref6">Campus del Cristo B — <a href="https://www.uniovi.es/el-cristo-b" target="_blank">Universidad de Oviedo (sitio oficial)</a></li>
+                <li id="ref7">El Cristo (Oviedo) — <a href="https://es.wikipedia.org/wiki/El_Cristo_(Oviedo)" target="_blank">Wikipedia (es)</a></li>
+                <li id="ref8">«El Cristo, un barrio en transición» — <a href="https://www.lavozdeasturias.es/noticia/oviedo/2018/08/28/cristo-barrio-transicion/00031535449125532293461.htm" target="_blank">La Voz de Asturias</a>, 28.08.2018</li>
+            </ol>
+        </div>
     </div>
 </body>
 </html>

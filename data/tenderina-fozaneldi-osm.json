@@ -1,0 +1,4075 @@
+{
+  "district": "Tenderina - Fozaneldi",
+  "total_objects": 232,
+  "source": "OpenStreetMap via Overpass API",
+  "date": "2025-01-18",
+  "objects": [
+    {
+      "name": "Auto Escuela Tenderina",
+      "category": "amenity",
+      "osm_type": "node",
+      "osm_id": 12176796092,
+      "osm_url": "https://www.openstreetmap.org/node/12176796092",
+      "lat": 43.3651138,
+      "lon": -5.834262,
+      "tags": {
+        "amenity": "driving_school",
+        "education": "driving_school",
+        "name": "Auto Escuela Tenderina",
+        "opening_hours": "Mo-Fr 10:30-13:00, Mo-Fr 17:00-20:30",
+        "phone": "+34 985 295 759"
+      }
+    },
+    {
+      "name": "Autoescuela Fermín",
+      "category": "amenity",
+      "osm_type": "node",
+      "osm_id": 12175103602,
+      "osm_url": "https://www.openstreetmap.org/node/12175103602",
+      "lat": 43.3647822,
+      "lon": -5.8332814,
+      "tags": {
+        "amenity": "driving_school",
+        "education": "driving_school",
+        "name": "Autoescuela Fermín",
+        "opening_hours": "Mo-Fr 10:00-14:00, 16:00-20:00"
+      }
+    },
+    {
+      "name": "Banco Sabadell",
+      "category": "amenity",
+      "osm_type": "node",
+      "osm_id": 12328359645,
+      "osm_url": "https://www.openstreetmap.org/node/12328359645",
+      "lat": 43.3651985,
+      "lon": -5.8328263,
+      "tags": {
+        "amenity": "bank",
+        "brand": "Banco Sabadell",
+        "brand:ca": "Banc Sabadell",
+        "brand:es": "Banco Sabadell",
+        "brand:wikidata": "Q762330",
+        "name": "Banco Sabadell",
+        "name:ca": "Banc Sabadell",
+        "name:es": "Banco Sabadell",
+        "official_name": "Banco de Sabadell, S.A."
+      }
+    },
+    {
+      "name": "Bar El Candil",
+      "category": "amenity",
+      "osm_type": "node",
+      "osm_id": 12175071933,
+      "osm_url": "https://www.openstreetmap.org/node/12175071933",
+      "lat": 43.364067,
+      "lon": -5.8377577,
+      "tags": {
+        "amenity": "bar",
+        "name": "Bar El Candil"
+      }
+    },
+    {
+      "name": "Bar La Kupela",
+      "category": "amenity",
+      "osm_type": "node",
+      "osm_id": 10692134707,
+      "osm_url": "https://www.openstreetmap.org/node/10692134707",
+      "lat": 43.3636478,
+      "lon": -5.8367924,
+      "tags": {
+        "addr:city": "Oviedo",
+        "addr:housenumber": "20",
+        "addr:postcode": "33010",
+        "addr:street": "Avenida de Torrelavega",
+        "amenity": "bar",
+        "name": "Bar La Kupela"
+      }
+    },
+    {
+      "name": "CP Fozaneldi",
+      "category": "amenity",
+      "osm_type": "way",
+      "osm_id": 35773446,
+      "osm_url": "https://www.openstreetmap.org/way/35773446",
+      "lat": 43.3600608,
+      "lon": -5.8369832,
+      "tags": {
+        "addr:city": "Oviedo",
+        "amenity": "school",
+        "barrier": "wall",
+        "education": "school",
+        "name": "CP Fozaneldi",
+        "school": "primary"
+      }
+    },
+    {
+      "name": "Cafetería Enboga",
+      "category": "amenity",
+      "osm_type": "node",
+      "osm_id": 10607802384,
+      "osm_url": "https://www.openstreetmap.org/node/10607802384",
+      "lat": 43.3610039,
+      "lon": -5.8323271,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Cafetería Enboga",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "name": "Cafetería Torrelavega",
+      "category": "amenity",
+      "osm_type": "node",
+      "osm_id": 10692134706,
+      "osm_url": "https://www.openstreetmap.org/node/10692134706",
+      "lat": 43.3639613,
+      "lon": -5.835525,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Cafetería Torrelavega"
+      }
+    },
+    {
+      "name": "Café Bar Mediodía",
+      "category": "amenity",
+      "osm_type": "node",
+      "osm_id": 11098257414,
+      "osm_url": "https://www.openstreetmap.org/node/11098257414",
+      "lat": 43.3626564,
+      "lon": -5.8360794,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Café Bar Mediodía"
+      }
+    },
+    {
+      "name": "Café Ronda",
+      "category": "amenity",
+      "osm_type": "node",
+      "osm_id": 11098257415,
+      "osm_url": "https://www.openstreetmap.org/node/11098257415",
+      "lat": 43.3626827,
+      "lon": -5.8363829,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Café Ronda"
+      }
+    },
+    {
+      "name": "Café-Bar El Europeo",
+      "category": "amenity",
+      "osm_type": "node",
+      "osm_id": 11360601584,
+      "osm_url": "https://www.openstreetmap.org/node/11360601584",
+      "lat": 43.3620828,
+      "lon": -5.8325041,
+      "tags": {
+        "addr:city": "Oviedo",
+        "addr:street": "Calle Vetusta",
+        "amenity": "cafe",
+        "name": "Café-Bar El Europeo"
+      }
+    },
+    {
+      "name": "Caja Rural",
+      "category": "amenity",
+      "osm_type": "node",
+      "osm_id": 8843252729,
+      "osm_url": "https://www.openstreetmap.org/node/8843252729",
+      "lat": 43.3624382,
+      "lon": -5.8370492,
+      "tags": {
+        "addr:city": "Oviedo / Uviéu",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "de Asturias",
+        "brand": "Caja Rural",
+        "brand:wikidata": "Q3649971",
+        "brand:wikipedia": "es:Caja Rural",
+        "name": "Caja Rural"
+      }
+    },
+    {
+      "name": "Centro Infantil Luna",
+      "category": "amenity",
+      "osm_type": "node",
+      "osm_id": 3058020211,
+      "osm_url": "https://www.openstreetmap.org/node/3058020211",
+      "lat": 43.3628899,
+      "lon": -5.8372497,
+      "tags": {
+        "addr:city": "Oviedo",
+        "addr:housenumber": "19",
+        "addr:postcode": "33010",
+        "addr:street": "Calle Rafael María de Labra",
+        "amenity": "kindergarten",
+        "education": "kindergarten",
+        "name": "Centro Infantil Luna"
+      }
+    },
+    {
+      "name": "Centro Social La Tenderina",
+      "category": "amenity",
+      "osm_type": "node",
+      "osm_id": 11653187239,
+      "osm_url": "https://www.openstreetmap.org/node/11653187239",
+      "lat": 43.360802,
+      "lon": -5.8372247,
+      "tags": {
+        "amenity": "community_centre",
+        "name": "Centro Social La Tenderina"
+      }
+    },
+    {
+      "name": "Centro Social Vetusta",
+      "category": "amenity",
+      "osm_type": "node",
+      "osm_id": 11283937950,
+      "osm_url": "https://www.openstreetmap.org/node/11283937950",
+      "lat": 43.3629915,
+      "lon": -5.8325083,
+      "tags": {
+        "addr:city": "Oviedo / Uviéu",
+        "addr:housenumber": "11",
+        "addr:postcode": "33010",
+        "addr:street": "Calle Vetusta",
+        "amenity": "community_centre",
+        "name": "Centro Social Vetusta"
+      }
+    },
+    {
+      "name": "Centro de Estudios Vetusta",
+      "category": "amenity",
+      "osm_type": "node",
+      "osm_id": 12100472795,
+      "osm_url": "https://www.openstreetmap.org/node/12100472795",
+      "lat": 43.362638,
+      "lon": -5.8342186,
+      "tags": {
+        "amenity": "social_centre",
+        "check_date": "2024-08-31",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "level": "0",
+        "name": "Centro de Estudios Vetusta",
+        "name:en": "Vetusta Studies Center",
+        "operator:type": "public",
+        "toilets": "yes",
+        "toilets:access": "yes",
+        "toilets:handwashing": "yes",
+        "website": "https://www.oviedo.es/centrosdeestudio/-/asset_publisher/6LmG4MlJ9ovT/content/centro-de-estudios-vetusta/25041"
+      }
+    },
+    {
+      "name": "El Cafeto de Bizcoletas",
+      "category": "amenity",
+      "osm_type": "node",
+      "osm_id": 12149555763,
+      "osm_url": "https://www.openstreetmap.org/node/12149555763",
+      "lat": 43.3643804,
+      "lon": -5.8336913,
+      "tags": {
+        "addr:city": "Oviedo",
+        "addr:housenumber": "46",
+        "addr:street": "Avenida Torrelavega",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "description": "Café de especialidad de tostadores artesanos, cerveza de bodega, variedad de pinchos salados y dulces caseros.",
+        "email": "Elcafetodebizcoletas@gmail.com",
+        "name": "El Cafeto de Bizcoletas",
+        "opening_hours": "Mo-Su 08:00-20:00",
+        "phone": "+34 985 87 52 93"
+      }
+    },
+    {
+      "name": "El Uno Gastrochigre",
+      "category": "amenity",
+      "osm_type": "node",
+      "osm_id": 11827111187,
+      "osm_url": "https://www.openstreetmap.org/node/11827111187",
+      "lat": 43.3623236,
+      "lon": -5.8344939,
+      "tags": {
+        "addr:city": "Oviedo",
+        "addr:housenumber": "1",
+        "addr:postcode": "33010",
+        "addr:street": "Calle Miguel Indurain",
+        "amenity": "bar",
+        "name": "El Uno Gastrochigre",
+        "opening_hours": "Mo-We 09:00-23:00; Th 09:30-24:00; Fr 00:00-01:30, 09:00-24:00; Sa 00:00-02:00,11:00-24:00; Su 00:00-02:00,11:00-23:00",
+        "phone": "+34 684 69 06 71"
+      }
+    },
+    {
+      "name": "El Viaxeru Food & more",
+      "category": "amenity",
+      "osm_type": "node",
+      "osm_id": 12055849110,
+      "osm_url": "https://www.openstreetmap.org/node/12055849110",
+      "lat": 43.3624718,
+      "lon": -5.8347285,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "burger;arepa",
+        "name": "El Viaxeru Food & more"
+      }
+    },
+    {
+      "name": "FaesDent Clínica Dental",
+      "category": "amenity",
+      "osm_type": "node",
+      "osm_id": 5901414629,
+      "osm_url": "https://www.openstreetmap.org/node/5901414629",
+      "lat": 43.3650612,
+      "lon": -5.8321261,
+      "tags": {
+        "addr:city": "Oviedo",
+        "addr:housenumber": "65",
+        "addr:postcode": "33010",
+        "addr:street": "Avenida de Torrelavega",
+        "amenity": "dentist",
+        "healthcare": "dentist",
+        "healthcare:speciality": "Odontologia",
+        "name": "FaesDent Clínica Dental",
+        "operator": "FaesDent",
+        "phone": "+34 985217793",
+        "website": "https://www.faesdent.es/"
+      }
+    },
+    {
+      "name": "La Parrilla",
+      "category": "amenity",
+      "osm_type": "node",
+      "osm_id": 6337462296,
+      "osm_url": "https://www.openstreetmap.org/node/6337462296",
+      "lat": 43.3599135,
+      "lon": -5.8333885,
+      "tags": {
+        "addr:city": "Oviedo / Uviéu",
+        "addr:housenumber": "68",
+        "addr:postcode": "33008",
+        "addr:street": "Calle Vetusta",
+        "amenity": "restaurant",
+        "name": "La Parrilla"
+      }
+    },
+    {
+      "name": "Mesón El Franco",
+      "category": "amenity",
+      "osm_type": "node",
+      "osm_id": 11098257418,
+      "osm_url": "https://www.openstreetmap.org/node/11098257418",
+      "lat": 43.362202,
+      "lon": -5.8371742,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Mesón El Franco"
+      }
+    },
+    {
+      "name": "Mesón La Foguera",
+      "category": "amenity",
+      "osm_type": "node",
+      "osm_id": 11098257417,
+      "osm_url": "https://www.openstreetmap.org/node/11098257417",
+      "lat": 43.3626551,
+      "lon": -5.8369949,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Mesón La Foguera"
+      }
+    },
+    {
+      "name": "Nacex",
+      "category": "amenity",
+      "osm_type": "node",
+      "osm_id": 13401527800,
+      "osm_url": "https://www.openstreetmap.org/node/13401527800",
+      "lat": 43.3634492,
+      "lon": -5.8337725,
+      "tags": {
+        "amenity": "post_depot",
+        "brand": "Nacex",
+        "brand:wikidata": "Q126366376",
+        "name": "Nacex"
+      }
+    },
+    {
+      "name": "Noor Coffee & Co",
+      "category": "amenity",
+      "osm_type": "node",
+      "osm_id": 12072162066,
+      "osm_url": "https://www.openstreetmap.org/node/12072162066",
+      "lat": 43.3642195,
+      "lon": -5.8343563,
+      "tags": {
+        "addr:city": "Oviedo",
+        "addr:housenumber": "42",
+        "addr:postcode": "33010",
+        "addr:street": "Av. Torrelavega",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "delivery": "no",
+        "dine_in": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Noor Coffee & Co",
+        "opening_hours": "Mo-Su 07:00-23:00",
+        "phone": "+34 985 08 96 84"
+      }
+    },
+    {
+      "name": "Oficina de Correos",
+      "category": "amenity",
+      "osm_type": "node",
+      "osm_id": 418751771,
+      "osm_url": "https://www.openstreetmap.org/node/418751771",
+      "lat": 43.3647263,
+      "lon": -5.832242,
+      "tags": {
+        "addr:city": "Oviedo / Uviéu",
+        "amenity": "post_office",
+        "brand": "Correos",
+        "brand:wikidata": "Q776605",
+        "brand:wikipedia": "es:Correos (España)",
+        "name": "Oficina de Correos",
+        "name:es": "Oficina de Correos",
+        "operator": "Correos",
+        "operator:wikidata": "Q776605",
+        "operator:wikipedia": "es:Correos (España)",
+        "website": "https://www.correos.es",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "name": "Pizza Luna Bar",
+      "category": "amenity",
+      "osm_type": "node",
+      "osm_id": 11098257419,
+      "osm_url": "https://www.openstreetmap.org/node/11098257419",
+      "lat": 43.3623562,
+      "lon": -5.8350234,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Pizza Luna Bar"
+      }
+    },
+    {
+      "name": "Santa María de La Vega",
+      "category": "amenity",
+      "osm_type": "node",
+      "osm_id": 493420975,
+      "osm_url": "https://www.openstreetmap.org/node/493420975",
+      "lat": 43.364701,
+      "lon": -5.8386835,
+      "tags": {
+        "addr:city": "Oviedo / Uviéu",
+        "amenity": "place_of_worship",
+        "name": "Santa María de La Vega",
+        "religion": "christian",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "name": "Sidrería El Trampolín",
+      "category": "amenity",
+      "osm_type": "node",
+      "osm_id": 10692134705,
+      "osm_url": "https://www.openstreetmap.org/node/10692134705",
+      "lat": 43.363868,
+      "lon": -5.8358725,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Sidrería El Trampolín"
+      }
+    },
+    {
+      "name": "Sidrería Serafín",
+      "category": "amenity",
+      "osm_type": "node",
+      "osm_id": 6288662572,
+      "osm_url": "https://www.openstreetmap.org/node/6288662572",
+      "lat": 43.3598075,
+      "lon": -5.8335593,
+      "tags": {
+        "addr:city": "Oviedo / Uviéu",
+        "addr:housenumber": "2",
+        "addr:postcode": "33008",
+        "addr:street": "Calle Huerta de Otero",
+        "amenity": "restaurant",
+        "name": "Sidrería Serafín"
+      }
+    },
+    {
+      "name": "Unicaja Banco",
+      "category": "amenity",
+      "osm_type": "node",
+      "osm_id": 2411787967,
+      "osm_url": "https://www.openstreetmap.org/node/2411787967",
+      "lat": 43.3652658,
+      "lon": -5.8325778,
+      "tags": {
+        "addr:city": "Oviedo / Uviéu",
+        "addr:postcode": "33010",
+        "addr:street": "CL LA TENDERINA BAJA, 68.",
+        "amenity": "bank",
+        "brand": "Unicaja Banco",
+        "brand:wikidata": "Q20908850",
+        "name": "Unicaja Banco",
+        "operator": "Liberbank",
+        "short_name": "Unicaja"
+      }
+    },
+    {
+      "name": "Unicaja Banco",
+      "category": "amenity",
+      "osm_type": "node",
+      "osm_id": 3018655802,
+      "osm_url": "https://www.openstreetmap.org/node/3018655802",
+      "lat": 43.362984,
+      "lon": -5.8372902,
+      "tags": {
+        "addr:city": "Oviedo / Uviéu",
+        "addr:housenumber": "15",
+        "addr:postcode": "33010",
+        "addr:street": "Calle Rafael María de Labra",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Unicaja Banco",
+        "brand:wikidata": "Q20908850",
+        "name": "Unicaja Banco",
+        "short_name": "Unicaja"
+      }
+    },
+    {
+      "name": "Antigua central térmica",
+      "category": "building",
+      "osm_type": "way",
+      "osm_id": 63956496,
+      "osm_url": "https://www.openstreetmap.org/way/63956496",
+      "lat": 43.3658896,
+      "lon": -5.8351968,
+      "tags": {
+        "addr:city": "Oviedo / Uviéu",
+        "building": "yes",
+        "name": "Antigua central térmica"
+      }
+    },
+    {
+      "name": "Antigua escuela de aprendices",
+      "category": "building",
+      "osm_type": "way",
+      "osm_id": 63956489,
+      "osm_url": "https://www.openstreetmap.org/way/63956489",
+      "lat": 43.3654755,
+      "lon": -5.8358905,
+      "tags": {
+        "building": "yes",
+        "name": "Antigua escuela de aprendices"
+      }
+    },
+    {
+      "name": "Antigua fundición",
+      "category": "building",
+      "osm_type": "way",
+      "osm_id": 63956490,
+      "osm_url": "https://www.openstreetmap.org/way/63956490",
+      "lat": 43.3663556,
+      "lon": -5.835911,
+      "tags": {
+        "building": "yes",
+        "name": "Antigua fundición"
+      }
+    },
+    {
+      "name": "Antigua oficina de ingeniería",
+      "category": "building",
+      "osm_type": "way",
+      "osm_id": 63956495,
+      "osm_url": "https://www.openstreetmap.org/way/63956495",
+      "lat": 43.3657216,
+      "lon": -5.8376768,
+      "tags": {
+        "building": "yes",
+        "name": "Antigua oficina de ingeniería"
+      }
+    },
+    {
+      "name": "Antigua sala de tiro",
+      "category": "building",
+      "osm_type": "way",
+      "osm_id": 669445448,
+      "osm_url": "https://www.openstreetmap.org/way/669445448",
+      "lat": 43.3662857,
+      "lon": -5.8350655,
+      "tags": {
+        "building": "industrial",
+        "name": "Antigua sala de tiro"
+      }
+    },
+    {
+      "name": "Antiguo claustro Monasterio Sta. María de La Vega",
+      "category": "building",
+      "osm_type": "way",
+      "osm_id": 63956481,
+      "osm_url": "https://www.openstreetmap.org/way/63956481",
+      "lat": 43.365019,
+      "lon": -5.8391088,
+      "tags": {
+        "access": "permit",
+        "building": "yes",
+        "historic": "monument",
+        "name": "Antiguo claustro Monasterio Sta. María de La Vega"
+      }
+    },
+    {
+      "name": "Antiguo economato",
+      "category": "building",
+      "osm_type": "way",
+      "osm_id": 454967789,
+      "osm_url": "https://www.openstreetmap.org/way/454967789",
+      "lat": 43.3660673,
+      "lon": -5.839671,
+      "tags": {
+        "addr:city": "Oviedo / Uviéu",
+        "building": "yes",
+        "name": "Antiguo economato"
+      }
+    },
+    {
+      "name": "Antiguo edificio administrativo",
+      "category": "building",
+      "osm_type": "way",
+      "osm_id": 454967788,
+      "osm_url": "https://www.openstreetmap.org/way/454967788",
+      "lat": 43.3657202,
+      "lon": -5.8398324,
+      "tags": {
+        "building": "yes",
+        "historic": "heritage_building",
+        "name": "Antiguo edificio administrativo"
+      }
+    },
+    {
+      "name": "Antiguo laboratorio de metrologia",
+      "category": "building",
+      "osm_type": "way",
+      "osm_id": 63956494,
+      "osm_url": "https://www.openstreetmap.org/way/63956494",
+      "lat": 43.365456,
+      "lon": -5.8391265,
+      "tags": {
+        "addr:city": "Oviedo / Uviéu",
+        "building": "industrial",
+        "name": "Antiguo laboratorio de metrologia"
+      }
+    },
+    {
+      "name": "Antiguo taller de carpinteria",
+      "category": "building",
+      "osm_type": "way",
+      "osm_id": 705615741,
+      "osm_url": "https://www.openstreetmap.org/way/705615741",
+      "lat": 43.3651322,
+      "lon": -5.8373106,
+      "tags": {
+        "building": "yes",
+        "name": "Antiguo taller de carpinteria"
+      }
+    },
+    {
+      "name": "Antiguo taller de cañones",
+      "category": "building",
+      "osm_type": "way",
+      "osm_id": 63956486,
+      "osm_url": "https://www.openstreetmap.org/way/63956486",
+      "lat": 43.366765,
+      "lon": -5.8363635,
+      "tags": {
+        "addr:city": "Oviedo / Uviéu",
+        "building": "industrial",
+        "name": "Antiguo taller de cañones",
+        "year_of_construction": "1940"
+      }
+    },
+    {
+      "name": "Antiguo taller de chapa y soldadura",
+      "category": "building",
+      "osm_type": "way",
+      "osm_id": 74262973,
+      "osm_url": "https://www.openstreetmap.org/way/74262973",
+      "lat": 43.3655275,
+      "lon": -5.8366444,
+      "tags": {
+        "building": "yes",
+        "name": "Antiguo taller de chapa y soldadura"
+      }
+    },
+    {
+      "name": "Antiguo taller de forja",
+      "category": "building",
+      "osm_type": "way",
+      "osm_id": 63956492,
+      "osm_url": "https://www.openstreetmap.org/way/63956492",
+      "lat": 43.3665041,
+      "lon": -5.8383524,
+      "tags": {
+        "building": "yes",
+        "name": "Antiguo taller de forja",
+        "roof:material": "asbestos"
+      }
+    },
+    {
+      "name": "Antiguo taller de mecanizado",
+      "category": "building",
+      "osm_type": "way",
+      "osm_id": 63956487,
+      "osm_url": "https://www.openstreetmap.org/way/63956487",
+      "lat": 43.365851,
+      "lon": -5.8384538,
+      "tags": {
+        "building": "industrial",
+        "name": "Antiguo taller de mecanizado"
+      }
+    },
+    {
+      "name": "Antiguo taller de pavonado",
+      "category": "building",
+      "osm_type": "way",
+      "osm_id": 669447376,
+      "osm_url": "https://www.openstreetmap.org/way/669447376",
+      "lat": 43.3653455,
+      "lon": -5.8384759,
+      "tags": {
+        "addr:city": "Oviedo / Uviéu",
+        "building": "industrial",
+        "name": "Antiguo taller de pavonado"
+      }
+    },
+    {
+      "name": "Antiguo taller de utillaje",
+      "category": "building",
+      "osm_type": "way",
+      "osm_id": 63956484,
+      "osm_url": "https://www.openstreetmap.org/way/63956484",
+      "lat": 43.3662427,
+      "lon": -5.8368335,
+      "tags": {
+        "building": "yes",
+        "name": "Antiguo taller de utillaje",
+        "roof:material": "asbestos"
+      }
+    },
+    {
+      "name": "Centro Juvenil \"Campo de los Patos\"",
+      "category": "building",
+      "osm_type": "way",
+      "osm_id": 480077863,
+      "osm_url": "https://www.openstreetmap.org/way/480077863",
+      "lat": 43.3635341,
+      "lon": -5.8386183,
+      "tags": {
+        "building": "office",
+        "building:levels": "1",
+        "name": "Centro Juvenil \"Campo de los Patos\"",
+        "roof:levels": "0"
+      }
+    },
+    {
+      "name": "Colegio Público Fozaneldi",
+      "category": "building",
+      "osm_type": "way",
+      "osm_id": 33788196,
+      "osm_url": "https://www.openstreetmap.org/way/33788196",
+      "lat": 43.3599388,
+      "lon": -5.8376444,
+      "tags": {
+        "addr:city": "Oviedo",
+        "addr:housenumber": "14",
+        "amenity": "school",
+        "building": "school",
+        "education": "school",
+        "name": "Colegio Público Fozaneldi",
+        "school": "primary"
+      }
+    },
+    {
+      "name": "El Roko",
+      "category": "building",
+      "osm_type": "way",
+      "osm_id": 1196100517,
+      "osm_url": "https://www.openstreetmap.org/way/1196100517",
+      "lat": 43.3647963,
+      "lon": -5.8338784,
+      "tags": {
+        "addr:city": "Oviedo / Uviéu",
+        "addr:housenumber": "2",
+        "addr:street": "Calle Ronda",
+        "building": "yes",
+        "leisure": "sports_centre",
+        "name": "El Roko",
+        "opening_hours": "Mo-Fr 10:00-22:00; Sa-Su 10:00-14:00,16:00-22:00",
+        "phone": "+34 985 02 19 44",
+        "sport": "climbing",
+        "website": "http://elroko.es"
+      }
+    },
+    {
+      "name": "Iglesia de Santa María de la Vega",
+      "category": "building",
+      "osm_type": "way",
+      "osm_id": 413195538,
+      "osm_url": "https://www.openstreetmap.org/way/413195538",
+      "lat": 43.3647227,
+      "lon": -5.8387596,
+      "tags": {
+        "addr:city": "Oviedo / Uviéu",
+        "building": "church",
+        "historic": "church",
+        "name": "Iglesia de Santa María de la Vega",
+        "religion": "christian",
+        "website": "https://el.tesorodeoviedo.es/index.php?title=Monasterio_de_Santa_Mar%C3%ADa_de_la_Vega"
+      }
+    },
+    {
+      "name": "Parque de Maquinaria del Gobierno del Principado de Asturias",
+      "category": "building",
+      "osm_type": "way",
+      "osm_id": 503068638,
+      "osm_url": "https://www.openstreetmap.org/way/503068638",
+      "lat": 43.3632966,
+      "lon": -5.8357664,
+      "tags": {
+        "building": "yes",
+        "government": "transportation",
+        "name": "Parque de Maquinaria del Gobierno del Principado de Asturias",
+        "office": "government"
+      }
+    },
+    {
+      "name": "Parroquia San Francisco Javier de La Tenderina",
+      "category": "building",
+      "osm_type": "relation",
+      "osm_id": 3546235,
+      "osm_url": "https://www.openstreetmap.org/relation/3546235",
+      "lat": 43.364423,
+      "lon": -5.8331842,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "catholic",
+        "name": "Parroquia San Francisco Javier de La Tenderina",
+        "religion": "christian",
+        "type": "multipolygon",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "name": "Polideportivo Fozaneldi",
+      "category": "building",
+      "osm_type": "way",
+      "osm_id": 35773447,
+      "osm_url": "https://www.openstreetmap.org/way/35773447",
+      "lat": 43.3603195,
+      "lon": -5.8365398,
+      "tags": {
+        "addr:city": "Oviedo",
+        "building": "yes",
+        "name": "Polideportivo Fozaneldi"
+      }
+    },
+    {
+      "name": "Residencia La Rosaleda",
+      "category": "building",
+      "osm_type": "way",
+      "osm_id": 506134482,
+      "osm_url": "https://www.openstreetmap.org/way/506134482",
+      "lat": 43.3623194,
+      "lon": -5.8250649,
+      "tags": {
+        "amenity": "social_facility",
+        "building": "house",
+        "name": "Residencia La Rosaleda",
+        "social_facility": "assisted_living",
+        "social_facility:for": "senior"
+      }
+    },
+    {
+      "name": "Busto Isabel II",
+      "category": "historic",
+      "osm_type": "node",
+      "osm_id": 4145408872,
+      "osm_url": "https://www.openstreetmap.org/node/4145408872",
+      "lat": 43.3648562,
+      "lon": -5.8395458,
+      "tags": {
+        "artwork_type": "bust",
+        "historic": "memorial",
+        "material": "metal",
+        "name": "Busto Isabel II",
+        "start_date": "1857",
+        "tourism": "artwork",
+        "wikidata": "Q17538824"
+      }
+    },
+    {
+      "name": "Monolito Estadio de Vetusta",
+      "category": "historic",
+      "osm_type": "node",
+      "osm_id": 11266258044,
+      "osm_url": "https://www.openstreetmap.org/node/11266258044",
+      "lat": 43.3626327,
+      "lon": -5.8334011,
+      "tags": {
+        "historic": "memorial",
+        "inscription": "En este lugar se inauguró, el día 30 de septiembre de 1923, el estadio de Vetusta, en el cual disputaría el Real Oviedo, en el año 1926, su primer partido. \nEl Real Oviedo, a 30 de septiembre de 2023.",
+        "material": "stone",
+        "memorial": "stone",
+        "name": "Monolito Estadio de Vetusta"
+      }
+    },
+    {
+      "name": "Antigua fábrica de armas de Oviedo",
+      "category": "landuse",
+      "osm_type": "relation",
+      "osm_id": 6476427,
+      "osm_url": "https://www.openstreetmap.org/relation/6476427",
+      "lat": 43.3657119,
+      "lon": -5.8369039,
+      "tags": {
+        "abutters": "residential",
+        "barrier": "wall",
+        "landuse": "industrial",
+        "name": "Antigua fábrica de armas de Oviedo",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "name": "Habitat Terravista",
+      "category": "landuse",
+      "osm_type": "way",
+      "osm_id": 1196617346,
+      "osm_url": "https://www.openstreetmap.org/way/1196617346",
+      "lat": 43.36181,
+      "lon": -5.8383115,
+      "tags": {
+        "barrier": "fence",
+        "landuse": "construction",
+        "name": "Habitat Terravista"
+      }
+    },
+    {
+      "name": "C.Fitness",
+      "category": "leisure",
+      "osm_type": "node",
+      "osm_id": 12176868855,
+      "osm_url": "https://www.openstreetmap.org/node/12176868855",
+      "lat": 43.3651012,
+      "lon": -5.8343358,
+      "tags": {
+        "contact:email": "info@ovdcf.es",
+        "contact:instagram": "@ovdcf",
+        "leisure": "fitness_centre",
+        "name": "C.Fitness",
+        "website": "https://www.ovdcf.es/"
+      }
+    },
+    {
+      "name": "Parque Infantil Angel Cañedo",
+      "category": "leisure",
+      "osm_type": "way",
+      "osm_id": 474660836,
+      "osm_url": "https://www.openstreetmap.org/way/474660836",
+      "lat": 43.3663985,
+      "lon": -5.8339667,
+      "tags": {
+        "access": "yes",
+        "dog": "no",
+        "leisure": "playground",
+        "max_age": "12",
+        "min_age": "2",
+        "name": "Parque Infantil Angel Cañedo"
+      }
+    },
+    {
+      "name": "Parque San Francisco Javier",
+      "category": "leisure",
+      "osm_type": "way",
+      "osm_id": 35773429,
+      "osm_url": "https://www.openstreetmap.org/way/35773429",
+      "lat": 43.3642913,
+      "lon": -5.8329326,
+      "tags": {
+        "leisure": "park",
+        "name": "Parque San Francisco Javier"
+      }
+    },
+    {
+      "name": "Ágora Oviedo",
+      "category": "leisure",
+      "osm_type": "node",
+      "osm_id": 11514779804,
+      "osm_url": "https://www.openstreetmap.org/node/11514779804",
+      "lat": 43.3635404,
+      "lon": -5.8350019,
+      "tags": {
+        "addr:city": "Oviedo",
+        "addr:housenumber": "11",
+        "addr:postcode": "33010",
+        "addr:street": "Calle Armando Álvarez Palacio",
+        "leisure": "fitness_centre",
+        "name": "Ágora Oviedo"
+      }
+    },
+    {
+      "name": "Allianz",
+      "category": "other",
+      "osm_type": "node",
+      "osm_id": 12175078102,
+      "osm_url": "https://www.openstreetmap.org/node/12175078102",
+      "lat": 43.3650342,
+      "lon": -5.8334798,
+      "tags": {
+        "brand": "Allianz",
+        "brand:wikidata": "Q487292",
+        "name": "Allianz",
+        "office": "insurance",
+        "opening_hours": "Mo-Fr 10:00-13:00"
+      }
+    },
+    {
+      "name": "El Roko",
+      "category": "other",
+      "osm_type": "node",
+      "osm_id": 11543426593,
+      "osm_url": "https://www.openstreetmap.org/node/11543426593",
+      "lat": 43.3649538,
+      "lon": -5.8334291,
+      "tags": {
+        "addr:city": "Oviedo",
+        "addr:housenumber": "2",
+        "addr:postcode": "33010",
+        "addr:street": "Calle Ronda",
+        "club": "sport",
+        "name": "El Roko",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "phone": "+34 985 02 19 44",
+        "sport": "climbing",
+        "website": "http://elroko.com/"
+      }
+    },
+    {
+      "name": "Tenderina - Fozaneldi",
+      "category": "other",
+      "osm_type": "relation",
+      "osm_id": 19661402,
+      "osm_url": "https://www.openstreetmap.org/relation/19661402",
+      "lat": 43.361932,
+      "lon": -5.8314089,
+      "tags": {
+        "admin_level": "10",
+        "boundary": "administrative",
+        "name": "Tenderina - Fozaneldi",
+        "type": "boundary"
+      }
+    },
+    {
+      "name": "El Mercadín",
+      "category": "place",
+      "osm_type": "node",
+      "osm_id": 493426921,
+      "osm_url": "https://www.openstreetmap.org/node/493426921",
+      "lat": 43.364337,
+      "lon": -5.8273405,
+      "tags": {
+        "name": "El Mercadín",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "name": "Fozaneldi",
+      "category": "place",
+      "osm_type": "node",
+      "osm_id": 493426961,
+      "osm_url": "https://www.openstreetmap.org/node/493426961",
+      "lat": 43.3616531,
+      "lon": -5.8354809,
+      "tags": {
+        "name": "Fozaneldi",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "name": "La Piñera",
+      "category": "place",
+      "osm_type": "node",
+      "osm_id": 3981919941,
+      "osm_url": "https://www.openstreetmap.org/node/3981919941",
+      "lat": 43.3669659,
+      "lon": -5.8385195,
+      "tags": {
+        "name": "La Piñera",
+        "place": "locality",
+        "source": "Plano de la ciudad de oviedo y sus arrabales 1917"
+      }
+    },
+    {
+      "name": "La Tenderina",
+      "category": "place",
+      "osm_type": "node",
+      "osm_id": 493412176,
+      "osm_url": "https://www.openstreetmap.org/node/493412176",
+      "lat": 43.3646572,
+      "lon": -5.8344839,
+      "tags": {
+        "name": "La Tenderina",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "name": "La Vega",
+      "category": "place",
+      "osm_type": "node",
+      "osm_id": 3984189777,
+      "osm_url": "https://www.openstreetmap.org/node/3984189777",
+      "lat": 43.3659411,
+      "lon": -5.8358749,
+      "tags": {
+        "name": "La Vega",
+        "place": "locality"
+      }
+    },
+    {
+      "name": "Plaza de Otero",
+      "category": "place",
+      "osm_type": "node",
+      "osm_id": 13378346807,
+      "osm_url": "https://www.openstreetmap.org/node/13378346807",
+      "lat": 43.359353,
+      "lon": -5.8337995,
+      "tags": {
+        "name": "Plaza de Otero",
+        "place": "square"
+      }
+    },
+    {
+      "name": "Segaria",
+      "category": "place",
+      "osm_type": "node",
+      "osm_id": 13375140152,
+      "osm_url": "https://www.openstreetmap.org/node/13375140152",
+      "lat": 43.3586909,
+      "lon": -5.8292273,
+      "tags": {
+        "name": "Segaria",
+        "place": "hamlet"
+      }
+    },
+    {
+      "name": "Tenderina - Fozaneldi",
+      "category": "place",
+      "osm_type": "node",
+      "osm_id": 13181187127,
+      "osm_url": "https://www.openstreetmap.org/node/13181187127",
+      "lat": 43.3630534,
+      "lon": -5.836304,
+      "tags": {
+        "name": "Tenderina - Fozaneldi",
+        "place": "suburb"
+      }
+    },
+    {
+      "name": "Vetusta",
+      "category": "place",
+      "osm_type": "node",
+      "osm_id": 12292236315,
+      "osm_url": "https://www.openstreetmap.org/node/12292236315",
+      "lat": 43.3626821,
+      "lon": -5.8322358,
+      "tags": {
+        "name": "Vetusta",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "name": "Alimerka",
+      "category": "shop",
+      "osm_type": "node",
+      "osm_id": 3035744153,
+      "osm_url": "https://www.openstreetmap.org/node/3035744153",
+      "lat": 43.3635008,
+      "lon": -5.8334982,
+      "tags": {
+        "addr:city": "oviedo",
+        "addr:housenumber": "11",
+        "addr:postcode": "33010",
+        "addr:street": "Calle López del Vallado",
+        "brand": "Alimerka",
+        "brand:wikidata": "Q16482738",
+        "brand:wikipedia": "es:Alimerka",
+        "name": "Alimerka",
+        "opening_hours": "Mo-Sa 09:00-21:30",
+        "operator": "Alimerka S.A.U.",
+        "phone": "+34 984 84 90 09",
+        "shop": "supermarket",
+        "website": "https://www.alimerka.es"
+      }
+    },
+    {
+      "name": "Carnicería Charcutería Alcorte",
+      "category": "shop",
+      "osm_type": "node",
+      "osm_id": 11831456257,
+      "osm_url": "https://www.openstreetmap.org/node/11831456257",
+      "lat": 43.364327,
+      "lon": -5.835645,
+      "tags": {
+        "addr:city": "Oviedo",
+        "addr:housenumber": "4",
+        "addr:postcode": "33010",
+        "addr:street": "Calle Armando Álvarez Palacio",
+        "name": "Carnicería Charcutería Alcorte",
+        "shop": "butcher"
+      }
+    },
+    {
+      "name": "El Almacen de Lucia",
+      "category": "shop",
+      "osm_type": "node",
+      "osm_id": 11827111188,
+      "osm_url": "https://www.openstreetmap.org/node/11827111188",
+      "lat": 43.3643812,
+      "lon": -5.8356644,
+      "tags": {
+        "addr:city": "Oviedo",
+        "addr:housenumber": "4",
+        "addr:postcode": "33010",
+        "addr:street": "Calle Armando Álvarez Palacio",
+        "name": "El Almacen de Lucia",
+        "shop": "greengrocer"
+      }
+    },
+    {
+      "name": "El Bazar Yong Xing",
+      "category": "shop",
+      "osm_type": "node",
+      "osm_id": 11831459702,
+      "osm_url": "https://www.openstreetmap.org/node/11831459702",
+      "lat": 43.3642561,
+      "lon": -5.8341692,
+      "tags": {
+        "addr:city": "Oviedo",
+        "addr:housenumber": "46",
+        "addr:postcode": "33010",
+        "addr:street": "Avenida de Torrelavega",
+        "name": "El Bazar Yong Xing",
+        "opening_hours": "Mo-Sa 09:00-21:00",
+        "shop": "variety_store"
+      }
+    },
+    {
+      "name": "La Quintana",
+      "category": "shop",
+      "osm_type": "node",
+      "osm_id": 3058035170,
+      "osm_url": "https://www.openstreetmap.org/node/3058035170",
+      "lat": 43.3629178,
+      "lon": -5.8375293,
+      "tags": {
+        "addr:city": "Oviedo",
+        "addr:housenumber": "18",
+        "addr:postcode": "33010",
+        "addr:street": "Calle Rafael María de Labra",
+        "name": "La Quintana",
+        "shop": "greengrocer"
+      }
+    },
+    {
+      "name": "La barbería",
+      "category": "shop",
+      "osm_type": "node",
+      "osm_id": 12261017401,
+      "osm_url": "https://www.openstreetmap.org/node/12261017401",
+      "lat": 43.3624914,
+      "lon": -5.8355958,
+      "tags": {
+        "name": "La barbería",
+        "opening_hours": "Mo-Fr 09:00-14:00, 15:30-19:00; Sa 09:00-13:00",
+        "phone": "+34 985 22 88 77",
+        "shop": "hairdresser"
+      }
+    },
+    {
+      "name": "OPTIMUS - Ferretería Jovi",
+      "category": "shop",
+      "osm_type": "node",
+      "osm_id": 11832515520,
+      "osm_url": "https://www.openstreetmap.org/node/11832515520",
+      "lat": 43.3647552,
+      "lon": -5.8347492,
+      "tags": {
+        "addr:city": "Oviedo",
+        "addr:housenumber": "46",
+        "addr:postcode": "33010",
+        "addr:street": "Calle Tenderina",
+        "name": "OPTIMUS - Ferretería Jovi",
+        "opening_hours": "Mo-Fr 09:00-20:00; Sa 9:00-14:00",
+        "phone": "+34 985 20 29 53",
+        "shop": "hardware",
+        "website": "https://www.optimusferreteria.com"
+      }
+    },
+    {
+      "name": "PX Militar",
+      "category": "shop",
+      "osm_type": "node",
+      "osm_id": 12100431775,
+      "osm_url": "https://www.openstreetmap.org/node/12100431775",
+      "lat": 43.3627479,
+      "lon": -5.8343678,
+      "tags": {
+        "name": "PX Militar",
+        "shop": "military_surplus",
+        "website": "https://pxmilitar.es/"
+      }
+    },
+    {
+      "name": "Panadería Confitería Mon",
+      "category": "shop",
+      "osm_type": "node",
+      "osm_id": 11098257416,
+      "osm_url": "https://www.openstreetmap.org/node/11098257416",
+      "lat": 43.3626865,
+      "lon": -5.8367053,
+      "tags": {
+        "name": "Panadería Confitería Mon",
+        "shop": "bakery"
+      }
+    },
+    {
+      "name": "Paraíso Peludo",
+      "category": "shop",
+      "osm_type": "node",
+      "osm_id": 11098257413,
+      "osm_url": "https://www.openstreetmap.org/node/11098257413",
+      "lat": 43.362605,
+      "lon": -5.8358915,
+      "tags": {
+        "name": "Paraíso Peludo",
+        "shop": "pet_grooming"
+      }
+    },
+    {
+      "name": "Pescados Paco",
+      "category": "shop",
+      "osm_type": "node",
+      "osm_id": 10692121104,
+      "osm_url": "https://www.openstreetmap.org/node/10692121104",
+      "lat": 43.3639572,
+      "lon": -5.8367682,
+      "tags": {
+        "name": "Pescados Paco",
+        "shop": "seafood"
+      }
+    },
+    {
+      "name": "Productos Cárnicos El Cuco",
+      "category": "shop",
+      "osm_type": "node",
+      "osm_id": 10964962618,
+      "osm_url": "https://www.openstreetmap.org/node/10964962618",
+      "lat": 43.3646211,
+      "lon": -5.8303645,
+      "tags": {
+        "addr:city": "Oviedo / Uviéu",
+        "addr:housenumber": "26",
+        "addr:postcode": "33010",
+        "addr:street": "Calle del Rayo",
+        "name": "Productos Cárnicos El Cuco",
+        "shop": "butcher"
+      }
+    },
+    {
+      "name": "Ride Zone",
+      "category": "shop",
+      "osm_type": "node",
+      "osm_id": 1973846302,
+      "osm_url": "https://www.openstreetmap.org/node/1973846302",
+      "lat": 43.363205,
+      "lon": -5.8376747,
+      "tags": {
+        "name": "Ride Zone",
+        "opening_hours:signed": "no",
+        "service:bicycle:pump": "no",
+        "shop": "bicycle",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "name": "Viajes Tarna",
+      "category": "shop",
+      "osm_type": "node",
+      "osm_id": 3260702971,
+      "osm_url": "https://www.openstreetmap.org/node/3260702971",
+      "lat": 43.3651513,
+      "lon": -5.833092,
+      "tags": {
+        "name": "Viajes Tarna",
+        "phone": "+34 985220856",
+        "shop": "travel_agency",
+        "website": "https://www.viajestarna.com/"
+      }
+    },
+    {
+      "name": "masymas",
+      "category": "shop",
+      "osm_type": "node",
+      "osm_id": 441919760,
+      "osm_url": "https://www.openstreetmap.org/node/441919760",
+      "lat": 43.3626005,
+      "lon": -5.8373931,
+      "tags": {
+        "addr:city": "Oviedo / Uviéu",
+        "brand": "masymas",
+        "brand:wikidata": "Q6135987",
+        "brand:wikipedia": "es:Supermercados Masymas",
+        "name": "masymas",
+        "operator": "Hijos de Luis Rodríguez, S.A.",
+        "operator:wikidata": "Q111520108",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "name": "masymas",
+      "category": "shop",
+      "osm_type": "node",
+      "osm_id": 8691310949,
+      "osm_url": "https://www.openstreetmap.org/node/8691310949",
+      "lat": 43.3641667,
+      "lon": -5.8335572,
+      "tags": {
+        "addr:city": "Oviedo / Uviéu",
+        "addr:housenumber": "4",
+        "addr:postcode": "33010",
+        "addr:street": "Calle Alonso de Proaza",
+        "brand": "masymas",
+        "brand:wikidata": "Q6135987",
+        "brand:wikipedia": "es:Supermercados Masymas",
+        "name": "masymas",
+        "opening_hours": "Mo-Sa 09:00-21:30",
+        "operator": "Hijos de Luis Rodríguez, S.A.",
+        "operator:wikidata": "Q111520108",
+        "phone": "+34 984 18 35 72",
+        "shop": "supermarket",
+        "website": "https://www.supermasymas.com"
+      }
+    },
+    {
+      "name": "Acceso Este de Oviedo",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 310571846,
+      "osm_url": "https://www.openstreetmap.org/way/310571846",
+      "lat": 43.3593689,
+      "lon": -5.837167,
+      "tags": {
+        "abutters": "residential",
+        "highway": "motorway",
+        "lanes": "3",
+        "maxspeed": "40",
+        "name": "Acceso Este de Oviedo",
+        "oneway": "yes",
+        "ref": "O-11",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Acceso Este de Oviedo",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 1211280199,
+      "osm_url": "https://www.openstreetmap.org/way/1211280199",
+      "lat": 43.3588547,
+      "lon": -5.8355127,
+      "tags": {
+        "abutters": "residential",
+        "highway": "motorway",
+        "lanes": "3",
+        "maxspeed": "60",
+        "name": "Acceso Este de Oviedo",
+        "oneway": "yes",
+        "ref": "O-11",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Adelantado de La Florida",
+      "category": "street",
+      "osm_type": "node",
+      "osm_id": 795655384,
+      "osm_url": "https://www.openstreetmap.org/node/795655384",
+      "lat": 43.3642542,
+      "lon": -5.8391478,
+      "tags": {
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Adelantado de La Florida",
+        "public_transport": "platform",
+        "ref": "1003",
+        "shelter": "no",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "name": "Alonso de Proaza",
+      "category": "street",
+      "osm_type": "node",
+      "osm_id": 5749210721,
+      "osm_url": "https://www.openstreetmap.org/node/5749210721",
+      "lat": 43.3642024,
+      "lon": -5.8334667,
+      "tags": {
+        "bench": "yes",
+        "benchmark": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Alonso de Proaza",
+        "public_transport": "platform",
+        "ref": "1340",
+        "shelter": "yes",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "name": "Alonso de Proaza",
+      "category": "street",
+      "osm_type": "node",
+      "osm_id": 5749210722,
+      "osm_url": "https://www.openstreetmap.org/node/5749210722",
+      "lat": 43.3642395,
+      "lon": -5.8333446,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Alonso de Proaza",
+        "public_transport": "platform",
+        "ref": "4521",
+        "shelter": "no",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "name": "Avenida Doctores Rehberger",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 260659357,
+      "osm_url": "https://www.openstreetmap.org/way/260659357",
+      "lat": 43.3664189,
+      "lon": -5.8335877,
+      "tags": {
+        "abutters": "residential",
+        "highway": "secondary",
+        "lanes": "3",
+        "lanes:backward": "1",
+        "lanes:forward": "2",
+        "lit": "yes",
+        "name": "Avenida Doctores Rehberger",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Avenida de Torrelavega",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 33690560,
+      "osm_url": "https://www.openstreetmap.org/way/33690560",
+      "lat": 43.3631242,
+      "lon": -5.8384497,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Avenida de Torrelavega",
+        "oneway": "yes",
+        "sidewalk": "right",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Avenida de Torrelavega",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 39219864,
+      "osm_url": "https://www.openstreetmap.org/way/39219864",
+      "lat": 43.3643415,
+      "lon": -5.8344902,
+      "tags": {
+        "abutters": "residential",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "maxspeed:type": "ES:urban",
+        "name": "Avenida de Torrelavega",
+        "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
+        "smoothness": "good",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Avenida de Torrelavega",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 39219865,
+      "osm_url": "https://www.openstreetmap.org/way/39219865",
+      "lat": 43.3646034,
+      "lon": -5.8333795,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "ES:zone30",
+        "name": "Avenida de Torrelavega",
+        "oneway": "no",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Avenida de Torrelavega",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 319640400,
+      "osm_url": "https://www.openstreetmap.org/way/319640400",
+      "lat": 43.3637873,
+      "lon": -5.836837,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "ES:urban",
+        "name": "Avenida de Torrelavega",
+        "oneway": "no",
+        "smoothness": "good",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Avenida de Torrelavega",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 603011340,
+      "osm_url": "https://www.openstreetmap.org/way/603011340",
+      "lat": 43.3646813,
+      "lon": -5.8330469,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "ES:zone30",
+        "name": "Avenida de Torrelavega",
+        "oneway": "no",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Avenida de Torrelavega",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 603011350,
+      "osm_url": "https://www.openstreetmap.org/way/603011350",
+      "lat": 43.3650906,
+      "lon": -5.8315489,
+      "tags": {
+        "abutters": "residential",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed:type": "ES:urban",
+        "name": "Avenida de Torrelavega",
+        "oneway": "no",
+        "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
+        "smoothness": "good",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Avenida de Torrelavega",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 606357613,
+      "osm_url": "https://www.openstreetmap.org/way/606357613",
+      "lat": 43.3647687,
+      "lon": -5.8326798,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "ES:zone30",
+        "name": "Avenida de Torrelavega",
+        "oneway": "no",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Bulevar de San Julián de los Prados",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 40623424,
+      "osm_url": "https://www.openstreetmap.org/way/40623424",
+      "lat": 43.3663694,
+      "lon": -5.8405835,
+      "tags": {
+        "foot": "no",
+        "highway": "trunk",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Bulevar de San Julián de los Prados",
+        "oneway": "yes",
+        "ref": "O-14",
+        "shoulder": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Bulevar de San Julián de los Prados",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 45897916,
+      "osm_url": "https://www.openstreetmap.org/way/45897916",
+      "lat": 43.3665725,
+      "lon": -5.8403001,
+      "tags": {
+        "foot": "no",
+        "highway": "trunk",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Bulevar de San Julián de los Prados",
+        "oneway": "yes",
+        "ref": "O-14",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Bulevar de San Julián de los Prados",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 1051342918,
+      "osm_url": "https://www.openstreetmap.org/way/1051342918",
+      "lat": 43.3670203,
+      "lon": -5.838151,
+      "tags": {
+        "foot": "no",
+        "highway": "trunk",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Bulevar de San Julián de los Prados",
+        "oneway": "yes",
+        "ref": "O-14",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Bulevar de San Julián de los Prados",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 1051342919,
+      "osm_url": "https://www.openstreetmap.org/way/1051342919",
+      "lat": 43.3677093,
+      "lon": -5.8345088,
+      "tags": {
+        "foot": "no",
+        "highway": "trunk",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Bulevar de San Julián de los Prados",
+        "oneway": "yes",
+        "ref": "O-14",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Bulevar de San Julián de los Prados",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 1254275226,
+      "osm_url": "https://www.openstreetmap.org/way/1254275226",
+      "lat": 43.3675439,
+      "lon": -5.8353675,
+      "tags": {
+        "foot": "no",
+        "highway": "trunk",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Bulevar de San Julián de los Prados",
+        "oneway": "yes",
+        "ref": "O-14",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Adelantado de La Florida",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 45897911,
+      "osm_url": "https://www.openstreetmap.org/way/45897911",
+      "lat": 43.3638258,
+      "lon": -5.8389469,
+      "tags": {
+        "abutters": "residential",
+        "highway": "trunk",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "maxspeed:type": "sign",
+        "name": "Calle Adelantado de La Florida",
+        "oneway": "yes",
+        "ref": "N-634",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|right"
+      }
+    },
+    {
+      "name": "Calle Adelantado de La Florida",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 221470826,
+      "osm_url": "https://www.openstreetmap.org/way/221470826",
+      "lat": 43.3656606,
+      "lon": -5.8405388,
+      "tags": {
+        "abutters": "residential",
+        "highway": "trunk",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Calle Adelantado de La Florida",
+        "oneway": "yes",
+        "ref": "N-634",
+        "shoulder": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Adelantado de La Florida",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 310571840,
+      "osm_url": "https://www.openstreetmap.org/way/310571840",
+      "lat": 43.3658461,
+      "lon": -5.8408431,
+      "tags": {
+        "abutters": "residential",
+        "foot": "no",
+        "highway": "trunk",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Calle Adelantado de La Florida",
+        "oneway": "yes",
+        "ref": "N-634",
+        "shoulder": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Adelantado de La Florida",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 310571841,
+      "osm_url": "https://www.openstreetmap.org/way/310571841",
+      "lat": 43.36399,
+      "lon": -5.8390306,
+      "tags": {
+        "abutters": "residential",
+        "highway": "trunk",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "maxspeed:type": "sign",
+        "name": "Calle Adelantado de La Florida",
+        "oneway": "yes",
+        "ref": "N-634",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|through;right"
+      }
+    },
+    {
+      "name": "Calle Adelantado de La Florida",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 361094850,
+      "osm_url": "https://www.openstreetmap.org/way/361094850",
+      "lat": 43.364918,
+      "lon": -5.8397831,
+      "tags": {
+        "abutters": "residential",
+        "highway": "trunk",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Calle Adelantado de La Florida",
+        "oneway": "yes",
+        "ref": "N-634",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|through;right"
+      }
+    },
+    {
+      "name": "Calle Adelantado de La Florida",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 605581018,
+      "osm_url": "https://www.openstreetmap.org/way/605581018",
+      "lat": 43.3641375,
+      "lon": -5.839132,
+      "tags": {
+        "abutters": "residential",
+        "highway": "trunk",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Calle Adelantado de La Florida",
+        "oneway": "yes",
+        "ref": "N-634",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|through;right"
+      }
+    },
+    {
+      "name": "Calle Alonso de Proaza",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 10597261,
+      "osm_url": "https://www.openstreetmap.org/way/10597261",
+      "lat": 43.3638516,
+      "lon": -5.8332416,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Calle Alonso de Proaza",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Alonso de Proaza",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 606357614,
+      "osm_url": "https://www.openstreetmap.org/way/606357614",
+      "lat": 43.3643955,
+      "lon": -5.8334814,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Calle Alonso de Proaza",
+        "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
+        "smoothness": "good",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Armando Álvarez Palacio",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 39219863,
+      "osm_url": "https://www.openstreetmap.org/way/39219863",
+      "lat": 43.3631949,
+      "lon": -5.8351145,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Calle Armando Álvarez Palacio",
+        "old_name": "Calle Comandante Janáriz",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Armando Álvarez Palacio",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 40623312,
+      "osm_url": "https://www.openstreetmap.org/way/40623312",
+      "lat": 43.3643963,
+      "lon": -5.8355463,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Calle Armando Álvarez Palacio",
+        "old_name": "Calle Comandante Janáriz",
+        "oneway": "yes",
+        "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Carlos Sainz",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 40623278,
+      "osm_url": "https://www.openstreetmap.org/way/40623278",
+      "lat": 43.3643857,
+      "lon": -5.8325368,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Calle Carlos Sainz",
+        "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
+        "smoothness": "good",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Clermont-Ferrand",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 64942275,
+      "osm_url": "https://www.openstreetmap.org/way/64942275",
+      "lat": 43.3606806,
+      "lon": -5.8310077,
+      "tags": {
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Calle Clermont-Ferrand",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Clermont-Ferrand",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 64942283,
+      "osm_url": "https://www.openstreetmap.org/way/64942283",
+      "lat": 43.3606316,
+      "lon": -5.8310685,
+      "tags": {
+        "highway": "residential",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Calle Clermont-Ferrand",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Clermont-Ferrand",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 253786963,
+      "osm_url": "https://www.openstreetmap.org/way/253786963",
+      "lat": 43.3603547,
+      "lon": -5.8306523,
+      "tags": {
+        "highway": "residential",
+        "lanes": "3",
+        "lanes:backward": "1",
+        "lanes:forward": "2",
+        "lit": "yes",
+        "name": "Calle Clermont-Ferrand",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Darío de Regoyos",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 39219862,
+      "osm_url": "https://www.openstreetmap.org/way/39219862",
+      "lat": 43.3623975,
+      "lon": -5.8356736,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "2",
+        "maxspeed": "30",
+        "maxspeed:type": "ES:zone30",
+        "name": "Calle Darío de Regoyos",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Darío de Regoyos",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 39219866,
+      "osm_url": "https://www.openstreetmap.org/way/39219866",
+      "lat": 43.361892,
+      "lon": -5.8328429,
+      "tags": {
+        "highway": "residential",
+        "lanes": "2",
+        "name": "Calle Darío de Regoyos",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Darío de Regoyos",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 39219867,
+      "osm_url": "https://www.openstreetmap.org/way/39219867",
+      "lat": 43.3620215,
+      "lon": -5.8342746,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "2",
+        "name": "Calle Darío de Regoyos",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Darío de Regoyos",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 40623308,
+      "osm_url": "https://www.openstreetmap.org/way/40623308",
+      "lat": 43.3622521,
+      "lon": -5.8387139,
+      "tags": {
+        "abutters": "residential",
+        "foot": "no",
+        "highway": "residential",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Calle Darío de Regoyos",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Darío de Regoyos",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 84999062,
+      "osm_url": "https://www.openstreetmap.org/way/84999062",
+      "lat": 43.3624502,
+      "lon": -5.837371,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "2",
+        "name": "Calle Darío de Regoyos",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Darío de Regoyos",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 606357616,
+      "osm_url": "https://www.openstreetmap.org/way/606357616",
+      "lat": 43.361883,
+      "lon": -5.8333678,
+      "tags": {
+        "highway": "residential",
+        "lanes": "2",
+        "name": "Calle Darío de Regoyos",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Darío de Regoyos",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 606357617,
+      "osm_url": "https://www.openstreetmap.org/way/606357617",
+      "lat": 43.3621847,
+      "lon": -5.8349726,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "2",
+        "name": "Calle Darío de Regoyos",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Darío de Regoyos",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 606357619,
+      "osm_url": "https://www.openstreetmap.org/way/606357619",
+      "lat": 43.3622392,
+      "lon": -5.8351376,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "2",
+        "name": "Calle Darío de Regoyos",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Fernando Zuazua",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 114534741,
+      "osm_url": "https://www.openstreetmap.org/way/114534741",
+      "lat": 43.3650723,
+      "lon": -5.8304675,
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed:type": "ES:urban",
+        "name": "Calle Fernando Zuazua",
+        "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
+        "smoothness": "good",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Fernando Zuazua",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 1253889052,
+      "osm_url": "https://www.openstreetmap.org/way/1253889052",
+      "lat": 43.3656347,
+      "lon": -5.8307759,
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed:type": "ES:urban",
+        "name": "Calle Fernando Zuazua",
+        "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
+        "smoothness": "good",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Ganaderos Asturianos",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 64942279,
+      "osm_url": "https://www.openstreetmap.org/way/64942279",
+      "lat": 43.3611325,
+      "lon": -5.8316057,
+      "tags": {
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Calle Ganaderos Asturianos",
+        "oneway": "yes",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Ganaderos Asturianos",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 254851929,
+      "osm_url": "https://www.openstreetmap.org/way/254851929",
+      "lat": 43.3611421,
+      "lon": -5.8317553,
+      "tags": {
+        "highway": "residential",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Calle Ganaderos Asturianos",
+        "oneway": "yes",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Huerta de Otero",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 20289431,
+      "osm_url": "https://www.openstreetmap.org/way/20289431",
+      "lat": 43.3603701,
+      "lon": -5.8335879,
+      "tags": {
+        "highway": "residential",
+        "lanes": "1",
+        "name": "Calle Huerta de Otero"
+      }
+    },
+    {
+      "name": "Calle Huerta de Otero",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 39219869,
+      "osm_url": "https://www.openstreetmap.org/way/39219869",
+      "lat": 43.3601227,
+      "lon": -5.8339391,
+      "tags": {
+        "highway": "residential",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Calle Huerta de Otero",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Jorge García Rodríguez",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 217521315,
+      "osm_url": "https://www.openstreetmap.org/way/217521315",
+      "lat": 43.3591601,
+      "lon": -5.8323033,
+      "tags": {
+        "highway": "residential",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Calle Jorge García Rodríguez",
+        "oneway": "yes",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle La Chavia",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 253774984,
+      "osm_url": "https://www.openstreetmap.org/way/253774984",
+      "lat": 43.3607486,
+      "lon": -5.835949,
+      "tags": {
+        "highway": "residential",
+        "name": "Calle La Chavia"
+      }
+    },
+    {
+      "name": "Calle La Quintana",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 10607704,
+      "osm_url": "https://www.openstreetmap.org/way/10607704",
+      "lat": 43.3657475,
+      "lon": -5.8295315,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Calle La Quintana",
+        "oneway": "yes",
+        "sidewalk": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Las Madreselvas",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 40623276,
+      "osm_url": "https://www.openstreetmap.org/way/40623276",
+      "lat": 43.3655156,
+      "lon": -5.8300738,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Calle Las Madreselvas",
+        "sidewalk": "no",
+        "smoothness": "intermediate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Lope de Vega",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 40623310,
+      "osm_url": "https://www.openstreetmap.org/way/40623310",
+      "lat": 43.3629121,
+      "lon": -5.8380275,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Calle Lope de Vega",
+        "oneway": "yes",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Los Abedules",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 40624430,
+      "osm_url": "https://www.openstreetmap.org/way/40624430",
+      "lat": 43.3611423,
+      "lon": -5.83515,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "1",
+        "name": "Calle Los Abedules",
+        "oneway": "yes"
+      }
+    },
+    {
+      "name": "Calle Los Abedules",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 319749023,
+      "osm_url": "https://www.openstreetmap.org/way/319749023",
+      "lat": 43.3612687,
+      "lon": -5.8356522,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "1",
+        "name": "Calle Los Abedules",
+        "oneway": "yes"
+      }
+    },
+    {
+      "name": "Calle Los Acebos",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 253654451,
+      "osm_url": "https://www.openstreetmap.org/way/253654451",
+      "lat": 43.361464,
+      "lon": -5.8337587,
+      "tags": {
+        "highway": "residential",
+        "name": "Calle Los Acebos"
+      }
+    },
+    {
+      "name": "Calle Los Eucaliptos",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 40625735,
+      "osm_url": "https://www.openstreetmap.org/way/40625735",
+      "lat": 43.3614846,
+      "lon": -5.8342904,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "1",
+        "name": "Calle Los Eucaliptos",
+        "oneway": "yes"
+      }
+    },
+    {
+      "name": "Calle Los Pinos",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 40624434,
+      "osm_url": "https://www.openstreetmap.org/way/40624434",
+      "lat": 43.3616793,
+      "lon": -5.8351342,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Calle Los Pinos",
+        "oneway": "yes",
+        "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
+        "smoothness": "good",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Los Tejos",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 253653945,
+      "osm_url": "https://www.openstreetmap.org/way/253653945",
+      "lat": 43.3618393,
+      "lon": -5.8356772,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "1",
+        "name": "Calle Los Tejos",
+        "oneway": "yes"
+      }
+    },
+    {
+      "name": "Calle Los Tilos",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 40625429,
+      "osm_url": "https://www.openstreetmap.org/way/40625429",
+      "lat": 43.3616765,
+      "lon": -5.8334051,
+      "tags": {
+        "highway": "residential",
+        "lanes": "1",
+        "name": "Calle Los Tilos",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle López del Vallado",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 40624426,
+      "osm_url": "https://www.openstreetmap.org/way/40624426",
+      "lat": 43.3632685,
+      "lon": -5.8340062,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Calle López del Vallado",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle López del Vallado",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 319640405,
+      "osm_url": "https://www.openstreetmap.org/way/319640405",
+      "lat": 43.3635661,
+      "lon": -5.8326566,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Calle López del Vallado",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Marcelino Fernández",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 45897909,
+      "osm_url": "https://www.openstreetmap.org/way/45897909",
+      "lat": 43.3661324,
+      "lon": -5.8398391,
+      "tags": {
+        "abutters": "residential",
+        "highway": "pedestrian",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Calle Marcelino Fernández",
+        "sidewalk": "both",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Marcelino Fernández",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 385302573,
+      "osm_url": "https://www.openstreetmap.org/way/385302573",
+      "lat": 43.3656026,
+      "lon": -5.8404146,
+      "tags": {
+        "abutters": "residential",
+        "foot": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Calle Marcelino Fernández",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Mayorazu",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 10597260,
+      "osm_url": "https://www.openstreetmap.org/way/10597260",
+      "lat": 43.3619815,
+      "lon": -5.8365,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "2",
+        "name": "Calle Mayorazu",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Mayorazu",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 223466133,
+      "osm_url": "https://www.openstreetmap.org/way/223466133",
+      "lat": 43.3597162,
+      "lon": -5.8346794,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Calle Mayorazu",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Mayorazu",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 606357624,
+      "osm_url": "https://www.openstreetmap.org/way/606357624",
+      "lat": 43.3607471,
+      "lon": -5.8361608,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "2",
+        "name": "Calle Mayorazu",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Miguel Indurain",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 255880915,
+      "osm_url": "https://www.openstreetmap.org/way/255880915",
+      "lat": 43.362548,
+      "lon": -5.833597,
+      "tags": {
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "ES:zone30",
+        "name": "Calle Miguel Indurain",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Miguel Indurain",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 504893850,
+      "osm_url": "https://www.openstreetmap.org/way/504893850",
+      "lat": 43.3628198,
+      "lon": -5.8329715,
+      "tags": {
+        "highway": "residential",
+        "lanes": "2",
+        "name": "Calle Miguel Indurain",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Miguel de Unamuno",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 40625651,
+      "osm_url": "https://www.openstreetmap.org/way/40625651",
+      "lat": 43.3615244,
+      "lon": -5.8373146,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Calle Miguel de Unamuno",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Padre Ferrero",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 40624428,
+      "osm_url": "https://www.openstreetmap.org/way/40624428",
+      "lat": 43.3646957,
+      "lon": -5.8324307,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Calle Padre Ferrero",
+        "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
+        "smoothness": "good",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Padre Ferrero",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 319640406,
+      "osm_url": "https://www.openstreetmap.org/way/319640406",
+      "lat": 43.365082,
+      "lon": -5.8326114,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Calle Padre Ferrero",
+        "oneway": "yes",
+        "sidewalk": "both",
+        "smoothness": "good",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Rafael María de Labra",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 40623309,
+      "osm_url": "https://www.openstreetmap.org/way/40623309",
+      "lat": 43.3630473,
+      "lon": -5.8374434,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Calle Rafael María de Labra",
+        "oneway": "yes",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Rafael María de Labra",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 319749024,
+      "osm_url": "https://www.openstreetmap.org/way/319749024",
+      "lat": 43.3638698,
+      "lon": -5.8377957,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Calle Rafael María de Labra",
+        "oneway": "yes",
+        "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
+        "smoothness": "good",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Rayo",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 40625841,
+      "osm_url": "https://www.openstreetmap.org/way/40625841",
+      "lat": 43.3649179,
+      "lon": -5.8304213,
+      "tags": {
+        "abutters": "residential",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed:type": "ES:urban",
+        "name": "Calle Rayo",
+        "sidewalk": "right",
+        "sidewalk:right:surface": "paving_stones",
+        "smoothness": "intermediate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Rayo Mercadín Alto",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 53844201,
+      "osm_url": "https://www.openstreetmap.org/way/53844201",
+      "lat": 43.3634755,
+      "lon": -5.8259137,
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "name": "Calle Rayo Mercadín Alto",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Rayo Mercadín Bajo",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 40625207,
+      "osm_url": "https://www.openstreetmap.org/way/40625207",
+      "lat": 43.3644891,
+      "lon": -5.8278161,
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "name": "Calle Rayo Mercadín Bajo"
+      }
+    },
+    {
+      "name": "Calle Ronda",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 40624425,
+      "osm_url": "https://www.openstreetmap.org/way/40624425",
+      "lat": 43.3650362,
+      "lon": -5.83326,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Calle Ronda",
+        "oneway": "yes",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Ronda",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 532765721,
+      "osm_url": "https://www.openstreetmap.org/way/532765721",
+      "lat": 43.3647619,
+      "lon": -5.8331619,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Calle Ronda",
+        "oneway": "yes",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Ronda",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 603011345,
+      "osm_url": "https://www.openstreetmap.org/way/603011345",
+      "lat": 43.3647985,
+      "lon": -5.8330079,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Calle Ronda",
+        "oneway": "yes",
+        "sidewalk": "left",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Río Caudal",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 40626469,
+      "osm_url": "https://www.openstreetmap.org/way/40626469",
+      "lat": 43.3658424,
+      "lon": -5.833367,
+      "tags": {
+        "abutters": "residential",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "sign",
+        "name": "Calle Río Caudal",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Río Caudal",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 163945858,
+      "osm_url": "https://www.openstreetmap.org/way/163945858",
+      "lat": 43.3658251,
+      "lon": -5.8332708,
+      "tags": {
+        "abutters": "residential",
+        "cycleway:right": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "sign",
+        "name": "Calle Río Caudal",
+        "oneway": "yes",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Salvador Fuente González",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 64942300,
+      "osm_url": "https://www.openstreetmap.org/way/64942300",
+      "lat": 43.3608105,
+      "lon": -5.831321,
+      "tags": {
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Calle Salvador Fuente González",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Salvador Fuente González",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 64942301,
+      "osm_url": "https://www.openstreetmap.org/way/64942301",
+      "lat": 43.359825,
+      "lon": -5.8327547,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Calle Salvador Fuente González",
+        "oneway": "yes",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Salvador Fuente González",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 64942302,
+      "osm_url": "https://www.openstreetmap.org/way/64942302",
+      "lat": 43.3613775,
+      "lon": -5.8309931,
+      "tags": {
+        "highway": "residential",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Calle Salvador Fuente González",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Salvador Fuente González",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 319749025,
+      "osm_url": "https://www.openstreetmap.org/way/319749025",
+      "lat": 43.3613621,
+      "lon": -5.830938,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Calle Salvador Fuente González",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Salvador Fuente González",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 319749027,
+      "osm_url": "https://www.openstreetmap.org/way/319749027",
+      "lat": 43.3600311,
+      "lon": -5.8326158,
+      "tags": {
+        "highway": "residential",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Calle Salvador Fuente González",
+        "oneway": "yes",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Salvador Fuente González",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 603011362,
+      "osm_url": "https://www.openstreetmap.org/way/603011362",
+      "lat": 43.3607906,
+      "lon": -5.8312188,
+      "tags": {
+        "abutters": "residential",
+        "foot": "no",
+        "highway": "residential",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Calle Salvador Fuente González",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Salvador Fuente González",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 603011367,
+      "osm_url": "https://www.openstreetmap.org/way/603011367",
+      "lat": 43.3608211,
+      "lon": -5.8312868,
+      "tags": {
+        "foot": "no",
+        "highway": "residential",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Calle Salvador Fuente González",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Salvador Fuente González",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 603011371,
+      "osm_url": "https://www.openstreetmap.org/way/603011371",
+      "lat": 43.3608003,
+      "lon": -5.8311816,
+      "tags": {
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Calle Salvador Fuente González",
+        "oneway": "yes",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Salvador Fuente González",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 606357628,
+      "osm_url": "https://www.openstreetmap.org/way/606357628",
+      "lat": 43.3589334,
+      "lon": -5.8342621,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Calle Salvador Fuente González",
+        "oneway": "yes",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Tenderina",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 4856447,
+      "osm_url": "https://www.openstreetmap.org/way/4856447",
+      "lat": 43.3640779,
+      "lon": -5.8382552,
+      "tags": {
+        "abutters": "residential",
+        "highway": "trunk",
+        "lanes": "4",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Calle Tenderina",
+        "ref": "N-634",
+        "shoulder": "no",
+        "surface": "asphalt",
+        "turn:lanes:backward": "left|right",
+        "turn:lanes:forward": "left|through"
+      }
+    },
+    {
+      "name": "Calle Tenderina",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 605573863,
+      "osm_url": "https://www.openstreetmap.org/way/605573863",
+      "lat": 43.3673579,
+      "lon": -5.8264205,
+      "tags": {
+        "abutters": "residential",
+        "highway": "trunk",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Calle Tenderina",
+        "ref": "N-634",
+        "shoulder": "no"
+      }
+    },
+    {
+      "name": "Calle Tenderina",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 605573879,
+      "osm_url": "https://www.openstreetmap.org/way/605573879",
+      "lat": 43.3650875,
+      "lon": -5.8338597,
+      "tags": {
+        "abutters": "residential",
+        "highway": "trunk",
+        "lanes": "4",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "sign",
+        "name": "Calle Tenderina",
+        "ref": "N-634",
+        "shoulder": "no",
+        "surface": "asphalt",
+        "turn:lanes:backward": "left|right",
+        "turn:lanes:forward": "left|through"
+      }
+    },
+    {
+      "name": "Calle Tenderina",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 605573885,
+      "osm_url": "https://www.openstreetmap.org/way/605573885",
+      "lat": 43.3646472,
+      "lon": -5.8357763,
+      "tags": {
+        "abutters": "residential",
+        "highway": "trunk",
+        "lanes": "4",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Calle Tenderina",
+        "ref": "N-634",
+        "shoulder": "no",
+        "surface": "asphalt",
+        "turn:lanes:backward": "left|right",
+        "turn:lanes:forward": "left|through"
+      }
+    },
+    {
+      "name": "Calle Valparaíso",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 253786961,
+      "osm_url": "https://www.openstreetmap.org/way/253786961",
+      "lat": 43.3595008,
+      "lon": -5.8316187,
+      "tags": {
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Calle Valparaíso",
+        "oneway": "no",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Vetusta",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 12080560,
+      "osm_url": "https://www.openstreetmap.org/way/12080560",
+      "lat": 43.3585558,
+      "lon": -5.8345135,
+      "tags": {
+        "abutters": "residential",
+        "bridge": "yes",
+        "highway": "residential",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Calle Vetusta",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Vetusta",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 12080561,
+      "osm_url": "https://www.openstreetmap.org/way/12080561",
+      "lat": 43.3588256,
+      "lon": -5.8343871,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Calle Vetusta",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Vetusta",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 20289433,
+      "osm_url": "https://www.openstreetmap.org/way/20289433",
+      "lat": 43.3603773,
+      "lon": -5.8330841,
+      "tags": {
+        "highway": "residential",
+        "lanes": "1",
+        "lit": "yes",
+        "name": "Calle Vetusta",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Vetusta",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 33650716,
+      "osm_url": "https://www.openstreetmap.org/way/33650716",
+      "lat": 43.3622909,
+      "lon": -5.8325687,
+      "tags": {
+        "highway": "residential",
+        "lanes": "2",
+        "name": "Calle Vetusta",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Vetusta",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 39219868,
+      "osm_url": "https://www.openstreetmap.org/way/39219868",
+      "lat": 43.3617519,
+      "lon": -5.832444,
+      "tags": {
+        "highway": "residential",
+        "lanes": "1",
+        "name": "Calle Vetusta",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Vetusta",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 64942299,
+      "osm_url": "https://www.openstreetmap.org/way/64942299",
+      "lat": 43.3615077,
+      "lon": -5.8321749,
+      "tags": {
+        "foot": "no",
+        "highway": "residential",
+        "lanes": "1",
+        "name": "Calle Vetusta",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Vetusta",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 254851930,
+      "osm_url": "https://www.openstreetmap.org/way/254851930",
+      "lat": 43.3615404,
+      "lon": -5.832109,
+      "tags": {
+        "highway": "residential",
+        "lanes": "1",
+        "name": "Calle Vetusta",
+        "oneway": "yes",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Vetusta",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 254851931,
+      "osm_url": "https://www.openstreetmap.org/way/254851931",
+      "lat": 43.3630773,
+      "lon": -5.8327689,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "2",
+        "name": "Calle Vetusta",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Vetusta",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 319749028,
+      "osm_url": "https://www.openstreetmap.org/way/319749028",
+      "lat": 43.3591245,
+      "lon": -5.8340915,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lanes": "1",
+        "name": "Calle Vetusta",
+        "oneway": "yes",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Vetusta",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 606400617,
+      "osm_url": "https://www.openstreetmap.org/way/606400617",
+      "lat": 43.3614909,
+      "lon": -5.8323112,
+      "tags": {
+        "highway": "residential",
+        "lanes": "1",
+        "name": "Calle Vetusta",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Calle Vetusta",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 1351793702,
+      "osm_url": "https://www.openstreetmap.org/way/1351793702",
+      "lat": 43.3618283,
+      "lon": -5.8324868,
+      "tags": {
+        "highway": "residential",
+        "lanes": "1",
+        "name": "Calle Vetusta",
+        "oneway": "yes",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Carretera de Abuli",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 480308101,
+      "osm_url": "https://www.openstreetmap.org/way/480308101",
+      "lat": 43.3610534,
+      "lon": -5.8253997,
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "name": "Carretera de Abuli",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Cordero",
+      "category": "street",
+      "osm_type": "node",
+      "osm_id": 493379536,
+      "osm_url": "https://www.openstreetmap.org/node/493379536",
+      "lat": 43.3664068,
+      "lon": -5.8292359,
+      "tags": {
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Cordero",
+        "public_transport": "platform",
+        "ref": "1040",
+        "shelter": "no",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "name": "Darío de Regoyos",
+      "category": "street",
+      "osm_type": "node",
+      "osm_id": 795682849,
+      "osm_url": "https://www.openstreetmap.org/node/795682849",
+      "lat": 43.3621759,
+      "lon": -5.8350643,
+      "tags": {
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Darío de Regoyos",
+        "public_transport": "platform",
+        "ref": "1057",
+        "shelter": "no",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "name": "El Palais",
+      "category": "street",
+      "osm_type": "node",
+      "osm_id": 795655432,
+      "osm_url": "https://www.openstreetmap.org/node/795655432",
+      "lat": 43.3682717,
+      "lon": -5.8235591,
+      "tags": {
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "El Palais",
+        "public_transport": "platform",
+        "ref": "1160",
+        "shelter": "no",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "name": "El Recreo",
+      "category": "street",
+      "osm_type": "node",
+      "osm_id": 440981497,
+      "osm_url": "https://www.openstreetmap.org/node/440981497",
+      "lat": 43.3655557,
+      "lon": -5.831823,
+      "tags": {
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "El Recreo",
+        "public_transport": "platform",
+        "ref": "1065",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "name": "El Recreo",
+      "category": "street",
+      "osm_type": "node",
+      "osm_id": 795655415,
+      "osm_url": "https://www.openstreetmap.org/node/795655415",
+      "lat": 43.3651355,
+      "lon": -5.8340476,
+      "tags": {
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "El Recreo",
+        "public_transport": "platform",
+        "ref": "4065",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "name": "Fozaneldi",
+      "category": "street",
+      "osm_type": "node",
+      "osm_id": 795682911,
+      "osm_url": "https://www.openstreetmap.org/node/795682911",
+      "lat": 43.3614181,
+      "lon": -5.8366973,
+      "tags": {
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Fozaneldi",
+        "public_transport": "platform",
+        "ref": "1276",
+        "shelter": "no"
+      }
+    },
+    {
+      "name": "Los Tilos",
+      "category": "street",
+      "osm_type": "node",
+      "osm_id": 795682963,
+      "osm_url": "https://www.openstreetmap.org/node/795682963",
+      "lat": 43.36182,
+      "lon": -5.8330701,
+      "tags": {
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Los Tilos",
+        "public_transport": "platform",
+        "ref": "1137",
+        "shelter": "no"
+      }
+    },
+    {
+      "name": "Mercadín Alto",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 480308102,
+      "osm_url": "https://www.openstreetmap.org/way/480308102",
+      "lat": 43.3636856,
+      "lon": -5.8220846,
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "name": "Mercadín Alto",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "O-11 Acceso Este de Oviedo",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 1211280197,
+      "osm_url": "https://www.openstreetmap.org/way/1211280197",
+      "lat": 43.3561186,
+      "lon": -5.8318769,
+      "tags": {
+        "abutters": "residential",
+        "highway": "motorway",
+        "lanes": "2",
+        "name": "O-11 Acceso Este de Oviedo",
+        "oneway": "yes",
+        "ref": "O-11",
+        "surface": "asphalt",
+        "toll": "no"
+      }
+    },
+    {
+      "name": "Paseo de los Pensionistas",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 33690743,
+      "osm_url": "https://www.openstreetmap.org/way/33690743",
+      "lat": 43.3663251,
+      "lon": -5.8272432,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Paseo de los Pensionistas",
+        "sidewalk": "no",
+        "smoothness": "intermediate",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Plaza Consejo de Europa",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 206436872,
+      "osm_url": "https://www.openstreetmap.org/way/206436872",
+      "lat": 43.3616129,
+      "lon": -5.8379227,
+      "tags": {
+        "area": "yes",
+        "highway": "pedestrian",
+        "name": "Plaza Consejo de Europa"
+      }
+    },
+    {
+      "name": "Plaza de Otero",
+      "category": "street",
+      "osm_type": "node",
+      "osm_id": 795682782,
+      "osm_url": "https://www.openstreetmap.org/node/795682782",
+      "lat": 43.3593668,
+      "lon": -5.8339228,
+      "tags": {
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Plaza de Otero",
+        "public_transport": "platform",
+        "ref": "4174",
+        "shelter": "no"
+      }
+    },
+    {
+      "name": "Plaza de Otero",
+      "category": "street",
+      "osm_type": "node",
+      "osm_id": 795682785,
+      "osm_url": "https://www.openstreetmap.org/node/795682785",
+      "lat": 43.3592914,
+      "lon": -5.8337407,
+      "tags": {
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Plaza de Otero",
+        "public_transport": "platform",
+        "ref": "1174",
+        "shelter": "no"
+      }
+    },
+    {
+      "name": "Plaza de la Cruz Roja",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 605581017,
+      "osm_url": "https://www.openstreetmap.org/way/605581017",
+      "lat": 43.3661162,
+      "lon": -5.8408606,
+      "tags": {
+        "abutters": "residential",
+        "foot": "no",
+        "highway": "trunk",
+        "junction": "roundabout",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Plaza de la Cruz Roja",
+        "shoulder": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Plaza de la Cruz Roja",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 692444669,
+      "osm_url": "https://www.openstreetmap.org/way/692444669",
+      "lat": 43.3658916,
+      "lon": -5.8412115,
+      "tags": {
+        "abutters": "residential",
+        "foot": "no",
+        "highway": "trunk",
+        "junction": "circular",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Plaza de la Cruz Roja",
+        "shoulder": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Plaza de la Sentencia",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 539972834,
+      "osm_url": "https://www.openstreetmap.org/way/539972834",
+      "lat": 43.3641878,
+      "lon": -5.8309035,
+      "tags": {
+        "highway": "residential",
+        "name": "Plaza de la Sentencia"
+      }
+    },
+    {
+      "name": "Plaza del Cardenal Tarancón",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 4852985,
+      "osm_url": "https://www.openstreetmap.org/way/4852985",
+      "lat": 43.3598884,
+      "lon": -5.8381293,
+      "tags": {
+        "alt_name": "Rotonda de Fozaneldi",
+        "bicycle": "yes",
+        "foot": "no",
+        "highway": "trunk",
+        "junction": "roundabout",
+        "lanes": "3",
+        "maxspeed": "40",
+        "name": "Plaza del Cardenal Tarancón",
+        "ref": "N-630",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Plaza del Cardenal Tarancón",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 1066754460,
+      "osm_url": "https://www.openstreetmap.org/way/1066754460",
+      "lat": 43.3594868,
+      "lon": -5.8379847,
+      "tags": {
+        "alt_name": "Rotonda de Fozaneldi",
+        "bicycle": "yes",
+        "foot": "no",
+        "highway": "trunk",
+        "junction": "roundabout",
+        "lanes": "3",
+        "maxspeed": "40",
+        "name": "Plaza del Cardenal Tarancón",
+        "ref": "N-630",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Plaza del Cardenal Tarancón",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 1066754461,
+      "osm_url": "https://www.openstreetmap.org/way/1066754461",
+      "lat": 43.3601004,
+      "lon": -5.8384737,
+      "tags": {
+        "alt_name": "Rotonda de Fozaneldi",
+        "foot": "no",
+        "highway": "trunk",
+        "junction": "roundabout",
+        "lanes": "3",
+        "maxspeed": "40",
+        "name": "Plaza del Cardenal Tarancón",
+        "ref": "N-630",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Ronda Sur",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 4852986,
+      "osm_url": "https://www.openstreetmap.org/way/4852986",
+      "lat": 43.3607037,
+      "lon": -5.838477,
+      "tags": {
+        "abutters": "residential",
+        "bicycle": "yes",
+        "foot": "no",
+        "highway": "trunk",
+        "lanes": "2",
+        "name": "Ronda Sur",
+        "oneway": "yes",
+        "ref": "N-630",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Ronda Sur",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 84999063,
+      "osm_url": "https://www.openstreetmap.org/way/84999063",
+      "lat": 43.361797,
+      "lon": -5.8386258,
+      "tags": {
+        "abutters": "residential",
+        "bicycle": "yes",
+        "foot": "no",
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Ronda Sur",
+        "oneway": "yes",
+        "ref": "N-630",
+        "shoulder": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Ronda Sur",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 84999083,
+      "osm_url": "https://www.openstreetmap.org/way/84999083",
+      "lat": 43.3623757,
+      "lon": -5.8386249,
+      "tags": {
+        "abutters": "residential",
+        "bicycle": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Ronda Sur",
+        "oneway": "yes",
+        "ref": "N-630",
+        "shoulder": "no"
+      }
+    },
+    {
+      "name": "Ronda Sur",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 84999088,
+      "osm_url": "https://www.openstreetmap.org/way/84999088",
+      "lat": 43.3633366,
+      "lon": -5.8388109,
+      "tags": {
+        "abutters": "residential",
+        "bicycle": "yes",
+        "foot": "no",
+        "highway": "trunk",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "maxspeed:type": "sign",
+        "name": "Ronda Sur",
+        "oneway": "yes",
+        "ref": "N-630",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Ronda Sur",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 84999089,
+      "osm_url": "https://www.openstreetmap.org/way/84999089",
+      "lat": 43.3626148,
+      "lon": -5.8386381,
+      "tags": {
+        "abutters": "residential",
+        "bicycle": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "name": "Ronda Sur",
+        "oneway": "yes",
+        "ref": "N-630",
+        "shoulder": "no",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|right"
+      }
+    },
+    {
+      "name": "Ronda Sur",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 1150285559,
+      "osm_url": "https://www.openstreetmap.org/way/1150285559",
+      "lat": 43.3628643,
+      "lon": -5.8386784,
+      "tags": {
+        "abutters": "residential",
+        "bicycle": "yes",
+        "foot": "no",
+        "highway": "trunk",
+        "lanes": "3",
+        "maxspeed": "50",
+        "maxspeed:type": "sign",
+        "name": "Ronda Sur",
+        "oneway": "yes",
+        "ref": "N-630",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Tenderina Alta",
+      "category": "street",
+      "osm_type": "node",
+      "osm_id": 493411360,
+      "osm_url": "https://www.openstreetmap.org/node/493411360",
+      "lat": 43.3642189,
+      "lon": -5.8375192,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Tenderina Alta",
+        "public_transport": "platform",
+        "ref": "1233",
+        "shelter": "no",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "name": "Travesía Francisco González Argüelles",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 40627100,
+      "osm_url": "https://www.openstreetmap.org/way/40627100",
+      "lat": 43.3672962,
+      "lon": -5.8250426,
+      "tags": {
+        "abutters": "residential",
+        "highway": "residential",
+        "name": "Travesía Francisco González Argüelles",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "name": "Travesía de los Estudiantes",
+      "category": "street",
+      "osm_type": "way",
+      "osm_id": 539972835,
+      "osm_url": "https://www.openstreetmap.org/way/539972835",
+      "lat": 43.3643314,
+      "lon": -5.8307407,
+      "tags": {
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Travesía de los Estudiantes",
+        "sidewalk": "no",
+        "surface": "concrete"
+      }
+    },
+    {
+      "name": "Ventanielles",
+      "category": "street",
+      "osm_type": "node",
+      "osm_id": 795655395,
+      "osm_url": "https://www.openstreetmap.org/node/795655395",
+      "lat": 43.3676383,
+      "lon": -5.8254385,
+      "tags": {
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Ventanielles",
+        "public_transport": "platform",
+        "ref": "1228",
+        "shelter": "no"
+      }
+    },
+    {
+      "name": "Vetusta",
+      "category": "street",
+      "osm_type": "node",
+      "osm_id": 5749467038,
+      "osm_url": "https://www.openstreetmap.org/node/5749467038",
+      "lat": 43.3613944,
+      "lon": -5.8323669,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Vetusta",
+        "public_transport": "platform",
+        "ref": "1341"
+      }
+    },
+    {
+      "name": "Escultura al ingeniero Enrique Lafuente",
+      "category": "tourism",
+      "osm_type": "node",
+      "osm_id": 7879323206,
+      "osm_url": "https://www.openstreetmap.org/node/7879323206",
+      "lat": 43.3665513,
+      "lon": -5.8398202,
+      "tags": {
+        "artwork_type": "sculpture",
+        "name": "Escultura al ingeniero Enrique Lafuente",
+        "tourism": "artwork",
+        "wheelchair": "yes",
+        "wikidata": "Q17523951",
+        "wikipedia": "es:Escultura al ingeniero Enrique Lafuente"
+      }
+    },
+    {
+      "name": "Mural de Dolores Medio",
+      "category": "tourism",
+      "osm_type": "node",
+      "osm_id": 9490812921,
+      "osm_url": "https://www.openstreetmap.org/node/9490812921",
+      "lat": 43.3650717,
+      "lon": -5.8345815,
+      "tags": {
+        "artist_name": "Lidia Cao",
+        "artwork_type": "mural",
+        "name": "Mural de Dolores Medio",
+        "note": "Obra del festival Parees Fest. No tiene nombre la obra pero es un mural sobre la escritora Dolores Medio.",
+        "panoramax": "152ecb28-46bf-4d26-9995-fa0791ffed59",
+        "start_date": "2020",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "name": "Mural sobre el deporte tradicional asturiano",
+      "category": "tourism",
+      "osm_type": "node",
+      "osm_id": 9490812920,
+      "osm_url": "https://www.openstreetmap.org/node/9490812920",
+      "lat": 43.365171,
+      "lon": -5.8342447,
+      "tags": {
+        "artist_name": "Hedof y Joren Joshua",
+        "artwork_type": "mural",
+        "name": "Mural sobre el deporte tradicional asturiano",
+        "note": "Obra del festival Parees Fest. No tiene nombre la obra pero es un mural sobre el deporte tradicional asturiano",
+        "panoramax": "4a1dba72-614d-489d-94e3-187bb5cac9bb",
+        "panoramax:0": "447ed052-8d7e-41b3-a1a2-b650ec84f308",
+        "start_date": "2019",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "name": "Oviedo",
+      "category": "tourism",
+      "osm_type": "node",
+      "osm_id": 13169209638,
+      "osm_url": "https://www.openstreetmap.org/node/13169209638",
+      "lat": 43.3640528,
+      "lon": -5.8347873,
+      "tags": {
+        "artwork_type": "mural",
+        "name": "Oviedo",
+        "panoramax": "ba53652d-5866-43cf-84ad-f046bd5fb8ad",
+        "tourism": "artwork"
+      }
+    }
+  ]
+}

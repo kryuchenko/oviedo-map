@@ -8,79 +8,231 @@
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
+            line-height: 1.7;
             color: #333;
             padding: 20px;
-            background: #fafafa;
+            background: #f8f6f0;
         }
         .header {
-            background: linear-gradient(135deg, #2c3e50, #34495e);
-            color: white;
-            padding: 20px;
+            background: linear-gradient(135deg, #1a3a2a, #2d5a3f);
+            color: #d4af37;
+            padding: 25px;
             margin: -20px -20px 20px -20px;
+            border-bottom: 3px solid #d4af37;
         }
-        .header h1 {
-            font-size: 1.4rem;
-            margin-bottom: 5px;
-        }
+        .header h1 { font-size: 1.5rem; margin-bottom: 5px; }
         .header .subtitle {
-            font-size: 0.85rem;
-            opacity: 0.8;
+            font-size: 1rem; opacity: 0.9; font-style: italic; color: #c9b458;
         }
         .content {
-            background: white;
-            padding: 20px;
+            background: #fffef9;
+            padding: 25px;
             border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+        h2 {
+            color: #1a3a2a;
+            margin: 30px 0 15px 0;
+            font-size: 1.3rem;
+            border-bottom: 3px solid #d4af37;
+            padding-bottom: 8px;
         }
         h3 {
-            color: #2c3e50;
+            color: #2d5a3f;
             margin: 20px 0 10px 0;
-            font-size: 1.1rem;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 5px;
+            font-size: 1.05rem;
         }
-        p {
-            margin-bottom: 12px;
-        }
-        ul {
-            margin: 10px 0 15px 20px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        strong {
-            color: #2c3e50;
+        p { margin-bottom: 15px; text-align: justify; }
+        .intro {
+            font-size: 1.05rem;
+            color: #444;
+            border-left: 4px solid #d4af37;
+            padding-left: 15px;
+            margin-bottom: 25px;
         }
         .type-badge {
-            display: inline-block;
-            padding: 3px 10px;
-            border-radius: 12px;
-            font-size: 0.75rem;
-            margin-top: 8px;
+            display: inline-block; padding: 4px 12px; border-radius: 12px;
+            font-size: 0.8rem; margin-top: 10px;
+            background: #d4af37; color: #1a3a2a; font-weight: bold;
         }
-        .urban { background: #e74c3c; color: white; }
-        .rural { background: #27ae60; color: white; }
+        ul { margin: 10px 0 15px 20px; }
+        li { margin-bottom: 10px; }
+        strong { color: #1a3a2a; }
+        .gold-box {
+            background: #fdf8e8;
+            border: 1px solid #d4af37;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        .gold-box h4 { color: #8b6914; margin-bottom: 8px; }
+        .fact-box {
+            background: #f0f7f0;
+            border-left: 4px solid #2d5a3f;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        .quote {
+            background: #f5f3eb;
+            border-left: 4px solid #d4af37;
+            padding: 15px 20px;
+            margin: 20px 0;
+            font-style: italic;
+            color: #666;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin: 15px 0;
+        }
+        .stat-item {
+            display: flex; justify-content: space-between;
+            padding: 8px 12px; background: #f8f6f0; border-radius: 4px;
+            border: 1px solid #e8e4d8;
+        }
+        .stat-value { font-weight: bold; color: #1a3a2a; }
+        .verdict {
+            background: linear-gradient(135deg, #1a3a2a, #2d5a3f);
+            color: #d4af37;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+        .verdict p { text-align: left; margin-bottom: 10px; color: #e8e4d8; }
+        .verdict .rating { font-size: 1.5rem; text-align: center; margin-top: 15px; color: #d4af37; }
+        sup a { color: #2d5a3f; text-decoration: none; font-weight: bold; }
+        sup a:hover { text-decoration: underline; }
+        .references {
+            margin-top: 30px;
+            padding-top: 15px;
+            border-top: 2px solid #d4af37;
+            font-size: 0.8rem;
+            color: #666;
+        }
+        .references h2 { font-size: 1.1rem; border-bottom: 1px solid #d4af37; }
+        .references ol { margin: 10px 0 0 20px; }
+        .references li { margin-bottom: 5px; }
+        .references a { color: #2d5a3f; word-break: break-all; }
+        @media (max-width: 600px) {
+            .stats-grid { grid-template-columns: 1fr; }
+        }
     </style>
 </head>
 <body>
     <div class="header">
         <h1>Centro Oeste</h1>
-        <div class="subtitle">Центр Запад</div>
-        <span class="type-badge urban">Городской район</span>
+        <div class="subtitle">Витрина Овьедо: где деньги пахнут парфюмом</div>
+        <span class="type-badge">Городской район</span>
     </div>
     <div class="content">
-        
-            <p>Западная часть центра Овьедо — сердце города с главными культурными и торговыми объектами.</p>
-            <h3>Достопримечательности</h3>
-            <ul>
-                <li><strong>Театр Кампоамор</strong> — главный оперный театр, где вручается премия Принцессы Астурийской</li>
-                <li><strong>Улица Урия (Calle Uría)</strong> — главная торговая артерия города</li>
-                <li><strong>Площадь Эскандалера</strong> — центральная площадь с фонтанами</li>
-            </ul>
-            <h3>Характер района</h3>
-            <p>Оживлённая торговая и деловая зона с магазинами, ресторанами и офисами. Отличное транспортное сообщение.</p>
-        
+        <p class="intro">Centro Oeste — это та часть Овьедо, которую показывают на открытках, в путеводителях и в инстаграме. Самый богатый район города (52 426 € средний доход — в полтора раза выше среднего по городу<sup><a href="#ref1">[1]</a></sup>). Здесь даже бомжи выглядят опрятнее, чем средний класс в Тендерине.</p>
+
+        <h2>Общие сведения</h2>
+
+        <p><strong>Centro Oeste</strong> (исп. «Центр Запад») — городской район Овьедо, занимающий территорию к западу от средневекового ядра. Район родился из необходимости соединить исторический центр с новым железнодорожным вокзалом: проект улицы Урия был одобрен муниципальным советом <strong>12 ноября 1868 года</strong> по планам инженера и депутата Салустиано Гонсалеса Регераля<sup><a href="#ref14">[14]</a></sup>. Первая фаза (346 м) — 1874, вторая (554 м) — 1880<sup><a href="#ref14">[14]</a></sup>. На пути строительства пришлось срубить легендарный <em>карбайон</em> — дуб, давший имя жителям Овьедо («карбайонес»). Его уничтожили в 1879 году несмотря на протесты горожан; мемориальная плита установлена в 1949-м у дома №4 по Урии<sup><a href="#ref14">[14]</a></sup>.</p>
+
+        <div class="fact-box">
+            <p style="margin-bottom:0"><strong>Население:</strong> 8 685 чел. | <strong>Иностранцев:</strong> 437 (5,0%)<sup><a href="#ref3">[3]</a></sup> — один из самых низких показателей в городе. Иммигранты здесь преимущественно из стран ЕС (99) и Латинской Америки (235). Из Африки — 18 человек. То есть меньше, чем официантов в одном ресторане на Урии.</p>
+        </div>
+
+        <h2>Calle Uría: Главная артерия</h2>
+
+        <p><strong>Улица Урия</strong><sup><a href="#ref4">[4]</a></sup> — это астурийские Елисейские Поля. Ну, или астурийский Тверской бульвар, если без пафоса. Широкая, красивая, с тротуарами, по которым реально можно идти вдвоём, не сваливаясь на проезжую часть (в отличие от старого города, где два человека расходятся только боком).</p>
+
+        <p>Тянется от железнодорожного вокзала на севере до площади Эскандалера на юге. По пути собирает в себя всё: <strong>El Corte Inglés</strong> (главный универмаг Испании — аналог ЦУМа, только с супермаркетом в подвале), модные бутики, кафе, кондитерские и абсолютно все банки, какие есть в городе.</p>
+
+        <h3>Архитектурные жемчужины Урии</h3>
+
+        <ul>
+            <li><strong>Casas del Cuitu</strong> (1913–1917)<sup><a href="#ref5">[5]</a></sup> — четыре здания с общим необарочным фасадом, построенные мастером Ульпиано Муньосом Сапатой по заказу индиано Хосе Альвареса Сантульяно по кличке «Эль Куиту». Индиано — это испанец, который уехал в Америку нищим, вернулся богатым и решил показать всей деревне, что он теперь не лох. Классика. Куиту потом разорился, и здания купил банк Эрреро. Стоят до сих пор — переживут нас всех.</li>
+            <li><strong>Casa Blanca</strong> (1929, арх. Мануэль дель Бусто)<sup><a href="#ref6">[6]</a></sup><sup><a href="#ref15">[15]</a></sup> — ар-деко в белом мраморе. Архитектор вернулся из Нью-Йорка, вдохновлённый небоскрёбами, и построил самое высокое здание на Урии<sup><a href="#ref15">[15]</a></sup>. Владелец — производитель мрамора, и фасад был одновременно рекламой его бизнеса<sup><a href="#ref15">[15]</a></sup>.</li>
+            <li><strong>Cine Aramo</strong> (1941)<sup><a href="#ref7">[7]</a></sup> — бывший главный кинотеатр Овьедо в функционалистском стиле. Построен семейством Фигаредо, работал до 1980-го, потом стоял закрытым, и в 2001-м его переделали в магазин, сохранив фасад и даже кассу кинотеатра. Трогательно и цинично одновременно.</li>
+        </ul>
+
+        <h2>Campo de San Francisco: Парк с павлинами</h2>
+
+        <p><strong>Парк Сан-Франциско</strong><sup><a href="#ref8">[8]</a></sup> — главный городской парк Овьедо и, пожалуй, единственное место в городе, где в будний день можно увидеть одновременно: пенсионеров на скамейках, мамочек с колясками, бегунов, собак, <strong>павлинов</strong> (да, реальных, они тут живут), пруд с утками и скульптуру Мафальды.</p>
+
+        <p>Парк разбит на месте средневекового монастыря францисканцев (отсюда название). Внутри — бесконечные аллеи: Пасео де лос Аламос, Пасео дель Бомбе, Авенида Италия, Авенида Алемания. 90 000 м², 955 деревьев, 51 вид<sup><a href="#ref8">[8]</a></sup>. Это вам не газон у Макдака.</p>
+
+        <div class="quote">Если испанец назначает встречу «en el parque», он имеет в виду именно Сан-Франциско. Другого «парка» в Овьедо для местных не существует.</div>
+
+        <h2>Скульптуры и памятники</h2>
+
+        <p>Овьедо помешан на скульптурах<sup><a href="#ref9">[9]</a></sup>. В конце 90-х мэрия решила превратить город в музей под открытым небом, и наставила бронзовых фигур на каждом углу. Centro Oeste получил свою долю:</p>
+
+        <ul>
+            <li><strong>Памятник Вуди Аллену</strong> (2003, скульптор Висенте Сантаруа)<sup><a href="#ref10">[10]</a></sup> — бронзовый Вуди в натуральную величину, руки в карманах, гуляет по улице. Поставили после того, как Аллен снимал тут «Вики Кристина Барселона» и назвал Овьедо «сказочным городом». Местные говорят «встретимся у Вуди» — и все понимают. Самая фотографируемая скульптура города.</li>
+            <li><strong>La Torera</strong><sup><a href="#ref9">[9]</a></sup> — скульптура уличного фотографа Хосефы Каррильо с камерой, треногой, ведром воды и игрушечной лошадкой у входа в парк. Дети обожают залезать ей на колени.</li>
+        </ul>
+
+        <h2>Церковь, отель и другие знаковые объекты</h2>
+
+        <ul>
+            <li><strong>Basílica de San Juan el Real</strong> (1912)<sup><a href="#ref11">[11]</a></sup> — неороманская базилика, в которой в 1923 году венчался один небезызвестный генерал по фамилии Франко. Да-да, <em>тот самый</em>. В 2014 году Папа возвёл церковь в статус малой базилики, видимо в честь столетия. Архитектор — Луис Бельидо.</li>
+            <li><strong>Hotel de la Reconquista</strong> (Eurostars, ул. Gil de Jaz) — пятизвёздочный отель в здании <strong>Провинциального приюта</strong> (Hospicio Provincial), построенного в 1752 году по заказу регента Исидоро Хиль де Хаса<sup><a href="#ref14">[14]</a></sup>. Архитекторы: Менендес де Амбас, В. Родригес, Мануэль де ла Регера. Приют закрыт в 1965-м. Здесь проходит торжественный банкет Премии Принцессы Астурийской.</li>
+            <li><strong>Paseo de los Álamos</strong> — бульвар с мраморным мощением, соединяющий парк с площадью Эскандалера. Тут любят гулять те, кому El Corte Inglés кажется слишком плебейским.</li>
+        </ul>
+
+        <h2>Демография и деньги</h2>
+
+        <div class="gold-box">
+            <h4>Centro Oeste — самый богатый район Овьедо</h4>
+            <p style="margin-bottom:0">Средний доход на домохозяйство: <strong>52 426 €/год</strong> (данные IRPF 2023)<sup><a href="#ref1">[1]</a></sup>. Для сравнения: средняя по городу — 33 407 €, а в Тендерине/Вентаньельес — жалкие 25 485 €<sup><a href="#ref12">[12]</a></sup>. Разница — почти в два раза. Один Овьедо, два мира.</p>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-item"><span>Население</span><span class="stat-value">8 685</span></div>
+            <div class="stat-item"><span>Иностранцев</span><span class="stat-value">5,0%</span></div>
+            <div class="stat-item"><span>Из ЕС</span><span class="stat-value">99</span></div>
+            <div class="stat-item"><span>Латинская Америка</span><span class="stat-value">235</span></div>
+            <div class="stat-item"><span>Африка</span><span class="stat-value">18</span></div>
+            <div class="stat-item"><span>Азия</span><span class="stat-value">29</span></div>
+            <div class="stat-item"><span>Доход (ранг)</span><span class="stat-value">#1 в Овьедо</span></div>
+            <div class="stat-item"><span>Доход (€/год)</span><span class="stat-value">52 426 €</span></div>
+        </div>
+
+        <p>Типичный житель Centro Oeste: 55+, испанец, владелец квартиры, ходит в El Corte Inglés за хамоном иберико, пьёт кофе на Пасео де лос Аламос и искренне не понимает, зачем люди живут «там, за парком».</p>
+
+        <h2>Вердикт</h2>
+
+        <p>Centro Oeste — это район, который работает. Всё на месте: парк, магазины, рестораны, тротуары, по которым приятно идти, архитектура, которой не стыдно. Проблема одна: ценник. Жильё здесь стоит соответственно<sup><a href="#ref13">[13]</a></sup>, и найти квартиру в аренду — задача уровня «найти парковку в Корредории в пятницу вечером».</p>
+
+        <div class="rating-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:15px 0">
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f0f7f0;border-radius:4px;border:1px solid #e8e4d8"><span>Жильё</span><span style="font-weight:bold;color:#1a3a2a">Дорого</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f0f7f0;border-radius:4px;border:1px solid #e8e4d8"><span>Безопасность</span><span style="font-weight:bold;color:#1a3a2a">Топ</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f0f7f0;border-radius:4px;border:1px solid #e8e4d8"><span>Транспорт</span><span style="font-weight:bold;color:#1a3a2a">Отлично</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f0f7f0;border-radius:4px;border:1px solid #e8e4d8"><span>Инфраструктура</span><span style="font-weight:bold;color:#1a3a2a">Всё есть</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f0f7f0;border-radius:4px;border:1px solid #e8e4d8"><span>Атмосфера</span><span style="font-weight:bold;color:#1a3a2a">Буржуазная</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f0f7f0;border-radius:4px;border:1px solid #e8e4d8"><span>Парковка</span><span style="font-weight:bold;color:#1a3a2a">Платная</span></div>
+        </div>
+
+        <div class="verdict">
+            <p><strong>Кому подходит:</strong> тем, кто хочет жить «в центре, но не в музее», ценит пешеходную доступность, широкие улицы и готов за это платить. Идеальный район для тех, кто переехал в Овьедо из Мадрида и хочет, чтобы было «почти как дома, только дождь каждый день».</p>
+            <p class="rating"><strong>8 из 10</strong></p>
+        </div>
+
+        <div class="references">
+            <h2>Источники</h2>
+            <ol>
+                <li id="ref1">Агенция Трибутария, IRPF 2023. — <a href="https://www.lavozdeasturias.es/noticia/asturias/2025/10/09/barrio-barrio-cambiado-riqueza-oviedo-gijon/00031760028933658467784.htm" target="_blank">La Voz de Asturias: «Barrio a barrio: así ha cambiado la riqueza en Oviedo y Gijón»</a>, 09.10.2025</li>
+                <li id="ref2">Plaza de la Escandalera — <a href="https://es.wikipedia.org/wiki/Plaza_de_la_Escandalera" target="_blank">Wikipedia (es)</a></li>
+                <li id="ref3">Padrón Municipal, 1 de enero de 2024. — <a href="https://www.odina.es/data/ficheros/2024/04/1144_ODINA_Poblaci%C3%B3n_extranjera_Oviedo_1_enero_2024-1.xlsx" target="_blank">Odina / Ayuntamiento de Oviedo (xlsx)</a></li>
+                <li id="ref4">Calle Uría — <a href="https://www.gpsmycity.com/attractions/calle-uria-(uria-street)-54493.html" target="_blank">GPSmyCity: «Calle Uría (Uría Street)»</a></li>
+                <li id="ref5">Casas del Cuitu — <a href="https://www.tripadvisor.ie/Attraction_Review-g187452-d32873470-Reviews-Casas_Del_Cuitu-Oviedo_Asturias.html" target="_blank">TripAdvisor</a></li>
+                <li id="ref6">Casa Blanca, Oviedo — <a href="https://docomomoiberico.com/en/buildings/casa-blanca/" target="_blank">Docomomo Ibérico: registro de arquitectura moderna</a></li>
+                <li id="ref7">Cine Aramo — <a href="https://www.lavozdeasturias.es/noticia/oviedo/2019/10/21/cine-aramo-era-/00031571676628259271177.htm" target="_blank">La Voz de Asturias: «El Cine Aramo era...»</a>, 21.10.2019</li>
+                <li id="ref8">Campo de San Francisco (Oviedo) — <a href="https://es.wikipedia.org/wiki/Campo_de_San_Francisco_(Oviedo)" target="_blank">Wikipedia (es)</a></li>
+                <li id="ref9">Esculturas de Oviedo — <a href="https://spainbyhanne.dk/en/explore-the-sculptures-of-oviedo/" target="_blank">Spain by Hanne: «Explore the sculptures of Oviedo»</a></li>
+                <li id="ref10">Monument to Woody Allen — <a href="https://en.wikipedia.org/wiki/Monument_to_Woody_Allen" target="_blank">Wikipedia (en)</a></li>
+                <li id="ref11">San Juan el Real (Oviedo) — <a href="https://es.wikipedia.org/wiki/San_Juan_el_Real_(Oviedo)" target="_blank">Wikipedia (es)</a></li>
+                <li id="ref12">Агенция Трибутария, IRPF 2021. — <a href="https://www.lavozdeasturias.es/noticia/oviedo/voz-oviedo/2023/10/23/riqueza-va-barrios-ricos-pobres-oviedo/00031698046663312339866.htm" target="_blank">La Voz de Asturias: «La riqueza va por barrios»</a>, 23.10.2023</li>
+                <li id="ref13">Precios vivienda Oviedo 2026 — <a href="https://www.fotocasa.es/indice-precio-vivienda/oviedo/todas-las-zonas" target="_blank">Fotocasa.es: precio viviendas Oviedo</a></li>
+                <li id="ref14">«Historia de la calle Uría de Oviedo» — <a href="https://www.lavozdeasturias.es/noticia/oviedo/voz-oviedo/2022/11/22/historia-calle-uria-oviedo/00031" target="_blank">La Voz de Asturias</a>, 2022. Proyecto 1868, González Regueral, carbayón 1879, fases 1874/1880.</li>
+                <li id="ref15">Casa Blanca Oviedo — <a href="https://martesdecampo.es/2024/01/13/casa-blanca-oviedo/" target="_blank">martesdecampo.es</a>, 2024. Manuel del Busto 1929, influencia Nueva York, mármol blanco.</li>
+            </ol>
+        </div>
     </div>
 </body>
 </html>

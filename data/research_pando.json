@@ -1,0 +1,22 @@
+{
+  "district": "Pando (Пандо)",
+  "district_type": "urban",
+  "summary_ru": "Небольшой городской район.",
+  "total_validated_pois": 0,
+  "pois": [],
+  "demographics": {
+    "source": "Padrón Municipal 2024",
+    "total_population": 1600,
+    "foreign_total": 160,
+    "pct_foreign": 10.0,
+    "foreign_by_continent": {
+      "eu": 40,
+      "europe_non_eu": 14,
+      "america": 77,
+      "africa": 27,
+      "asia": 2,
+      "oceania": 0,
+      "stateless": 0
+    }
+  }
+}

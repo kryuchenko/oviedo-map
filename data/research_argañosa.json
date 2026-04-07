@@ -1,0 +1,32 @@
+{
+  "district": "Argañosa (Арганьоса)",
+  "district_type": "urban",
+  "summary_ru": "Крупный рабочий район к западу от центра. Самый высокий процент иммигрантов в городе (13.6%). Активная реновация.",
+  "total_validated_pois": 1,
+  "pois": [
+    {
+      "name": "Parque del Oeste",
+      "name_ru": "Парк дель Оэсте (Западный парк)",
+      "category": "park",
+      "lat": 43.3622226,
+      "lon": -5.8740237,
+      "description": "Крупный парк на западе города с прогулочными дорожками.",
+      "note": "geocode may place in Olivares (Оливарес)"
+    }
+  ],
+  "demographics": {
+    "source": "Padrón Municipal 2024",
+    "total_population": 13298,
+    "foreign_total": 1803,
+    "pct_foreign": 13.6,
+    "foreign_by_continent": {
+      "eu": 341,
+      "europe_non_eu": 82,
+      "america": 1128,
+      "africa": 182,
+      "asia": 64,
+      "oceania": 0,
+      "stateless": 6
+    }
+  }
+}

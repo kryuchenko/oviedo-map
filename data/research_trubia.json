@@ -1,0 +1,22 @@
+{
+  "district": "Trubia (Трубия)",
+  "district_type": "rural",
+  "summary_ru": "Посёлок к юго-западу. Военный завод, промышленное наследие. Самая низкая средняя рента в Овьедо (26,364€).",
+  "total_validated_pois": 0,
+  "pois": [],
+  "demographics": {
+    "source": "Padrón Municipal 2024",
+    "total_population": 1891,
+    "foreign_total": 144,
+    "pct_foreign": 7.6,
+    "foreign_by_continent": {
+      "eu": 28,
+      "europe_non_eu": 17,
+      "america": 77,
+      "africa": 21,
+      "asia": 0,
+      "oceania": 1,
+      "stateless": 0
+    }
+  }
+}

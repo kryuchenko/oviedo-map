@@ -6,75 +6,76 @@
     <title>Fitoria - Овьедо</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            padding: 20px;
-            background: #fafafa;
-        }
-        .header {
-            background: linear-gradient(135deg, #2c3e50, #34495e);
-            color: white;
-            padding: 20px;
-            margin: -20px -20px 20px -20px;
-        }
-        .header h1 {
-            font-size: 1.4rem;
-            margin-bottom: 5px;
-        }
-        .header .subtitle {
-            font-size: 0.85rem;
-            opacity: 0.8;
-        }
-        .content {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        h3 {
-            color: #2c3e50;
-            margin: 20px 0 10px 0;
-            font-size: 1.1rem;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 5px;
-        }
-        p {
-            margin-bottom: 12px;
-        }
-        ul {
-            margin: 10px 0 15px 20px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        strong {
-            color: #2c3e50;
-        }
-        .type-badge {
-            display: inline-block;
-            padding: 3px 10px;
-            border-radius: 12px;
-            font-size: 0.75rem;
-            margin-top: 8px;
-        }
-        .urban { background: #e74c3c; color: white; }
-        .rural { background: #27ae60; color: white; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: #333; padding: 20px; background: #fafafa; }
+        .header { background: linear-gradient(135deg, #2e4a2e, #4a7c59); color: white; padding: 25px; margin: -20px -20px 20px -20px; }
+        .header h1 { font-size: 1.5rem; margin-bottom: 5px; }
+        .header .subtitle { font-size: 1rem; opacity: 0.9; font-style: italic; }
+        .content { background: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h2 { color: #2e4a2e; margin: 25px 0 12px 0; font-size: 1.25rem; border-bottom: 3px solid #6b9e78; padding-bottom: 6px; }
+        p { margin-bottom: 14px; text-align: justify; }
+        .intro { font-size: 1.05rem; color: #444; border-left: 4px solid #6b9e78; padding-left: 15px; margin-bottom: 20px; }
+        .type-badge { display: inline-block; padding: 4px 12px; border-radius: 12px; font-size: 0.8rem; margin-top: 10px; background: #6b9e78; color: white; }
+        strong { color: #2e4a2e; }
+        sup a { color: #e67e22; text-decoration: none; font-weight: bold; }
+        sup a:hover { text-decoration: underline; }
+        .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 15px 0; }
+        .stats-grid div { display: flex; justify-content: space-between; padding: 8px 12px; background: #eef5f0; border-radius: 4px; border: 1px solid #b5d4be; font-size: 0.9rem; }
+        .stats-grid span:last-child { font-weight: bold; color: #2e4a2e; }
+        .rating-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 15px 0; }
+        .rating-grid div { display: flex; justify-content: space-between; padding: 8px 12px; background: #eef5f0; border-radius: 4px; border: 1px solid #b5d4be; }
+        .rating-grid span:last-child { font-weight: bold; color: #2e4a2e; }
+        .verdict { background: linear-gradient(135deg, #2e4a2e, #4a7c59); color: white; padding: 20px; border-radius: 8px; margin-top: 25px; text-align: center; }
+        .verdict h3 { color: #a8d5b5; margin-bottom: 10px; }
+        .rating { font-size: 1.5rem; font-weight: bold; color: #a8d5b5; }
+        .references { margin-top: 25px; padding-top: 15px; border-top: 2px solid #6b9e78; font-size: 0.8rem; color: #888; }
+        .references h2 { font-size: 1.1rem; color: #6b9e78; border-bottom: 1px solid #6b9e78; }
+        .references ol { margin: 10px 0 0 20px; }
+        .references li { margin-bottom: 5px; }
+        .references a { color: #e67e22; word-break: break-all; }
     </style>
 </head>
 <body>
     <div class="header">
         <h1>Fitoria</h1>
-        <div class="subtitle">Фитория</div>
-        <span class="type-badge urban">Городской район</span>
+        <div class="subtitle">Монахини, коровы и абсолютный покой</div>
+        <span class="type-badge">Периферийный район</span>
     </div>
     <div class="content">
-        
-            <p>Район на северо-востоке города.</p>
-            <h3>Характер района</h3>
-            <p>Жилой район с хорошей инфраструктурой.</p>
-        
+        <p class="intro">Фитория -- это то место, куда вы попадёте, если в Овьедо свернёте не туда. Периурбанная зона у подножия Наранко, где город незаметно растворяется в пастбищах, а единственным напоминанием о цивилизации служит Convento de las Madres Pasionistas<sup><a href="#ref1">[1]</a></sup> -- женский монастырь, обитательницы которого, видимо, знали, где искать настоящую тишину.</p>
+
+        <h2>Между городом и горой</h2>
+        <p>Фитория -- район настолько маленький, что даже в Padrón Municipal его население не выделяют отдельной строкой. Здесь рассеянная сельская застройка, частные дома, огороды и тот самый монастырь пасионисток, основанный в XIX веке<sup><a href="#ref1">[1]</a></sup>. Монахини ведут затворнический образ жизни, что, в общем-то, роднит их с остальными обитателями района -- тут все ведут затворнический образ жизни.</p>
+
+        <p>Близость к горе Наранко делает Фиторию стартовой точкой для пеших прогулок. Отсюда можно дойти до церквей Санта-Мария-дель-Наранко и Сан-Мигель-де-Лильо, если, конечно, вы не заблудитесь на местных тропинках, которые имеют привычку заканчиваться у чьего-нибудь забора.</p>
+
+        <h2>Демография</h2>
+        <div class="stats-grid">
+            <div><span>Население</span><span>Нет данных</span></div>
+            <div><span>Тип</span><span>Периурбанный</span></div>
+        </div>
+        <p>Настолько мало жителей, что статистика стесняется их считать. Это не район в обычном смысле слова -- это скорее россыпь домов, объединённых общим почтовым индексом и взаимным безразличием к городской суете.</p>
+
+        <div class="rating-grid">
+            <div><span>Безопасность</span><span>Некого грабить</span></div>
+            <div><span>Зелень</span><span>100% зелень</span></div>
+            <div><span>Транспорт</span><span>Свои ноги</span></div>
+            <div><span>Инфраструктура</span><span>Монастырь</span></div>
+            <div><span>Атмосфера</span><span>Экзистенциальная</span></div>
+            <div><span>Цены</span><span>Дёшево (если найдёте)</span></div>
+        </div>
+
+        <div class="verdict">
+            <h3>Вердикт</h3>
+            <p class="rating">4.0 / 10</p>
+            <p>Место для тех, кто устал от людей настолько, что готов поселиться рядом с монахинями-затворницами. Овьедо тут заканчивается, а Наранко начинается.</p>
+        </div>
+
+        <div class="references">
+            <h2>Источники</h2>
+            <ol>
+                <li id="ref1">Convento de las Madres Pasionistas, Oviedo -- <a href="https://es.wikipedia.org/wiki/Convento_de_las_Pasionistas_(Oviedo)" target="_blank">Wikipedia</a></li>
+            </ol>
+        </div>
     </div>
 </body>
 </html>

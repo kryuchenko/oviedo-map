@@ -1,0 +1,22 @@
+{
+  "district": "Brañes (Браньес)",
+  "district_type": "rural",
+  "summary_ru": "Сельский район к западу.",
+  "total_validated_pois": 0,
+  "pois": [],
+  "demographics": {
+    "source": "Padrón Municipal 2024",
+    "total_population": 92,
+    "foreign_total": 6,
+    "pct_foreign": 6.5,
+    "foreign_by_continent": {
+      "eu": 3,
+      "europe_non_eu": 0,
+      "america": 3,
+      "africa": 0,
+      "asia": 0,
+      "oceania": 0,
+      "stateless": 0
+    }
+  }
+}

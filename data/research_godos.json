@@ -1,0 +1,22 @@
+{
+  "district": "Godos (Годос)",
+  "district_type": "rural",
+  "summary_ru": "Сельский район. Удивительно высокий % иностранцев (11.5%).",
+  "total_validated_pois": 0,
+  "pois": [],
+  "demographics": {
+    "source": "Padrón Municipal 2024",
+    "total_population": 557,
+    "foreign_total": 64,
+    "pct_foreign": 11.5,
+    "foreign_by_continent": {
+      "eu": 11,
+      "europe_non_eu": 7,
+      "america": 27,
+      "africa": 19,
+      "asia": 0,
+      "oceania": 0,
+      "stateless": 0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "district": "Monxina - El Rancho (Монхина-Эль Ранчо)",
+  "district_type": "urban",
+  "summary_ru": "Район между Аргоньосой и Буэнавистой.",
+  "total_validated_pois": 0,
+  "pois": [],
+  "demographics": {
+    "source": "Padrón Municipal 2024",
+    "total_population": 1850,
+    "foreign_total": 141,
+    "pct_foreign": 7.6,
+    "foreign_by_continent": {
+      "eu": 29,
+      "europe_non_eu": 1,
+      "america": 82,
+      "africa": 17,
+      "asia": 7,
+      "oceania": 0,
+      "stateless": 5
+    }
+  }
+}

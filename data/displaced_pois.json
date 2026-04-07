@@ -1,0 +1,248 @@
+{
+  "Antiguo (Старый город)": [
+    {
+      "name": "Catedral de San Salvador",
+      "name_ru": "Кафедральный собор Сан-Сальвадор",
+      "category": "church",
+      "lat": 43.362522,
+      "lon": -5.843294,
+      "description": "Готический собор XIII-XVI вв., третий по красоте в Испании. Шпиль высотой 80 м. Внутри — Камара Санта (ЮНЕСКО)."
+    },
+    {
+      "name": "Plaza de la Constitución",
+      "name_ru": "Площадь Конституции",
+      "category": "plaza",
+      "lat": 43.360419,
+      "lon": -5.844943,
+      "description": "Главная административная площадь с Ратушей (1622) и церковью Сан-Исидоро."
+    },
+    {
+      "name": "Plaza del Fontán",
+      "name_ru": "Площадь Фонтан",
+      "category": "plaza",
+      "lat": 43.359752,
+      "lon": -5.845843,
+      "description": "Средневековая рыночная площадь с цветными домами и историческим рынком Эль Фонтан."
+    },
+    {
+      "name": "Plaza de Alfonso II el Casto",
+      "name_ru": "Площадь Альфонсо II",
+      "category": "plaza",
+      "lat": 43.362399,
+      "lon": -5.844315,
+      "description": "Кафедральная площадь, ключевая точка на Камино-де-Сантьяго."
+    },
+    {
+      "name": "Mercado El Fontán",
+      "name_ru": "Рынок Эль Фонтан",
+      "category": "market",
+      "lat": 43.360237,
+      "lon": -5.84568,
+      "description": "Исторический рынок викторианского стиля с мясом, рыбой, сырами."
+    },
+    {
+      "name": "Iglesia de San Isidoro El Real",
+      "name_ru": "Церковь Сан-Исидоро-эль-Реаль",
+      "category": "church",
+      "lat": 43.360504,
+      "lon": -5.845592,
+      "description": "Ренессансная церковь XVI в. на площади Конституции, памятник культуры."
+    },
+    {
+      "name": "Capilla de La Balesquida",
+      "name_ru": "Капелла Балескида",
+      "category": "church",
+      "lat": 43.362314,
+      "lon": -5.844932,
+      "description": "Барочная капелла (1725) у собора, с постоянным хранением Святых Даров."
+    },
+    {
+      "name": "Monasterio de San Pelayo",
+      "name_ru": "Монастырь Сан-Пелайо",
+      "category": "monastery",
+      "lat": 43.363305,
+      "lon": -5.842778,
+      "description": "Действующий бенедиктинский женский монастырь X века. Монахини пекут знаменитое печенье."
+    },
+    {
+      "name": "Museo Arqueológico de Asturias",
+      "name_ru": "Археологический музей Астурии",
+      "category": "museum",
+      "lat": 43.362705,
+      "lon": -5.842543,
+      "description": "Музей в бывшем монастыре Сан-Висенте (VIII в.) за собором."
+    },
+    {
+      "name": "Museo de Bellas Artes de Asturias",
+      "name_ru": "Музей изящных искусств",
+      "category": "museum",
+      "lat": 43.361897,
+      "lon": -5.844376,
+      "description": "Музей в трёх дворцах: Веларде, Овьедо-Порталь и Солис. Бесплатный вход."
+    },
+    {
+      "name": "Ayuntamiento de Oviedo",
+      "name_ru": "Ратуша Овьедо",
+      "category": "building",
+      "lat": 43.360529,
+      "lon": -5.844672,
+      "description": "Ратуша XVII века с аркой Симадевилья — проход паломников Камино-де-Сантьяго."
+    },
+    {
+      "name": "Palacio del Fontán",
+      "name_ru": "Дворец Фонтан",
+      "category": "palace",
+      "lat": 43.359397,
+      "lon": -5.845841,
+      "description": "Лучший образец барочной дворцовой архитектуры Овьедо XVIII в."
+    },
+    {
+      "name": "Plaza Porlier",
+      "name_ru": "Площадь Порльер",
+      "category": "plaza",
+      "lat": 43.362556,
+      "lon": -5.845667,
+      "description": "Площадь с Дворцом Кампосаградо (суд) и историческим зданием университета."
+    },
+    {
+      "name": "Palacio de Valdecarzana",
+      "name_ru": "Дворец Вальдекарсана",
+      "category": "palace",
+      "lat": 43.362692,
+      "lon": -5.844781,
+      "description": "Готический дворец XV века — старейшее гражданское здание Овьедо."
+    },
+    {
+      "name": "Palacio de Camposagrado",
+      "name_ru": "Дворец Кампосаградо",
+      "category": "palace",
+      "lat": 43.362578,
+      "lon": -5.845232,
+      "description": "Дворец XVIII в. на площади Порльер, сейчас — Верховный суд Астурии."
+    },
+    {
+      "name": "Universidad de Oviedo (edificio histórico)",
+      "name_ru": "Университет Овьедо (историческое здание)",
+      "category": "building",
+      "lat": 43.361748,
+      "lon": -5.846515,
+      "description": "Здание XVI века, основанное архиепископом Фернандо де Вальдес-и-Салас. Статуя основателя во дворе."
+    },
+    {
+      "name": "La Maternidad (Botero)",
+      "name_ru": "Материнство (Ботеро)",
+      "category": "sculpture",
+      "lat": 43.36215,
+      "lon": -5.84851,
+      "description": "Скульптура Фернандо Ботеро (1989) — женщина с сыном на коленях, 2.5 м, 800 кг. Местные называют 'La Gorda'."
+    }
+  ],
+  "Centro Oeste (Центр Запад)": [
+    {
+      "name": "Junta General del Principado de Asturias",
+      "name_ru": "Парламент Астурии",
+      "category": "government",
+      "lat": 43.361,
+      "lon": -5.8523,
+      "description": "Парламент Княжества Астурии на улице Фруэла, 13."
+    }
+  ],
+  "Pumarín (Пумарин)": [
+    {
+      "name": "San Julián de los Prados (Santullano)",
+      "name_ru": "Церковь Сан-Хулиан-де-лос-Прадос",
+      "category": "church",
+      "lat": 43.36771,
+      "lon": -5.837282,
+      "description": "Дороманская базилика IX века (Альфонсо II). ЮНЕСКО. Крупнейшая дороманская церковь Испании с уникальными фресками IX века."
+    }
+  ],
+  "La Ciudá Naranco (Сьюдад-Наранко)": [
+    {
+      "name": "Plaza de los Ferroviarios",
+      "name_ru": "Площадь Железнодорожников",
+      "category": "plaza",
+      "lat": 43.367159,
+      "lon": -5.855226,
+      "description": "Площадь, названная в честь железнодорожных рабочих XIX-XX веков."
+    }
+  ],
+  "Naranco (Наранко)": [
+    {
+      "name": "Santa María del Naranco",
+      "name_ru": "Санта-Мария-дель-Наранко",
+      "category": "church",
+      "lat": 43.3790469,
+      "lon": -5.8659892,
+      "description": "Дороманский дворец/церковь IX века (842). ЮНЕСКО. Шедевр астурийского дороманского искусства на склоне горы Наранко."
+    },
+    {
+      "name": "Centro de Interpretación del Prerrománico",
+      "name_ru": "Центр интерпретации дороманского искусства",
+      "category": "museum",
+      "lat": 43.3786754,
+      "lon": -5.8673931,
+      "description": "Музей в здании бывшей школы Наранко. Мультимедийные экспозиции об астурийском дороманском искусстве."
+    }
+  ],
+  "Samiguel (Лильо)": [
+    {
+      "name": "San Miguel de Lillo",
+      "name_ru": "Сан-Мигель-де-Лильо",
+      "category": "church",
+      "lat": 43.3802931,
+      "lon": -5.8683684,
+      "description": "Дороманская церковь IX века (848). ЮНЕСКО. Рядом с Санта-Мария-дель-Наранко."
+    }
+  ],
+  "Parque de Invierno (Зимний парк)": [
+    {
+      "name": "Parque de Invierno",
+      "name_ru": "Парк Инвиерно (Зимний парк)",
+      "category": "park",
+      "lat": 43.3525764,
+      "lon": -5.8506672,
+      "description": "Крупнейший городской парк 171,368 м². Бассейны, скалодром, скейт-парк, диск-гольф. Открыт круглосуточно."
+    }
+  ],
+  "Otero (Отеро)": [
+    {
+      "name": "Parroquia de San Lázaro del Camino",
+      "name_ru": "Приход Сан-Ласаро-дель-Камино",
+      "category": "church",
+      "lat": 43.3543697,
+      "lon": -5.8412547,
+      "description": "Приходская церковь на ул. Сан Матео, 12B."
+    }
+  ],
+  "Centro Este (Центр Восток)": [
+    {
+      "name": "Colegio San Lázaro - Escuelas Blancas",
+      "name_ru": "Школа Сан-Ласаро (Белые школы)",
+      "category": "school",
+      "lat": 43.3558923,
+      "lon": -5.8426592,
+      "description": "Историческая государственная школа района."
+    }
+  ],
+  "Teatinos (Театинос)": [
+    {
+      "name": "Centro Comercial Los Prados",
+      "name_ru": "ТЦ Лос Прадос",
+      "category": "commerce",
+      "lat": 43.3710039,
+      "lon": -5.8311153,
+      "description": "Крупный торговый центр на Av. Fernández Ladreda. Режим: пн-сб 10:00-22:00."
+    }
+  ],
+  "Olivares (Оливарес)": [
+    {
+      "name": "Parque del Oeste",
+      "name_ru": "Парк дель Оэсте (Западный парк)",
+      "category": "park",
+      "lat": 43.3622226,
+      "lon": -5.8740237,
+      "description": "Крупный парк на западе города с прогулочными дорожками."
+    }
+  ]
+}

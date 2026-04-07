@@ -1,0 +1,32 @@
+{
+  "district": "La Iría (Ла-Ирия)",
+  "district_type": "urban",
+  "summary_ru": "Район вокруг железнодорожной станции и проспекта Галисии. Транспортный узел города.",
+  "total_validated_pois": 0,
+  "pois": [
+    {
+      "name": "Estación de tren de Oviedo",
+      "name_ru": "Железнодорожная станция Овьедо",
+      "category": "transport",
+      "lat": null,
+      "lon": null,
+      "description": "Главный ж/д вокзал города (1874). Связывает Овьедо с Мадридом, Барселоной, Хихоном.",
+      "note": "not geocoded"
+    }
+  ],
+  "demographics": {
+    "source": "Padrón Municipal 2024",
+    "total_population": 1889,
+    "foreign_total": 103,
+    "pct_foreign": 5.5,
+    "foreign_by_continent": {
+      "eu": 31,
+      "europe_non_eu": 5,
+      "america": 48,
+      "africa": 6,
+      "asia": 12,
+      "oceania": 0,
+      "stateless": 1
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "district": "Olloniego / Lluniego (Ольоньего)",
+  "district_type": "rural",
+  "summary_ru": "Сельский район к югу. Промышленное прошлое.",
+  "total_validated_pois": 0,
+  "pois": [],
+  "demographics": {
+    "source": "Padrón Municipal 2024",
+    "total_population": 916,
+    "foreign_total": 35,
+    "pct_foreign": 3.8,
+    "foreign_by_continent": {
+      "eu": 3,
+      "europe_non_eu": 8,
+      "america": 21,
+      "africa": 3,
+      "asia": 0,
+      "oceania": 0,
+      "stateless": 0
+    }
+  }
+}

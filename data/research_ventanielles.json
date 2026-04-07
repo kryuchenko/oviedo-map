@@ -1,0 +1,73 @@
+{
+  "district": "Ventanielles (Вентаньельес)",
+  "district_type": "urban",
+  "total_validated_pois": 4,
+  "pois": [
+    {
+      "name": "Polideportivo Hermanos Cecchini",
+      "name_ru": "Спорткомплекс Братья Чеккини",
+      "category": "sports",
+      "lat": null,
+      "lon": null,
+      "description": "Спортивный центр района: зал 45x27м, раздевалки, фитнес. Plaza del Lago Enol s/n.",
+      "note": "coordinates not verified"
+    },
+    {
+      "name": "Biblioteca José María Laso",
+      "name_ru": "Библиотека Хосе Мария Ласо",
+      "category": "library",
+      "lat": 43.3692911,
+      "lon": -5.8259265,
+      "description": "Общественная библиотека на Пласа дель Лаго Энол."
+    },
+    {
+      "name": "CP Bilingüe Ventanielles",
+      "name_ru": "Школа Вентаньельес",
+      "category": "school",
+      "lat": null,
+      "lon": null,
+      "description": "Двуязычная государственная школа на ул. Рио Сейа, 31.",
+      "note": "coordinates not verified"
+    },
+    {
+      "name": "Centro de Salud Ventanielles",
+      "name_ru": "Центр здоровья Вентаньельес",
+      "category": "health",
+      "lat": 43.3695622,
+      "lon": -5.8292813,
+      "description": "Амбулатория на ул. Рио Карес, 3."
+    },
+    {
+      "name": "Parroquia Sagrada Familia",
+      "name_ru": "Приход Святого Семейства",
+      "category": "church",
+      "lat": 43.3693437,
+      "lon": -5.8249886,
+      "description": "Приходская церковь района Вентаньельес."
+    },
+    {
+      "name": "Palacio de los Deportes",
+      "name_ru": "Дворец спорта",
+      "category": "sports",
+      "lat": 43.3675,
+      "lon": -5.83139,
+      "coord_source": "Wikipedia",
+      "description": "Крытый стадион (1962-1975, арх. Ильдефонсо Санчес дель Рио) на 6000 мест. Между Вентаньельес и Тендериной. Домашняя арена Oviedo Club Baloncesto."
+    }
+  ],
+  "demographics": {
+    "source": "Padrón Municipal 2024",
+    "total_population": 6940,
+    "foreign_total": 978,
+    "pct_foreign": 14.1,
+    "foreign_by_continent": {
+      "eu": 168,
+      "europe_non_eu": 46,
+      "america": 566,
+      "africa": 174,
+      "asia": 15,
+      "oceania": 0,
+      "stateless": 9
+    }
+  }
+}

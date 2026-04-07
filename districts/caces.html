@@ -6,66 +6,76 @@
     <title>Caces - Овьедо</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            padding: 20px;
-            background: #fafafa;
-        }
-        .header {
-            background: linear-gradient(135deg, #27ae60, #2ecc71);
-            color: white;
-            padding: 20px;
-            margin: -20px -20px 20px -20px;
-        }
-        .header h1 {
-            font-size: 1.4rem;
-            margin-bottom: 5px;
-        }
-        .header .subtitle {
-            font-size: 0.85rem;
-            opacity: 0.8;
-        }
-        .content {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        h3 {
-            color: #27ae60;
-            margin: 20px 0 10px 0;
-            font-size: 1.1rem;
-            border-bottom: 2px solid #27ae60;
-            padding-bottom: 5px;
-        }
-        p {
-            margin-bottom: 12px;
-        }
-        .type-badge {
-            display: inline-block;
-            padding: 3px 10px;
-            border-radius: 12px;
-            font-size: 0.75rem;
-            margin-top: 8px;
-            background: #2c3e50;
-            color: white;
-        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: #333; padding: 20px; background: #fafafa; }
+        .header { background: linear-gradient(135deg, #795548, #8d6e63); color: white; padding: 25px; margin: -20px -20px 20px -20px; }
+        .header h1 { font-size: 1.5rem; margin-bottom: 5px; }
+        .header .subtitle { font-size: 1rem; opacity: 0.9; font-style: italic; }
+        .content { background: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h2 { color: #795548; margin: 25px 0 12px 0; font-size: 1.25rem; border-bottom: 3px solid #a1887f; padding-bottom: 6px; }
+        p { margin-bottom: 14px; text-align: justify; }
+        .intro { font-size: 1.05rem; color: #444; border-left: 4px solid #a1887f; padding-left: 15px; margin-bottom: 20px; }
+        .type-badge { display: inline-block; padding: 4px 12px; border-radius: 12px; font-size: 0.8rem; margin-top: 10px; background: #4e342e; color: white; }
+        strong { color: #795548; }
+        sup a { color: #e67e22; text-decoration: none; font-weight: bold; }
+        sup a:hover { text-decoration: underline; }
+        .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 15px 0; }
+        .stats-grid div { display: flex; justify-content: space-between; padding: 8px 12px; background: #efebe9; border-radius: 4px; border: 1px solid #d7ccc8; font-size: 0.9rem; }
+        .stats-grid span:last-child { font-weight: bold; color: #795548; }
+        .rating-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 15px 0; }
+        .rating-grid div { display: flex; justify-content: space-between; padding: 8px 12px; background: #efebe9; border-radius: 4px; border: 1px solid #d7ccc8; }
+        .rating-grid span:last-child { font-weight: bold; color: #795548; }
+        .verdict { background: linear-gradient(135deg, #795548, #8d6e63); color: white; padding: 20px; border-radius: 8px; margin-top: 25px; text-align: center; }
+        .verdict h3 { color: #d7ccc8; margin-bottom: 10px; }
+        .rating { font-size: 1.5rem; font-weight: bold; color: #d7ccc8; }
+        .references { margin-top: 25px; padding-top: 15px; border-top: 2px solid #a1887f; font-size: 0.8rem; color: #888; }
+        .references h2 { font-size: 1.1rem; color: #a1887f; border-bottom: 1px solid #a1887f; }
+        .references ol { margin: 10px 0 0 20px; }
+        .references li { margin-bottom: 5px; }
+        .references a { color: #e67e22; word-break: break-all; }
+        @media (max-width: 600px) { .stats-grid, .rating-grid { grid-template-columns: 1fr; } }
     </style>
 </head>
 <body>
     <div class="header">
         <h1>Caces</h1>
-        <div class="subtitle">Касес</div>
-        <span class="type-badge">Сельский район</span>
+        <div class="subtitle">Юго-западная глушь с видом на реку Налон</div>
+        <span class="type-badge">Сельский приход</span>
     </div>
     <div class="content">
-        <p>Сельский район в муниципалитете Овьедо, Астурия.</p>
-        <h3>Описание</h3>
-        <p>Caces — один из приходов (parroquias), составляющих территорию муниципалитета Овьедо. Расположен в сельской местности, сохраняет традиционный астурийский уклад жизни.</p>
-        <h3>Характер местности</h3>
-        <p>Тихая сельская местность с живописными пейзажами северной Испании. Традиционная архитектура, природные угодья.</p>
+        <p class="intro">Касес -- сельский приход на юго-западной периферии Овьедо, расположенный в долине реки Налон. 259 жителей<sup><a href="#ref1">[1]</a></sup>, из которых 9 -- иностранцы. Место, где до ближайшего супермаркета ехать дольше, чем до соседнего муниципалитета.</p>
+
+        <h2>Характер</h2>
+        <p>Касес -- это астурийская глубинка в чистом виде. Приход расположен на берегу Налона, одной из главных рек Астурии, что добавляет ландшафту живописности, но не инфраструктуры. Иностранцев здесь 3,5%<sup><a href="#ref1">[1]</a></sup> -- среднестатистический показатель для сельского прихода, где «приехать» обычно означает «заблудиться».</p>
+
+        <p>Исторически Касес жил сельским хозяйством и близостью к реке. Сегодня он живёт... в общем, примерно тем же, только с интернетом (если повезёт с покрытием).</p>
+
+        <h2>Демография</h2>
+        <div class="stats-grid">
+            <div><span>Население</span><span>259</span></div>
+            <div><span>Иностранцы</span><span>9 (3,5%)</span></div>
+            <div><span>Тип</span><span>Сельский приход</span></div>
+            <div><span>Расположение</span><span>Юго-запад</span></div>
+        </div>
+
+        <div class="rating-grid">
+            <div><span>Naturaleza</span><span>8/10</span></div>
+            <div><span>Accesibilidad</span><span>2/10</span></div>
+            <div><span>Servicios</span><span>1/10</span></div>
+            <div><span>Para vivir</span><span>3/10</span></div>
+        </div>
+
+        <div class="verdict">
+            <h3>Вердикт</h3>
+            <p class="rating">3.0 / 10</p>
+            <p>Река Налон красива, пейзажи великолепны, но жить здесь без машины -- это не романтика, а квест на выживание.</p>
+        </div>
+
+        <div class="references">
+            <h2>Источники</h2>
+            <ol>
+                <li id="ref1">Padrón Municipal, 1 de enero de 2024 -- <a href="https://www.odina.es/data/ficheros/2024/04/1144_ODINA_Poblaci%C3%B3n_extranjera_Oviedo_1_enero_2024-1.xlsx" target="_blank">Odina / Ayuntamiento de Oviedo</a></li>
+            </ol>
+        </div>
     </div>
 </body>
 </html>

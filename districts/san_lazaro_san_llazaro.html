@@ -6,80 +6,105 @@
     <title>San Lázaro / San Llázaro - Овьедо</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            padding: 20px;
-            background: #fafafa;
-        }
-        .header {
-            background: linear-gradient(135deg, #2c3e50, #34495e);
-            color: white;
-            padding: 20px;
-            margin: -20px -20px 20px -20px;
-        }
-        .header h1 {
-            font-size: 1.4rem;
-            margin-bottom: 5px;
-        }
-        .header .subtitle {
-            font-size: 0.85rem;
-            opacity: 0.8;
-        }
-        .content {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        h3 {
-            color: #2c3e50;
-            margin: 20px 0 10px 0;
-            font-size: 1.1rem;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 5px;
-        }
-        p {
-            margin-bottom: 12px;
-        }
-        ul {
-            margin: 10px 0 15px 20px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        strong {
-            color: #2c3e50;
-        }
-        .type-badge {
-            display: inline-block;
-            padding: 3px 10px;
-            border-radius: 12px;
-            font-size: 0.75rem;
-            margin-top: 8px;
-        }
-        .urban { background: #e74c3c; color: white; }
-        .rural { background: #27ae60; color: white; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: #333; padding: 20px; background: #f2f7f2; }
+        .header { background: linear-gradient(135deg, #1b4332, #2d6a4f); color: white; padding: 25px; margin: -20px -20px 20px -20px; border-bottom: 3px solid #52b788; }
+        .header h1 { font-size: 1.5rem; margin-bottom: 5px; }
+        .header .subtitle { font-size: 1rem; opacity: 0.9; font-style: italic; color: #95d5b2; }
+        .content { background: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
+        h2 { color: #1b4332; margin: 30px 0 15px 0; font-size: 1.3rem; border-bottom: 3px solid #52b788; padding-bottom: 8px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .intro { font-size: 1.05rem; color: #444; border-left: 4px solid #52b788; padding-left: 15px; margin-bottom: 25px; }
+        .type-badge { display: inline-block; padding: 4px 12px; border-radius: 12px; font-size: 0.8rem; margin-top: 10px; background: #52b788; color: white; }
+        ul { margin: 10px 0 15px 20px; } li { margin-bottom: 10px; } strong { color: #1b4332; }
+        .park-box { background: #ecfdf5; border: 1px solid #52b788; padding: 15px; border-radius: 8px; margin: 15px 0; }
+        .park-box h4 { color: #1b4332; margin-bottom: 8px; }
+        .fact-box { background: #f0faf0; border-left: 4px solid #2d6a4f; padding: 15px; margin: 15px 0; }
+        .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 15px 0; }
+        .stat-item { display: flex; justify-content: space-between; padding: 8px 12px; background: #f5faf5; border-radius: 4px; border: 1px solid #d8f3dc; }
+        .stat-value { font-weight: bold; color: #1b4332; }
+        .rating-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 15px 0; }
+        .rating-item { display: flex; justify-content: space-between; padding: 8px 12px; background: #f5faf5; border-radius: 4px; border: 1px solid #d8f3dc; }
+        .rating-score { font-weight: bold; color: #2d6a4f; }
+        .verdict { background: linear-gradient(135deg, #1b4332, #2d6a4f); color: white; padding: 20px; border-radius: 8px; margin-top: 30px; }
+        .verdict p { text-align: left; margin-bottom: 10px; color: #d8f3dc; }
+        .verdict .rating { font-size: 1.5rem; text-align: center; margin-top: 15px; color: #95d5b2; }
+        sup a { color: #2d6a4f; text-decoration: none; font-weight: bold; } sup a:hover { text-decoration: underline; }
+        .references { margin-top: 30px; padding-top: 15px; border-top: 2px solid #52b788; font-size: 0.8rem; color: #666; }
+        .references h2 { font-size: 1.1rem; border-bottom: 1px solid #52b788; }
+        .references ol { margin: 10px 0 0 20px; } .references li { margin-bottom: 5px; }
+        .references a { color: #2d6a4f; word-break: break-all; }
+        @media (max-width: 600px) { .stats-grid, .rating-grid { grid-template-columns: 1fr; } }
     </style>
 </head>
 <body>
     <div class="header">
         <h1>San Lázaro / San Llázaro</h1>
-        <div class="subtitle">Сан-Ласаро</div>
-        <span class="type-badge urban">Городской район</span>
+        <div class="subtitle">От лепрозория XIII века до крупнейшего парка города</div>
+        <span class="type-badge">Городской район</span>
     </div>
     <div class="content">
-        
-            <p>Восточный район с развитой торговой инфраструктурой.</p>
-            <h3>Достопримечательности</h3>
-            <ul>
-                <li><strong>ТЦ Лос-Прадос</strong> — крупный торговый центр</li>
-                <li><strong>Парк Сан-Ласаро</strong> — зона отдыха</li>
+        <p class="intro">San Lázaro — маленький район (2 404 жителя<sup><a href="#ref1">[1]</a></sup>) с большой историей. Здесь в XIII веке стоял лепрозорий «La Malatería»<sup><a href="#ref2">[2]</a></sup> — старейшее санитарное учреждение Астурии. А теперь — крупнейший городской парк Овьедо, 171 368 м² зелени, скалодром и скейтпарк на месте, где когда-то умирали прокажённые.</p>
+
+        <h2>История: от «малатов» к парку</h2>
+
+        <p>Название района — от <strong>церкви San Lázaro del Camino</strong>, которая впервые упоминается в 1235 году как «Santa María de Cervielles»<sup><a href="#ref2">[2]</a></sup>. San Lázaro — покровитель прокажённых. Здесь же стоял <strong>госпиталь для лепросов</strong> — «malatos» на астурийском — старейшая санитарная институция в регионе<sup><a href="#ref2">[2]</a></sup>. С XVI века место стали называть «San Lázaro».</p>
+
+        <h2>Parque de Invierno</h2>
+
+        <div class="park-box">
+            <h4>Крупнейший парк Овьедо: 171 368 м²</h4>
+            <ul style="margin-bottom:0">
+                <li><strong>Идея:</strong> 1952 год (алькальд Алонсо де Нора). Строительство одобрено в 1988, открыт в 1991<sup><a href="#ref3">[3]</a></sup></li>
+                <li><strong>Природа:</strong> сосны, дубы, вязы, берёзы, каштаны, магнолии, тополя<sup><a href="#ref3">[3]</a></sup></li>
+                <li><strong>Спорт:</strong> скалодром, скейтпарк, диск-гольф, баскетбольные площадки — доступ <strong>24/7</strong><sup><a href="#ref3">[3]</a></sup></li>
+                <li><strong>Лабиринт:</strong> 650 лавровых деревьев<sup><a href="#ref4">[4]</a></sup></li>
+                <li><strong>Palacio de los Niños:</strong> муниципальный детский центр<sup><a href="#ref4">[4]</a></sup></li>
+                <li><strong>Искусство:</strong> «La Vaca Biológica» (2003, Куко Суарес) — скульптура из оптоволокна и метакрилата, памятник культуры<sup><a href="#ref3">[3]</a></sup></li>
+                <li><strong>Тропа:</strong> Senda Verde к Fuso de la Reina — 7,8 км по бывшей ж/д (Vasco-Asturiano, закрыт 1999)<sup><a href="#ref3">[3]</a></sup></li>
+                <li><strong>Расширение:</strong> добавлены 40 224 м² + туннель бывшего Vasco-Asturiano<sup><a href="#ref3">[3]</a></sup></li>
             </ul>
-            <h3>Характер района</h3>
-            <p>Коммерческий и жилой район с хорошим транспортным сообщением.</p>
-        
+        </div>
+
+        <p>В парке также — <strong>пiscinas descubiertas de San Lázaro</strong> (открытые бассейны), квинтана с касоной и оррео, и виды на Сьерра дель Арамо<sup><a href="#ref4">[4]</a></sup>.</p>
+
+        <h2>Демография</h2>
+
+        <div class="stats-grid">
+            <div class="stat-item"><span>Население</span><span class="stat-value">2 404</span></div>
+            <div class="stat-item"><span>Иностранцев</span><span class="stat-value">11,5% (276)</span></div>
+            <div class="stat-item"><span>Латинская Америка</span><span class="stat-value">127</span></div>
+            <div class="stat-item"><span>Европа (ЕС)</span><span class="stat-value">74</span></div>
+            <div class="stat-item"><span>Африка</span><span class="stat-value">45</span></div>
+            <div class="stat-item"><span>Азия</span><span class="stat-value">4</span></div>
+        </div>
+
+        <div class="fact-box">
+            <p style="margin-bottom:0">Маленький район с относительно высокой долей иностранцев — <strong>11,5%</strong><sup><a href="#ref1">[1]</a></sup>. Африканцев — 45, что даёт <strong>1,9% населения</strong> — один из высоких показателей в городе. Район рабочий, доход ниже среднего.</p>
+        </div>
+
+        <div class="rating-grid">
+            <div class="rating-item"><span>Жильё</span><span class="rating-score">Средне</span></div>
+            <div class="rating-item"><span>Парк</span><span class="rating-score">Лучший в городе</span></div>
+            <div class="rating-item"><span>Спорт</span><span class="rating-score">24/7 на воздухе</span></div>
+            <div class="rating-item"><span>Бассейны</span><span class="rating-score">Летом — да</span></div>
+            <div class="rating-item"><span>Атмосфера</span><span class="rating-score">Парковая</span></div>
+            <div class="rating-item"><span>Кроме парка</span><span class="rating-score">Ничего</span></div>
+        </div>
+
+        <div class="verdict">
+            <p><strong>Суть:</strong> San Lázaro — это 2 400 человек, которые выбрали жить рядом с лучшим парком города. На месте средневекового лепрозория — скейтпарк, скалодром и лабиринт из лавров. Если бегаешь по утрам — твой район. Если нет — тут, кроме парка, делать нечего.</p>
+            <p class="rating"><strong>6.5 из 10</strong></p>
+        </div>
+
+        <div class="references">
+            <h2>Источники</h2>
+            <ol>
+                <li id="ref1">Padrón Municipal, 1 de enero de 2024 — <a href="https://www.odina.es/data/ficheros/2024/04/1144_ODINA_Poblaci%C3%B3n_extranjera_Oviedo_1_enero_2024-1.xlsx" target="_blank">Odina / Ayuntamiento de Oviedo</a></li>
+                <li id="ref2">Parque de Invierno — Historia: San Lázaro — <a href="https://parquesdeoviedo.com/PARQUES/Parque%20Invierno/paginas/inv-historia.html" target="_blank">parquesdeoviedo.com</a>. La Malatería, iglesia desde 1235, institución sanitaria más antigua.</li>
+                <li id="ref3">Parque de Invierno — <a href="https://parquesdeoviedo.com/PARQUES/Parque%20Invierno/paginas/parque%20invierno.html" target="_blank">parquesdeoviedo.com</a>. 171 368 m², propuesto 1952, inaugurado 1991, senda Fuso, Vaca Biológica, disc-golf 24h.</li>
+                <li id="ref4">Parque de Invierno — <a href="https://turismo-oviedo.lne.es/que-hacer/naturaleza-y-parques/parque-de-invierno.html" target="_blank">Turismo Oviedo / La Nueva España</a>. Laberinto 650 laureles, Palacio de los Niños, piscinas, quintana.</li>
+            </ol>
+        </div>
     </div>
 </body>
 </html>

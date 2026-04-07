@@ -8,79 +8,119 @@
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            padding: 20px;
-            background: #fafafa;
+            line-height: 1.7; color: #333; padding: 20px; background: #fafaf5;
         }
         .header {
-            background: linear-gradient(135deg, #2c3e50, #34495e);
-            color: white;
-            padding: 20px;
-            margin: -20px -20px 20px -20px;
+            background: linear-gradient(135deg, #5b3a1a, #7a5230);
+            color: white; padding: 25px; margin: -20px -20px 20px -20px;
+            border-bottom: 3px solid #c17f3e;
         }
-        .header h1 {
-            font-size: 1.4rem;
-            margin-bottom: 5px;
-        }
-        .header .subtitle {
-            font-size: 0.85rem;
-            opacity: 0.8;
-        }
+        .header h1 { font-size: 1.5rem; margin-bottom: 5px; }
+        .header .subtitle { font-size: 1rem; opacity: 0.9; font-style: italic; color: #e8c088; }
         .content {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            background: #fffef8; padding: 25px; border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
         }
-        h3 {
-            color: #2c3e50;
-            margin: 20px 0 10px 0;
-            font-size: 1.1rem;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 5px;
-        }
-        p {
-            margin-bottom: 12px;
-        }
-        ul {
-            margin: 10px 0 15px 20px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        strong {
-            color: #2c3e50;
-        }
-        .type-badge {
-            display: inline-block;
-            padding: 3px 10px;
-            border-radius: 12px;
-            font-size: 0.75rem;
-            margin-top: 8px;
-        }
-        .urban { background: #e74c3c; color: white; }
-        .rural { background: #27ae60; color: white; }
+        h2 { color: #5b3a1a; margin: 30px 0 15px 0; font-size: 1.3rem; border-bottom: 3px solid #c17f3e; padding-bottom: 8px; }
+        h3 { color: #7a5230; margin: 20px 0 10px 0; font-size: 1.05rem; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .intro { font-size: 1.05rem; color: #444; border-left: 4px solid #c17f3e; padding-left: 15px; margin-bottom: 25px; }
+        .type-badge { display: inline-block; padding: 4px 12px; border-radius: 12px; font-size: 0.8rem; margin-top: 10px; background: #c17f3e; color: white; }
+        ul { margin: 10px 0 15px 20px; } li { margin-bottom: 10px; } strong { color: #5b3a1a; }
+        .fact-box { background: #f8f3e8; border-left: 4px solid #7a5230; padding: 15px; margin: 15px 0; }
+        .quote { background: #faf5ec; border-left: 4px solid #c17f3e; padding: 15px 20px; margin: 20px 0; font-style: italic; color: #666; }
+        .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 15px 0; }
+        .stat-item { display: flex; justify-content: space-between; padding: 8px 12px; background: #faf5ec; border-radius: 4px; border: 1px solid #ece0cc; }
+        .stat-value { font-weight: bold; color: #5b3a1a; }
+        sup a { color: #7a5230; text-decoration: none; font-weight: bold; }
+        sup a:hover { text-decoration: underline; }
+        .references { margin-top: 30px; padding-top: 15px; border-top: 2px solid #c17f3e; font-size: 0.8rem; color: #666; }
+        .references h2 { font-size: 1.1rem; border-bottom: 1px solid #c17f3e; }
+        .references ol { margin: 10px 0 0 20px; }
+        .references li { margin-bottom: 5px; }
+        .references a { color: #7a5230; word-break: break-all; }
+        .verdict { background: linear-gradient(135deg, #5b3a1a, #7a5230); color: white; padding: 20px; border-radius: 8px; margin-top: 30px; }
+        .verdict p { text-align: left; margin-bottom: 10px; color: #ece0cc; }
+        .verdict .rating { font-size: 1.5rem; text-align: center; margin-top: 15px; color: #e8c088; }
+        @media (max-width: 600px) { .stats-grid { grid-template-columns: 1fr; } }
     </style>
 </head>
 <body>
     <div class="header">
         <h1>Centro Este</h1>
-        <div class="subtitle">Центр Восток</div>
-        <span class="type-badge urban">Городской район</span>
+        <div class="subtitle">Тихий восток: доминиканцы XVI века и ничего больше</div>
+        <span class="type-badge">Городской район</span>
     </div>
     <div class="content">
-        
-            <p>Восточная часть центра — традиционный район с рынками и сидрериями.</p>
-            <h3>Достопримечательности</h3>
-            <ul>
-                <li><strong>Рынок Фонтан (Mercado El Fontán)</strong> — исторический рынок</li>
-                <li><strong>Площадь Фонтан</strong> — место проведения ярмарок</li>
-                <li><strong>Район сидрерий</strong> — традиционные астурийские бары</li>
-            </ul>
-            <h3>Характер района</h3>
-            <p>Аутентичная атмосфера с местной кухней и традициями.</p>
-        
+        <p class="intro">Centro Este — район Овьедо, который никогда не попадёт в путеводитель. Здесь нет собора, нет Калатравы, нет бронзовых задниц. Единственное историческое здание — доминиканская церковь XVI века<sup><a href="#ref1">[1]</a></sup>. Остальное — жилая застройка, 6 052 человека<sup><a href="#ref2">[2]</a></sup>, и тишина, нарушаемая только Ронда Сур за восточной границей.</p>
+
+        <h2>Общие сведения</h2>
+
+        <p><strong>Centro Este</strong> (исп. «Центр Восток») — район к востоку от Antiguo, между старым городом и магистралью Ronda Sur<sup><a href="#ref3">[3]</a></sup>. Это <strong>переходная зона</strong>: средневековье заканчивается, начинаются нормальные улицы с нормальными домами 60–80-х годов. Район сформировался как тихое жильё для среднего класса, и с тех пор мало изменился.</p>
+
+        <h2>Iglesia de Santo Domingo</h2>
+
+        <p><strong>Церковь Санто-Доминго</strong><sup><a href="#ref1">[1]</a></sup> — единственный памятник архитектуры в Centro Este. Основана в 1518 году орденом проповедников (доминиканцев)<sup><a href="#ref1">[1]</a></sup>. Строительство началось в 1526 году из камня каменоломни Ласпра<sup><a href="#ref1">[1]</a></sup>. Архитектор — Хуан де Серессдо Старший, хотя автором проекта мог быть фрай Мартин де Сантьяго<sup><a href="#ref1">[1]</a></sup>.</p>
+
+        <p>В октябре 1934 года конвент был подожжён и серьёзно пострадал<sup><a href="#ref1">[1]</a></sup>. От первоначального комплекса сохранилась только церковь и часть клуатра. Церковь — <strong>Bien de Interés Cultural</strong> с 1944 года<sup><a href="#ref1">[1]</a></sup>.</p>
+
+        <p>С 1969 года — приход Санто-Доминго-де-Гусман<sup><a href="#ref1">[1]</a></sup> и резиденция <strong>Cofradía del Nazareno de Oviedo</strong> — старейшего братства города<sup><a href="#ref1">[1]</a></sup><sup><a href="#ref5">[5]</a></sup>, которое организует главную процессию Страстной пятницы.</p>
+
+        <div class="quote">В районе, где нет ничего, кроме жилых домов, одна доминиканская церковь XVI века — это уже достопримечательность уровня «звоните в ЮНЕСКО».</div>
+
+        <h2>Что рядом (но не здесь)</h2>
+
+        <p>Как и положено «центральному» району, всё интересное — на расстоянии 5 минут пешком, но формально в соседних районах:</p>
+
+        <ul>
+            <li><strong>Antiguo</strong> (запад) — собор, музеи, рынок Фонтан</li>
+            <li><strong>Tenderina</strong> (юго-восток) — Ронда Сур и всё, что за ней</li>
+            <li><strong>Centro Norte</strong> (север) — театр Кампоамор, Фонкалада</li>
+        </ul>
+
+        <p>Centro Este живёт за счёт соседей, но не платит за их шум, туристов и парковочный ад.</p>
+
+        <h2>Демография</h2>
+
+        <div class="stats-grid">
+            <div class="stat-item"><span>Население</span><span class="stat-value">6 052</span></div>
+            <div class="stat-item"><span>Иностранцев</span><span class="stat-value">7,0% (423)</span></div>
+            <div class="stat-item"><span>Латинская Америка</span><span class="stat-value">220</span></div>
+            <div class="stat-item"><span>Европа (ЕС)</span><span class="stat-value">108</span></div>
+            <div class="stat-item"><span>Африка</span><span class="stat-value">53</span></div>
+            <div class="stat-item"><span>Доход (€/год)</span><span class="stat-value">46 254 €</span></div>
+        </div>
+
+        <div class="fact-box">
+            <p style="margin-bottom:0"><strong>7% иностранцев</strong><sup><a href="#ref2">[2]</a></sup> — средний показатель. Латиноамериканцы — 220, африканцы — 53, из Азии — всего 4 человека. Доход — 46 254 € (почтовый индекс 33003)<sup><a href="#ref4">[4]</a></sup> — третье место в городе, наравне с Centro Norte и Antiguo.</p>
+        </div>
+
+        <h2>Вердикт</h2>
+
+        <div class="rating-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:15px 0">
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#faf5ec;border-radius:4px;border:1px solid #d9cdb8"><span>Жильё</span><span style="font-weight:bold;color:#5b3a1a">Средне-дорого</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#faf5ec;border-radius:4px;border:1px solid #d9cdb8"><span>Безопасность</span><span style="font-weight:bold;color:#5b3a1a">Хорошо</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#faf5ec;border-radius:4px;border:1px solid #d9cdb8"><span>Транспорт</span><span style="font-weight:bold;color:#5b3a1a">Пешком до центра</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#faf5ec;border-radius:4px;border:1px solid #d9cdb8"><span>Достопримечательности</span><span style="font-weight:bold;color:#5b3a1a">Одна церковь XVI в.</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#faf5ec;border-radius:4px;border:1px solid #d9cdb8"><span>Атмосфера</span><span style="font-weight:bold;color:#5b3a1a">Тихо</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#faf5ec;border-radius:4px;border:1px solid #d9cdb8"><span>Парковка</span><span style="font-weight:bold;color:#5b3a1a">Есть</span></div>
+        </div>
+
+        <div class="verdict">
+            <p><strong>Суть:</strong> Centro Este — антитеза туристического центра. Здесь нет ничего, ради чего вы приехали бы в Овьедо. Но есть всё, ради чего можно <strong>остаться жить</strong>: тихие улицы, близость к центру без его недостатков, нормальная парковка и соседи, которые не фотографируют ваш балкон. Единственная церковь XVI века — бонус для тех, кто ценит одинокую красоту.</p>
+            <p class="rating"><strong>7 из 10</strong></p>
+        </div>
+
+        <div class="references">
+            <h2>Источники</h2>
+            <ol>
+                <li id="ref1">Iglesia de Santo Domingo (Oviedo) — <a href="https://es.wikipedia.org/wiki/Iglesia_de_Santo_Domingo_(Oviedo)" target="_blank">Wikipedia (es)</a></li>
+                <li id="ref2">Padrón Municipal, 1 de enero de 2024 — <a href="https://www.odina.es/data/ficheros/2024/04/1144_ODINA_Poblaci%C3%B3n_extranjera_Oviedo_1_enero_2024-1.xlsx" target="_blank">Odina / Ayuntamiento de Oviedo</a></li>
+                <li id="ref3">Mapa de la ZBE de Oviedo — <a href="https://www.race.es/zonas-de-bajas-emisiones/mapa-zbe-oviedo" target="_blank">RACE: perímetro anillo exterior incluye Ronda Sur</a></li>
+                <li id="ref4">Агенция Трибутария, IRPF 2023 — <a href="https://www.lavozdeasturias.es/noticia/asturias/2025/10/09/barrio-barrio-cambiado-riqueza-oviedo-gijon/00031760028933658467784.htm" target="_blank">La Voz de Asturias: «Barrio a barrio»</a>, 09.10.2025</li>
+                <li id="ref5">Cofradía del Nazareno de Oviedo — <a href="http://www.nazarenosoviedo.com/historia.html" target="_blank">nazarenosoviedo.com</a>. Старейшее братство Овьедо, процессия Страстной пятницы.</li>
+            </ol>
+        </div>
     </div>
 </body>
 </html>

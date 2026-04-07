@@ -6,80 +6,103 @@
     <title>La Florida - Овьедо</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            padding: 20px;
-            background: #fafafa;
-        }
-        .header {
-            background: linear-gradient(135deg, #2c3e50, #34495e);
-            color: white;
-            padding: 20px;
-            margin: -20px -20px 20px -20px;
-        }
-        .header h1 {
-            font-size: 1.4rem;
-            margin-bottom: 5px;
-        }
-        .header .subtitle {
-            font-size: 0.85rem;
-            opacity: 0.8;
-        }
-        .content {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        h3 {
-            color: #2c3e50;
-            margin: 20px 0 10px 0;
-            font-size: 1.1rem;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 5px;
-        }
-        p {
-            margin-bottom: 12px;
-        }
-        ul {
-            margin: 10px 0 15px 20px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        strong {
-            color: #2c3e50;
-        }
-        .type-badge {
-            display: inline-block;
-            padding: 3px 10px;
-            border-radius: 12px;
-            font-size: 0.75rem;
-            margin-top: 8px;
-        }
-        .urban { background: #e74c3c; color: white; }
-        .rural { background: #27ae60; color: white; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: #333; padding: 20px; background: #f8faf5; }
+        .header { background: linear-gradient(135deg, #2e7d32, #388e3c); color: white; padding: 25px; margin: -20px -20px 20px -20px; border-bottom: 3px solid #81c784; }
+        .header h1 { font-size: 1.5rem; margin-bottom: 5px; }
+        .header .subtitle { font-size: 1rem; opacity: 0.9; font-style: italic; color: #c8e6c9; }
+        .content { background: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
+        h2 { color: #2e7d32; margin: 30px 0 15px 0; font-size: 1.3rem; border-bottom: 3px solid #81c784; padding-bottom: 8px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .intro { font-size: 1.05rem; color: #444; border-left: 4px solid #81c784; padding-left: 15px; margin-bottom: 25px; }
+        .type-badge { display: inline-block; padding: 4px 12px; border-radius: 12px; font-size: 0.8rem; margin-top: 10px; background: #81c784; color: #1b5e20; font-weight: bold; }
+        ul { margin: 10px 0 15px 20px; } li { margin-bottom: 10px; } strong { color: #1b5e20; }
+        .highlight { background: #e8f5e9; border-left: 4px solid #2e7d32; padding: 15px; margin: 15px 0; }
+        .quote { background: #f1f8f1; border-left: 4px solid #81c784; padding: 15px 20px; margin: 20px 0; font-style: italic; color: #666; }
+        .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 15px 0; }
+        .stat-item { display: flex; justify-content: space-between; padding: 8px 12px; background: #f1f8f1; border-radius: 4px; border: 1px solid #c8e6c9; }
+        .stat-value { font-weight: bold; color: #1b5e20; }
+        .rating-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 15px 0; }
+        .rating-item { display: flex; justify-content: space-between; padding: 8px 12px; background: #f1f8f1; border-radius: 4px; border: 1px solid #c8e6c9; }
+        .rating-score { font-weight: bold; color: #2e7d32; }
+        .verdict { background: linear-gradient(135deg, #2e7d32, #388e3c); color: white; padding: 20px; border-radius: 8px; margin-top: 30px; }
+        .verdict p { text-align: left; margin-bottom: 10px; color: #c8e6c9; }
+        .verdict .rating { font-size: 1.5rem; text-align: center; margin-top: 15px; }
+        sup a { color: #2e7d32; text-decoration: none; font-weight: bold; } sup a:hover { text-decoration: underline; }
+        .references { margin-top: 30px; padding-top: 15px; border-top: 2px solid #81c784; font-size: 0.8rem; color: #666; }
+        .references h2 { font-size: 1.1rem; border-bottom: 1px solid #81c784; }
+        .references ol { margin: 10px 0 0 20px; } .references li { margin-bottom: 5px; }
+        .references a { color: #2e7d32; word-break: break-all; }
+        @media (max-width: 600px) { .stats-grid, .rating-grid { grid-template-columns: 1fr; } }
     </style>
 </head>
 <body>
     <div class="header">
         <h1>La Florida</h1>
-        <div class="subtitle">Ла-Флорида</div>
-        <span class="type-badge urban">Городской район</span>
+        <div class="subtitle">Район-подросток: 20 лет от пустыря до «имана для семей»</div>
+        <span class="type-badge">Городской район</span>
     </div>
     <div class="content">
-        
-            <p>Качественный жилой район на северо-востоке.</p>
-            <h3>Достопримечательности</h3>
-            <ul>
-                <li><strong>Парк Пурификасьон Томас</strong> — зелёная зона</li>
-                <li><strong>Спортивные объекты</strong> — площадки для занятий</li>
-            </ul>
-            <h3>Характер района</h3>
-            <p>Район с частными домами и современными многоквартирными домами.</p>
-        
+        <p class="intro">La Florida — один из самых молодых районов Овьедо, которому нет и двадцати лет<sup><a href="#ref1">[1]</a></sup>. Где раньше были пастбища, теперь — широкие улицы, новые дома, детские площадки и 3,5% иностранцев<sup><a href="#ref2">[2]</a></sup> (меньше, чем в Centro Oeste). Район-подросток, который ещё не закончил расти, но уже стал «verdadero imán para las familias» (настоящим магнитом для семей)<sup><a href="#ref3">[3]</a></sup>.</p>
+
+        <h2>От пустыря к району</h2>
+
+        <p>То, что начиналось как «небольшое поселение рядом с Валлобином»<sup><a href="#ref1">[1]</a></sup>, за 15–20 лет превратилось в один из самых динамичных кварталов города. Район объединён <strong>Paseo de La Florida</strong> — самым длинным и широким бульваром Овьедо<sup><a href="#ref4">[4]</a></sup>.</p>
+
+        <div class="highlight">
+            <p style="margin-bottom:0">«Al principio todo era prado, pero comenzaron a construir edificios para la gente que venía aquí a trabajar desde todas partes de Asturias»<sup><a href="#ref1">[1]</a></sup> — вспоминают местные. Район продолжает расти: строятся новые жилые комплексы, открылся новый институт<sup><a href="#ref3">[3]</a></sup>.</p>
+        </div>
+
+        <p>Особенность La Florida — <strong>преобладание женского бизнеса</strong>. La Voz de Asturias в 2019 году отмечала: «Большинство новых магазинов здесь открывают женщины»<sup><a href="#ref1">[1]</a></sup>. Динамизм, молодость, оригинальность — три кита экономики района.</p>
+
+        <h2>Инфраструктура</h2>
+
+        <ul>
+            <li><strong>Школы:</strong> муниципальная детская школа, центр доучебных занятий, ближайший коllегио — в Las Campas<sup><a href="#ref4">[4]</a></sup>. Новый институт строится<sup><a href="#ref3">[3]</a></sup></li>
+            <li><strong>Торговля:</strong> 3 супермаркета, заправка, множество мелких магазинов<sup><a href="#ref4">[4]</a></sup></li>
+            <li><strong>Отдых:</strong> рецинто-фериал (ярмарочная площадь), футбольное поле, церковь<sup><a href="#ref4">[4]</a></sup></li>
+            <li><strong>Праздник:</strong> Сан-Антонио, 13 июня — организует Asociación Vecinal<sup><a href="#ref4">[4]</a></sup></li>
+        </ul>
+
+        <p>Район «имеет абсолютно всё» — спортивные, медицинские, торговые и гостиничные объекты, зелёные зоны и широкие тротуары<sup><a href="#ref3">[3]</a></sup>. Единственное, чего до недавнего времени не хватало — своего института.</p>
+
+        <h2>Демография</h2>
+
+        <div class="stats-grid">
+            <div class="stat-item"><span>Население</span><span class="stat-value">7 977</span></div>
+            <div class="stat-item"><span>Иностранцев</span><span class="stat-value">3,5% (279)</span></div>
+            <div class="stat-item"><span>Латинская Америка</span><span class="stat-value">118</span></div>
+            <div class="stat-item"><span>Европа (ЕС + вне)</span><span class="stat-value">138</span></div>
+            <div class="stat-item"><span>Африка</span><span class="stat-value">9</span></div>
+            <div class="stat-item"><span>Азия</span><span class="stat-value">12</span></div>
+        </div>
+
+        <p><strong>3,5% иностранцев</strong><sup><a href="#ref2">[2]</a></sup> — один из самых «испанских» районов города. Из 279 иностранцев — 138 европейцев, 118 латиноамериканцев, и всего 9 африканцев. Район демографически молодой: «comunidad joven y en crecimiento»<sup><a href="#ref3">[3]</a></sup>.</p>
+
+        <div class="quote">La Florida — район для тех, кто в Москве жил бы в Крылатском, а в Петербурге — на Крестовском. Только без Газпрома и с дождём 200 дней в году.</div>
+
+        <div class="rating-grid">
+            <div class="rating-item"><span>Жильё</span><span class="rating-score">Средне-дорого</span></div>
+            <div class="rating-item"><span>Безопасность</span><span class="rating-score">Топ</span></div>
+            <div class="rating-item"><span>Транспорт</span><span class="rating-score">Норм</span></div>
+            <div class="rating-item"><span>Для семей</span><span class="rating-score">Идеально</span></div>
+            <div class="rating-item"><span>Атмосфера</span><span class="rating-score">Новодел</span></div>
+            <div class="rating-item"><span>Ночная жизнь</span><span class="rating-score">Детская площадка</span></div>
+        </div>
+
+        <div class="verdict">
+            <p><strong>Суть:</strong> La Florida — это Овьедо для тех, кто хочет «нормально жить»: широкие улицы, новые дома, тишина, безопасность. Район без истории, без характера и без проблем. Идеальный для семей, скучный для всех остальных.</p>
+            <p class="rating"><strong>7.5 из 10</strong></p>
+        </div>
+
+        <div class="references">
+            <h2>Источники</h2>
+            <ol>
+                <li id="ref1">«La Florida, el barrio de la iniciativa femenina» — <a href="https://www.lavozdeasturias.es/noticia/oviedo/2019/04/08/florida-barrio-iniciativa-femenina/00031554715036106360110.htm" target="_blank">La Voz de Asturias</a>, 08.04.2019. Historia, mujeres, expansión.</li>
+                <li id="ref2">Padrón Municipal, 1 de enero de 2024 — <a href="https://www.odina.es/data/ficheros/2024/04/1144_ODINA_Poblaci%C3%B3n_extranjera_Oviedo_1_enero_2024-1.xlsx" target="_blank">Odina / Ayuntamiento de Oviedo</a></li>
+                <li id="ref3">«¿Qué zonas de Oviedo son mejores para vivir con niños?» — <a href="https://www.lavozdeasturias.es/noticia/oviedo/voz-oviedo/2024/06/17/zonas-oviedo-mejorar-vivir-ninos-barrios-ideales-familias-precios/00031718609532686354292.htm" target="_blank">La Voz de Asturias</a>, 17.06.2024. «Imán para familias», precios, nuevo instituto.</li>
+                <li id="ref4">La Florida (Oviedo) — <a href="https://es.wikipedia.org/wiki/La_Florida_(Oviedo)" target="_blank">Wikipedia (es)</a>. 7 946 hab., Paseo de La Florida, fiestas San Antonio.</li>
+            </ol>
+        </div>
     </div>
 </body>
 </html>

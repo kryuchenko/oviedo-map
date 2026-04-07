@@ -1,0 +1,22 @@
+{
+  "district": "Caces (Касес)",
+  "district_type": "rural",
+  "summary_ru": "Сельский район к юго-западу.",
+  "total_validated_pois": 0,
+  "pois": [],
+  "demographics": {
+    "source": "Padrón Municipal 2024",
+    "total_population": 259,
+    "foreign_total": 9,
+    "pct_foreign": 3.5,
+    "foreign_by_continent": {
+      "eu": 6,
+      "europe_non_eu": 1,
+      "america": 2,
+      "africa": 0,
+      "asia": 0,
+      "oceania": 0,
+      "stateless": 0
+    }
+  }
+}

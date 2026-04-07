@@ -1,0 +1,22 @@
+{
+  "district": "Monte Cerráu (Монтесеррао)",
+  "district_type": "urban",
+  "summary_ru": "Жилой район на южном холме. Хорошие виды на город, тихий район с высоким качеством жизни.",
+  "total_validated_pois": 0,
+  "pois": [],
+  "demographics": {
+    "source": "Padrón Municipal 2024",
+    "total_population": 4969,
+    "foreign_total": 217,
+    "pct_foreign": 4.4,
+    "foreign_by_continent": {
+      "eu": 63,
+      "europe_non_eu": 26,
+      "america": 116,
+      "africa": 7,
+      "asia": 4,
+      "oceania": 1,
+      "stateless": 0
+    }
+  }
+}

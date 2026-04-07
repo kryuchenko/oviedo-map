@@ -6,80 +6,74 @@
     <title>Bendones - Овьедо</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            padding: 20px;
-            background: #fafafa;
-        }
-        .header {
-            background: linear-gradient(135deg, #2c3e50, #34495e);
-            color: white;
-            padding: 20px;
-            margin: -20px -20px 20px -20px;
-        }
-        .header h1 {
-            font-size: 1.4rem;
-            margin-bottom: 5px;
-        }
-        .header .subtitle {
-            font-size: 0.85rem;
-            opacity: 0.8;
-        }
-        .content {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        h3 {
-            color: #2c3e50;
-            margin: 20px 0 10px 0;
-            font-size: 1.1rem;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 5px;
-        }
-        p {
-            margin-bottom: 12px;
-        }
-        ul {
-            margin: 10px 0 15px 20px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        strong {
-            color: #2c3e50;
-        }
-        .type-badge {
-            display: inline-block;
-            padding: 3px 10px;
-            border-radius: 12px;
-            font-size: 0.75rem;
-            margin-top: 8px;
-        }
-        .urban { background: #e74c3c; color: white; }
-        .rural { background: #27ae60; color: white; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: #333; padding: 20px; background: #fafafa; }
+        .header { background: linear-gradient(135deg, #2e7d32, #4caf50); color: white; padding: 25px; margin: -20px -20px 20px -20px; }
+        .header h1 { font-size: 1.5rem; margin-bottom: 5px; }
+        .header .subtitle { font-size: 1rem; opacity: 0.9; font-style: italic; }
+        .content { background: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h2 { color: #2e7d32; margin: 25px 0 12px 0; font-size: 1.25rem; border-bottom: 3px solid #66bb6a; padding-bottom: 6px; }
+        p { margin-bottom: 14px; text-align: justify; }
+        .intro { font-size: 1.05rem; color: #444; border-left: 4px solid #66bb6a; padding-left: 15px; margin-bottom: 20px; }
+        .type-badge { display: inline-block; padding: 4px 12px; border-radius: 12px; font-size: 0.8rem; margin-top: 10px; background: #1b5e20; color: white; }
+        strong { color: #2e7d32; }
+        sup a { color: #e67e22; text-decoration: none; font-weight: bold; }
+        sup a:hover { text-decoration: underline; }
+        .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 15px 0; }
+        .stats-grid div { display: flex; justify-content: space-between; padding: 8px 12px; background: #e8f5e9; border-radius: 4px; border: 1px solid #a5d6a7; font-size: 0.9rem; }
+        .stats-grid span:last-child { font-weight: bold; color: #2e7d32; }
+        .rating-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 15px 0; }
+        .rating-grid div { display: flex; justify-content: space-between; padding: 8px 12px; background: #e8f5e9; border-radius: 4px; border: 1px solid #a5d6a7; }
+        .rating-grid span:last-child { font-weight: bold; color: #2e7d32; }
+        .verdict { background: linear-gradient(135deg, #2e7d32, #4caf50); color: white; padding: 20px; border-radius: 8px; margin-top: 25px; text-align: center; }
+        .verdict h3 { color: #c8e6c9; margin-bottom: 10px; }
+        .rating { font-size: 1.5rem; font-weight: bold; color: #c8e6c9; }
+        .references { margin-top: 25px; padding-top: 15px; border-top: 2px solid #66bb6a; font-size: 0.8rem; color: #888; }
+        .references h2 { font-size: 1.1rem; color: #66bb6a; border-bottom: 1px solid #66bb6a; }
+        .references ol { margin: 10px 0 0 20px; }
+        .references li { margin-bottom: 5px; }
+        .references a { color: #e67e22; word-break: break-all; }
+        @media (max-width: 600px) { .stats-grid, .rating-grid { grid-template-columns: 1fr; } }
     </style>
 </head>
 <body>
     <div class="header">
         <h1>Bendones</h1>
-        <div class="subtitle">Бендонес</div>
-        <span class="type-badge rural">Сельский район</span>
+        <div class="subtitle">Горный приход, где ветер дует сильнее, чем мобильный сигнал</div>
+        <span class="type-badge">Сельский приход</span>
     </div>
     <div class="content">
-        
-            <p>Небольшой приход на склонах горы Наранко.</p>
-            <h3>Характер</h3>
-            <p>Зона с панорамными видами и природными ландшафтами.</p>
-            <h3>Данные</h3>
-            <ul>
-                <li><strong>Население:</strong> ~250 жителей</li>
-                <li><strong>Площадь:</strong> 3,8 км²</li>
-            </ul>
-        
+        <p class="intro">Бендонес -- горный приход на северных склонах муниципалитета Овьедо с населением 325 человек<sup><a href="#ref1">[1]</a></sup>. Сюда забираются либо по ошибке, либо за панорамными видами, от которых захватывает дух -- впрочем, дух тут захватывает и от подъёма в гору.</p>
+
+        <h2>Характер</h2>
+        <p>Бендонес -- это рассеянная сельская застройка на высоте, где коровы встречаются чаще, чем автобусы (автобусов тут, собственно, и нет). Приход сохраняет классический астурийский облик: каменные дома, hórreos, церковь Сан-Хулиан-де-лос-Прадос... нет, стоп, та -- в центре. Здесь своя, попроще, но тоже уютная. Иностранцев -- 6 человек из 325<sup><a href="#ref1">[1]</a></sup>, то есть 1,8%. Видимо, это семья, которая искала тишину и нашла её с избытком.</p>
+
+        <h2>Демография</h2>
+        <div class="stats-grid">
+            <div><span>Население</span><span>325</span></div>
+            <div><span>Иностранцы</span><span>6 (1,8%)</span></div>
+            <div><span>Тип</span><span>Горный приход</span></div>
+            <div><span>Расположение</span><span>Север</span></div>
+        </div>
+
+        <div class="rating-grid">
+            <div><span>Naturaleza</span><span>9/10</span></div>
+            <div><span>Accesibilidad</span><span>2/10</span></div>
+            <div><span>Servicios</span><span>1/10</span></div>
+            <div><span>Para vivir</span><span>3/10</span></div>
+        </div>
+
+        <div class="verdict">
+            <h3>Вердикт</h3>
+            <p class="rating">3.0 / 10</p>
+            <p>Отличное место, если ваш идеал жизни -- горная глушь в 15 минутах от города. Для всех остальных -- красивая экскурсия на один день.</p>
+        </div>
+
+        <div class="references">
+            <h2>Источники</h2>
+            <ol>
+                <li id="ref1">Padrón Municipal, 1 de enero de 2024 -- <a href="https://www.odina.es/data/ficheros/2024/04/1144_ODINA_Poblaci%C3%B3n_extranjera_Oviedo_1_enero_2024-1.xlsx" target="_blank">Odina / Ayuntamiento de Oviedo</a></li>
+            </ol>
+        </div>
     </div>
 </body>
 </html>

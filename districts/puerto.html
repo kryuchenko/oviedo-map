@@ -6,66 +6,76 @@
     <title>Puerto - Овьедо</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            padding: 20px;
-            background: #fafafa;
-        }
-        .header {
-            background: linear-gradient(135deg, #27ae60, #2ecc71);
-            color: white;
-            padding: 20px;
-            margin: -20px -20px 20px -20px;
-        }
-        .header h1 {
-            font-size: 1.4rem;
-            margin-bottom: 5px;
-        }
-        .header .subtitle {
-            font-size: 0.85rem;
-            opacity: 0.8;
-        }
-        .content {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        h3 {
-            color: #27ae60;
-            margin: 20px 0 10px 0;
-            font-size: 1.1rem;
-            border-bottom: 2px solid #27ae60;
-            padding-bottom: 5px;
-        }
-        p {
-            margin-bottom: 12px;
-        }
-        .type-badge {
-            display: inline-block;
-            padding: 3px 10px;
-            border-radius: 12px;
-            font-size: 0.75rem;
-            margin-top: 8px;
-            background: #2c3e50;
-            color: white;
-        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: #333; padding: 20px; background: #fafafa; }
+        .header { background: linear-gradient(135deg, #37474f, #546e7a); color: white; padding: 25px; margin: -20px -20px 20px -20px; }
+        .header h1 { font-size: 1.5rem; margin-bottom: 5px; }
+        .header .subtitle { font-size: 1rem; opacity: 0.9; font-style: italic; }
+        .content { background: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h2 { color: #37474f; margin: 25px 0 12px 0; font-size: 1.25rem; border-bottom: 3px solid #78909c; padding-bottom: 6px; }
+        p { margin-bottom: 14px; text-align: justify; }
+        .intro { font-size: 1.05rem; color: #444; border-left: 4px solid #78909c; padding-left: 15px; margin-bottom: 20px; }
+        .type-badge { display: inline-block; padding: 4px 12px; border-radius: 12px; font-size: 0.8rem; margin-top: 10px; background: #263238; color: white; }
+        strong { color: #37474f; }
+        sup a { color: #e67e22; text-decoration: none; font-weight: bold; }
+        sup a:hover { text-decoration: underline; }
+        .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 15px 0; }
+        .stats-grid div { display: flex; justify-content: space-between; padding: 8px 12px; background: #eceff1; border-radius: 4px; border: 1px solid #b0bec5; font-size: 0.9rem; }
+        .stats-grid span:last-child { font-weight: bold; color: #37474f; }
+        .rating-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 15px 0; }
+        .rating-grid div { display: flex; justify-content: space-between; padding: 8px 12px; background: #eceff1; border-radius: 4px; border: 1px solid #b0bec5; }
+        .rating-grid span:last-child { font-weight: bold; color: #37474f; }
+        .verdict { background: linear-gradient(135deg, #37474f, #546e7a); color: white; padding: 20px; border-radius: 8px; margin-top: 25px; text-align: center; }
+        .verdict h3 { color: #b0bec5; margin-bottom: 10px; }
+        .rating { font-size: 1.5rem; font-weight: bold; color: #b0bec5; }
+        .references { margin-top: 25px; padding-top: 15px; border-top: 2px solid #78909c; font-size: 0.8rem; color: #888; }
+        .references h2 { font-size: 1.1rem; color: #78909c; border-bottom: 1px solid #78909c; }
+        .references ol { margin: 10px 0 0 20px; }
+        .references li { margin-bottom: 5px; }
+        .references a { color: #e67e22; word-break: break-all; }
+        @media (max-width: 600px) { .stats-grid, .rating-grid { grid-template-columns: 1fr; } }
     </style>
 </head>
 <body>
     <div class="header">
         <h1>Puerto</h1>
-        <div class="subtitle">Пуэрто</div>
-        <span class="type-badge">Сельский район</span>
+        <div class="subtitle">Горный перевал, 187 душ и туман как образ жизни</div>
+        <span class="type-badge">Сельский приход</span>
     </div>
     <div class="content">
-        <p>Сельский район в муниципалитете Овьедо, Астурия.</p>
-        <h3>Описание</h3>
-        <p>Puerto — один из приходов (parroquias), составляющих территорию муниципалитета Овьедо. Расположен в сельской местности, сохраняет традиционный астурийский уклад жизни.</p>
-        <h3>Характер местности</h3>
-        <p>Тихая сельская местность с живописными пейзажами северной Испании. Традиционная архитектура, природные угодья.</p>
+        <p class="intro">Пуэрто -- горный приход на периферии Овьедо, названный, как нетрудно догадаться, в честь горного перевала. 187 жителей<sup><a href="#ref1">[1]</a></sup> живут здесь на высоте, где облака проходят на уровне окон, а прогноз погоды сводится к двум вариантам: туман и «скоро будет туман».</p>
+
+        <h2>Характер</h2>
+        <p>Пуэрто -- это Астурия в концентрированном виде: горы, зелень, влажность и ощущение, что цивилизация -- это что-то из новостей по телевизору. 14 иностранцев на 187 жителей (7,5%)<sup><a href="#ref1">[1]</a></sup> -- заметный показатель. Вероятно, это люди, которые искали аутентичную горную жизнь и нашли её здесь в полном объёме -- вместе с отсутствием тротуаров и однополосными дорогами.</p>
+
+        <p>Горный перевал исторически служил транспортным узлом, но с появлением автомагистралей потерял это значение. Теперь здесь просто тихо, высоко и красиво.</p>
+
+        <h2>Демография</h2>
+        <div class="stats-grid">
+            <div><span>Население</span><span>187</span></div>
+            <div><span>Иностранцы</span><span>14 (7,5%)</span></div>
+            <div><span>Тип</span><span>Горный приход</span></div>
+            <div><span>Особенность</span><span>Перевал</span></div>
+        </div>
+
+        <div class="rating-grid">
+            <div><span>Naturaleza</span><span>9/10</span></div>
+            <div><span>Accesibilidad</span><span>2/10</span></div>
+            <div><span>Servicios</span><span>1/10</span></div>
+            <div><span>Para vivir</span><span>2/10</span></div>
+        </div>
+
+        <div class="verdict">
+            <h3>Вердикт</h3>
+            <p class="rating">2.5 / 10</p>
+            <p>Горный перевал с видами, которые стоят подъёма. Жить здесь -- подвиг; приехать на выходные -- удовольствие.</p>
+        </div>
+
+        <div class="references">
+            <h2>Источники</h2>
+            <ol>
+                <li id="ref1">Padrón Municipal, 1 de enero de 2024 -- <a href="https://www.odina.es/data/ficheros/2024/04/1144_ODINA_Poblaci%C3%B3n_extranjera_Oviedo_1_enero_2024-1.xlsx" target="_blank">Odina / Ayuntamiento de Oviedo</a></li>
+            </ol>
+        </div>
     </div>
 </body>
 </html>

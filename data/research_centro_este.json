@@ -1,0 +1,39 @@
+{
+  "district": "Centro Este (Центр Восток)",
+  "district_type": "urban",
+  "summary_ru": "Восточная часть центра Овьедо — тихий жилой район. Переходная зона между средневековым ядром и восточными кварталами. Преимущественно жилая застройка 60-80-х годов без значимых достопримечательностей.",
+  "total_validated_pois": 1,
+  "pois": [
+    {
+      "name": "Iglesia y Colegio de Santo Domingo",
+      "name_ru": "Церковь и Коллегиум Санто-Доминго",
+      "category": "church",
+      "lat": 43.358283,
+      "lon": -5.841931,
+      "coord_source": "Nominatim: Colegio Santo Domingo, Oviedo",
+      "description": "Доминиканская церковь XVI века (1518–1526) — Bien de Interés Cultural с 1944. Единственное сохранившееся средневековое здание в Centro Este. Сейчас — приход Санто-Доминго-де-Гусман и доминиканский коллегиум."
+    }
+  ],
+  "demographics": {
+    "source": "Padrón Municipal 2024 (Odina/Ayuntamiento de Oviedo)",
+    "total_population": 6052,
+    "foreign_total": 423,
+    "pct_foreign": 7.0,
+    "foreign_by_continent": {
+      "eu": 108,
+      "europe_non_eu": 34,
+      "america": 220,
+      "africa": 53,
+      "asia": 4,
+      "oceania": 0,
+      "stateless": 4
+    }
+  },
+  "income": {
+    "source": "Agencia Tributaria IRPF 2023, via La Voz de Asturias",
+    "renta_bruta_media_2023": 46254,
+    "oviedo_average_2023": 33407,
+    "rank_in_oviedo": 3,
+    "postal_code": "33003"
+  }
+}

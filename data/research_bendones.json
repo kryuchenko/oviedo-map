@@ -1,0 +1,22 @@
+{
+  "district": "Bendones (Бендонес)",
+  "district_type": "rural",
+  "summary_ru": "Сельский район к северу. Всего 6 иностранцев.",
+  "total_validated_pois": 0,
+  "pois": [],
+  "demographics": {
+    "source": "Padrón Municipal 2024",
+    "total_population": 325,
+    "foreign_total": 6,
+    "pct_foreign": 1.8,
+    "foreign_by_continent": {
+      "eu": 6,
+      "europe_non_eu": 0,
+      "america": 0,
+      "africa": 0,
+      "asia": 0,
+      "oceania": 0,
+      "stateless": 0
+    }
+  }
+}

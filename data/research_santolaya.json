@@ -1,0 +1,22 @@
+{
+  "district": "Santolaya (Мансанеда)",
+  "district_type": "rural",
+  "summary_ru": "Сельский район.",
+  "total_validated_pois": 0,
+  "pois": [],
+  "demographics": {
+    "source": "Padrón Municipal 2024",
+    "total_population": 224,
+    "foreign_total": 18,
+    "pct_foreign": 8.0,
+    "foreign_by_continent": {
+      "eu": 13,
+      "europe_non_eu": 1,
+      "america": 4,
+      "africa": 0,
+      "asia": 0,
+      "oceania": 0,
+      "stateless": 0
+    }
+  }
+}

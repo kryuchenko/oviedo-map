@@ -6,215 +6,184 @@
     <title>La Corredoria - Овьедо</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.7;
-            color: #333;
-            padding: 20px;
-            background: #fafafa;
-        }
-        .header {
-            background: linear-gradient(135deg, #64748b, #475569);
-            color: white;
-            padding: 25px;
-            margin: -20px -20px 20px -20px;
-        }
-        .header h1 {
-            font-size: 1.5rem;
-            margin-bottom: 5px;
-        }
-        .header .subtitle {
-            font-size: 1rem;
-            opacity: 0.9;
-            font-style: italic;
-        }
-        .content {
-            background: white;
-            padding: 25px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        h2 {
-            color: #475569;
-            margin: 30px 0 15px 0;
-            font-size: 1.3rem;
-            border-bottom: 3px solid #94a3b8;
-            padding-bottom: 8px;
-        }
-        h3 {
-            color: #64748b;
-            margin: 20px 0 10px 0;
-            font-size: 1.05rem;
-        }
-        p {
-            margin-bottom: 15px;
-            text-align: justify;
-        }
-        .intro {
-            font-size: 1.05rem;
-            color: #444;
-            border-left: 4px solid #94a3b8;
-            padding-left: 15px;
-            margin-bottom: 25px;
-        }
-        .type-badge {
-            display: inline-block;
-            padding: 4px 12px;
-            border-radius: 12px;
-            font-size: 0.8rem;
-            margin-top: 10px;
-            background: #94a3b8;
-            color: white;
-        }
-        ul {
-            margin: 10px 0 15px 20px;
-        }
-        li {
-            margin-bottom: 10px;
-        }
-        .highlight {
-            background: #f1f5f9;
-            border-left: 4px solid #94a3b8;
-            padding: 15px;
-            margin: 15px 0;
-        }
-        .two-parts {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 15px;
-            margin: 15px 0;
-        }
-        .part {
-            background: #f8fafc;
-            padding: 15px;
-            border-radius: 8px;
-            border: 1px solid #e2e8f0;
-        }
-        .part h4 {
-            color: #475569;
-            margin-bottom: 8px;
-            font-size: 0.95rem;
-        }
-        .pros-cons {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-            margin: 20px 0;
-        }
-        .pros, .cons {
-            padding: 15px;
-            border-radius: 8px;
-        }
-        .pros {
-            background: #f0fdf4;
-            border: 1px solid #86efac;
-        }
-        .cons {
-            background: #fef2f2;
-            border: 1px solid #fca5a5;
-        }
-        .pros h4 {
-            color: #166534;
-            margin-bottom: 10px;
-        }
-        .cons h4 {
-            color: #991b1b;
-            margin-bottom: 10px;
-        }
-        .verdict {
-            background: linear-gradient(135deg, #64748b, #475569);
-            color: white;
-            padding: 20px;
-            border-radius: 8px;
-            margin-top: 30px;
-        }
-        .verdict p {
-            text-align: left;
-            margin-bottom: 0;
-        }
-        @media (max-width: 600px) {
-            .two-parts, .pros-cons {
-                grid-template-columns: 1fr;
-            }
-        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: #333; padding: 20px; background: #fafafa; }
+        .header { background: linear-gradient(135deg, #64748b, #475569); color: white; padding: 25px; margin: -20px -20px 20px -20px; }
+        .header h1 { font-size: 1.5rem; margin-bottom: 5px; }
+        .header .subtitle { font-size: 1rem; opacity: 0.9; font-style: italic; }
+        .content { background: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h2 { color: #475569; margin: 30px 0 15px 0; font-size: 1.3rem; border-bottom: 3px solid #94a3b8; padding-bottom: 8px; }
+        h3 { color: #64748b; margin: 20px 0 10px 0; font-size: 1.05rem; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .intro { font-size: 1.05rem; color: #444; border-left: 4px solid #94a3b8; padding-left: 15px; margin-bottom: 25px; }
+        .type-badge { display: inline-block; padding: 4px 12px; border-radius: 12px; font-size: 0.8rem; margin-top: 10px; background: #94a3b8; color: white; }
+        ul { margin: 10px 0 15px 20px; } li { margin-bottom: 10px; }
+        .highlight { background: #f1f5f9; border-left: 4px solid #94a3b8; padding: 15px; margin: 15px 0; }
+        .danger-box { background: #fef2f2; border: 1px solid #fca5a5; padding: 15px; border-radius: 8px; margin: 15px 0; }
+        .danger-box h4 { color: #991b1b; margin-bottom: 8px; }
+        .zone-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin: 15px 0; }
+        .zone { background: #f8fafc; padding: 15px; border-radius: 8px; border: 1px solid #e2e8f0; }
+        .zone h4 { color: #475569; margin-bottom: 8px; font-size: 0.95rem; }
+        .pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 20px 0; }
+        .pros, .cons { padding: 15px; border-radius: 8px; }
+        .pros { background: #f0fdf4; border: 1px solid #86efac; }
+        .cons { background: #fef2f2; border: 1px solid #fca5a5; }
+        .pros h4 { color: #166534; margin-bottom: 10px; } .cons h4 { color: #991b1b; margin-bottom: 10px; }
+        .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 15px 0; }
+        .stat-item { display: flex; justify-content: space-between; padding: 8px 12px; background: #f8fafc; border-radius: 4px; border: 1px solid #e2e8f0; }
+        .stat-value { font-weight: bold; color: #475569; }
+        .verdict { background: linear-gradient(135deg, #64748b, #475569); color: white; padding: 20px; border-radius: 8px; margin-top: 30px; }
+        .verdict p { text-align: left; margin-bottom: 0; }
+        sup a { color: #475569; text-decoration: none; font-weight: bold; } sup a:hover { text-decoration: underline; }
+        .references { margin-top: 30px; padding-top: 15px; border-top: 2px solid #94a3b8; font-size: 0.8rem; color: #666; }
+        .references h2 { font-size: 1.1rem; border-bottom: 1px solid #94a3b8; }
+        .references ol { margin: 10px 0 0 20px; } .references li { margin-bottom: 5px; }
+        .references a { color: #475569; word-break: break-all; }
+        @media (max-width: 600px) { .zone-grid, .pros-cons, .stats-grid { grid-template-columns: 1fr; } }
     </style>
 </head>
 <body>
     <div class="header">
         <h1>La Corredoria</h1>
-        <div class="subtitle">Астурийская Коммунарка — большой спальник</div>
+        <div class="subtitle">Астурийская Коммунарка — большой спальник с социальным жильём и цыганским вопросом</div>
         <span class="type-badge">Городской район</span>
     </div>
     <div class="content">
-        <p class="intro">Если тебе нужно место в Овьедо, которое ощущается как "за МКАДом" (Коммунарка/Южное Бутово по духу) — это оно. Ла-Корредория скорее город-спутник, который по недоразумению считается частью Овьедо: многоэтажки, широкие проспекты, минимум "старого города", максимум быта и квадратных метров.</p>
+        <p class="intro">Если тебе нужно место в Овьедо, которое ощущается как «за МКАДом» (Коммунарка/Южное Бутово по духу) — это оно. Ла-Корредория скорее город-спутник, который по недоразумению считается частью Овьедо: многоэтажки, широкие проспекты, минимум «старого города», максимум быта и квадратных метров. Но за фасадом спальника прячутся и социальное жильё с плесенью, и нерешённый цыганский вопрос, и вечная парковочная война.</p>
 
-        <h2>1. Как устроен район</h2>
+        <h2>1. Подзоны: четыре Корредории в одной</h2>
 
-        <p>Это <strong>типичный спальный массив</strong>, выросший на строительном буме 90-х и нулевых: из деревни → в район на <strong>20 000+ жителей</strong>.</p>
+        <p>Район расположен на северо-востоке Овьедо, вдоль исторической дороги Oviedo–Gijón<sup><a href="#ref1">[1]</a></sup>. Из деревни с 1 982 жителями (1986) — в район на <strong>20 498 человек</strong> (2024)<sup><a href="#ref1">[1]</a></sup>. Застройщик <strong>Sogepsa</strong> освоил 1,2 млн м², построив <strong>7 950 квартир</strong> (из них 6 250 — защищённое жильё) и 374 000 м² зелёных зон<sup><a href="#ref2">[2]</a></sup>.</p>
 
-        <div class="two-parts">
-            <div class="part">
-                <h4>La Corredoria Vieja</h4>
-                <p style="margin-bottom:0">Кусочек "старого поселка" вокруг площади Cuatro Caños. Душевнее, но теряется на фоне новостроек.</p>
+        <div class="zone-grid">
+            <div class="zone">
+                <h4>Corredoria Vieja (Los Cuatro Caños)</h4>
+                <p style="margin-bottom:0">Кусочек «старого посёлка» вокруг площади Cuatro Caños<sup><a href="#ref3">[3]</a></sup>. Субботний рынок (9:00–14:30), Estadio Manuel Díaz Vega<sup><a href="#ref4">[4]</a></sup>. Душевнее, но теряется на фоне новостроек.</p>
             </div>
-            <div class="part">
-                <h4>Новая Корредория</h4>
-                <p style="margin-bottom:0">"Кирпичный тетрис": кварталы стеной, ветра, широкие улицы, ощущение человейника.</p>
+            <div class="zone">
+                <h4>Corredoria PP 8 / Este</h4>
+                <p style="margin-bottom:0">Первые фазы застройки Sogepsa<sup><a href="#ref2">[2]</a></sup>: кварталы между ж/д и дорогой на Лугонес. «Кирпичный тетрис»: коробки стеной, ветра, широкие улицы.</p>
+            </div>
+            <div class="zone">
+                <h4>Prado de la Vega</h4>
+                <p style="margin-bottom:0">Самая новая часть<sup><a href="#ref2">[2]</a></sup>. Соединила район с городом и HUCA. Рядом больница, понтов чуть больше, цены чуть выше.</p>
+            </div>
+            <div class="zone">
+                <h4>La Carisa / La Malata</h4>
+                <p style="margin-bottom:0">Северная часть<sup><a href="#ref5">[5]</a></sup>. La Carisa — жилой сектор ближе к автовии. La Malata — край района, переходящий в пригород.</p>
             </div>
         </div>
 
-        <p><strong>Prado de la Vega</strong> — более "прилизанная" часть, рядом больница HUCA, понтов чуть больше.</p>
+        <h2>2. Социальное жильё: VIPASA и плесень на C. Pablo Alonso Rato</h2>
 
-        <h2>2. Главная местная религия — парковка и выезды</h2>
+        <p>Блоки <strong>VIPASA</strong> (Viviendas del Principado de Asturias) на <strong>Calle Pablo Alonso Rato</strong><sup><a href="#ref16">[16]</a></sup> — социальное жильё 2011 года, сдаваемое семьям с низкими доходами. С 2016 года жители жалуются на <strong>плесень, поднятые от влажности полы, неработающие вытяжки и полное отсутствие обслуживания</strong><sup><a href="#ref16">[16]</a></sup>. PP вынес вопрос в региональный парламент<sup><a href="#ref16">[16]</a></sup>.</p>
 
+        <p>В 2025 году ситуация не улучшилась: ассоциация соседей подавала жалобы с 2021 года — правительство «сделало вид, что не заметило» (<em>ha hecho caso omiso</em>)<sup><a href="#ref17">[17]</a></sup>. Депутат PP Сусана Фернандес: «Бессмысленно увеличивать число социальных квартир, если потом их бросают в таком состоянии»<sup><a href="#ref17">[17]</a></sup>.</p>
+
+        <p>Кроме VIPASA, в районе ~500 квартир <strong>Arboleya Visoren Norte (AVN)</strong> — частная компания управляет арендой на уступленной публичной земле<sup><a href="#ref18">[18]</a></sup>. Партия Somos назвала VIPASA «peor casero de Asturias» (худший арендодатель Астурии)<sup><a href="#ref18">[18]</a></sup>.</p>
+
+        <h2>3. Matalablima: цыганский вопрос</h2>
+
+        <p>С <strong>1949 года</strong> на окраине Корредории/Вентаньельес (Ventanielles Alto, «La praderona») существовал цыганский посёлок <strong>Matalablima</strong><sup><a href="#ref8">[8]</a></sup> — самодельные лачуги без водопровода и канализации. В октябре 1986 года здесь погиб 13-летний <strong>Альфредо Рубио</strong> от огнестрельного ранения<sup><a href="#ref8">[8]</a></sup>.</p>
+
+        <p>Хронология решения «цыганского вопроса»:</p>
         <ul>
-            <li><strong>Парковки не хватает:</strong> вечером дворы превращаются в "Голодные игры", машины стоят где угодно.</li>
-            <li>Дополнительно мешают <strong>работники промзоны Espíritu Santo</strong> и посетители <strong>HUCA</strong>, которые часто паркуются в жилых дворах.</li>
-            <li><strong>Транспортное узкое горлышко</strong> — отдельная боль: район регулярно стоит. Съезд с автовии AS-II в район <strong>закрыт с 2019 года</strong>, жители требуют открыть его уже 5+ лет. Исследования показывают, что открытие снизило бы трафик на 40%, но воз и ныне там.</li>
-            <li><strong>Общественный транспорт — боль:</strong> до центра ходят всего 2 автобуса. Линия <strong>D</strong> — раз в 25 минут, линия <strong>C</strong> — раз в 15-20 минут. С учётом ожидания и всех остановок дорога до центра легко занимает <strong>час</strong>.</li>
+            <li><strong>1981</strong> — мэрия создаёт «Комиссию по ликвидации чабольизма»<sup><a href="#ref8">[8]</a></sup></li>
+            <li><strong>1985</strong> — Asociación de Vecinos de La Carisa (3 000 жителей) протестует против 20 сборных домов для цыган. «Не расисты, но распределите по всем районам»<sup><a href="#ref14">[14]</a></sup></li>
+            <li><strong>1987</strong> — плено одобряет 26 домов за 144 млн песет (PSOE + CDS + IU за, AP воздержалась)<sup><a href="#ref8">[8]</a></sup></li>
+            <li><strong>1991</strong> — жители La Monxina физически не пускают рабочих на стройплощадку<sup><a href="#ref9">[9]</a></sup></li>
+            <li><strong>1989</strong> — экскаватор без предупреждения сносит каболы. Семьи временно переселяют на промзону Espíritu Santo<sup><a href="#ref8">[8]</a></sup></li>
         </ul>
 
-        <h2>3. Ротонды как навигация</h2>
+        <p>Семьи рассредоточили: <strong>El Cascayu</strong>, <strong>Sierra de Granda</strong>, <strong>El Campillín</strong> (реалохо в районе среднего класса — «веха демократизации»)<sup><a href="#ref10">[10]</a></sup>, плюс ~100 квартир в Вентаньельес, Пумарине и Корредории<sup><a href="#ref10">[10]</a></sup>.</p>
+
+        <p>В 2010 году после перестрелки между цыганскими кланами в Ухо (Миерес) <strong>disturbios перекинулись на Вентаньельес</strong>: драка в парке, вмешательство полиции. Соседи на камеру: «Yo no vi nada»<sup><a href="#ref15">[15]</a></sup>. К 2015 году 93% цыганских семей Астурии жили в нормализованном жилье (против 65% в 1991-м)<sup><a href="#ref13">[13]</a></sup>.</p>
+
+        <h2>4. Парковка и транспорт: главная религия района</h2>
+
+        <ul>
+            <li><strong>Парковка бесплатная</strong>, но вечером — «Голодные игры». Дополнительно мешают работники <strong>промзоны Espíritu Santo</strong> и посетители <strong>HUCA</strong>, паркующиеся в жилых дворах.</li>
+            <li><strong>Съезд с AS-II закрыт с 2019 года</strong> — жители требуют открыть его 5+ лет. Жители центра добираются до Хихона быстрее, чем жители Корредории.</li>
+            <li><strong>Транспорт:</strong> автобусы TUA — линии C, D и V<sup><a href="#ref1">[1]</a></sup>. Через станцию La Corredoria проходит <strong>185 поездов/день</strong> (Cercanías на Хихон/Авилес)<sup><a href="#ref1">[1]</a></sup> — но станция на окраине района, и до неё ещё надо дойти. Автобусом до центра — легко <strong>час</strong> с ожиданием.</li>
+        </ul>
 
         <div class="highlight">
-            <p style="margin-bottom:0">Район реально "на круговых": ориентироваться проще по ротондам, чем по улицам. Это не шутка — ты постоянно крутишься по кольцам.</p>
+            <p style="margin-bottom:0"><strong>Ротонды как навигация.</strong> Ра��он реально «на круговых»: ориентироваться проще по ротондам, чем по улицам. Жители говорят <strong>«поехать в Овьедо»</strong>, имея в виду центр — как будто сами живут отдельно.</p>
         </div>
 
-        <h2>4. Кто тут живёт</h2>
+        <h2>5. Демография</h2>
 
-        <ul>
-            <li>В основном <strong>молодой средний класс:</strong> семьи, ипотека, дети, собака, работа где-то "в городе".</li>
-            <li>Днём район <strong>пустеет</strong> (все уезжают), вечером — <strong>пробки на въезд</strong>.</li>
-            <li><strong>Школы и социнфраструктура</strong> местами не успевают за ростом населения: ощущение "понастроили домов — потом подумали".</li>
-        </ul>
+        <div class="stats-grid">
+            <div class="stat-item"><span>Население</span><span class="stat-value">19 866</span></div>
+            <div class="stat-item"><span>Иностранцев</span><span class="stat-value">5,4% (1 078)</span></div>
+            <div class="stat-item"><span>Латинская Америка</span><span class="stat-value">561</span></div>
+            <div class="stat-item"><span>Европа (ЕС)</span><span class="stat-value">222</span></div>
+            <div class="stat-item"><span>Африка</span><span class="stat-value">135</span></div>
+            <div class="stat-item"><span>Азия</span><span class="stat-value">57</span></div>
+            <div class="stat-item"><span>Доход (€/год)</span><span class="stat-value">~28 000 €</span></div>
+            <div class="stat-item"><span>Рост за 10 лет</span><span class="stat-value">+5,1%</span></div>
+        </div>
 
-        <h2>5. Идентичность</h2>
+        <p><strong>5,4% иностранцев</strong><sup><a href="#ref6">[6]</a></sup> — удивительно мало для района на 20 000. Корредория — район молодых испанских семей (36–49 лет<sup><a href="#ref5">[5]</a></sup>), не иммиграционный хаб. Один из немногих районов Овьедо, где население растёт<sup><a href="#ref5">[5]</a></sup>.</p>
 
-        <p>Жители легко говорят <strong>"поехать в Овьедо"</strong>, имея в виду центр, как будто они сами живут отдельно.</p>
-
-        <p>Район живой, со своими локальными точками притяжения, спортом и праздниками — но психологически это всё равно "спутник".</p>
+        <div class="danger-box">
+            <h4>8 750 €/год — самая бедная секция Астурии</h4>
+            <p style="margin-bottom:0">По данным INE (Atlas de distribución de renta), одна из секций-censales La Corredoria имеет средний доход <strong>8 750 €/год</strong> — это <strong>самый низкий показатель во всей Астурии</strong><sup><a href="#ref19">[19]</a></sup>. Беднее, чем Mieres de Santullano (9 450 €) и барриада Pénjamo в Лангрео (10 850 €)<sup><a href="#ref19">[19]</a></sup>. При этом район в среднем показывает 28 000 €. Один район — два мира: Prado de la Vega с новыми квартирами по 2 000 €/м² и социальные блоки VIPASA, где семьи живут на 8 750 € в год.</p>
+        </div>
 
         <div class="pros-cons">
             <div class="pros">
                 <h4>Плюсы</h4>
                 <ul>
-                    <li><strong>Дешевле центра</strong> и "честное жильё для жизни"</li>
-                    <li><strong>Бытовая инфраструктура:</strong> магазины, бары, спорткомплексы</li>
-                    <li><strong>Живой район</strong> (много людей, не "музейный" центр)</li>
+                    <li><strong>Дешевле центра</strong> и «честное жильё для жизни»</li>
+                    <li><strong>Инфраструктура:</strong> магазины, бары, спорткомплексы</li>
+                    <li><strong>Растёт:</strong> +5,1% за 10 лет</li>
                 </ul>
             </div>
             <div class="cons">
                 <h4>Минусы</h4>
                 <ul>
                     <li><strong>Транспорт и парковка</strong> — системная проблема</li>
-                    <li><strong>Эстетика спальника:</strong> однотипность, шум, теснота</li>
+                    <li><strong>VIPASA:</strong> плесень, отсутствие обслуживания</li>
                     <li>Ощущение, что ты <strong>не в городе</strong>, а в отдельном жилмассиве</li>
                 </ul>
             </div>
         </div>
 
+        <div class="rating-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:15px 0">
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f8fafc;border-radius:4px;border:1px solid #cbd5e1"><span>Жильё</span><span style="font-weight:bold;color:#475569">Дёшево</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f8fafc;border-radius:4px;border:1px solid #cbd5e1"><span>Безопасность</span><span style="font-weight:bold;color:#475569">Зависит от зоны</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f8fafc;border-radius:4px;border:1px solid #cbd5e1"><span>Транспорт</span><span style="font-weight:bold;color:#475569">Час до центра</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f8fafc;border-radius:4px;border:1px solid #cbd5e1"><span>Соцжильё</span><span style="font-weight:bold;color:#475569">VIPASA с плесенью</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f8fafc;border-radius:4px;border:1px solid #cbd5e1"><span>Парковка</span><span style="font-weight:bold;color:#475569">Голодные игры</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f8fafc;border-radius:4px;border:1px solid #cbd5e1"><span>Для семей</span><span style="font-weight:bold;color:#475569">Ок если не VIPASA</span></div>
+        </div>
+
         <div class="verdict">
-            <p><strong>Итог:</strong> Ла-Корредория — хороший вариант, если твоя жизнь состоит из "работа-семья-сон", и ты готов платить за это пробками, ротондами и парковочной войной.</p>
+            <p><strong>Итог:</strong> Ла-Корредория — хороший вариант, если твоя жизнь состоит из «работа-семья-сон» и ты готов платить за это пробками, ротондами и парковочной войной. Четыре подзоны — от душевной Корредории Вьеха до свежего Прадо де ла Вега — дают выбор. Но социальное жильё VIPASA на C. Pablo Alonso Rato — позор Принсипадо, а секция censal с доходом 8 750 € — самая бедная во всей Астурии.</p>
+            <p class="rating" style="font-size:1.5rem;text-align:center;margin-top:15px"><strong>5.5 из 10</strong></p>
+        </div>
+
+        <div class="references">
+            <h2>Источники</h2>
+            <ol>
+                <li id="ref1">La Corredoria — <a href="https://es.wikipedia.org/wiki/La_Corredoria" target="_blank">Wikipedia (es)</a>. Население, история, транспорт (185 поездов/день).</li>
+                <li id="ref2">Sogepsa: Prado de la Vega — <a href="http://www.sogepsa.com/blog/portfolio/prado-de-la-vega/" target="_blank">sogepsa.com</a>. 7 950 квартир, 1,2 млн м².</li>
+                <li id="ref3">«Pumarín, como en casa» — <a href="https://www.lavozdeasturias.es/noticia/oviedo/2018/02/26/pumarin-casa/00031519648662956719393.htm" target="_blank">La Voz de Asturias</a>, 26.02.2018.</li>
+                <li id="ref4">Mapcarta: La Corredoría — <a href="https://mapcarta.com/es/18585366" target="_blank">mapcarta.com</a>. Estadio Manuel Díaz Vega.</li>
+                <li id="ref5">Idealista: Corredoria-La Carisa-Prado de La Vega — <a href="https://www.idealista.com/maps/oviedo/corredoria-huca-teatinos/corredoria-la-carisa-prado-de-la-vega/" target="_blank">idealista.com</a>. 19 966 personas, демография.</li>
+                <li id="ref6">Padrón Municipal 2024 — <a href="https://www.odina.es/data/ficheros/2024/04/1144_ODINA_Poblaci%C3%B3n_extranjera_Oviedo_1_enero_2024-1.xlsx" target="_blank">Odina / Ayuntamiento de Oviedo</a></li>
+                <li id="ref7">IRPF 2023 — <a href="https://www.lavozdeasturias.es/noticia/asturias/2025/10/09/barrio-barrio-cambiado-riqueza-oviedo-gijon/00031760028933658467784.htm" target="_blank">La Voz de Asturias</a>, 09.10.2025</li>
+                <li id="ref8">«Matalablima — Historia de los gitanos en el noreste de Oviedo» — <a href="https://lamonxina.com/matalablima-proyecto-archivo-historia/" target="_blank">lamonxina.com</a>, 2024.</li>
+                <li id="ref9">«La oposición vecinal, nuevo obstáculo para las casas de chabolistas» — <a href="https://mas.lne.es/aquella-asturias/media/pdf/A1-15810172-1.pdf" target="_blank">La Nueva España (PDF)</a>, 02.01.1991</li>
+                <li id="ref10">«Los barrios y viviendas de los gitanos en la región noroeste» — <a href="https://revistainvi.uchile.cl/index.php/INVI/article/download/63365/67077/" target="_blank">Revista INVI, U. de Chile</a>. El Cascayu, Sierra de Granda, El Campillín.</li>
+                <li id="ref13">«Mapa Vivienda y Población Gitana 2015» — <a href="https://www.gitanos.org/actualidad/presentacion_estudio___mapa_vivienda_y_poblacion_gitana_2015_en_asturias.html" target="_blank">Fundación Secretariado Gitano</a>, 2017.</li>
+                <li id="ref14">«Entidades ciudadanas contra la integración de familias gitanas» — <a href="https://elpais.com/diario/1985/02/26/espana/478220419_850215.html" target="_blank">El País</a>, 26.02.1985.</li>
+                <li id="ref15">Disturbios en Ventanielles tras tiroteo en Ujo — <a href="https://www.youtube.com/watch?v=LWY1FCGk9uo" target="_blank">TPA Conexión Asturias</a>, 09.09.2010</li>
+                <li id="ref16">«PP lleva a la Junta las deficiencias de Vipasa en Corredoria» — <a href="https://www.europapress.es/asturias/noticia-pp-lleva-junta-deficiencias-viviendas-vipasa-corredoria-20201001151054.html" target="_blank">Europa Press</a>, 01.10.2020.</li>
+                <li id="ref17">«PP pide arreglar viviendas de Vipasa en La Corredoria» — <a href="https://www.lavozdeasturias.es/noticia/oviedo/2025/02/24/pp-pide-arreglar-deficiencias-viviendas-vipasa-corredoria/00031740399076117158298.htm" target="_blank">La Voz de Asturias</a>, 24.02.2025</li>
+                <li id="ref18">«El problema de la vivienda pública en Asturias» — <a href="https://www.lavozdeasturias.es/noticia/oviedo/2021/05/07/problema-vivienda-publica-asturias-propuestas-garantizar-derecho-universal/00031620385329691304333.htm" target="_blank">La Voz de Asturias</a>, 07.05.2021. AVN, VIPASA «peor casero».</li>
+                <li id="ref19">«Este es el barrio más pobre de Asturias» — <a href="https://www.elespanol.com/sociedad/barrio-pobre-asturias-renta-baja-region/828917547_0.html" target="_blank">El Español</a> (со ссылкой на La Nueva España). Sección censal de La Corredoria: 8 750 €/año — mínimo en Asturias.</li>
+            </ol>
         </div>
     </div>
 </body>

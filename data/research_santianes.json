@@ -1,0 +1,14 @@
+{
+  "district": "Santianes (Сантьянес)",
+  "district_type": "rural",
+  "summary_ru": "Маленький район. 0 иностранцев.",
+  "total_validated_pois": 0,
+  "pois": [],
+  "demographics": {
+    "source": "Padrón Municipal 2024",
+    "total_population": 58,
+    "foreign_total": 0,
+    "pct_foreign": 0.0,
+    "foreign_by_continent": {}
+  }
+}

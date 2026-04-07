@@ -3,69 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Veguín - Овьедо</title>
+    <title>Veguin - Овьедо</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            padding: 20px;
-            background: #fafafa;
-        }
-        .header {
-            background: linear-gradient(135deg, #27ae60, #2ecc71);
-            color: white;
-            padding: 20px;
-            margin: -20px -20px 20px -20px;
-        }
-        .header h1 {
-            font-size: 1.4rem;
-            margin-bottom: 5px;
-        }
-        .header .subtitle {
-            font-size: 0.85rem;
-            opacity: 0.8;
-        }
-        .content {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        h3 {
-            color: #27ae60;
-            margin: 20px 0 10px 0;
-            font-size: 1.1rem;
-            border-bottom: 2px solid #27ae60;
-            padding-bottom: 5px;
-        }
-        p {
-            margin-bottom: 12px;
-        }
-        .type-badge {
-            display: inline-block;
-            padding: 3px 10px;
-            border-radius: 12px;
-            font-size: 0.75rem;
-            margin-top: 8px;
-            background: #2c3e50;
-            color: white;
-        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: #333; padding: 20px; background: #fafafa; }
+        .header { background: linear-gradient(135deg, #546e7a, #78909c); color: white; padding: 25px; margin: -20px -20px 20px -20px; }
+        .header h1 { font-size: 1.5rem; margin-bottom: 5px; }
+        .header .subtitle { font-size: 1rem; opacity: 0.9; font-style: italic; }
+        .content { background: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h2 { color: #546e7a; margin: 25px 0 12px 0; font-size: 1.2rem; border-bottom: 3px solid #78909c; padding-bottom: 6px; }
+        p { margin-bottom: 14px; text-align: justify; }
+        .intro { font-size: 1.05rem; color: #444; border-left: 4px solid #78909c; padding-left: 15px; margin-bottom: 20px; }
+        .type-badge { display: inline-block; padding: 4px 12px; border-radius: 12px; font-size: 0.8rem; margin-top: 10px; background: #2e7d32; color: white; }
+        .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 15px 0; }
+        .stats-grid div { display: flex; justify-content: space-between; padding: 8px 12px; background: #eceff1; border-radius: 4px; font-size: 0.9rem; }
+        .stats-grid div span:last-child { font-weight: bold; color: #546e7a; }
+        .rating-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 15px 0; }
+        .rating-grid div { display: flex; justify-content: space-between; padding: 8px 12px; background: #eceff1; border-radius: 4px; border: 1px solid #cfd8dc; }
+        .rating-grid div span:last-child { font-weight: bold; color: #78909c; }
+        .verdict { background: linear-gradient(135deg, #546e7a, #78909c); color: white; padding: 20px; border-radius: 8px; margin-top: 25px; text-align: center; }
+        .verdict h3 { color: #b0bec5; margin-bottom: 10px; }
+        .rating { font-size: 1.5rem; font-weight: bold; color: #b0bec5; }
+        sup a { color: #e67e22; text-decoration: none; font-weight: bold; }
+        sup a:hover { text-decoration: underline; }
+        .references { margin-top: 25px; padding-top: 12px; border-top: 2px solid #78909c; font-size: 0.8rem; color: #888; }
+        .references h2 { font-size: 1rem; color: #78909c; border-bottom: 1px solid #78909c; }
+        .references ol { margin: 10px 0 0 20px; }
+        .references li { margin-bottom: 5px; }
+        .references a { color: #e67e22; word-break: break-all; }
     </style>
 </head>
 <body>
     <div class="header">
-        <h1>Veguín</h1>
-        <div class="subtitle">Бокс</div>
+        <h1>Veguin</h1>
+        <div class="subtitle">Тень соседа: приход рядом с Тудела, но без её славы</div>
         <span class="type-badge">Сельский район</span>
     </div>
     <div class="content">
-        <p>Сельский район в муниципалитете Овьедо, Астурия.</p>
-        <h3>Описание</h3>
-        <p>Veguín — один из приходов (parroquias), составляющих территорию муниципалитета Овьедо. Расположен в сельской местности, сохраняет традиционный астурийский уклад жизни.</p>
-        <h3>Характер местности</h3>
-        <p>Тихая сельская местность с живописными пейзажами северной Испании. Традиционная архитектура, природные угодья.</p>
+        <p class="intro">Вегин — сельский приход по соседству с Тудела-Агуэрия, живущий в вечной тени своего более известного соседа. Если Тудела — это цемент и шахты, то Вегин — это то, что рядом с цементом и шахтами, но не цемент и не шахты.</p>
+
+        <h2>Характер</h2>
+        <p>Приход на юго-востоке муниципалитета, в переходной зоне между долиной и предгорьями. Ландшафт холмистый, с традиционными астурийскими постройками и пастбищами. Вегин — типичный сельский приход второго эшелона: достаточно близко к промышленным центрам, чтобы их жители тут жили, но достаточно далеко, чтобы инфраструктура не дотянулась. 665 жителей ведут тихую жизнь, не особо надеясь на перемены.</p>
+
+        <h2>Демография</h2>
+        <div class="stats-grid">
+            <div><span>Население</span><span>665</span></div>
+            <div><span>Иностранцев</span><span>48 (7,2%)</span></div>
+        </div>
+        <p>665 жителей<sup><a href="#ref1">[1]</a></sup>, из которых 48 — иностранцы (7,2%). Ровно столько же иностранцев, сколько в соседней Тудела, при чуть большем населении. Совпадение? Скорее всего, это одна и та же миграционная волна, расплескавшаяся по обоим приходам.</p>
+
+        <div class="rating-grid">
+            <div><span>Природа</span><span>Холмы и луга</span></div>
+            <div><span>Известность</span><span>Околонулевая</span></div>
+            <div><span>Транспорт</span><span>Машина обязательна</span></div>
+            <div><span>Инфраструктура</span><span>Минимальная</span></div>
+        </div>
+
+        <div class="verdict">
+            <h3>Вердикт</h3>
+            <p class="rating">3 / 10</p>
+            <p>Обычный сельский приход без громких историй и без претензий. Тихо, зелено, незаметно.</p>
+        </div>
+
+        <div class="references">
+            <h2>Источники</h2>
+            <ol>
+                <li id="ref1">Padrón Municipal, 1 de enero de 2024 — <a href="https://www.odina.es/data/ficheros/2024/04/1144_ODINA_Poblaci%C3%B3n_extranjera_Oviedo_1_enero_2024-1.xlsx" target="_blank">Odina / Ayuntamiento de Oviedo</a></li>
+            </ol>
+        </div>
     </div>
 </body>
 </html>

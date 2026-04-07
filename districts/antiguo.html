@@ -8,80 +8,213 @@
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
+            line-height: 1.7;
+            color: #e0d5c0;
             padding: 20px;
-            background: #fafafa;
+            background: #1c1a15;
         }
         .header {
-            background: linear-gradient(135deg, #2c3e50, #34495e);
-            color: white;
-            padding: 20px;
+            background: linear-gradient(135deg, #2a2318, #3d3425);
+            color: #d4a753;
+            padding: 25px;
             margin: -20px -20px 20px -20px;
+            border-bottom: 3px solid #d4a753;
         }
-        .header h1 {
-            font-size: 1.4rem;
-            margin-bottom: 5px;
-        }
-        .header .subtitle {
-            font-size: 0.85rem;
-            opacity: 0.8;
-        }
+        .header h1 { font-size: 1.5rem; margin-bottom: 5px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
+        .header .subtitle { font-size: 1rem; opacity: 0.9; font-style: italic; color: #c9a84c; }
         .content {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            background: #2a2318;
+            padding: 25px; border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.5);
         }
-        h3 {
-            color: #2c3e50;
-            margin: 20px 0 10px 0;
-            font-size: 1.1rem;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 5px;
+        h2 {
+            color: #d4a753;
+            margin: 30px 0 15px 0; font-size: 1.3rem;
+            border-bottom: 3px solid #8b6914; padding-bottom: 8px;
         }
-        p {
-            margin-bottom: 12px;
-        }
-        ul {
-            margin: 10px 0 15px 20px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        strong {
-            color: #2c3e50;
+        h3 { color: #c9a84c; margin: 20px 0 10px 0; font-size: 1.05rem; }
+        p { margin-bottom: 15px; text-align: justify; color: #c0b8a0; }
+        .intro {
+            font-size: 1.05rem; color: #b8b0a0;
+            border-left: 4px solid #d4a753;
+            padding-left: 15px; margin-bottom: 25px;
         }
         .type-badge {
-            display: inline-block;
-            padding: 3px 10px;
-            border-radius: 12px;
-            font-size: 0.75rem;
-            margin-top: 8px;
+            display: inline-block; padding: 4px 12px; border-radius: 12px;
+            font-size: 0.8rem; margin-top: 10px;
+            background: #d4a753; color: #1c1a15; font-weight: bold;
         }
-        .urban { background: #e74c3c; color: white; }
-        .rural { background: #27ae60; color: white; }
+        ul { margin: 10px 0 15px 20px; color: #c0b8a0; }
+        li { margin-bottom: 10px; }
+        strong { color: #e0d5c0; }
+        .heritage-box {
+            background: rgba(212, 167, 83, 0.1);
+            border: 1px solid #8b6914;
+            padding: 15px; border-radius: 8px; margin: 15px 0;
+        }
+        .heritage-box h4 { color: #d4a753; margin-bottom: 8px; }
+        .fact-box {
+            background: rgba(139, 105, 20, 0.15);
+            border-left: 4px solid #d4a753;
+            padding: 15px; margin: 15px 0;
+        }
+        .quote {
+            background: #333025;
+            border-left: 4px solid #c9a84c;
+            padding: 15px 20px; margin: 20px 0;
+            font-style: italic; color: #9a9080;
+        }
+        .stats-grid {
+            display: grid; grid-template-columns: 1fr 1fr;
+            gap: 10px; margin: 15px 0;
+        }
+        .stat-item {
+            display: flex; justify-content: space-between;
+            padding: 8px 12px; background: #333025; border-radius: 4px;
+        }
+        .stat-value { font-weight: bold; color: #d4a753; }
+        .verdict {
+            background: linear-gradient(135deg, #d4a753, #8b6914);
+            color: #1c1a15; padding: 20px; border-radius: 8px; margin-top: 30px;
+        }
+        .verdict p { text-align: left; margin-bottom: 10px; color: #2a2318; }
+        .verdict .rating { font-size: 1.5rem; text-align: center; margin-top: 15px; color: #1c1a15; }
+        sup a { color: #d4a753; text-decoration: none; font-weight: bold; }
+        sup a:hover { text-decoration: underline; }
+        .references {
+            margin-top: 30px; padding-top: 15px;
+            border-top: 2px solid #8b6914; font-size: 0.8rem; color: #9a9080;
+        }
+        .references h2 { font-size: 1.1rem; border-bottom: 1px solid #8b6914; color: #d4a753; }
+        .references ol { margin: 10px 0 0 20px; }
+        .references li { margin-bottom: 5px; }
+        .references a { color: #d4a753; word-break: break-all; }
+        @media (max-width: 600px) { .stats-grid { grid-template-columns: 1fr; } }
     </style>
 </head>
 <body>
     <div class="header">
         <h1>Antiguo</h1>
-        <div class="subtitle">Антигуо / Старый город</div>
-        <span class="type-badge urban">Городской район</span>
+        <div class="subtitle">Каско Антигуо: 1200 лет истории на площади с парковку IKEA</div>
+        <span class="type-badge">Городской район</span>
     </div>
     <div class="content">
-        
-            <p>Исторический центр Овьедо — сердце средневекового города.</p>
-            <h3>Достопримечательности</h3>
-            <ul>
-                <li><strong>Кафедральный собор Сан-Сальвадор</strong> — готический собор XIV-XVI веков</li>
-                <li><strong>Камара Санта</strong> — часовня IX века (ЮНЕСКО)</li>
-                <li><strong>Площадь Альфонсо II</strong> — историческая площадь</li>
-                <li><strong>Средневековые улицы</strong> — атмосфера старого города</li>
-            </ul>
-            <h3>Характер района</h3>
-            <p>Туристический и культурный центр с музеями, ресторанами и историческими памятниками.</p>
-        
+        <p class="intro">Antiguo — это средневековое ядро Овьедо, бывший город-крепость, обнесённый стенами, на территории которого умещаются: кафедральный собор с Камарой Санта (ЮНЕСКО)<sup><a href="#ref1">[1]</a></sup>, два музея, шесть дворцов, четыре церкви, действующий монастырь X века, рынок, ратуша и ещё 3 159 человек<sup><a href="#ref2">[2]</a></sup>, которые каким-то чудом тут живут. Всё это на площади примерно в 500 на 500 метров. Плотность исторических памятников на квадратный метр — видимо, рекордная в Испании.</p>
+
+        <h2>Собор Сан-Сальвадор и Камара Санта</h2>
+
+        <p><strong>Catedral de San Salvador</strong><sup><a href="#ref3">[3]</a></sup> — сердце Antiguo и всего Овьедо. Первую церковь на этом месте основал Фруэла I в 781 году<sup><a href="#ref17">[17]</a></sup>. Нынешний готический собор начат при епископе Гутьерре де Толедо в <strong>1388</strong><sup><a href="#ref17">[17]</a></sup>, строился три века. Башня (80+ м, ажурная «калада») завершена в <strong>1528</strong> кардиналом Мендосой де Бобадилья<sup><a href="#ref17">[17]</a></sup>. Кларин назвал её «каменным пальцем, указывающим в небо»<sup><a href="#ref18">[18]</a></sup>.</p>
+
+        <p>Но главная ценность собора — не готика, а то, что внутри: <strong>Камара Санта</strong>, построенная <strong>Альфонсо II</strong> около <strong>840 года</strong><sup><a href="#ref19">[19]</a></sup> как часовня для хранения реликвий из Толедо, бежавших от мавров<sup><a href="#ref19">[19]</a></sup>. ЮНЕСКО, 1998<sup><a href="#ref1">[1]</a></sup>. Здесь хранится <strong>Судариум</strong> — плат (84×53 см), которым, по преданию, было обёрнуто лицо Христа<sup><a href="#ref20">[20]</a></sup>. Путь реликвии: Иерусалим (614) → Толедо (657) → Астурия (718) → Овьедо (840)<sup><a href="#ref20">[20]</a></sup>. В 1075 году Альфонсо VI и Эль Сид лично открыли ковчег<sup><a href="#ref20">[20]</a></sup>. Выставляют <strong>три раза в год</strong>: Страстная пятница, 14 и 21 сентября<sup><a href="#ref20">[20]</a></sup>.</p>
+
+        <div class="heritage-box">
+            <h4>Крест Ангелов (Cruz de los Ángeles)</h4>
+            <p style="margin-bottom:0;color:#c0b8a0">Подарен собору Альфонсо II в <strong>808 году</strong><sup><a href="#ref21">[21]</a></sup>. Латинская надпись: «Hoc signo tuetvr pius, hoc signo vincitur inimicus» (Этим знаком защищён благочестивый, этим знаком побеждён враг)<sup><a href="#ref21">[21]</a></sup>. Символ собора и города Овьедо<sup><a href="#ref21">[21]</a></sup>. Вход — ~7 €.</p>
+        </div>
+
+        <h2>Площади: три на триста метров</h2>
+
+        <h3>Plaza de Alfonso II el Casto</h3>
+        <p>Кафедральная площадь, она же главная. Здесь стоит собор, церковь <strong>Сан-Тирсо-эль-Реаль</strong> (~812, арх. Тиода при Альфонсо II<sup><a href="#ref23">[23]</a></sup>, с тройным окном в альфисе — <em>предмет академического спора</em>: если датировка IX веком верна, этот альфис старше древнейшего в мечети Кордобы (855–856)<sup><a href="#ref24">[24]</a></sup>, что делает его либо старейшим в западном христианстве, либо результатом реставрации X века)<sup><a href="#ref5">[5]</a></sup>, капелла <strong>Балескида</strong> (1725) и куча террас с туристами, пьющими кофе по 3,50 € с видом на готику. Площадь — ключевая точка на <strong>Камино де Сантьяго</strong><sup><a href="#ref1">[1]</a></sup>: паломники проходят здесь с рюкзаками и ракушками уже тысячу лет.</p>
+
+        <h3>Plaza de la Constitución</h3>
+        <p>Административное сердце: <strong>Ayuntamiento</strong> (Ратуша, 1622)<sup><a href="#ref6">[6]</a></sup>, построенная буквально на остатках средневековой стены. Центральная арка ратуши — <strong>Arco de Cimadevilla</strong> — бывшие городские ворота, через которые паломники входили в город<sup><a href="#ref6">[6]</a></sup>. У арки стоит каменный лев XIX века. Рядом — церковь <strong>Сан-Исидоро-эль-Реаль</strong> (XVI в., ренессанс).</p>
+
+        <h3>Plaza del Fontán</h3>
+        <p>Самая красивая площадь Овьедо. Бывшая лагуна, осушенная по решению муниципалитета <strong>19 августа 1523 года</strong> из-за антисанитарии (завершено к 1559-му)<sup><a href="#ref22">[22]</a></sup>. Цветные отреставрированные дома по периметру, в центре — <strong>Mercado El Fontán</strong>, старый рынок викторианского типа<sup><a href="#ref7">[7]</a></sup>, где продают мясо, рыбу, сыры, бобовые и вообще всё, из чего состоит астурийская кухня. Здесь же стоит скульптура <strong>«La bella Lola»</strong> — бронзовая девушка на скамейке, подарок от города-побратима Торревьехи (2009)<sup><a href="#ref8">[8]</a></sup>.</p>
+
+        <div class="quote">На площади Фонтан по выходным — блошиный рынок. Если вам нужна советская фарфоровая статуэтка в Испании — вы знаете, куда идти.</div>
+
+        <h2>Дворцы</h2>
+
+        <p>В Antiguo дворцов больше, чем жителей, готовых за них платить налоги:</p>
+
+        <ul>
+            <li><strong>Palacio de Valdecarzana</strong> (XV в.) — старейшее гражданское здание Овьедо<sup><a href="#ref9">[9]</a></sup>. Готика. Сейчас — суд.</li>
+            <li><strong>Palacio de Camposagrado</strong> (1728–1757)<sup><a href="#ref10">[10]</a></sup> — барочно-неоклассический дворец, ныне Верховный суд Астурии. Внутри — деревянные кессонные потолки, коридоры с галереями. Снаружи — бюрократы с портфелями.</li>
+            <li><strong>Palacio del Fontán</strong> (XVIII в., Пласа Дайс-и-Веларде) — лучший образец барочной дворцовой архитектуры Овьедо. Квадратный план, внутренний двор, три этажа. Построен для герцогов дель Парке.</li>
+        </ul>
+
+        <h2>Музеи</h2>
+
+        <ul>
+            <li><strong>Museo Arqueológico de Asturias</strong><sup><a href="#ref11">[11]</a></sup> — в бывшем монастыре Сан-Висенте (VIII в.), за собором. Бесплатно. Среда–пятница 9:30–20:00.</li>
+            <li><strong>Museo de Bellas Artes de Asturias</strong><sup><a href="#ref12">[12]</a></sup> — в трёх (!) дворцах: Веларде, Овьедо-Порталь и Солис, соединённых переходами. Бесплатно. Навигация внутри — квест: заходишь в один дворец, выходишь из другого, и не факт, что через ту же дверь.</li>
+        </ul>
+
+        <h2>Монастырь Сан-Пелайо</h2>
+
+        <p><strong>Monasterio de San Pelayo</strong><sup><a href="#ref13">[13]</a></sup> — <strong>действующий</strong> бенедиктинский женский монастырь, основанный в X веке<sup><a href="#ref13">[13]</a></sup>. Тысячу лет подряд здесь живут монахини, молятся и пекут печенье. Продаётся в монастырской лавке. Это не шутка — монастырское печенье Сан-Пелайо реально покупают. Вход внутрь ограничен, но на службу можно попасть.</p>
+
+        <h2>Университет</h2>
+
+        <p><strong>Историческое здание Университета Овьедо</strong><sup><a href="#ref14">[14]</a></sup> (XVI в., ул. Сан-Франциско) — основан архиепископом Фернандо де Вальдес-и-Салас<sup><a href="#ref14">[14]</a></sup>. Во дворе — статуя основателя. Здание пострадало в революции 1934 года и в Гражданской войне, восстановлено<sup><a href="#ref14">[14]</a></sup>. Вход свободный.</p>
+
+        <h2>La Maternidad (Ботеро)</h2>
+
+        <p>На площади Эскандалера (граница Antiguo и Centro Oeste) стоит скульптура <strong>Фернандо Ботеро</strong> «Материнство» (1989)<sup><a href="#ref15">[15]</a></sup> — пышная женщина с голым ребёнком на коленях, 2,5 метра, 800 кг<sup><a href="#ref15">[15]</a></sup>. Местные ласково называют её <strong>«La Gorda»</strong> (Толстуха) и назначают встречи: «te veo en la Gorda» — и всем понятно.</p>
+
+        <h2>Демография</h2>
+
+        <div class="fact-box">
+            <p style="margin-bottom:0;color:#c0b8a0"><strong>3 159 жителей</strong><sup><a href="#ref2">[2]</a></sup> — это немного. Район жилой, но многие квартиры заняты офисами, музеями и туристическим жильём. Иностранцев — <strong>10,5%</strong><sup><a href="#ref2">[2]</a></sup>, из них 208 — латиноамериканцы. Из Африки — 13, из Азии — 9. Район дорогой (входит в почтовый индекс 33003, средний доход жителей ~46 000 €)<sup><a href="#ref16">[16]</a></sup>, но специфический: узкие улицы, нет парковки, нет крупных магазинов. Зато есть готический собор за окном.</p>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-item"><span>Население</span><span class="stat-value">3 159</span></div>
+            <div class="stat-item"><span>Иностранцев</span><span class="stat-value">10,5%</span></div>
+            <div class="stat-item"><span>Латинская Америка</span><span class="stat-value">208</span></div>
+            <div class="stat-item"><span>Европа (ЕС)</span><span class="stat-value">73</span></div>
+            <div class="stat-item"><span>Африка</span><span class="stat-value">13</span></div>
+            <div class="stat-item"><span>Азия</span><span class="stat-value">9</span></div>
+        </div>
+
+        <h2>Вердикт</h2>
+
+        <p>Antiguo — это та причина, по которой вы вообще слышали про Овьедо. Камино-де-Сантьяго, ЮНЕСКО, собор, дороманика, дворцы, рынки, монахини с печеньем. Жить здесь — специфическое удовольствие: романтично, атмосферно, шумно (туристы), тесно (средневековая планировка) и дорого. Но если вы всегда мечтали просыпаться под колокольный звон готического собора — других вариантов в Овьедо нет.</p>
+
+        <div class="rating-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:15px 0">
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#333025;border-radius:4px"><span>Жильё</span><span style="font-weight:bold;color:#d4a753">Дорого + тесно</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#333025;border-radius:4px"><span>История</span><span style="font-weight:bold;color:#d4a753">1200 лет</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#333025;border-radius:4px"><span>Туристы</span><span style="font-weight:bold;color:#d4a753">Толпы</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#333025;border-radius:4px"><span>Парковка</span><span style="font-weight:bold;color:#d4a753">Нет</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#333025;border-radius:4px"><span>Атмосфера</span><span style="font-weight:bold;color:#d4a753">Готика + сидра</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#333025;border-radius:4px"><span>Колокольный звон</span><span style="font-weight:bold;color:#d4a753">6:00 утра</span></div>
+        </div>
+
+        <div class="verdict">
+            <p><strong>Суть:</strong> 1200 лет истории, спрессованных в 500 метров. Рай для туриста, чистилище для автомобилиста, дом для тех 3 159 человек, которые ценят атмосферу больше, чем парковку.</p>
+            <p class="rating"><strong>9 из 10</strong></p>
+        </div>
+        <div class="references">
+            <h2>Источники</h2>
+            <ol>
+                <li id="ref1">Monuments of Oviedo and the Kingdom of the Asturias — <a href="https://whc.unesco.org/en/list/312/" target="_blank">UNESCO World Heritage List, ref. 312</a></li>
+                <li id="ref2">Padrón Municipal, 1 de enero de 2024 — <a href="https://www.odina.es/data/ficheros/2024/04/1144_ODINA_Poblaci%C3%B3n_extranjera_Oviedo_1_enero_2024-1.xlsx" target="_blank">Odina / Ayuntamiento de Oviedo (xlsx)</a></li>
+                <li id="ref3">Catedral de San Salvador de Oviedo — <a href="https://catedraldeoviedo.com" target="_blank">catedraldeoviedo.com (sitio oficial)</a></li>
+                <li id="ref4">Cámara Santa — <a href="https://catedraldeoviedo.com/conoce-cada-rincon/camara-santa/" target="_blank">Catedral de Oviedo: «Conoce cada rincón — Cámara Santa»</a></li>
+                <li id="ref5">Iglesia de San Tirso el Real (Oviedo) — <a href="https://es.wikipedia.org/wiki/Iglesia_de_San_Tirso_el_Real_(Oviedo)" target="_blank">Wikipedia (es)</a></li>
+                <li id="ref6">Ayuntamiento de Oviedo — <a href="https://www.gpsmycity.com/attractions/casa-consistorial-de-oviedo-(oviedo-town-hall-)-54483.html" target="_blank">GPSmyCity: «Casa Consistorial de Oviedo»</a></li>
+                <li id="ref7">Plaza del Fontán / Mercado El Fontán — <a href="https://www.tripadvisor.com/Attraction_Review-g187452-d1754718-Reviews-Plaza_del_Fontan-Oviedo_Asturias.html" target="_blank">TripAdvisor</a></li>
+                <li id="ref8">Esculturas de Oviedo — <a href="https://spainbyhanne.dk/en/explore-the-sculptures-of-oviedo/" target="_blank">Spain by Hanne: «Explore the sculptures of Oviedo»</a></li>
+                <li id="ref9">Palacio de Valdecarzana — <a href="https://wanderlog.com/list/geoCategory/837471/most-historic-buildings-and-sites-in-oviedo" target="_blank">Wanderlog: «Most historic buildings in Oviedo»</a></li>
+                <li id="ref10">Palacio de Camposagrado — <a href="https://www.tripadvisor.es/Attraction_Review-g187452-d8384925-Reviews-Palacio_de_Camposagrado-Oviedo_Asturias.html" target="_blank">TripAdvisor (es)</a></li>
+                <li id="ref11">Museo Arqueológico de Asturias — <a href="https://www.museoarqueologicodeasturias.com/node/539" target="_blank">museoarqueologicodeasturias.com (sitio oficial)</a></li>
+                <li id="ref12">Museo de Bellas Artes de Asturias — <a href="https://www.museobbaa.com/en/museum/buildings/" target="_blank">museobbaa.com: «Museum — Buildings»</a></li>
+                <li id="ref13">Monasterio de San Pelayo — <a href="https://sanpelayomonasterio.org" target="_blank">sanpelayomonasterio.org (sitio oficial)</a></li>
+                <li id="ref14">Edificio histórico de la Universidad de Oviedo — <a href="https://airial.travel/attractions/spain/oviedo/historic-building-university-of-oviedo-Oz43DG5C" target="_blank">Airial Travel</a></li>
+                <li id="ref15">Escultura La Maternidad (Botero) — <a href="https://www.tripadvisor.com/Attraction_Review-g187452-d21331061-Reviews-Escultura_La_Maternidad-Oviedo_Asturias.html" target="_blank">TripAdvisor</a></li>
+                <li id="ref16">IRPF 2023 — <a href="https://www.lavozdeasturias.es/noticia/asturias/2025/10/09/barrio-barrio-cambiado-riqueza-oviedo-gijon/00031760028933658467784.htm" target="_blank">La Voz de Asturias</a>, 09.10.2025</li>
+                <li id="ref17">Oviedo Cathedral — <a href="https://en.wikipedia.org/wiki/Oviedo_Cathedral" target="_blank">Wikipedia (en)</a>. Fruela I 781, gótico 1388, torre 1528.</li>
+                <li id="ref18">Cathedral first impressions — <a href="https://oviedo.for91days.com/the-cathedral-of-oviedo-first-impressions/" target="_blank">for91days.com</a>. Clarín: «stone finger pointing to heaven».</li>
+                <li id="ref19">Cámara Santa — <a href="https://www.spottinghistory.com/view/10927/camara-santa/" target="_blank">SpottingHistory</a>. Alfonso II, 840 AD, reliquias Toledo.</li>
+                <li id="ref20">Sudarium of Oviedo — <a href="https://en.wikipedia.org/wiki/Sudarium_of_Oviedo" target="_blank">Wikipedia (en)</a>. 614→657→718→840, Alfonso VI + El Cid 1075.</li>
+                <li id="ref21">Cruz de los Ángeles — <a href="https://es.wikipedia.org/wiki/Cruz_de_los_%C3%81ngeles" target="_blank">Wikipedia (es)</a>. 808, inscripción latina.</li>
+                <li id="ref22">Plaza del Fontán — <a href="https://es.wikipedia.org/wiki/Plaza_del_Font%C3%A1n" target="_blank">Wikipedia (es)</a> + <a href="https://mercadofontan.es/historia-mercado-el-fontan/" target="_blank">mercadofontan.es</a>. Desecación 1523, Mercado Aguirre 1882.</li>
+                <li id="ref23">San Tirso, Oviedo — <a href="https://en.wikipedia.org/wiki/San_Tirso,_Oviedo" target="_blank">Wikipedia (en)</a>. ~790s/812, architect Tioda, fire 1521.</li>
+                <li id="ref24">«El "misterioso" alfiz de San Tirso en Oviedo» — <a href="https://atacamacultura.blogspot.com/2021/10/el-misterioso-alfiz-de-san-tirso-en.html" target="_blank">atacamacultura.blogspot.com</a>, 2021. Debate: anterior a Puerta San Esteban Córdoba (855-856). Schlunk vs Yarza.</li>
+            </ol>
+        </div>
     </div>
 </body>
 </html>

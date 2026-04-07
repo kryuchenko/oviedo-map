@@ -1,0 +1,38 @@
+{
+  "district": "Otero (Отеро)",
+  "district_type": "urban",
+  "total_validated_pois": 2,
+  "pois": [
+    {
+      "name": "IES Leopoldo Alas Clarín",
+      "name_ru": "Институт Леопольдо Алас Кларин",
+      "category": "school",
+      "lat": 43.3550671,
+      "lon": -5.8391086,
+      "description": "Средняя школа, названная в честь знаменитого астурийского пи��ателя XIX века."
+    },
+    {
+      "name": "Parroquia de San Lázaro del Camino",
+      "name_ru": "Приход Сан-Ласаро-дель-Камино",
+      "category": "church",
+      "lat": 43.3543697,
+      "lon": -5.8412547,
+      "description": "Приходская це��ковь на ул. Сан Матео, 12B. Мессы: сб 19:30, вс 10:00 и 13:00."
+    }
+  ],
+  "demographics": {
+    "source": "Padrón Municipal 2024",
+    "total_population": 7007,
+    "foreign_total": 429,
+    "pct_foreign": 6.1,
+    "foreign_by_continent": {
+      "eu": 119,
+      "europe_non_eu": 90,
+      "america": 172,
+      "africa": 31,
+      "asia": 16,
+      "oceania": 1,
+      "stateless": 0
+    }
+  }
+}

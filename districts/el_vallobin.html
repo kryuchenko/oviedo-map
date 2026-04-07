@@ -6,75 +6,93 @@
     <title>El Vallobín - Овьедо</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            padding: 20px;
-            background: #fafafa;
-        }
-        .header {
-            background: linear-gradient(135deg, #2c3e50, #34495e);
-            color: white;
-            padding: 20px;
-            margin: -20px -20px 20px -20px;
-        }
-        .header h1 {
-            font-size: 1.4rem;
-            margin-bottom: 5px;
-        }
-        .header .subtitle {
-            font-size: 0.85rem;
-            opacity: 0.8;
-        }
-        .content {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        h3 {
-            color: #2c3e50;
-            margin: 20px 0 10px 0;
-            font-size: 1.1rem;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 5px;
-        }
-        p {
-            margin-bottom: 12px;
-        }
-        ul {
-            margin: 10px 0 15px 20px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        strong {
-            color: #2c3e50;
-        }
-        .type-badge {
-            display: inline-block;
-            padding: 3px 10px;
-            border-radius: 12px;
-            font-size: 0.75rem;
-            margin-top: 8px;
-        }
-        .urban { background: #e74c3c; color: white; }
-        .rural { background: #27ae60; color: white; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: #333; padding: 20px; background: #f5f5f0; }
+        .header { background: linear-gradient(135deg, #4e342e, #6d4c41); color: white; padding: 25px; margin: -20px -20px 20px -20px; border-bottom: 3px solid #a1887f; }
+        .header h1 { font-size: 1.5rem; margin-bottom: 5px; }
+        .header .subtitle { font-size: 1rem; opacity: 0.9; font-style: italic; color: #d7ccc8; }
+        .content { background: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
+        h2 { color: #4e342e; margin: 30px 0 15px 0; font-size: 1.3rem; border-bottom: 3px solid #a1887f; padding-bottom: 8px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .intro { font-size: 1.05rem; color: #444; border-left: 4px solid #a1887f; padding-left: 15px; margin-bottom: 25px; }
+        .type-badge { display: inline-block; padding: 4px 12px; border-radius: 12px; font-size: 0.8rem; margin-top: 10px; background: #a1887f; color: white; }
+        ul { margin: 10px 0 15px 20px; } li { margin-bottom: 10px; } strong { color: #4e342e; }
+        .highlight { background: #efebe9; border-left: 4px solid #a1887f; padding: 15px; margin: 15px 0; }
+        .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 15px 0; }
+        .stat-item { display: flex; justify-content: space-between; padding: 8px 12px; background: #efebe9; border-radius: 4px; border: 1px solid #d7ccc8; }
+        .stat-value { font-weight: bold; color: #4e342e; }
+        .rating-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 15px 0; }
+        .rating-item { display: flex; justify-content: space-between; padding: 8px 12px; background: #efebe9; border-radius: 4px; border: 1px solid #d7ccc8; }
+        .rating-score { font-weight: bold; color: #6d4c41; }
+        .verdict { background: linear-gradient(135deg, #4e342e, #6d4c41); color: white; padding: 20px; border-radius: 8px; margin-top: 30px; }
+        .verdict p { text-align: left; margin-bottom: 10px; color: #d7ccc8; }
+        .verdict .rating { font-size: 1.5rem; text-align: center; margin-top: 15px; color: #a1887f; }
+        sup a { color: #6d4c41; text-decoration: none; font-weight: bold; } sup a:hover { text-decoration: underline; }
+        .references { margin-top: 30px; padding-top: 15px; border-top: 2px solid #a1887f; font-size: 0.8rem; color: #666; }
+        .references h2 { font-size: 1.1rem; border-bottom: 1px solid #a1887f; }
+        .references ol { margin: 10px 0 0 20px; } .references li { margin-bottom: 5px; }
+        .references a { color: #6d4c41; word-break: break-all; }
+        @media (max-width: 600px) { .stats-grid, .rating-grid { grid-template-columns: 1fr; } }
     </style>
 </head>
 <body>
     <div class="header">
         <h1>El Vallobín</h1>
-        <div class="subtitle">Эль-Вальобин</div>
-        <span class="type-badge urban">Городской район</span>
+        <div class="subtitle">Долина волков: от охоты на хищников до 12,7% иммигрантов</div>
+        <span class="type-badge">Городской район</span>
     </div>
     <div class="content">
-        
-            <p>Жилой район на северо-западе, на склонах горы Наранко.</p>
-            <h3>Характер района</h3>
-            <p>Сочетает традиционные и новые жилые зоны с хорошими видами на город.</p>
-        
+        <p class="intro">Vallobín — «Долина волков» по-средневековому<sup><a href="#ref1">[1]</a></sup>. Район к северо-западу от центра, где в XIII веке ловили волков в ямы, в 1947-м построили противотуберкулёзный санаторий<sup><a href="#ref1">[1]</a></sup>, а сейчас живут 10 684 человека<sup><a href="#ref2">[2]</a></sup>, 12,7% из которых — иммигранты. Рядом — Писта Финляндеса, лучший беговой маршрут Овьедо<sup><a href="#ref3">[3]</a></sup>.</p>
+
+        <h2>История</h2>
+
+        <p>Топоним <em>Vallobín</em> — от «valle de lobos» (долина волков)<sup><a href="#ref1">[1]</a></sup>. Толивар Фаес нашёл яму-ловушку (<em>Pozobal</em>) у конца calle Padre Aller, использовавшуюся до 1960-х<sup><a href="#ref1">[1]</a></sup>. Другой старый топоним — <em>Concinos</em> (от лат. <em>concilium</em>: место народного собрания)<sup><a href="#ref1">[1]</a></sup>.</p>
+
+        <p>Рост начался в 1947: <strong>Санаторий Монте Наранко</strong> + блоки для работников Renfe<sup><a href="#ref1">[1]</a></sup>. В 70-х — асфальт и свет. В 80-х — деградация. В 90-х — возрождение: библиотека, церковь <strong>San Melchor de Quirós</strong>, центр здоровья<sup><a href="#ref1">[1]</a></sup>. В 1999-м убрали ж/д пути под землю, и район соединился с центром через «Ла Лосу»<sup><a href="#ref1">[1]</a></sup>. В 2008-м — подземная станция линии C-7<sup><a href="#ref1">[1]</a></sup>.</p>
+
+        <div class="highlight">
+            <p style="margin-bottom:0"><strong>«Nuevo Vallobín»</strong> — новая часть района от calle Argañosa до plaza Gabino Díaz Merchán<sup><a href="#ref1">[1]</a></sup>. CD Vallobín играет в Tercera División de Asturias<sup><a href="#ref1">[1]</a></sup>.</p>
+        </div>
+
+        <h2>Pista Finlandesa</h2>
+
+        <p><strong>Писта Финляндеса</strong> (5,4 км)<sup><a href="#ref3">[3]</a></sup> — беговая тропа на южном склоне Наранко, построенная на бывшей ж/д трассе горнорудного поезда (1870-е, закрыт 1915)<sup><a href="#ref3">[3]</a></sup>. Открыта в 1987 (15 млн песет), расширена в 1992 (63,9 млн)<sup><a href="#ref3">[3]</a></sup>. Рядом — парк Прадос де ла Фуэнте (~160 000 м²) и зона для BTT<sup><a href="#ref3">[3]</a></sup>.</p>
+
+        <h2>Демография</h2>
+
+        <div class="stats-grid">
+            <div class="stat-item"><span>Население</span><span class="stat-value">10 684</span></div>
+            <div class="stat-item"><span>Иностранцев</span><span class="stat-value">12,7% (1 362)</span></div>
+            <div class="stat-item"><span>Латинская Америка</span><span class="stat-value">701</span></div>
+            <div class="stat-item"><span>Европа (ЕС)</span><span class="stat-value">343</span></div>
+            <div class="stat-item"><span>Африка</span><span class="stat-value">166</span></div>
+            <div class="stat-item"><span>Азия</span><span class="stat-value">65</span></div>
+        </div>
+
+        <p><strong>12,7%</strong><sup><a href="#ref2">[2]</a></sup> — 5-е место по доле иммигрантов. Население снижается: −4,3% за 10 лет, большинство — 65+<sup><a href="#ref4">[4]</a></sup>.</p>
+
+        <div class="rating-grid">
+            <div class="rating-item"><span>Жильё</span><span class="rating-score">Средне</span></div>
+            <div class="rating-item"><span>Писта Финляндеса</span><span class="rating-score">Рядом</span></div>
+            <div class="rating-item"><span>Транспорт</span><span class="rating-score">Станция C-7</span></div>
+            <div class="rating-item"><span>Безопасность</span><span class="rating-score">Норм</span></div>
+            <div class="rating-item"><span>Атмосфера</span><span class="rating-score">Стареет</span></div>
+            <div class="rating-item"><span>Топоним</span><span class="rating-score">Долина волков</span></div>
+        </div>
+
+        <div class="verdict">
+            <p><strong>Суть:</strong> Vallobín — район с лучшим топонимом в Овьедо и Пистой Финляндесой за углом. Стареющий, но с рабочей инфраструктурой. 12,7% иммигрантов. Волков нет, кабаны — возможно.</p>
+            <p class="rating"><strong>6 из 10</strong></p>
+        </div>
+
+        <div class="references">
+            <h2>Источники</h2>
+            <ol>
+                <li id="ref1">Vallobín — <a href="https://es.wikipedia.org/wiki/Vallob%C3%ADn" target="_blank">Wikipedia (es)</a>. Valle de lobos, Pozobal, санаторий 1947, соteramiento 1999, CD Vallobín.</li>
+                <li id="ref2">Padrón Municipal, 1 de enero de 2024 — <a href="https://www.odina.es/data/ficheros/2024/04/1144_ODINA_Poblaci%C3%B3n_extranjera_Oviedo_1_enero_2024-1.xlsx" target="_blank">Odina / Ayuntamiento de Oviedo</a></li>
+                <li id="ref3">Pista Finlandesa — <a href="https://es.wikipedia.org/wiki/Pista_Finlandesa" target="_blank">Wikipedia (es)</a>. 5,4 km, ferrocarril minero, inauguración 1987.</li>
+                <li id="ref4">Idealista: Vallobín — <a href="https://www.idealista.com/maps/oviedo/ciudad-naranco-vallobin-la-florida/vallobin/" target="_blank">idealista.com</a>. 9 503 personas, -4,3%, mayoría 65+.</li>
+            </ol>
+        </div>
     </div>
 </body>
 </html>

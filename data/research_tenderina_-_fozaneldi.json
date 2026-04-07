@@ -1,0 +1,40 @@
+{
+  "district": "Tenderina - Fozaneldi (Тендерина)",
+  "district_type": "urban",
+  "summary_ru": "Восточный жилой район со смешанным населением. Один из самых доступных районов по ценам на жильё. Высокая доля иммигрантов (8.9%).",
+  "total_validated_pois": 1,
+  "pois": [
+    {
+      "name": "Plaza de la Cruz Roja",
+      "name_ru": "Площадь Красного Креста",
+      "category": "plaza",
+      "lat": 43.366039,
+      "lon": -5.8415493,
+      "description": "Транспортный и пешеходный узел, связывающий центр с Тендериной и Пумарином."
+    },
+    {
+      "name": "Parque de los Prados (norte)",
+      "name_ru": "Парк де лос Прадос",
+      "category": "park",
+      "lat": null,
+      "lon": null,
+      "description": "Зелёная зона с детскими площадками в северной части района.",
+      "note": "not geocoded"
+    }
+  ],
+  "demographics": {
+    "source": "Padrón Municipal 2024",
+    "total_population": 12737,
+    "foreign_total": 1128,
+    "pct_foreign": 8.9,
+    "foreign_by_continent": {
+      "eu": 226,
+      "europe_non_eu": 87,
+      "america": 600,
+      "africa": 171,
+      "asia": 38,
+      "oceania": 0,
+      "stateless": 6
+    }
+  }
+}

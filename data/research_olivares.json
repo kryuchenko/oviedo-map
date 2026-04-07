@@ -1,0 +1,31 @@
+{
+  "district": "Olivares (Оливарес)",
+  "district_type": "urban",
+  "summary_ru": "Район к западу от центра рядом с Парком дель Оэсте.",
+  "total_validated_pois": 1,
+  "pois": [
+    {
+      "name": "Parque del Oeste",
+      "name_ru": "Парк дель Оэсте (Западный парк)",
+      "category": "park",
+      "lat": 43.3622226,
+      "lon": -5.8740237,
+      "description": "Крупный парк на западе города с прогулочными дорожками."
+    }
+  ],
+  "demographics": {
+    "source": "Padrón Municipal 2024",
+    "total_population": 3043,
+    "foreign_total": 174,
+    "pct_foreign": 5.7,
+    "foreign_by_continent": {
+      "eu": 38,
+      "europe_non_eu": 42,
+      "america": 80,
+      "africa": 10,
+      "asia": 4,
+      "oceania": 0,
+      "stateless": 0
+    }
+  }
+}

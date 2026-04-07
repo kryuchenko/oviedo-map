@@ -1,0 +1,30 @@
+{
+  "district": "La Florida (Ла-Флорида)",
+  "district_type": "urban",
+  "total_validated_pois": 1,
+  "pois": [
+    {
+      "name": "Parque de La Florida",
+      "name_ru": "Парк Ла Флорида",
+      "category": "park",
+      "lat": 43.3698722,
+      "lon": -5.8756745,
+      "description": "Районный парк — зелёный оазис между горой Наранко и центром города."
+    }
+  ],
+  "demographics": {
+    "source": "Padrón Municipal 2024",
+    "total_population": 7977,
+    "foreign_total": 279,
+    "pct_foreign": 3.5,
+    "foreign_by_continent": {
+      "eu": 81,
+      "europe_non_eu": 57,
+      "america": 118,
+      "africa": 9,
+      "asia": 12,
+      "oceania": 1,
+      "stateless": 1
+    }
+  }
+}

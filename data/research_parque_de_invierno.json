@@ -1,0 +1,31 @@
+{
+  "district": "Parque de Invierno (Зимний парк)",
+  "district_type": "urban",
+  "summary_ru": "Район вокруг крупнейшего городского парка Овьедо (171,000 м²). Спокойный жилой район с отличной рекреационной инфраструктурой.",
+  "total_validated_pois": 1,
+  "pois": [
+    {
+      "name": "Parque de Invierno",
+      "name_ru": "Парк Инвиерно (Зимний парк)",
+      "category": "park",
+      "lat": 43.3525764,
+      "lon": -5.8506672,
+      "description": "Крупнейший парк города — 171,368 м². Бассейны, скалодром, скейтпарк, диск-гольф. 24/7 доступ."
+    }
+  ],
+  "demographics": {
+    "source": "Padrón Municipal 2024",
+    "total_population": 4063,
+    "foreign_total": 227,
+    "pct_foreign": 5.6,
+    "foreign_by_continent": {
+      "eu": 47,
+      "europe_non_eu": 29,
+      "america": 127,
+      "africa": 11,
+      "asia": 11,
+      "oceania": 2,
+      "stateless": 0
+    }
+  }
+}

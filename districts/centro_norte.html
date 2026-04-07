@@ -8,78 +8,232 @@
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
+            line-height: 1.7;
             color: #333;
             padding: 20px;
-            background: #fafafa;
+            background: #faf8ff;
         }
         .header {
-            background: linear-gradient(135deg, #2c3e50, #34495e);
+            background: linear-gradient(135deg, #4a1942, #6b2fa0);
             color: white;
-            padding: 20px;
+            padding: 25px;
             margin: -20px -20px 20px -20px;
+            border-bottom: 3px solid #9b59b6;
         }
-        .header h1 {
-            font-size: 1.4rem;
-            margin-bottom: 5px;
-        }
+        .header h1 { font-size: 1.5rem; margin-bottom: 5px; }
         .header .subtitle {
-            font-size: 0.85rem;
-            opacity: 0.8;
+            font-size: 1rem; opacity: 0.9; font-style: italic; color: #d7b4f3;
         }
         .content {
             background: white;
-            padding: 20px;
+            padding: 25px;
             border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
         }
-        h3 {
-            color: #2c3e50;
-            margin: 20px 0 10px 0;
-            font-size: 1.1rem;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 5px;
+        h2 {
+            color: #4a1942;
+            margin: 30px 0 15px 0;
+            font-size: 1.3rem;
+            border-bottom: 3px solid #9b59b6;
+            padding-bottom: 8px;
         }
-        p {
-            margin-bottom: 12px;
-        }
-        ul {
-            margin: 10px 0 15px 20px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        strong {
-            color: #2c3e50;
+        h3 { color: #6b2fa0; margin: 20px 0 10px 0; font-size: 1.05rem; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .intro {
+            font-size: 1.05rem; color: #444;
+            border-left: 4px solid #9b59b6;
+            padding-left: 15px; margin-bottom: 25px;
         }
         .type-badge {
-            display: inline-block;
-            padding: 3px 10px;
-            border-radius: 12px;
-            font-size: 0.75rem;
-            margin-top: 8px;
+            display: inline-block; padding: 4px 12px; border-radius: 12px;
+            font-size: 0.8rem; margin-top: 10px;
+            background: #9b59b6; color: white;
         }
-        .urban { background: #e74c3c; color: white; }
-        .rural { background: #27ae60; color: white; }
+        ul { margin: 10px 0 15px 20px; }
+        li { margin-bottom: 10px; }
+        strong { color: #4a1942; }
+        .culture-box {
+            background: #f5f0ff;
+            border: 1px solid #9b59b6;
+            padding: 15px; border-radius: 8px; margin: 15px 0;
+        }
+        .culture-box h4 { color: #6b2fa0; margin-bottom: 8px; }
+        .warning-box {
+            background: #fff5f5;
+            border: 1px solid #e74c3c;
+            padding: 15px; border-radius: 8px; margin: 15px 0;
+        }
+        .warning-box h4 { color: #c0392b; margin-bottom: 8px; }
+        .fact-box {
+            background: #f0f0ff;
+            border-left: 4px solid #6b2fa0;
+            padding: 15px; margin: 15px 0;
+        }
+        .quote {
+            background: #f9f5ff;
+            border-left: 4px solid #9b59b6;
+            padding: 15px 20px; margin: 20px 0;
+            font-style: italic; color: #666;
+        }
+        .stats-grid {
+            display: grid; grid-template-columns: 1fr 1fr;
+            gap: 10px; margin: 15px 0;
+        }
+        .stat-item {
+            display: flex; justify-content: space-between;
+            padding: 8px 12px; background: #faf8ff; border-radius: 4px;
+            border: 1px solid #e8e0f0;
+        }
+        .stat-value { font-weight: bold; color: #4a1942; }
+        .verdict {
+            background: linear-gradient(135deg, #4a1942, #6b2fa0);
+            color: white; padding: 20px; border-radius: 8px; margin-top: 30px;
+        }
+        .verdict p { text-align: left; margin-bottom: 10px; color: #e8e0f0; }
+        .verdict .rating { font-size: 1.5rem; text-align: center; margin-top: 15px; }
+        sup a { color: #6b2fa0; text-decoration: none; font-weight: bold; }
+        sup a:hover { text-decoration: underline; }
+        .references {
+            margin-top: 30px; padding-top: 15px;
+            border-top: 2px solid #9b59b6; font-size: 0.8rem; color: #666;
+        }
+        .references h2 { font-size: 1.1rem; border-bottom: 1px solid #9b59b6; }
+        .references ol { margin: 10px 0 0 20px; }
+        .references li { margin-bottom: 5px; }
+        .references a { color: #6b2fa0; word-break: break-all; }
+        @media (max-width: 600px) { .stats-grid { grid-template-columns: 1fr; } }
     </style>
 </head>
 <body>
     <div class="header">
         <h1>Centro Norte</h1>
-        <div class="subtitle">Центр Север</div>
-        <span class="type-badge urban">Городской район</span>
+        <div class="subtitle">Район бронзовых задниц и средневековых фонтанов</div>
+        <span class="type-badge">Городской район</span>
     </div>
     <div class="content">
-        
-            <p>Северная часть исторического центра с университетскими зданиями и культурными объектами.</p>
-            <h3>Достопримечательности</h3>
-            <ul>
-                <li><strong>Университет Овьедо</strong> — историческое здание XVI века</li>
-                <li><strong>Пешеходные улицы</strong> — атмосфера старого города</li>
-            </ul>
-            <h3>Характер района</h3>
-            <p>Студенческий и культурный район с кафе, книжными магазинами и историческими зданиями.</p>
-        
+        <p class="intro">Centro Norte — это культурный центр тяжести Овьедо. Здесь вручают главную премию Испании, стоит единственный в мире дороманский гражданский фонтан, а на пешеходной улице Пелайо бронзовая задница весом 900 кг смотрит на оперный театр. Если Овьедо — это город контрастов, то Centro Norte — его выставочный зал.</p>
+
+        <h2>Общие сведения</h2>
+
+        <p><strong>Centro Norte</strong> (исп. «Центр Север») — район к северу от средневекового ядра, включающий территорию от площади Карбайон<sup><a href="#ref1">[1]</a></sup> до улиц за Фонкаладой. Это студенческо-культурный район: театры, скульптуры, бульвары и куча заведений, живущих за счёт того, что сюда стекается весь город на <strong>сидру</strong> по четвергам.</p>
+
+        <p>Население — <strong>10 966 человек</strong>, из которых <strong>12%</strong> — иностранцы<sup><a href="#ref2">[2]</a></sup>. Доля латиноамериканцев — 742 человека (6,8% населения), что делает район заметно более «мультикультурным», чем соседний Centro Oeste.</p>
+
+        <h2>Teatro Campoamor: Храм Высокой Культуры</h2>
+
+        <p><strong>Театр Кампоамор</strong> (1892)<sup><a href="#ref3">[3]</a></sup><sup><a href="#ref12">[12]</a></sup> — построен на месте снесённого в 1845 году монастыря Санта-Клара<sup><a href="#ref1">[1]</a></sup>. Это место, куда раз в год съезжаются мировые знаменитости на <strong>Premios Princesa de Asturias</strong> (с 1981 года)<sup><a href="#ref4">[4]</a></sup> — испанский аналог Нобелевской премии, только с худшим призовым фондом и лучшей сидрой на фуршете.</p>
+
+        <p>В обычное время здесь идут оперы, балеты, концерты и зарзуэлы. Театр маленький и уютный — это вам не Ла Скала. Но акустика хорошая, и публика благодарная (потому что другого оперного театра в Астурии просто нет).</p>
+
+        <div class="culture-box">
+            <h4>Площадь Карбайон</h4>
+            <p style="margin-bottom:0">Площадь перед театром<sup><a href="#ref1">[1]</a></sup>. Раньше тут был «Кампо де ла Льяна» — поле для ярмарок, принадлежавшее монастырю Санта-Клара (снесён в 1845 по законам о секуляризации)<sup><a href="#ref1">[1]</a></sup>. Теперь здесь стоят скульптуры и собираются курильщики в антрактах. Прогресс.</p>
+        </div>
+
+        <h2>Фонкалада: Фонтан, который пережил всё</h2>
+
+        <p><strong>Fuente de Foncalada</strong><sup><a href="#ref5">[5]</a></sup> — это фонтан IX века. Девятого. Не девятнадцатого. Традиционно приписывается <strong>Альфонсо III Великому</strong>, хотя большинство современных исследователей склоняются к <strong>Альфонсо II Целомудренному</strong> (791–842)<sup><a href="#ref5">[5]</a></sup><sup><a href="#ref11">[11]</a></sup>. Так или иначе, это было время, когда Астурия была единственным христианским королевством на Пиренеях, и даже Париж был деревней по сравнению с Овьедо (ладно, это преувеличение, но астурийцы обидятся, если не написать).</p>
+
+        <p>Это <strong>единственный сохранившийся пример средневековой гражданской инженерии</strong> в Западной Европе<sup><a href="#ref5">[5]</a></sup>. ЮНЕСКО включило его в список Всемирного наследия в 1998 году<sup><a href="#ref6">[6]</a></sup>. На фронтоне — рельеф Крест Победы с альфой и омегой<sup><a href="#ref5">[5]</a></sup>. Фонтан до сих пор работает. 1100 лет. Подумайте об этом, когда ваш смеситель IKEA сломается через два года.</p>
+
+        <h2>Улица Пелайо и скульптуры</h2>
+
+        <p><strong>Calle Pelayo</strong><sup><a href="#ref7">[7]</a></sup> — пешеходная улица, названная в 1869 году в честь дона Пелайо, основателя Астурийского королевства<sup><a href="#ref7">[7]</a></sup> (того самого, который в 722 году якобы разгромил мавров в Ковадонге и дал старт Реконкисте). До переименования называлась «улица Магдалины дель Кампо»<sup><a href="#ref7">[7]</a></sup>. Менее пафосно, зато честнее.</p>
+
+        <p>Главные достопримечательности улицы — скульптуры:</p>
+
+        <ul>
+            <li><strong>Culis Monumentalibus</strong> (установлен 23 октября 2001, Эдуардо Уркуло)<sup><a href="#ref8">[8]</a></sup><sup><a href="#ref13">[13]</a></sup> — гигантская бронзовая задница. <strong>900 кг, 4 метра в высоту.</strong> С одной стороны кажется одной попой, с другой — двумя, спина к спине. Провокация, ставшая достопримечательностью. Туристы фотографируются. Испанцы спорят, искусство это или нет. Все счастливы.</li>
+            <li><strong>Esperanza Caminando</strong><sup><a href="#ref8">[8]</a></sup> — бронзовая студентка идёт с книгой. Стоит напротив театра Кампоамор. Дань университетским традициям города. Книжку никто не фотографирует — все смотрят на задницу напротив.</li>
+            <li><strong>Monumento a la Concordia</strong> (1997, Эсперанса д'Орс)<sup><a href="#ref9">[9]</a></sup> — 6 бронзовых фигур без лиц, олицетворяющих согласие. Три мужчины, три женщины, все голые, все андрогинные. Философия.</li>
+        </ul>
+
+        <h2>Эль Васко: Место, где был вокзал</h2>
+
+        <p><strong>Gran Bulevar El Vasco</strong> — современный комплекс на месте вокзала <strong>Sociedad General de Ferrocarriles Vasco Asturiana</strong><sup><a href="#ref14">[14]</a></sup> (1906–1989). Вокзал связывал Астурию с Страной Басков и центральной Испанией. Снесён, десятилетиями — яма, теперь — бульвар с жильём и торговлей. Типичная история: сначала ломаем, потом жалеем.</p>
+
+        <div class="warning-box">
+            <h4>3 ноября 1989: как Овьедо потерял свой Вокзал</h4>
+            <p style="margin-bottom:0;color:#333">Вокзал работал с <strong>1906</strong> года (инженер Франсиско Дуран, модерн)<sup><a href="#ref14">[14]</a></sup><sup><a href="#ref15">[15]</a></sup>. После перехода к FEVE (1972) — запустение без ремонта. <strong>2 ноября 1989</strong> — создана Plataforma Pro Defensa: интеллектуалы Эмилио Аларкос Льорач, Густаво Буэно, Хосе Мигель Касо подписали манифест<sup><a href="#ref14">[14]</a></sup>. <strong>3 ноября</strong> — снос начался <em>без предупреждения</em><sup><a href="#ref15">[15]</a></sup>. Консехеро де Культура Мануэль де ла Сера отказал в статусе BIC<sup><a href="#ref16">[16]</a></sup>. Алькальд <strong>Антонио Масип</strong> позже публично признал: «разрешить снос было моей величайшей политической и личной ошибкой»<sup><a href="#ref16">[16]</a></sup>. К 1994-му не осталось ничего. Сейчас — жилой комплекс, который от прежнего великолепия сохранил только имя.</p>
+        </div>
+
+        <h2>Демография</h2>
+
+        <div class="stats-grid">
+            <div class="stat-item">
+                <span>Население</span>
+                <span class="stat-value">10 966</span>
+            </div>
+            <div class="stat-item">
+                <span>Иностранцев</span>
+                <span class="stat-value">12,0%</span>
+            </div>
+            <div class="stat-item">
+                <span>Из ЕС</span>
+                <span class="stat-value">280</span>
+            </div>
+            <div class="stat-item">
+                <span>Латинская Америка</span>
+                <span class="stat-value">742</span>
+            </div>
+            <div class="stat-item">
+                <span>Африка</span>
+                <span class="stat-value">111</span>
+            </div>
+            <div class="stat-item">
+                <span>Азия</span>
+                <span class="stat-value">79</span>
+            </div>
+            <div class="stat-item">
+                <span>Доход (ранг)</span>
+                <span class="stat-value">#3 в Овьедо</span>
+            </div>
+            <div class="stat-item">
+                <span>Доход (€/год)</span>
+                <span class="stat-value">46 254 €</span>
+            </div>
+        </div>
+
+        <p>Район богатый (46 254 € средний доход, третье место в городе)<sup><a href="#ref10">[10]</a></sup>, но заметно более «пёстрый» по составу, чем Centro Oeste. Сюда приходят работать латиноамериканцы, учиться студенты и пить сидру все остальные. 12% иностранцев<sup><a href="#ref2">[2]</a></sup> — это один из высоких показателей для центральной зоны.</p>
+
+        <h2>Вердикт</h2>
+
+        <p>Centro Norte — район, который нравится всем: туристам (скульптуры, театр, фонтан), студентам (бары, пешеходная зона), пенсионерам (аптеки, лавочки), гурманам (сидрерии). Главный минус — цены на жильё и то, что парковки нет в принципе (зачем парковка, если тут и так все пешеходы?).</p>
+
+        <div class="rating-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:15px 0">
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f9f5ff;border-radius:4px;border:1px solid #e8e0f0"><span>Жильё</span><span style="font-weight:bold;color:#4a1942">Дорого</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f9f5ff;border-radius:4px;border:1px solid #e8e0f0"><span>Безопасность</span><span style="font-weight:bold;color:#4a1942">Топ</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f9f5ff;border-radius:4px;border:1px solid #e8e0f0"><span>Культура</span><span style="font-weight:bold;color:#4a1942">Максимум</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f9f5ff;border-radius:4px;border:1px solid #e8e0f0"><span>Бары/сидра</span><span style="font-weight:bold;color:#4a1942">Рай</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f9f5ff;border-radius:4px;border:1px solid #e8e0f0"><span>Парковка</span><span style="font-weight:bold;color:#4a1942">Забудь</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f9f5ff;border-radius:4px;border:1px solid #e8e0f0"><span>Для семей</span><span style="font-weight:bold;color:#4a1942">Норм</span></div>
+        </div>
+
+        <div class="verdict">
+            <p><strong>Суть:</strong> Если Centro Oeste — это витрина Овьедо, то Centro Norte — его душа. Тут есть и IX век, и XXI, и 900-килограммовая задница между ними. Идеальный район для прогулок, ужасный для парковки.</p>
+            <p class="rating"><strong>8.5 из 10</strong></p>
+        </div>
+        <div class="references">
+            <h2>Источники</h2>
+            <ol>
+                <li id="ref1">Plaza del Carbayón — <a href="https://es.wikipedia.org/wiki/Plaza_del_Carbay%C3%B3n" target="_blank">Wikipedia (es)</a></li>
+                <li id="ref2">Padrón Municipal, 1 de enero de 2024. — <a href="https://www.odina.es/data/ficheros/2024/04/1144_ODINA_Poblaci%C3%B3n_extranjera_Oviedo_1_enero_2024-1.xlsx" target="_blank">Odina / Ayuntamiento de Oviedo (xlsx)</a></li>
+                <li id="ref3">Teatro Campoamor — <a href="https://es.wikipedia.org/wiki/Teatro_Campoamor" target="_blank">Wikipedia (es)</a></li>
+                <li id="ref4">Premios Princesa de Asturias — <a href="https://www.fpa.es/es/" target="_blank">Fundación Princesa de Asturias (sitio oficial)</a></li>
+                <li id="ref5">Fuente de Foncalada — <a href="https://www.turismoasturias.es/en/descubre/cultura/prerromanico/la-foncalada" target="_blank">Turismo Asturias: «La Foncalada»</a></li>
+                <li id="ref6">Monuments of Oviedo and the Kingdom of the Asturias — <a href="https://whc.unesco.org/en/list/312/" target="_blank">UNESCO World Heritage List, ref. 312</a></li>
+                <li id="ref7">Calle Pelayo (Oviedo) — <a href="https://es.wikipedia.org/wiki/Calle_Pelayo_(Oviedo)" target="_blank">Wikipedia (es)</a></li>
+                <li id="ref8">Esculturas de Oviedo — <a href="https://spainbyhanne.dk/en/explore-the-sculptures-of-oviedo/" target="_blank">Spain by Hanne: «Explore the sculptures of Oviedo»</a></li>
+                <li id="ref9">Monumento a la Concordia — <a href="https://es.wikipedia.org/wiki/Monumento_a_la_Concordia" target="_blank">Wikipedia (es)</a></li>
+                <li id="ref10">Агенция Трибутария, IRPF 2023. — <a href="https://www.lavozdeasturias.es/noticia/asturias/2025/10/09/barrio-barrio-cambiado-riqueza-oviedo-gijon/00031760028933658467784.htm" target="_blank">La Voz de Asturias: «Barrio a barrio: así ha cambiado la riqueza en Oviedo y Gijón»</a>, 09.10.2025</li>
+                <li id="ref11">Foncalada — <a href="https://es.wikipedia.org/wiki/Foncalada" target="_blank">Wikipedia (es)</a> — атрибуция Альфонсо II/III, Крест Победы на фронтоне</li>
+                <li id="ref12">«Historia del Teatro Campoamor de Oviedo» — <a href="https://www.lavozdeasturias.es/noticia/oviedo/voz-oviedo/2022/11/16/historia-teatro-campoa" target="_blank">La Voz de Asturias</a>, 2022. Inauguración 1892, convento Santa Clara 1845.</li>
+                <li id="ref13">Escultura Culis Monumentalibus — <a href="https://www.vivirasturias.com/esculturas-asturias/i/54648497/escultura-culis-monumentalibu" target="_blank">vivirasturias.com</a>. Eduardo Úrculo, 23 octubre 2001.</li>
+                <li id="ref14">Estación del Vasco (Oviedo) — <a href="https://es.wikipedia.org/wiki/Estaci%C3%B3n_del_Vasco_(Oviedo)" target="_blank">Wikipedia (es)</a>. 1906, ing. Francisco Durán, derribo 3.11.1989, Plataforma Pro Defensa.</li>
+                <li id="ref15">«Fin de El Vasco y nacimiento de un bulevar» — <a href="https://www.lavozdeasturias.es/noticia/oviedo/2020/05/15/fin-vasco-nacimiento-bulevar/00031589535652649725199.htm" target="_blank">La Voz de Asturias</a>, 16.05.2020. Víctor Chávarri, José Tartiere, derribo sin aviso.</li>
+                <li id="ref16">«Las estaciones que perdimos» — <a href="https://ateneojovellanos.es/class/las-estaciones-apeaderos-y-otras-construcciones-que-perdimos-otra-solucion-era-posible/" target="_blank">Ateneo Jovellanos</a>. Masip: «gran error político y personal». De la Cera rechazó BIC.</li>
+            </ol>
+        </div>
     </div>
 </body>
 </html>

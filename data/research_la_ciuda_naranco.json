@@ -1,0 +1,58 @@
+{
+  "district": "La Ciudá Naranco (Сьюдад-Наранко)",
+  "district_type": "urban",
+  "total_validated_pois": 3,
+  "pois": [
+    {
+      "name": "Santa María del Naranco",
+      "name_ru": "Санта-Мария-дель-Наранко",
+      "category": "church",
+      "lat": 43.3790469,
+      "lon": -5.8659892,
+      "description": "Дороманский дворец/церковь IX века (842). ЮНЕСКО. Шедевр астурийского дороманского искусства на склоне горы Наранко.",
+      "note": "geocode may be imprecise"
+    },
+    {
+      "name": "San Miguel de Lillo",
+      "name_ru": "Сан-Мигель-де-Лильо",
+      "category": "church",
+      "lat": 43.3802931,
+      "lon": -5.8683684,
+      "description": "Дороманская церковь IX века (848). ЮНЕСКО. Рядом с Санта-Мария-дель-Наранко.",
+      "note": "geocode may be imprecise"
+    },
+    {
+      "name": "Centro de Interpretación del Prerrománico",
+      "name_ru": "Центр интерпретации дороманского искусства",
+      "category": "museum",
+      "lat": 43.3786754,
+      "lon": -5.8673931,
+      "description": "Музей в здании бывшей школы Наранко. Мультимедийные экспозиции об астурийском дороманском искусстве.",
+      "note": "geocode may be imprecise"
+    },
+    {
+      "name": "Monasterio de la Visitación (Las Salesas)",
+      "name_ru": "Монастырь Визитации (Лас Салесас)",
+      "category": "monastery",
+      "lat": null,
+      "lon": null,
+      "description": "Монастырь на Авенида де лос Монументос, 69.",
+      "note": "coordinates not verified"
+    }
+  ],
+  "demographics": {
+    "source": "Padrón Municipal 2024",
+    "total_population": 13901,
+    "foreign_total": 1424,
+    "pct_foreign": 10.2,
+    "foreign_by_continent": {
+      "eu": 250,
+      "europe_non_eu": 128,
+      "america": 833,
+      "africa": 180,
+      "asia": 29,
+      "oceania": 0,
+      "stateless": 4
+    }
+  }
+}

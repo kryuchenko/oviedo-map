@@ -8,78 +8,208 @@
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
+            line-height: 1.7;
+            color: #e0e0e0;
             padding: 20px;
-            background: #fafafa;
+            background: #171a1f;
         }
         .header {
-            background: linear-gradient(135deg, #2c3e50, #34495e);
-            color: white;
-            padding: 20px;
+            background: linear-gradient(135deg, #0d1b2a, #1b2838);
+            color: #27ae60;
+            padding: 25px;
             margin: -20px -20px 20px -20px;
+            border-bottom: 3px solid #27ae60;
         }
-        .header h1 {
-            font-size: 1.4rem;
-            margin-bottom: 5px;
-        }
-        .header .subtitle {
-            font-size: 0.85rem;
-            opacity: 0.8;
-        }
+        .header h1 { font-size: 1.5rem; margin-bottom: 5px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
+        .header .subtitle { font-size: 1rem; opacity: 0.9; font-style: italic; color: #58d68d; }
         .content {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            background: #1e2229; padding: 25px; border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.5);
         }
-        h3 {
-            color: #2c3e50;
-            margin: 20px 0 10px 0;
-            font-size: 1.1rem;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 5px;
+        h2 {
+            color: #27ae60; margin: 30px 0 15px 0; font-size: 1.3rem;
+            border-bottom: 3px solid #1e8449; padding-bottom: 8px;
         }
-        p {
-            margin-bottom: 12px;
-        }
-        ul {
-            margin: 10px 0 15px 20px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        strong {
-            color: #2c3e50;
+        h3 { color: #58d68d; margin: 20px 0 10px 0; font-size: 1.05rem; }
+        p { margin-bottom: 15px; text-align: justify; color: #bbb; }
+        .intro {
+            font-size: 1.05rem; color: #aaa;
+            border-left: 4px solid #27ae60;
+            padding-left: 15px; margin-bottom: 25px;
         }
         .type-badge {
-            display: inline-block;
-            padding: 3px 10px;
-            border-radius: 12px;
-            font-size: 0.75rem;
-            margin-top: 8px;
+            display: inline-block; padding: 4px 12px; border-radius: 12px;
+            font-size: 0.8rem; margin-top: 10px;
+            background: #27ae60; color: white;
         }
-        .urban { background: #e74c3c; color: white; }
-        .rural { background: #27ae60; color: white; }
+        ul { margin: 10px 0 15px 20px; color: #bbb; }
+        li { margin-bottom: 10px; }
+        strong { color: #e0e0e0; }
+        .alert-box {
+            background: rgba(39, 174, 96, 0.12); border: 1px solid #27ae60;
+            padding: 15px; border-radius: 8px; margin: 15px 0;
+        }
+        .alert-box h4 { color: #27ae60; margin-bottom: 8px; }
+        .danger-box {
+            background: rgba(231, 76, 60, 0.12); border: 1px solid #c0392b;
+            padding: 15px; border-radius: 8px; margin: 15px 0;
+        }
+        .danger-box h4 { color: #e74c3c; margin-bottom: 8px; }
+        .fact-box {
+            background: rgba(39, 174, 96, 0.08); border-left: 4px solid #27ae60;
+            padding: 15px; margin: 15px 0;
+        }
+        .quote {
+            background: #252830; border-left: 4px solid #58d68d;
+            padding: 15px 20px; margin: 20px 0;
+            font-style: italic; color: #999;
+        }
+        .stats-grid {
+            display: grid; grid-template-columns: 1fr 1fr;
+            gap: 10px; margin: 15px 0;
+        }
+        .stat-item {
+            display: flex; justify-content: space-between;
+            padding: 8px 12px; background: #252830; border-radius: 4px;
+        }
+        .stat-value { font-weight: bold; color: #27ae60; }
+        .nationality-grid {
+            display: grid; grid-template-columns: 1fr 1fr 1fr;
+            gap: 8px; margin: 15px 0;
+        }
+        .nat-item {
+            padding: 8px; background: #252830; border-radius: 4px; text-align: center;
+            border: 1px solid #333;
+        }
+        .nat-item .country { font-size: 0.85rem; color: #999; }
+        .nat-item .count { font-size: 1.1rem; font-weight: bold; color: #27ae60; }
+        .verdict {
+            background: linear-gradient(135deg, #1e8449, #27ae60);
+            color: white; padding: 20px; border-radius: 8px; margin-top: 30px;
+        }
+        .verdict p { text-align: left; margin-bottom: 10px; color: white; }
+        .verdict .rating { font-size: 1.5rem; text-align: center; margin-top: 15px; }
+        sup a { color: #1e8449; text-decoration: none; font-weight: bold; }
+        sup a:hover { text-decoration: underline; }
+        .references {
+            margin-top: 30px; padding-top: 15px;
+            border-top: 2px solid #27ae60; font-size: 0.8rem; color: #999;
+        }
+        .references h2 { font-size: 1.1rem; border-bottom: 1px solid #27ae60; color: #27ae60; }
+        .references ol { margin: 10px 0 0 20px; }
+        .references li { margin-bottom: 5px; }
+        .references a { color: #1e8449; word-break: break-all; }
+        @media (max-width: 600px) {
+            .stats-grid { grid-template-columns: 1fr; }
+            .nationality-grid { grid-template-columns: 1fr 1fr; }
+        }
     </style>
 </head>
 <body>
     <div class="header">
         <h1>Pumarín</h1>
-        <div class="subtitle">Пумарин</div>
-        <span class="type-badge urban">Городской район</span>
+        <div class="subtitle">Столица иммиграции: 16 000 жителей, 106 национальностей, 2 552 иностранца</div>
+        <span class="type-badge">Городской район</span>
     </div>
     <div class="content">
-        
-            <p>Жилой район на юге, построенный в 60-70-х годах.</p>
-            <h3>Достопримечательности</h3>
-            <ul>
-                <li><strong>Спорткомплекс Пумарин</strong> — спортивные объекты</li>
-                <li><strong>Местные магазины</strong> — торговля района</li>
-            </ul>
-            <h3>Характер района</h3>
-            <p>Тихий семейный район с устоявшейся инфраструктурой.</p>
-        
+        <p class="intro">Pumarín — самый густонаселённый район Овьедо после La Corredoria<sup><a href="#ref1">[1]</a></sup> и абсолютный чемпион города по числу иностранных жителей в абсолютных цифрах: <strong>2 552 человека из 106 стран</strong> (данные паdrón 2025)<sup><a href="#ref2">[2]</a></sup>. Это больше, чем всё население некоторых сельских районов. Бывший спальник 60-х превратился в главный плавильный котёл Астурии — со всеми вытекающими: кулинарным разнообразием, языковой кашей и регулярными дискуссиями в соцсетях.</p>
+
+        <h2>История и география</h2>
+
+        <p><strong>Pumarín</strong> (от астурийского <em>pumar</em> — «яблоневый сад»)<sup><a href="#ref3">[3]</a></sup> — крупный район к северо-востоку от центра. С 1991 года здесь работает <strong>Campus del Milán</strong> (гуманитарный кампус Университета Овьедо) в бывших казармах<sup><a href="#ref1">[1]</a></sup>. Ранее район был «чисто военным»: казарма Пелайо дель Милан, военный госпиталь, комендатура Гражданской гвардии<sup><a href="#ref3">[3]</a></sup>. Застройка — 60–70-е годы: типовые многоэтажки, плотная сетка улиц, минимум пустого пространства.</p>
+
+        <p>Район граничит с Театинос на западе, Вентаньельес на юго-востоке и Ла-Корредорией на севере. От центра — минут 10 на автобусе или 20 пешком. Близко, но недостаточно, чтобы называться «центром».</p>
+
+        <h2>Церковь Сан-Хосе</h2>
+
+        <p><strong>Parroquia de San José de Pumarín</strong> (1957)<sup><a href="#ref4">[4]</a></sup> — приходская церковь, главный «якорь» района. Создана по декрету архиепископа Лаусурики-и-Торральбы, первый священник — Дон Мануэль Фернандес Родригес («Don Ma»), проработавший 40 лет (1957–1997)<sup><a href="#ref5">[5]</a></sup>. Скромная архитектура 50-х: плавная линия фасада, функциональный объём, никаких готических излишеств<sup><a href="#ref4">[4]</a></sup>. Адрес: ул. Хоакина Бобела, 24. Тел.: 985 11 16 32.</p>
+
+        <p>Праздник Сан-Хосе (19 марта) — главное событие района: процессии, музыка, ярмарка<sup><a href="#ref4">[4]</a></sup>. В 2023 году прошла первая в истории прихода процессия со статуей святого по улицам района<sup><a href="#ref5">[5]</a></sup>.</p>
+
+        <h2>Национальный состав: ООН в миниатюре</h2>
+
+        <div class="danger-box">
+            <h4>2 552 иностранца — абсолютный рекорд Овьедо</h4>
+            <p style="margin-bottom:0;color:#ccc">Это <strong>13,6%</strong> населения района. Больше, чем в Centro Norte (12%), Buenavista (11,8%) или El Cristo (11,3%). И это не «экспаты из ЕС» — это реальная трудовая миграция из Латинской Америки и Африки.</p>
+        </div>
+
+        <p>Разбивка по крупнейшим национальностям (паdrón 2025)<sup><a href="#ref2">[2]</a></sup>:</p>
+
+        <div class="nationality-grid">
+            <div class="nat-item"><div class="count">455</div><div class="country">Колумбия</div></div>
+            <div class="nat-item"><div class="count">290</div><div class="country">Венесуэла</div></div>
+            <div class="nat-item"><div class="count">200</div><div class="country">Румыния</div></div>
+            <div class="nat-item"><div class="count">157</div><div class="country">Парагвай</div></div>
+            <div class="nat-item"><div class="count">153</div><div class="country">Марокко</div></div>
+            <div class="nat-item"><div class="count">113</div><div class="country">Сенегал</div></div>
+            <div class="nat-item"><div class="count">101</div><div class="country">Куба</div></div>
+            <div class="nat-item"><div class="count">97</div><div class="country">Китай</div></div>
+            <div class="nat-item"><div class="count">304</div><div class="country">вся Африка</div></div>
+        </div>
+
+        <p>По континентам: <strong>Латинская Америка — 1 254</strong> (57% всех иностранцев), Европа (ЕС) — 353, Африка — 304, Азия — 142. Пумарин — единственный район Овьедо, где можно за один квартал найти колумбийскую эмпанаду, сенегальский маффе, румынскую шаурму, китайский «базар» и классическую астурийскую сидрерию.</p>
+
+        <div class="quote">Пумарин — это район, где ты заказываешь café con leche, а бариста спрашивает «¿colombiano o del Mercadona?» И это не шутка — тут реально два вида кофе.</div>
+
+        <h2>Школа и инфраструктура</h2>
+
+        <p><strong>Colegio Público Pumarín</strong><sup><a href="#ref1">[1]</a></sup> — государственная школа, где дети из 30+ стран учатся вместе. Формально — мультикультурный эксперимент. На практике — обычная испанская школа, только на родительских собраниях нужен переводчик.</p>
+
+        <p>Из инфраструктуры: супермаркеты (Mercadona, DIA, Carrefour Express), аптеки, мелкие магазины (в том числе этнические), кафе, бары. <strong>Palacio Municipal de Deportes</strong> — крупный муниципальный спортдворец на границе Pumarín/Ventanielles (ул. Хосе Антонио Элола, 2).</p>
+
+        <h2>Демография и доходы</h2>
+
+        <div class="stats-grid">
+            <div class="stat-item"><span>Население</span><span class="stat-value">16 011</span></div>
+            <div class="stat-item"><span>Иностранцев</span><span class="stat-value">13,6% (2 178)</span></div>
+            <div class="stat-item"><span>Латинская Америка</span><span class="stat-value">1 254</span></div>
+            <div class="stat-item"><span>Африка</span><span class="stat-value">304</span></div>
+            <div class="stat-item"><span>Европа (ЕС)</span><span class="stat-value">353</span></div>
+            <div class="stat-item"><span>Азия</span><span class="stat-value">142</span></div>
+            <div class="stat-item"><span>Доход (ранг)</span><span class="stat-value">Ниже среднего</span></div>
+            <div class="stat-item"><span>Доход (€/год)</span><span class="stat-value">~30 093 €</span></div>
+        </div>
+
+        <div class="fact-box">
+            <p style="margin-bottom:0;color:#bbb">Средний доход — около 30 000 €/год (почтовый индекс 33007, ниже среднего по Овьедо в 33 407 €)<sup><a href="#ref6">[6]</a></sup>. Район рабочий: не бедный, но и не «Centro Oeste». Типичный житель — либо пенсионер-испанец, оставшийся с 70-х, либо молодая семья-иммигрантов, работающая в сфере услуг. Alcalde de barrio Кристиан Суарес: «Pumarín — район плюральный и открытый всему миру, один из тех, что больше всего принимает иммигрантов»<sup><a href="#ref7">[7]</a></sup>.</p>
+        </div>
+
+        <h2>Проблемы и восприятие</h2>
+
+        <ul>
+            <li><strong>Репутация:</strong> в комментариях под статьями о Пумарине регулярно вспыхивают баталии. Одни пишут «мультикультурный ад», другие — «лучший район для реальной жизни». Истина, как всегда, где-то между: район безопасный, но запущенный; дешёвый, но некрасивый; живой, но шумный.</li>
+            <li><strong>Архитектура:</strong> 60-е годы. Без комментариев. Серые коробки, тесные дворы, балконы с бельём. Ни один архитектурный критик не заплачет от восторга.</li>
+            <li><strong>Парковка:</strong> как везде в Овьедо — ад. Дворы проектировались для одной машины на семью, а теперь их три.</li>
+        </ul>
+
+        <h2>Вердикт</h2>
+
+        <div class="rating-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:15px 0">
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#252830;border-radius:4px;border:1px solid #3a3d45"><span>Жильё</span><span style="font-weight:bold;color:#27ae60">Дёшево</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#252830;border-radius:4px;border:1px solid #3a3d45"><span>Мультикультурность</span><span style="font-weight:bold;color:#27ae60">106 наций</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#252830;border-radius:4px;border:1px solid #3a3d45"><span>Безопасность</span><span style="font-weight:bold;color:#27ae60">Средне</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#252830;border-radius:4px;border:1px solid #3a3d45"><span>Инфраструктура</span><span style="font-weight:bold;color:#27ae60">Базовая</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#252830;border-radius:4px;border:1px solid #3a3d45"><span>Атмосфера</span><span style="font-weight:bold;color:#27ae60">Котёл</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#252830;border-radius:4px;border:1px solid #3a3d45"><span>Кухня</span><span style="font-weight:bold;color:#27ae60">Весь мир</span></div>
+        </div>
+
+        <div class="verdict">
+            <p><strong>Суть:</strong> Pumarín — самый «глобальный» район Овьедо. 106 национальностей на 16 000 жителей — это плотность, которой позавидует любой лондонский боро. Район не для тех, кто ищет «тихую Испанию» — здесь Испания шумная, пёстрая и настоящая. Дёшево, функционально, мультикультурно. Без прикрас.</p>
+            <p class="rating"><strong>5.5 из 10</strong></p>
+        </div>
+        <div class="references">
+            <h2>Источники</h2>
+            <ol>
+                <li id="ref1">Pumarín (Oviedo) — <a href="https://es.wikipedia.org/wiki/Pumar%C3%ADn_(Oviedo)" target="_blank">Wikipedia (es)</a></li>
+                <li id="ref2">«Oviedo tiene 24.345 vecinos extranjeros de 106 países: la mayoría vive en Pumarín, La Argañosa y Teatinos» — <a href="https://www.lavozdeasturias.es/noticia/oviedo/2025/09/29/oviedo-24345-vecinos-extranjeros-106-paises-mayoria-vive-pumarin-arganosa-teatinos/00031759144868897234309.htm" target="_blank">La Voz de Asturias</a>, 30.09.2025</li>
+                <li id="ref3">«Pumarín, como en casa» — <a href="https://www.lavozdeasturias.es/noticia/oviedo/2018/02/26/pumarin-casa/00031519648662956719393.htm" target="_blank">La Voz de Asturias</a>, 26.02.2018</li>
+                <li id="ref4">Parroquia de San José de Pumarín — <a href="https://www.gpsmycity.com/attractions/parroquia-de-san-jose-de-pumarin-(the-parish-of-saint-joseph-of-pumarin)-54472.html" target="_blank">GPSmyCity</a></li>
+                <li id="ref5">«San José de Pumarín» — <a href="http://sanfelixdelugones.blogspot.com/2023/03/san-jose-de-pumarin-por-joaquin-manuel.html" target="_blank">Parroquia de San Félix de Lugones (blog)</a>, Joaquín Manuel Serrano Vila, 2023</li>
+                <li id="ref6">Агенция Трибутария, IRPF 2021 — <a href="https://www.lavozdeasturias.es/noticia/oviedo/voz-oviedo/2023/10/23/riqueza-va-barrios-ricos-pobres-oviedo/00031698046663312339866.htm" target="_blank">La Voz de Asturias: «La riqueza va por barrios»</a>, 23.10.2023</li>
+                <li id="ref7">«El barrio de Pumarín, referente de multiculturalidad en Oviedo» — <a href="https://www.cope.es/emisoras/asturias/asturias-provincia/oviedo/noticias/barrio-pumarin-referente-multiculturalidad-oviedo-sigue-creciendo-proyectos-mejoran-vida-vecinos-fortalecen-convivencia-20241111_3043998.html" target="_blank">COPE</a>, 11.11.2024</li>
+                <li id="ref8">Padrón Municipal, 1 de enero de 2024 — <a href="https://www.odina.es/data/ficheros/2024/04/1144_ODINA_Poblaci%C3%B3n_extranjera_Oviedo_1_enero_2024-1.xlsx" target="_blank">Odina / Ayuntamiento de Oviedo</a></li>
+            </ol>
+        </div>
     </div>
 </body>
 </html>

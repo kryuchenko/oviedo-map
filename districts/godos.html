@@ -6,66 +6,76 @@
     <title>Godos - Овьедо</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            padding: 20px;
-            background: #fafafa;
-        }
-        .header {
-            background: linear-gradient(135deg, #27ae60, #2ecc71);
-            color: white;
-            padding: 20px;
-            margin: -20px -20px 20px -20px;
-        }
-        .header h1 {
-            font-size: 1.4rem;
-            margin-bottom: 5px;
-        }
-        .header .subtitle {
-            font-size: 0.85rem;
-            opacity: 0.8;
-        }
-        .content {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        h3 {
-            color: #27ae60;
-            margin: 20px 0 10px 0;
-            font-size: 1.1rem;
-            border-bottom: 2px solid #27ae60;
-            padding-bottom: 5px;
-        }
-        p {
-            margin-bottom: 12px;
-        }
-        .type-badge {
-            display: inline-block;
-            padding: 3px 10px;
-            border-radius: 12px;
-            font-size: 0.75rem;
-            margin-top: 8px;
-            background: #2c3e50;
-            color: white;
-        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: #333; padding: 20px; background: #fafafa; }
+        .header { background: linear-gradient(135deg, #2e7d32, #43a047); color: white; padding: 25px; margin: -20px -20px 20px -20px; }
+        .header h1 { font-size: 1.5rem; margin-bottom: 5px; }
+        .header .subtitle { font-size: 1rem; opacity: 0.9; font-style: italic; }
+        .content { background: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h2 { color: #2e7d32; margin: 25px 0 12px 0; font-size: 1.25rem; border-bottom: 3px solid #66bb6a; padding-bottom: 6px; }
+        p { margin-bottom: 14px; text-align: justify; }
+        .intro { font-size: 1.05rem; color: #444; border-left: 4px solid #66bb6a; padding-left: 15px; margin-bottom: 20px; }
+        .type-badge { display: inline-block; padding: 4px 12px; border-radius: 12px; font-size: 0.8rem; margin-top: 10px; background: #1b5e20; color: white; }
+        strong { color: #2e7d32; }
+        sup a { color: #e67e22; text-decoration: none; font-weight: bold; }
+        sup a:hover { text-decoration: underline; }
+        .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 15px 0; }
+        .stats-grid div { display: flex; justify-content: space-between; padding: 8px 12px; background: #e8f5e9; border-radius: 4px; border: 1px solid #a5d6a7; font-size: 0.9rem; }
+        .stats-grid span:last-child { font-weight: bold; color: #2e7d32; }
+        .rating-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 15px 0; }
+        .rating-grid div { display: flex; justify-content: space-between; padding: 8px 12px; background: #e8f5e9; border-radius: 4px; border: 1px solid #a5d6a7; }
+        .rating-grid span:last-child { font-weight: bold; color: #2e7d32; }
+        .verdict { background: linear-gradient(135deg, #2e7d32, #43a047); color: white; padding: 20px; border-radius: 8px; margin-top: 25px; text-align: center; }
+        .verdict h3 { color: #c8e6c9; margin-bottom: 10px; }
+        .rating { font-size: 1.5rem; font-weight: bold; color: #c8e6c9; }
+        .references { margin-top: 25px; padding-top: 15px; border-top: 2px solid #66bb6a; font-size: 0.8rem; color: #888; }
+        .references h2 { font-size: 1.1rem; color: #66bb6a; border-bottom: 1px solid #66bb6a; }
+        .references ol { margin: 10px 0 0 20px; }
+        .references li { margin-bottom: 5px; }
+        .references a { color: #e67e22; word-break: break-all; }
+        @media (max-width: 600px) { .stats-grid, .rating-grid { grid-template-columns: 1fr; } }
     </style>
 </head>
 <body>
     <div class="header">
         <h1>Godos</h1>
-        <div class="subtitle">Годос</div>
-        <span class="type-badge">Сельский район</span>
+        <div class="subtitle">Деревня с неожиданно космополитичной статистикой</div>
+        <span class="type-badge">Сельский приход</span>
     </div>
     <div class="content">
-        <p>Сельский район в муниципалитете Овьедо, Астурия.</p>
-        <h3>Описание</h3>
-        <p>Godos — один из приходов (parroquias), составляющих территорию муниципалитета Овьедо. Расположен в сельской местности, сохраняет традиционный астурийский уклад жизни.</p>
-        <h3>Характер местности</h3>
-        <p>Тихая сельская местность с живописными пейзажами северной Испании. Традиционная архитектура, природные угодья.</p>
+        <p class="intro">Годос -- сельский приход Овьедо с населением 557 человек, из которых 64 -- иностранцы<sup><a href="#ref1">[1]</a></sup>. Это даёт 11,5% иностранного населения -- показатель, достойный иного городского района. Деревня, где глобализация зашла дальше, чем автобусный маршрут.</p>
+
+        <h2>Феномен Годоса</h2>
+        <p>Главная загадка Годоса -- откуда в сельском приходе такой процент иностранцев? 11,5% -- это больше, чем в некоторых городских баррио<sup><a href="#ref1">[1]</a></sup>. Вероятнее всего, объяснение прозаическое: дешёвое жильё и возможность вести хозяйство. Когда средний доход не позволяет снимать квартиру в центре, сельский дом с участком становится вполне рациональным выбором.</p>
+
+        <p>В остальном Годос -- типичный астурийский приход: зелёные холмы, разбросанные aldeas, сидр из бочки у соседа и тишина, в которой слышно, как растёт трава. Буквально.</p>
+
+        <h2>Демография</h2>
+        <div class="stats-grid">
+            <div><span>Население</span><span>557</span></div>
+            <div><span>Иностранцы</span><span>64 (11,5%)</span></div>
+            <div><span>Тип</span><span>Сельский приход</span></div>
+            <div><span>Особенность</span><span>Высокий % иностранцев</span></div>
+        </div>
+
+        <div class="rating-grid">
+            <div><span>Naturaleza</span><span>8/10</span></div>
+            <div><span>Accesibilidad</span><span>3/10</span></div>
+            <div><span>Servicios</span><span>2/10</span></div>
+            <div><span>Para vivir</span><span>4/10</span></div>
+        </div>
+
+        <div class="verdict">
+            <h3>Вердикт</h3>
+            <p class="rating">3.5 / 10</p>
+            <p>Самый интернациональный приход сельского Овьедо. Место, где можно услышать пять языков -- если, конечно, пять человек одновременно выйдут на улицу.</p>
+        </div>
+
+        <div class="references">
+            <h2>Источники</h2>
+            <ol>
+                <li id="ref1">Padrón Municipal, 1 de enero de 2024 -- <a href="https://www.odina.es/data/ficheros/2024/04/1144_ODINA_Poblaci%C3%B3n_extranjera_Oviedo_1_enero_2024-1.xlsx" target="_blank">Odina / Ayuntamiento de Oviedo</a></li>
+            </ol>
+        </div>
     </div>
 </body>
 </html>

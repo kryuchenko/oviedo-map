@@ -6,75 +6,95 @@
     <title>Les Campes - Овьедо</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            padding: 20px;
-            background: #fafafa;
-        }
-        .header {
-            background: linear-gradient(135deg, #2c3e50, #34495e);
-            color: white;
-            padding: 20px;
-            margin: -20px -20px 20px -20px;
-        }
-        .header h1 {
-            font-size: 1.4rem;
-            margin-bottom: 5px;
-        }
-        .header .subtitle {
-            font-size: 0.85rem;
-            opacity: 0.8;
-        }
-        .content {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        h3 {
-            color: #2c3e50;
-            margin: 20px 0 10px 0;
-            font-size: 1.1rem;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 5px;
-        }
-        p {
-            margin-bottom: 12px;
-        }
-        ul {
-            margin: 10px 0 15px 20px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        strong {
-            color: #2c3e50;
-        }
-        .type-badge {
-            display: inline-block;
-            padding: 3px 10px;
-            border-radius: 12px;
-            font-size: 0.75rem;
-            margin-top: 8px;
-        }
-        .urban { background: #e74c3c; color: white; }
-        .rural { background: #27ae60; color: white; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: #333; padding: 20px; background: #fafafa; }
+        .header { background: linear-gradient(135deg, #455a64, #607d8b); color: white; padding: 25px; margin: -20px -20px 20px -20px; }
+        .header h1 { font-size: 1.5rem; margin-bottom: 5px; }
+        .header .subtitle { font-size: 1rem; opacity: 0.9; font-style: italic; }
+        .content { background: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h2 { color: #455a64; margin: 30px 0 15px 0; font-size: 1.3rem; border-bottom: 3px solid #90a4ae; padding-bottom: 8px; }
+        h3 { color: #607d8b; margin: 20px 0 10px 0; font-size: 1.05rem; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .intro { font-size: 1.05rem; color: #444; border-left: 4px solid #90a4ae; padding-left: 15px; margin-bottom: 25px; }
+        .type-badge { display: inline-block; padding: 4px 12px; border-radius: 12px; font-size: 0.8rem; margin-top: 10px; background: #90a4ae; color: white; }
+        ul { margin: 10px 0 15px 20px; } li { margin-bottom: 10px; }
+        .highlight { background: #eceff1; border-left: 4px solid #90a4ae; padding: 15px; margin: 15px 0; }
+        .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 15px 0; }
+        .stat-item { display: flex; justify-content: space-between; padding: 8px 12px; background: #eceff1; border-radius: 4px; border: 1px solid #cfd8dc; }
+        .stat-value { font-weight: bold; color: #455a64; }
+        .verdict { background: linear-gradient(135deg, #455a64, #607d8b); color: white; padding: 20px; border-radius: 8px; margin-top: 30px; }
+        .verdict p { text-align: left; margin-bottom: 0; }
+        sup a { color: #607d8b; text-decoration: none; font-weight: bold; } sup a:hover { text-decoration: underline; }
+        .references { margin-top: 30px; padding-top: 15px; border-top: 2px solid #90a4ae; font-size: 0.8rem; color: #666; }
+        .references h2 { font-size: 1.1rem; border-bottom: 1px solid #90a4ae; }
+        .references ol { margin: 10px 0 0 20px; } .references li { margin-bottom: 5px; }
+        .references a { color: #607d8b; word-break: break-all; }
+        @media (max-width: 600px) { .stats-grid { grid-template-columns: 1fr; } }
     </style>
 </head>
 <body>
     <div class="header">
         <h1>Les Campes</h1>
-        <div class="subtitle">Лес-Кампес</div>
-        <span class="type-badge urban">Городской район</span>
+        <div class="subtitle">Район, рождённый из протеста: бетонный цветок на юго-восточном склоне</div>
+        <span class="type-badge">Городской район</span>
     </div>
     <div class="content">
-        
-            <p>Современный жилой район на юге города.</p>
-            <h3>Характер района</h3>
-            <p>Район с современной застройкой и хорошей инфраструктурой.</p>
-        
+        <p class="intro">Лес-Кампес — район, который существует благодаря тому, что в 1977 году группа упрямых соседей решила, что им надоело жить в бараках, и пошла воевать с мэрией<sup><a href="#ref1">[1]</a></sup>. Районное движение (movimiento vecinal) Арганьосы выбило из властей застройку этих полей — и вот на месте бывших лугов выросли типичные испанские многоэтажки. Революция победила, но вместо коммунизма построили панельки.</p>
+
+        <h2>Происхождение: Поля, ставшие кварталами</h2>
+
+        <p>Название «Les Campes» — астурийское (asturianu) слово, означающее просто «поля». И действительно, до конца 1970-х здесь были именно поля, принадлежавшие к приходу Арганьосы. Переломный момент наступил в 1977 году, когда ассоциация соседей Арганьосы (asociación vecinal) начала кампанию за благоустройство и новое жильё<sup><a href="#ref1">[1]</a></sup>. Это был разгар Транзиции — Испания переходила от диктатуры к демократии, и низовые инициативы имели реальный шанс быть услышанными.</p>
+
+        <p>Результат: городской план отвёл территорию под жилую застройку. К 1980-м здесь уже стояли первые блоки. К 2000-м район был полностью застроен и заселён. Типичная история испанского спального района: сначала борьба, потом бетон, потом тишина.</p>
+
+        <h2>Характер застройки</h2>
+
+        <p>Лес-Кампес — это жилая застройка средней этажности (4-7 этажей), характерная для рабочих кварталов Овьедо 1980-90-х годов. Никаких архитектурных откровений: прямоугольные блоки, функциональные фасады, балконы, заставленные сушилками для белья. Район тесно примыкает к Арганьосе и фактически воспринимается как её продолжение.</p>
+
+        <p>Из инфраструктуры стоит отметить <strong>Colegio Las Campas</strong> — школу, которая стала смысловым центром района. Где школа — там и жизнь: мамы с колясками, детские площадки, маленькие магазинчики, где все знают друг друга. Классическая модель районного самодостаточного микрокосма.</p>
+
+        <h2>Демография</h2>
+
+        <div class="stats-grid">
+            <div class="stat-item"><span>Население</span><span class="stat-value">2 691</span></div>
+            <div class="stat-item"><span>Иностранцев</span><span class="stat-value">7,9% (213)</span></div>
+            <div class="stat-item"><span>Европа (ЕС)</span><span class="stat-value">35</span></div>
+            <div class="stat-item"><span>Латинская Америка</span><span class="stat-value">145</span></div>
+            <div class="stat-item"><span>Африка</span><span class="stat-value">15</span></div>
+            <div class="stat-item"><span>Азия</span><span class="stat-value">1</span></div>
+        </div>
+
+        <p>Район маленький — всего 2 691 человек<sup><a href="#ref2">[2]</a></sup>. Но доля иностранцев заметная: 7,9%<sup><a href="#ref2">[2]</a></sup> — выше среднего по городу. Абсолютное большинство мигрантов — из Латинской Америки (145 из 213)<sup><a href="#ref2">[2]</a></sup>. Это колумбийцы, венесуэльцы, парагвайцы — люди, которые ищут недорогое жильё и находят его в рабочих кварталах юго-востока Овьедо. Азиатов — ровно один человек<sup><a href="#ref2">[2]</a></sup>. Он, вероятно, очень одинок.</p>
+
+        <h2>Жизнь: Тихая провинция внутри города</h2>
+
+        <p>Лес-Кампес живёт размеренной жизнью рабочего квартала. Утром — дети в школу, взрослые на работу. Вечером — прогулки, парочка баров, телевизор. Район не опасный, но и не модный. Сюда не приезжают туристы, здесь не открываются хипстерские кофейни, здесь не проходят фестивали. Это просто место, где люди живут.</p>
+
+        <div class="highlight">
+            <strong>Контекст:</strong> Лес-Кампес — наглядная иллюстрация того, как работала демократизация Испании на низовом уровне. Люди вышли на улицы не ради абстрактной свободы, а ради конкретного жилья. И получили его. Правда, получили панельки, а не дворцы — но в 1977 году и это казалось победой.
+        </div>
+
+        <div class="rating-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:15px 0">
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#eceff1;border-radius:4px;border:1px solid #cfd8dc"><span>Жильё</span><span style="font-weight:bold;color:#455a64">Дёшево</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#eceff1;border-radius:4px;border:1px solid #cfd8dc"><span>Безопасность</span><span style="font-weight:bold;color:#455a64">Нормально</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#eceff1;border-radius:4px;border:1px solid #cfd8dc"><span>Транспорт</span><span style="font-weight:bold;color:#455a64">Средне</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#eceff1;border-radius:4px;border:1px solid #cfd8dc"><span>Для семей</span><span style="font-weight:bold;color:#455a64">Есть школа</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#eceff1;border-radius:4px;border:1px solid #cfd8dc"><span>Развлечения</span><span style="font-weight:bold;color:#455a64">Нет</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#eceff1;border-radius:4px;border:1px solid #cfd8dc"><span>Атмосфера</span><span style="font-weight:bold;color:#455a64">Рабочий квартал</span></div>
+        </div>
+
+        <div class="verdict">
+            <h3 style="color:#90a4ae;margin-bottom:10px">Вердикт</h3>
+            <p>Лес-Кампес — район для тех, кого не пугает слово «панелька» и кто ценит тишину больше, чем престиж. Рождённый из народного протеста, он превратился в тихий, ничем не примечательный спальник. Главное достоинство — цена квадратного метра. Главный недостаток — всё остальное.</p>
+            <p class="rating" style="font-size:1.5rem;text-align:center;margin-top:15px"><strong>6 из 10</strong></p>
+        </div>
+
+        <div class="references">
+            <h2>Источники</h2>
+            <ol>
+                <li id="ref1">Movimiento vecinal de La Argañosa (1977) — La Nueva España, архивные материалы по истории районного движения Арганьосы</li>
+                <li id="ref2">Padrón Municipal, 1 de enero de 2024 — <a href="https://www.odina.es" target="_blank">Odina / Ayuntamiento de Oviedo</a></li>
+            </ol>
+        </div>
     </div>
 </body>
 </html>

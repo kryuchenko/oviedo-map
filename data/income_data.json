@@ -1,0 +1,148 @@
+{
+  "source": "Agencia Tributaria IRPF, via La Voz de Asturias (Oct 2025)",
+  "oviedo_average": {
+    "renta_bruta_2023": 33407,
+    "renta_bruta_2022": 32264
+  },
+  "by_postal_code": {
+    "33004": {
+      "area": "Centro-Oeste (calles Asturias, Cervantes, Independencia)",
+      "renta_bruta": 52426,
+      "year": 2023
+    },
+    "33005": {
+      "area": "Buenavista, Llamaquique, Av. Galicia, Plaza América",
+      "renta_bruta": 49333,
+      "year": 2023,
+      "note": "El Cristo included"
+    },
+    "33003": {
+      "area": "Uría, Pelayo, San Francisco, Casco Antiguo",
+      "renta_bruta": 46254,
+      "year": 2023,
+      "note": "Centro-Norte/Centro-Este"
+    },
+    "33006": {
+      "area": "Buenavista (parte), El Cristo, Montecerrao",
+      "renta_bruta": 35344,
+      "year": 2021
+    },
+    "33013": {
+      "area": "Argañosa, Ería, Olivares, Parque del Oeste",
+      "renta_bruta": 32742,
+      "year": 2021
+    },
+    "33007": {
+      "area": "Otero, Tenderina Baja, A-66 area",
+      "renta_bruta": 30093,
+      "year": 2021
+    },
+    "33010": {
+      "area": "Tenderina, Ventanielles, Colloto",
+      "renta_bruta": 25485,
+      "year": 2021
+    },
+    "33011": {
+      "area": "La Corredoria, La Florida",
+      "renta_bruta": 28000,
+      "year": 2023,
+      "approx": true
+    },
+    "rural": {
+      "area": "Zonas rurales del concejo",
+      "renta_bruta": 27502,
+      "year": 2021
+    }
+  },
+  "by_district_approx": {
+    "Centro Oeste": {
+      "renta_bruta_2023": 52426,
+      "rank": 1,
+      "postal": "33004"
+    },
+    "Centro Norte": {
+      "renta_bruta_2023": 46254,
+      "rank": 3,
+      "postal": "33003"
+    },
+    "Centro Este": {
+      "renta_bruta_2023": 46254,
+      "rank": 3,
+      "postal": "33003"
+    },
+    "Centro Sur": {
+      "renta_bruta_2023": 46254,
+      "rank": 3,
+      "postal": "33003"
+    },
+    "Antiguo": {
+      "renta_bruta_2023": 46254,
+      "rank": 3,
+      "postal": "33003"
+    },
+    "El Cristo": {
+      "renta_bruta_2023": 49333,
+      "rank": 2,
+      "postal": "33005"
+    },
+    "Buenavista": {
+      "renta_bruta_2023": 35344,
+      "rank": 4,
+      "postal": "33006"
+    },
+    "Montecerrao": {
+      "renta_bruta_2023": 35344,
+      "rank": 4,
+      "postal": "33006"
+    },
+    "Argañosa": {
+      "renta_bruta_2023": 32742,
+      "rank": 5,
+      "postal": "33013"
+    },
+    "Olivares": {
+      "renta_bruta_2023": 32742,
+      "rank": 5,
+      "postal": "33013"
+    },
+    "Tenderina": {
+      "renta_bruta_2023": 25485,
+      "rank": 8,
+      "postal": "33010"
+    },
+    "Ventanielles": {
+      "renta_bruta_2023": 25485,
+      "rank": 8,
+      "postal": "33010"
+    },
+    "La Corredoria": {
+      "renta_bruta_2023": 28000,
+      "rank": 6,
+      "postal": "33011",
+      "approx": true
+    },
+    "La Florida": {
+      "renta_bruta_2023": 28000,
+      "rank": 6,
+      "postal": "33011",
+      "approx": true
+    },
+    "Otero": {
+      "renta_bruta_2023": 30093,
+      "rank": 7,
+      "postal": "33007"
+    },
+    "Pumarín": {
+      "renta_bruta_2023": 30093,
+      "rank": 7,
+      "postal": "33007"
+    }
+  },
+  "notes": [
+    "Centro-Oeste (33004) es la zona más rica: 52.426€ renta bruta media 2023",
+    "Centro-Este tuvo el mayor crecimiento: +7.9% en 2023",
+    "Tenderina/Ventanielles (33010) es la más baja zona urbana: 25.485€",
+    "La Corredoria tiene la sección censal más pobre de Oviedo: 8.750€",
+    "Trubia es la zona con menor renta: 26.364€ media"
+  ]
+}

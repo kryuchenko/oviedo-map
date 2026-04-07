@@ -1,0 +1,22 @@
+{
+  "district": "Llatores (Латорес)",
+  "district_type": "rural",
+  "summary_ru": "Сельский район к югу от города.",
+  "total_validated_pois": 0,
+  "pois": [],
+  "demographics": {
+    "source": "Padrón Municipal 2024",
+    "total_population": 661,
+    "foreign_total": 33,
+    "pct_foreign": 5.0,
+    "foreign_by_continent": {
+      "eu": 7,
+      "europe_non_eu": 7,
+      "america": 19,
+      "africa": 0,
+      "asia": 0,
+      "oceania": 0,
+      "stateless": 0
+    }
+  }
+}

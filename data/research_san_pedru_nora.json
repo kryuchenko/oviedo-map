@@ -1,0 +1,22 @@
+{
+  "district": "San Pedru Nora (Нора)",
+  "district_type": "rural",
+  "summary_ru": "Самый малонаселённый район. 1 иностранец (из Нидерландов).",
+  "total_validated_pois": 0,
+  "pois": [],
+  "demographics": {
+    "source": "Padrón Municipal 2024",
+    "total_population": 90,
+    "foreign_total": 1,
+    "pct_foreign": 1.1,
+    "foreign_by_continent": {
+      "eu": 1,
+      "europe_non_eu": 0,
+      "america": 0,
+      "africa": 0,
+      "asia": 0,
+      "oceania": 0,
+      "stateless": 0
+    }
+  }
+}

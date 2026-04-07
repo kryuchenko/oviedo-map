@@ -1,0 +1,861 @@
+{
+  "ANTIGUO": {
+    "total_population": 3159,
+    "foreign_total": 333,
+    "pct_foreign": 10.5,
+    "by_continent": {
+      "eu": 73,
+      "europe_non_eu": 28,
+      "america": 208,
+      "africa": 13,
+      "asia": 9,
+      "oceania": 2,
+      "stateless": 0
+    }
+  },
+  "BENDONES": {
+    "total_population": 325,
+    "foreign_total": 6,
+    "pct_foreign": 1.8,
+    "by_continent": {
+      "eu": 6,
+      "europe_non_eu": 0,
+      "america": 0,
+      "africa": 0,
+      "asia": 0,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "BRAÑES": {
+    "total_population": 92,
+    "foreign_total": 6,
+    "pct_foreign": 6.5,
+    "by_continent": {
+      "eu": 3,
+      "europe_non_eu": 0,
+      "america": 3,
+      "africa": 0,
+      "asia": 0,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "BUENAVISTA": {
+    "total_population": 8504,
+    "foreign_total": 1003,
+    "pct_foreign": 11.8,
+    "by_continent": {
+      "eu": 234,
+      "europe_non_eu": 139,
+      "america": 488,
+      "africa": 82,
+      "asia": 60,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "CACES": {
+    "total_population": 259,
+    "foreign_total": 9,
+    "pct_foreign": 3.5,
+    "by_continent": {
+      "eu": 6,
+      "europe_non_eu": 1,
+      "america": 2,
+      "africa": 0,
+      "asia": 0,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "CENTRO-ESTE": {
+    "total_population": 6052,
+    "foreign_total": 423,
+    "pct_foreign": 7.0,
+    "by_continent": {
+      "eu": 108,
+      "europe_non_eu": 34,
+      "america": 220,
+      "africa": 53,
+      "asia": 4,
+      "oceania": 0,
+      "stateless": 4
+    }
+  },
+  "CENTRO-NORTE": {
+    "total_population": 10966,
+    "foreign_total": 1314,
+    "pct_foreign": 12.0,
+    "by_continent": {
+      "eu": 280,
+      "europe_non_eu": 99,
+      "america": 742,
+      "africa": 111,
+      "asia": 79,
+      "oceania": 0,
+      "stateless": 3
+    }
+  },
+  "CENTRO-OESTE": {
+    "total_population": 8685,
+    "foreign_total": 437,
+    "pct_foreign": 5.0,
+    "by_continent": {
+      "eu": 99,
+      "europe_non_eu": 51,
+      "america": 235,
+      "africa": 18,
+      "asia": 29,
+      "oceania": 4,
+      "stateless": 1
+    }
+  },
+  "CENTRO-SUR": {
+    "total_population": 7131,
+    "foreign_total": 405,
+    "pct_foreign": 5.7,
+    "by_continent": {
+      "eu": 104,
+      "europe_non_eu": 53,
+      "america": 206,
+      "africa": 18,
+      "asia": 24,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "CERDEÑO RURAL": {
+    "total_population": 168,
+    "foreign_total": 8,
+    "pct_foreign": 4.8,
+    "by_continent": {
+      "eu": 1,
+      "europe_non_eu": 1,
+      "america": 3,
+      "africa": 0,
+      "asia": 3,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "CERDEÑO URBANO": {
+    "total_population": 1184,
+    "foreign_total": 64,
+    "pct_foreign": 5.4,
+    "by_continent": {
+      "eu": 14,
+      "europe_non_eu": 2,
+      "america": 24,
+      "africa": 24,
+      "asia": 0,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "CIUDAD NARANCO": {
+    "total_population": 13901,
+    "foreign_total": 1424,
+    "pct_foreign": 10.2,
+    "by_continent": {
+      "eu": 250,
+      "europe_non_eu": 128,
+      "america": 833,
+      "africa": 180,
+      "asia": 29,
+      "oceania": 0,
+      "stateless": 4
+    }
+  },
+  "COLLOTO RURAL": {
+    "total_population": 336,
+    "foreign_total": 5,
+    "pct_foreign": 1.5,
+    "by_continent": {
+      "eu": 3,
+      "europe_non_eu": 0,
+      "america": 2,
+      "africa": 0,
+      "asia": 0,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "COLLOTO URBANO": {
+    "total_population": 3069,
+    "foreign_total": 153,
+    "pct_foreign": 5.0,
+    "by_continent": {
+      "eu": 37,
+      "europe_non_eu": 4,
+      "america": 87,
+      "africa": 5,
+      "asia": 20,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "EL CRISTO": {
+    "total_population": 6736,
+    "foreign_total": 764,
+    "pct_foreign": 11.3,
+    "by_continent": {
+      "eu": 231,
+      "europe_non_eu": 59,
+      "america": 422,
+      "africa": 26,
+      "asia": 23,
+      "oceania": 1,
+      "stateless": 2
+    }
+  },
+  "GODOS": {
+    "total_population": 557,
+    "foreign_total": 64,
+    "pct_foreign": 11.5,
+    "by_continent": {
+      "eu": 11,
+      "europe_non_eu": 7,
+      "america": 27,
+      "africa": 19,
+      "asia": 0,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "LA ARGAÑOSA": {
+    "total_population": 13298,
+    "foreign_total": 1803,
+    "pct_foreign": 13.6,
+    "by_continent": {
+      "eu": 341,
+      "europe_non_eu": 82,
+      "america": 1128,
+      "africa": 182,
+      "asia": 64,
+      "oceania": 0,
+      "stateless": 6
+    }
+  },
+  "LA CORREDORIA": {
+    "total_population": 19866,
+    "foreign_total": 1078,
+    "pct_foreign": 5.4,
+    "by_continent": {
+      "eu": 222,
+      "europe_non_eu": 97,
+      "america": 561,
+      "africa": 135,
+      "asia": 57,
+      "oceania": 0,
+      "stateless": 6
+    }
+  },
+  "LA ERIA": {
+    "total_population": 1889,
+    "foreign_total": 103,
+    "pct_foreign": 5.5,
+    "by_continent": {
+      "eu": 31,
+      "europe_non_eu": 5,
+      "america": 48,
+      "africa": 6,
+      "asia": 12,
+      "oceania": 0,
+      "stateless": 1
+    }
+  },
+  "LA FLORIDA": {
+    "total_population": 7977,
+    "foreign_total": 279,
+    "pct_foreign": 3.5,
+    "by_continent": {
+      "eu": 81,
+      "europe_non_eu": 57,
+      "america": 118,
+      "africa": 9,
+      "asia": 12,
+      "oceania": 1,
+      "stateless": 1
+    }
+  },
+  "LA MANJOYA": {
+    "total_population": 1502,
+    "foreign_total": 78,
+    "pct_foreign": 5.2,
+    "by_continent": {
+      "eu": 25,
+      "europe_non_eu": 17,
+      "america": 31,
+      "africa": 1,
+      "asia": 4,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "LA MONXINA-LA FUERZA": {
+    "total_population": 1850,
+    "foreign_total": 141,
+    "pct_foreign": 7.6,
+    "by_continent": {
+      "eu": 29,
+      "europe_non_eu": 1,
+      "america": 82,
+      "africa": 17,
+      "asia": 7,
+      "oceania": 0,
+      "stateless": 5
+    }
+  },
+  "LAS CALDAS": {
+    "total_population": 368,
+    "foreign_total": 12,
+    "pct_foreign": 3.3,
+    "by_continent": {
+      "eu": 5,
+      "europe_non_eu": 0,
+      "america": 7,
+      "africa": 0,
+      "asia": 0,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "LAS CAMPAS": {
+    "total_population": 2691,
+    "foreign_total": 213,
+    "pct_foreign": 7.9,
+    "by_continent": {
+      "eu": 35,
+      "europe_non_eu": 13,
+      "america": 145,
+      "africa": 15,
+      "asia": 1,
+      "oceania": 1,
+      "stateless": 3
+    }
+  },
+  "LATORES": {
+    "total_population": 661,
+    "foreign_total": 33,
+    "pct_foreign": 5.0,
+    "by_continent": {
+      "eu": 7,
+      "europe_non_eu": 7,
+      "america": 19,
+      "africa": 0,
+      "asia": 0,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "LIMANES": {
+    "total_population": 866,
+    "foreign_total": 31,
+    "pct_foreign": 3.6,
+    "by_continent": {
+      "eu": 14,
+      "europe_non_eu": 3,
+      "america": 12,
+      "africa": 1,
+      "asia": 1,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "LORIANA": {
+    "total_population": 212,
+    "foreign_total": 16,
+    "pct_foreign": 7.5,
+    "by_continent": {
+      "eu": 1,
+      "europe_non_eu": 1,
+      "america": 0,
+      "africa": 14,
+      "asia": 0,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "MANZANEDA": {
+    "total_population": 224,
+    "foreign_total": 18,
+    "pct_foreign": 8.0,
+    "by_continent": {
+      "eu": 13,
+      "europe_non_eu": 1,
+      "america": 4,
+      "africa": 0,
+      "asia": 0,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "MONTE CERRADO": {
+    "total_population": 4969,
+    "foreign_total": 217,
+    "pct_foreign": 4.4,
+    "by_continent": {
+      "eu": 63,
+      "europe_non_eu": 26,
+      "america": 116,
+      "africa": 7,
+      "asia": 4,
+      "oceania": 1,
+      "stateless": 0
+    }
+  },
+  "NARANCO MONUMENTOS": {
+    "total_population": 94,
+    "foreign_total": 5,
+    "pct_foreign": 5.3,
+    "by_continent": {
+      "eu": 5,
+      "europe_non_eu": 0,
+      "america": 0,
+      "africa": 0,
+      "asia": 0,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "NARANCO-ESTE": {
+    "total_population": 811,
+    "foreign_total": 105,
+    "pct_foreign": 12.9,
+    "by_continent": {
+      "eu": 19,
+      "europe_non_eu": 5,
+      "america": 26,
+      "africa": 31,
+      "asia": 23,
+      "oceania": 1,
+      "stateless": 0
+    }
+  },
+  "NARANCO-OESTE RURAL": {
+    "total_population": 205,
+    "foreign_total": 8,
+    "pct_foreign": 3.9,
+    "by_continent": {
+      "eu": 3,
+      "europe_non_eu": 0,
+      "america": 2,
+      "africa": 3,
+      "asia": 0,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "NAVES": {
+    "total_population": 107,
+    "foreign_total": 4,
+    "pct_foreign": 3.7,
+    "by_continent": {
+      "eu": 0,
+      "europe_non_eu": 0,
+      "america": 4,
+      "africa": 0,
+      "asia": 0,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "OLIVARES": {
+    "total_population": 3043,
+    "foreign_total": 174,
+    "pct_foreign": 5.7,
+    "by_continent": {
+      "eu": 38,
+      "europe_non_eu": 42,
+      "america": 80,
+      "africa": 10,
+      "asia": 4,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "OLLONIEGO": {
+    "total_population": 916,
+    "foreign_total": 35,
+    "pct_foreign": 3.8,
+    "by_continent": {
+      "eu": 3,
+      "europe_non_eu": 8,
+      "america": 21,
+      "africa": 3,
+      "asia": 0,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "OTERO": {
+    "total_population": 7007,
+    "foreign_total": 429,
+    "pct_foreign": 6.1,
+    "by_continent": {
+      "eu": 119,
+      "europe_non_eu": 90,
+      "america": 172,
+      "africa": 31,
+      "asia": 16,
+      "oceania": 1,
+      "stateless": 0
+    }
+  },
+  "PANDO": {
+    "total_population": 131,
+    "foreign_total": 2,
+    "pct_foreign": 1.5,
+    "by_continent": {
+      "eu": 0,
+      "europe_non_eu": 0,
+      "america": 1,
+      "africa": 0,
+      "asia": 1,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "PANDO-OVIEDO": {
+    "total_population": 1600,
+    "foreign_total": 160,
+    "pct_foreign": 10.0,
+    "by_continent": {
+      "eu": 40,
+      "europe_non_eu": 14,
+      "america": 77,
+      "africa": 27,
+      "asia": 2,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "PARQUE INVIERNO": {
+    "total_population": 4063,
+    "foreign_total": 227,
+    "pct_foreign": 5.6,
+    "by_continent": {
+      "eu": 47,
+      "europe_non_eu": 29,
+      "america": 127,
+      "africa": 11,
+      "asia": 11,
+      "oceania": 2,
+      "stateless": 0
+    }
+  },
+  "PEREDA": {
+    "total_population": 184,
+    "foreign_total": 7,
+    "pct_foreign": 3.8,
+    "by_continent": {
+      "eu": 6,
+      "europe_non_eu": 0,
+      "america": 1,
+      "africa": 0,
+      "asia": 0,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "PINTORIA": {
+    "total_population": 40,
+    "foreign_total": 4,
+    "pct_foreign": 10.0,
+    "by_continent": {
+      "eu": 4,
+      "europe_non_eu": 0,
+      "america": 0,
+      "africa": 0,
+      "asia": 0,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "PONTÓN DE VAQUEROS": {
+    "total_population": 2945,
+    "foreign_total": 177,
+    "pct_foreign": 6.0,
+    "by_continent": {
+      "eu": 34,
+      "europe_non_eu": 16,
+      "america": 115,
+      "africa": 8,
+      "asia": 4,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "PUERTO": {
+    "total_population": 187,
+    "foreign_total": 14,
+    "pct_foreign": 7.5,
+    "by_continent": {
+      "eu": 0,
+      "europe_non_eu": 5,
+      "america": 9,
+      "africa": 0,
+      "asia": 0,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "PUMARÍN": {
+    "total_population": 16011,
+    "foreign_total": 2178,
+    "pct_foreign": 13.6,
+    "by_continent": {
+      "eu": 353,
+      "europe_non_eu": 112,
+      "america": 1254,
+      "africa": 304,
+      "asia": 142,
+      "oceania": 3,
+      "stateless": 10
+    }
+  },
+  "SAMIGUEL": {
+    "total_population": 331,
+    "foreign_total": 8,
+    "pct_foreign": 2.4,
+    "by_continent": {
+      "eu": 3,
+      "europe_non_eu": 0,
+      "america": 5,
+      "africa": 0,
+      "asia": 0,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "SAN CLAUDIO RURAL": {
+    "total_population": 856,
+    "foreign_total": 76,
+    "pct_foreign": 8.9,
+    "by_continent": {
+      "eu": 17,
+      "europe_non_eu": 3,
+      "america": 40,
+      "africa": 10,
+      "asia": 5,
+      "oceania": 0,
+      "stateless": 1
+    }
+  },
+  "SAN CLAUDIO-URBANO": {
+    "total_population": 1840,
+    "foreign_total": 93,
+    "pct_foreign": 5.1,
+    "by_continent": {
+      "eu": 40,
+      "europe_non_eu": 1,
+      "america": 42,
+      "africa": 4,
+      "asia": 6,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "SAN ESTEBAN": {
+    "total_population": 782,
+    "foreign_total": 22,
+    "pct_foreign": 2.8,
+    "by_continent": {
+      "eu": 10,
+      "europe_non_eu": 2,
+      "america": 10,
+      "africa": 0,
+      "asia": 0,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "SAN LÁZARO": {
+    "total_population": 2404,
+    "foreign_total": 276,
+    "pct_foreign": 11.5,
+    "by_continent": {
+      "eu": 74,
+      "europe_non_eu": 23,
+      "america": 127,
+      "africa": 45,
+      "asia": 4,
+      "oceania": 0,
+      "stateless": 3
+    }
+  },
+  "SAN PEDRU DE NORA": {
+    "total_population": 90,
+    "foreign_total": 1,
+    "pct_foreign": 1.1,
+    "by_continent": {
+      "eu": 1,
+      "europe_non_eu": 0,
+      "america": 0,
+      "africa": 0,
+      "asia": 0,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "SANTA MARINA DE PIEDRAMUELLE": {
+    "total_population": 472,
+    "foreign_total": 15,
+    "pct_foreign": 3.2,
+    "by_continent": {
+      "eu": 13,
+      "europe_non_eu": 0,
+      "america": 2,
+      "africa": 0,
+      "asia": 0,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "SANTIANES": {
+    "total_population": 58,
+    "foreign_total": 0,
+    "pct_foreign": 0.0
+  },
+  "SOGRANDIO": {
+    "total_population": 382,
+    "foreign_total": 24,
+    "pct_foreign": 6.3,
+    "by_continent": {
+      "eu": 13,
+      "europe_non_eu": 4,
+      "america": 6,
+      "africa": 0,
+      "asia": 1,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "TEATINOS": {
+    "total_population": 15386,
+    "foreign_total": 1652,
+    "pct_foreign": 10.7,
+    "by_continent": {
+      "eu": 318,
+      "europe_non_eu": 83,
+      "america": 900,
+      "africa": 271,
+      "asia": 70,
+      "oceania": 1,
+      "stateless": 9
+    }
+  },
+  "TENDERINA-FOZANELDI": {
+    "total_population": 12737,
+    "foreign_total": 1128,
+    "pct_foreign": 8.9,
+    "by_continent": {
+      "eu": 226,
+      "europe_non_eu": 87,
+      "america": 600,
+      "africa": 171,
+      "asia": 38,
+      "oceania": 0,
+      "stateless": 6
+    }
+  },
+  "TRUBIA": {
+    "total_population": 1891,
+    "foreign_total": 144,
+    "pct_foreign": 7.6,
+    "by_continent": {
+      "eu": 28,
+      "europe_non_eu": 17,
+      "america": 77,
+      "africa": 21,
+      "asia": 0,
+      "oceania": 1,
+      "stateless": 0
+    }
+  },
+  "TUDELA DE AGÜERIA": {
+    "total_population": 562,
+    "foreign_total": 48,
+    "pct_foreign": 8.5,
+    "by_continent": {
+      "eu": 8,
+      "europe_non_eu": 4,
+      "america": 34,
+      "africa": 2,
+      "asia": 0,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "UDRIÓN": {
+    "total_population": 78,
+    "foreign_total": 15,
+    "pct_foreign": 19.2,
+    "by_continent": {
+      "eu": 4,
+      "europe_non_eu": 1,
+      "america": 1,
+      "africa": 9,
+      "asia": 0,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "VALLOBÍN": {
+    "total_population": 10684,
+    "foreign_total": 1362,
+    "pct_foreign": 12.7,
+    "by_continent": {
+      "eu": 343,
+      "europe_non_eu": 85,
+      "america": 701,
+      "africa": 166,
+      "asia": 65,
+      "oceania": 0,
+      "stateless": 2
+    }
+  },
+  "VEGUÍN": {
+    "total_population": 665,
+    "foreign_total": 48,
+    "pct_foreign": 7.2,
+    "by_continent": {
+      "eu": 15,
+      "europe_non_eu": 3,
+      "america": 27,
+      "africa": 3,
+      "asia": 0,
+      "oceania": 0,
+      "stateless": 0
+    }
+  },
+  "VENTANIELLES": {
+    "total_population": 6940,
+    "foreign_total": 978,
+    "pct_foreign": 14.1,
+    "by_continent": {
+      "eu": 168,
+      "europe_non_eu": 46,
+      "america": 566,
+      "africa": 174,
+      "asia": 15,
+      "oceania": 0,
+      "stateless": 9
+    }
+  },
+  "VILLAPEREZ": {
+    "total_population": 322,
+    "foreign_total": 16,
+    "pct_foreign": 5.0,
+    "by_continent": {
+      "eu": 4,
+      "europe_non_eu": 1,
+      "america": 10,
+      "africa": 0,
+      "asia": 1,
+      "oceania": 0,
+      "stateless": 0
+    }
+  }
+}

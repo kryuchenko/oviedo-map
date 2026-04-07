@@ -1,0 +1,47 @@
+{
+  "district": "Pumarín (Пумарин)",
+  "district_type": "urban",
+  "total_validated_pois": 2,
+  "pois": [
+    {
+      "name": "Palacio Municipal de Deportes",
+      "name_ru": "Муниципальный Дворец спорта",
+      "category": "sports",
+      "lat": null,
+      "lon": null,
+      "description": "Крупный крытый спортивный дворец. Ул. Хосе Антонио Элола, 2.",
+      "note": "coordinates not verified"
+    },
+    {
+      "name": "Parroquia de San José de Pumarín",
+      "name_ru": "Приход Сан-Хосе-де-Пумарин",
+      "category": "church",
+      "lat": 43.3690994,
+      "lon": -5.8467352,
+      "description": "Приходская церковь (1957) на ул. Хоакина Бобела, 24. Праздник Сан-Хосе каждый март."
+    },
+    {
+      "name": "Colegio Público Pumarín",
+      "name_ru": "Школа Пумарин",
+      "category": "school",
+      "lat": 43.3676155,
+      "lon": -5.8436564,
+      "description": "Государственная школа района."
+    }
+  ],
+  "demographics": {
+    "source": "Padrón Municipal 2024",
+    "total_population": 16011,
+    "foreign_total": 2178,
+    "pct_foreign": 13.6,
+    "foreign_by_continent": {
+      "eu": 353,
+      "europe_non_eu": 112,
+      "america": 1254,
+      "africa": 304,
+      "asia": 142,
+      "oceania": 3,
+      "stateless": 10
+    }
+  }
+}

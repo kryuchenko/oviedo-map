@@ -1,0 +1,22 @@
+{
+  "district": "El Vallobín (Вальобин)",
+  "district_type": "urban",
+  "summary_ru": "Крупный жилой район к северо-западу от центра. Высокая доля иммигрантов (12.7%). Хорошая транспортная связь.",
+  "total_validated_pois": 0,
+  "pois": [],
+  "demographics": {
+    "source": "Padrón Municipal 2024",
+    "total_population": 10684,
+    "foreign_total": 1362,
+    "pct_foreign": 12.7,
+    "foreign_by_continent": {
+      "eu": 343,
+      "europe_non_eu": 85,
+      "america": 701,
+      "africa": 166,
+      "asia": 65,
+      "oceania": 0,
+      "stateless": 2
+    }
+  }
+}

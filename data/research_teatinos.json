@@ -1,0 +1,48 @@
+{
+  "district": "Teatinos (Театинос)",
+  "district_type": "urban",
+  "total_validated_pois": 2,
+  "pois": [
+    {
+      "name": "HUCA (Hospital Universitario Central de Asturias)",
+      "name_ru": "HUCA (Центральная Университетская Больница Астурии)",
+      "category": "hospital",
+      "lat": 43.375222,
+      "lon": -5.825028,
+      "description": "Главная больница региона. Крупнейший медицинский комплекс Астурии с 1000+ коек. Телефон: 985 108 000.",
+      "coord_source": "Wikipedia: Hospital Universitario Central de Asturias"
+    },
+    {
+      "name": "Centro Deportivo Jorge Egocheaga",
+      "name_ru": "Спорткомплекс Хорхе Эгочеага",
+      "category": "sports",
+      "lat": 43.3721242,
+      "lon": -5.827312,
+      "description": "Муниципальный спортивный центр на Ав. Люксембург."
+    },
+    {
+      "name": "Parque de la Cadellada",
+      "name_ru": "Парк Ла Каделлада",
+      "category": "park",
+      "lat": null,
+      "lon": null,
+      "description": "Парк в районе Театинос рядом с HUCA.",
+      "note": "coordinates not verified"
+    }
+  ],
+  "demographics": {
+    "source": "Padrón Municipal 2024",
+    "total_population": 15386,
+    "foreign_total": 1652,
+    "pct_foreign": 10.7,
+    "foreign_by_continent": {
+      "eu": 318,
+      "europe_non_eu": 83,
+      "america": 900,
+      "africa": 271,
+      "asia": 70,
+      "oceania": 1,
+      "stateless": 9
+    }
+  }
+}

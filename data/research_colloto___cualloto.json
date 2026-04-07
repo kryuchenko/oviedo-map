@@ -1,0 +1,40 @@
+{
+  "district": "Colloto / Cualloto (Кольото)",
+  "district_type": "urban",
+  "total_validated_pois": 0,
+  "pois": [
+    {
+      "name": "Palacio de la Viñona",
+      "name_ru": "Дворец Ла Виньона",
+      "category": "palace",
+      "lat": null,
+      "lon": null,
+      "description": "Барочный дворец 1798 г. Ныне отель. Ул. Хулиан Клаверия, 14.",
+      "note": "coordinates not verified"
+    },
+    {
+      "name": "Fábrica El Águila Negra (patrimonio)",
+      "name_ru": "Фабрика Эль Агила Негра",
+      "category": "heritage",
+      "lat": null,
+      "lon": null,
+      "description": "Бывший пивоваренный завод — памятник промышленной археологии. В каталоге культурного наследия с 1993.",
+      "note": "coordinates not verified"
+    }
+  ],
+  "demographics": {
+    "source": "Padrón Municipal 2024",
+    "total_population": 3069,
+    "foreign_total": 153,
+    "pct_foreign": 5.0,
+    "foreign_by_continent": {
+      "eu": 37,
+      "europe_non_eu": 4,
+      "america": 87,
+      "africa": 5,
+      "asia": 20,
+      "oceania": 0,
+      "stateless": 0
+    }
+  }
+}

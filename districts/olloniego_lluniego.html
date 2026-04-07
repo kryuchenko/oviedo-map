@@ -6,80 +6,71 @@
     <title>Olloniego / Lluniego - Овьедо</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            padding: 20px;
-            background: #fafafa;
-        }
-        .header {
-            background: linear-gradient(135deg, #2c3e50, #34495e);
-            color: white;
-            padding: 20px;
-            margin: -20px -20px 20px -20px;
-        }
-        .header h1 {
-            font-size: 1.4rem;
-            margin-bottom: 5px;
-        }
-        .header .subtitle {
-            font-size: 0.85rem;
-            opacity: 0.8;
-        }
-        .content {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        h3 {
-            color: #2c3e50;
-            margin: 20px 0 10px 0;
-            font-size: 1.1rem;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 5px;
-        }
-        p {
-            margin-bottom: 12px;
-        }
-        ul {
-            margin: 10px 0 15px 20px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        strong {
-            color: #2c3e50;
-        }
-        .type-badge {
-            display: inline-block;
-            padding: 3px 10px;
-            border-radius: 12px;
-            font-size: 0.75rem;
-            margin-top: 8px;
-        }
-        .urban { background: #e74c3c; color: white; }
-        .rural { background: #27ae60; color: white; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: #333; padding: 20px; background: #fafafa; }
+        .header { background: linear-gradient(135deg, #37474f, #546e7a); color: white; padding: 25px; margin: -20px -20px 20px -20px; }
+        .header h1 { font-size: 1.5rem; margin-bottom: 5px; }
+        .header .subtitle { font-size: 1rem; opacity: 0.9; font-style: italic; }
+        .content { background: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h2 { color: #37474f; margin: 25px 0 12px 0; font-size: 1.2rem; border-bottom: 3px solid #546e7a; padding-bottom: 6px; }
+        p { margin-bottom: 14px; text-align: justify; }
+        .intro { font-size: 1.05rem; color: #444; border-left: 4px solid #546e7a; padding-left: 15px; margin-bottom: 20px; }
+        .type-badge { display: inline-block; padding: 4px 12px; border-radius: 12px; font-size: 0.8rem; margin-top: 10px; background: #2e7d32; color: white; }
+        .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 15px 0; }
+        .stats-grid div { display: flex; justify-content: space-between; padding: 8px 12px; background: #eceff1; border-radius: 4px; font-size: 0.9rem; }
+        .stats-grid div span:last-child { font-weight: bold; color: #37474f; }
+        .rating-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 15px 0; }
+        .rating-grid div { display: flex; justify-content: space-between; padding: 8px 12px; background: #eceff1; border-radius: 4px; border: 1px solid #cfd8dc; }
+        .rating-grid div span:last-child { font-weight: bold; color: #546e7a; }
+        .verdict { background: linear-gradient(135deg, #37474f, #546e7a); color: white; padding: 20px; border-radius: 8px; margin-top: 25px; text-align: center; }
+        .verdict h3 { color: #b0bec5; margin-bottom: 10px; }
+        .rating { font-size: 1.5rem; font-weight: bold; color: #b0bec5; }
+        sup a { color: #e67e22; text-decoration: none; font-weight: bold; }
+        sup a:hover { text-decoration: underline; }
+        .references { margin-top: 25px; padding-top: 12px; border-top: 2px solid #546e7a; font-size: 0.8rem; color: #888; }
+        .references h2 { font-size: 1rem; color: #546e7a; border-bottom: 1px solid #546e7a; }
+        .references ol { margin: 10px 0 0 20px; }
+        .references li { margin-bottom: 5px; }
+        .references a { color: #e67e22; word-break: break-all; }
     </style>
 </head>
 <body>
     <div class="header">
         <h1>Olloniego / Lluniego</h1>
-        <div class="subtitle">Ольоньего</div>
-        <span class="type-badge rural">Сельский район</span>
+        <div class="subtitle">Шахтёрская деревня, которая забыла закрыться</div>
+        <span class="type-badge">Сельский район</span>
     </div>
     <div class="content">
-        
-            <p>Приход в долине реки Налон с промышленным наследием.</p>
-            <h3>История</h3>
-            <p>Бывшая горнодобывающая зона.</p>
-            <h3>Данные</h3>
-            <ul>
-                <li><strong>Население:</strong> ~960 жителей</li>
-                <li><strong>Площадь:</strong> 8,2 км²</li>
-            </ul>
-        
+        <p class="intro">Ольоньего — это посёлок в долине реки Налон, который когда-то жил углём и сталью. Уголь кончился, сталь уехала, а люди остались. Классическая постиндустриальная меланхолия, только с астурийским сидром вместо русской водки.</p>
+
+        <h2>История и характер</h2>
+        <p>Приход на юге муниципалитета, в долине Налона, исторически связан с горнодобывающей промышленностью Астурии<sup><a href="#ref1">[1]</a></sup>. В эпоху расцвета угольной отрасли здесь кипела жизнь: шахты, узкоколейки, рабочие бараки. Сейчас от былого величия остались руины да ностальгия. Ольоньего — один из тех приходов, что упрямо сохраняют собственную идентичность, хотя формально давно входят в состав Овьедо. Местные скорее скажут «я из Ольоньего», чем «я из Овьедо».</p>
+
+        <h2>Демография</h2>
+        <div class="stats-grid">
+            <div><span>Население</span><span>916</span></div>
+            <div><span>Иностранцев</span><span>35 (3,8%)</span></div>
+        </div>
+        <p>916 жителей<sup><a href="#ref1">[1]</a></sup> — для бывшего промышленного посёлка это скорее некролог, чем статистика. Иностранцев 35 человек, то есть 3,8% — сюда не особо едут, потому что тут не особо зачем.</p>
+
+        <div class="rating-grid">
+            <div><span>Транспорт</span><span>Автобус раз в час</span></div>
+            <div><span>Инфраструктура</span><span>Минимум</span></div>
+            <div><span>Природа</span><span>Долина Налона</span></div>
+            <div><span>Перспективы</span><span>Тишина</span></div>
+        </div>
+
+        <div class="verdict">
+            <h3>Вердикт</h3>
+            <p class="rating">4 / 10</p>
+            <p>Посёлок с характером и историей, но без будущего. Идеально для тех, кто ищет уединение в декорациях промышленного апокалипсиса.</p>
+        </div>
+
+        <div class="references">
+            <h2>Источники</h2>
+            <ol>
+                <li id="ref1">Padrón Municipal, 1 de enero de 2024 — <a href="https://www.odina.es/data/ficheros/2024/04/1144_ODINA_Poblaci%C3%B3n_extranjera_Oviedo_1_enero_2024-1.xlsx" target="_blank">Odina / Ayuntamiento de Oviedo</a></li>
+            </ol>
+        </div>
     </div>
 </body>
 </html>

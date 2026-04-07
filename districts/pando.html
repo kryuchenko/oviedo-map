@@ -6,75 +6,78 @@
     <title>Pando - Овьедо</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            padding: 20px;
-            background: #fafafa;
-        }
-        .header {
-            background: linear-gradient(135deg, #2c3e50, #34495e);
-            color: white;
-            padding: 20px;
-            margin: -20px -20px 20px -20px;
-        }
-        .header h1 {
-            font-size: 1.4rem;
-            margin-bottom: 5px;
-        }
-        .header .subtitle {
-            font-size: 0.85rem;
-            opacity: 0.8;
-        }
-        .content {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        h3 {
-            color: #2c3e50;
-            margin: 20px 0 10px 0;
-            font-size: 1.1rem;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 5px;
-        }
-        p {
-            margin-bottom: 12px;
-        }
-        ul {
-            margin: 10px 0 15px 20px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        strong {
-            color: #2c3e50;
-        }
-        .type-badge {
-            display: inline-block;
-            padding: 3px 10px;
-            border-radius: 12px;
-            font-size: 0.75rem;
-            margin-top: 8px;
-        }
-        .urban { background: #e74c3c; color: white; }
-        .rural { background: #27ae60; color: white; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: #333; padding: 20px; background: #fafafa; }
+        .header { background: linear-gradient(135deg, #4a3560, #6b4f8a); color: white; padding: 25px; margin: -20px -20px 20px -20px; }
+        .header h1 { font-size: 1.5rem; margin-bottom: 5px; }
+        .header .subtitle { font-size: 1rem; opacity: 0.9; font-style: italic; }
+        .content { background: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h2 { color: #4a3560; margin: 25px 0 12px 0; font-size: 1.25rem; border-bottom: 3px solid #9575cd; padding-bottom: 6px; }
+        p { margin-bottom: 14px; text-align: justify; }
+        .intro { font-size: 1.05rem; color: #444; border-left: 4px solid #9575cd; padding-left: 15px; margin-bottom: 20px; }
+        .type-badge { display: inline-block; padding: 4px 12px; border-radius: 12px; font-size: 0.8rem; margin-top: 10px; background: #9575cd; color: white; }
+        strong { color: #4a3560; }
+        sup a { color: #e67e22; text-decoration: none; font-weight: bold; }
+        sup a:hover { text-decoration: underline; }
+        .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 15px 0; }
+        .stats-grid div { display: flex; justify-content: space-between; padding: 8px 12px; background: #f3e5f5; border-radius: 4px; border: 1px solid #ce93d8; font-size: 0.9rem; }
+        .stats-grid span:last-child { font-weight: bold; color: #4a3560; }
+        .rating-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 15px 0; }
+        .rating-grid div { display: flex; justify-content: space-between; padding: 8px 12px; background: #f3e5f5; border-radius: 4px; border: 1px solid #ce93d8; }
+        .rating-grid span:last-child { font-weight: bold; color: #4a3560; }
+        .verdict { background: linear-gradient(135deg, #4a3560, #6b4f8a); color: white; padding: 20px; border-radius: 8px; margin-top: 25px; text-align: center; }
+        .verdict h3 { color: #ce93d8; margin-bottom: 10px; }
+        .rating { font-size: 1.5rem; font-weight: bold; color: #ce93d8; }
+        .references { margin-top: 25px; padding-top: 15px; border-top: 2px solid #9575cd; font-size: 0.8rem; color: #888; }
+        .references h2 { font-size: 1.1rem; color: #9575cd; border-bottom: 1px solid #9575cd; }
+        .references ol { margin: 10px 0 0 20px; }
+        .references li { margin-bottom: 5px; }
+        .references a { color: #e67e22; word-break: break-all; }
     </style>
 </head>
 <body>
     <div class="header">
         <h1>Pando</h1>
-        <div class="subtitle">Пандо</div>
-        <span class="type-badge urban">Городской район</span>
+        <div class="subtitle">Десять процентов иностранцев, ноль процентов внимания</div>
+        <span class="type-badge">Городской район</span>
     </div>
     <div class="content">
-        
-            <p>Район на северо-западе города.</p>
-            <h3>Характер района</h3>
-            <p>Жилой район с хорошими видами.</p>
-        
+        <p class="intro">Пандо -- маленький городской район, который стабильно держит один из самых высоких показателей доли иностранного населения в Овьедо: 10,0%<sup><a href="#ref1">[1]</a></sup>. При населении в 1 600 человек это означает, что каждый десятый ваш сосед родился не в Испании. Для Овьедо, города далеко не космополитичного, это заметно.</p>
+
+        <h2>Район-приют</h2>
+        <p>Исторически на территории Пандо располагался Orfanato Minero -- приют для детей-сирот шахтёров<sup><a href="#ref2">[2]</a></sup>. Горнодобывающая промышленность Астурии исправно поставляла сирот, а приют исправно их принимал. Символичное начало для района, который и сегодня остаётся местом, где находят пристанище те, кому нужно жильё подешевле.</p>
+
+        <p>Современный Пандо -- это плотная городская застройка без особых архитектурных амбиций. Район зажат между более крупными соседями и существует в их тени, как младший брат, которого забывают позвать на семейное фото. Здесь нет ни парков с утками, ни торговых центров, ни исторических памятников -- только жилые дома и люди, которые в них живут.</p>
+
+        <h2>Демография</h2>
+        <div class="stats-grid">
+            <div><span>Население</span><span>1 600</span></div>
+            <div><span>Иностранцев</span><span>160 (10,0%)</span></div>
+        </div>
+        <p>Десять процентов иностранцев<sup><a href="#ref1">[1]</a></sup> -- это серьёзная цифра для города, где средний показатель вдвое ниже. Дешёвое жильё работает как магнит: район притягивает иммигрантов и молодые семьи с ограниченным бюджетом. Пандо -- это место, где начинают жизнь в Овьедо, а не место, где её планируют провести.</p>
+
+        <div class="rating-grid">
+            <div><span>Безопасность</span><span>Средняя</span></div>
+            <div><span>Мультикультурность</span><span>Высокая</span></div>
+            <div><span>Транспорт</span><span>Нормальный</span></div>
+            <div><span>Инфраструктура</span><span>Базовая</span></div>
+            <div><span>Атмосфера</span><span>Рабочая</span></div>
+            <div><span>Цены</span><span>Низкие</span></div>
+        </div>
+
+        <div class="verdict">
+            <h3>Вердикт</h3>
+            <p class="rating">4.5 / 10</p>
+            <p>Район-транзит: сюда приезжают не потому что хотят, а потому что могут себе позволить. Бывший приют для сирот шахтёров -- теперь приют для всех, кому нужна крыша подешевле.</p>
+        </div>
+
+        <div class="references">
+            <h2>Источники</h2>
+            <ol>
+                <li id="ref1">Padrón Municipal, 1 de enero de 2024 -- <a href="https://www.odina.es/data/ficheros/2024/04/1144_ODINA_Poblaci%C3%B3n_extranjera_Oviedo_1_enero_2024-1.xlsx" target="_blank">Odina / Ayuntamiento de Oviedo</a></li>
+                <li id="ref2">Orfanato Minero de Asturias -- historia de las instituciones mineras asturianas</li>
+                <li id="ref3">La riqueza va por barrios -- <a href="https://www.lavozdeasturias.es/noticia/oviedo/voz-oviedo/2023/10/23/riqueza-va-barrios-ricos-pobres-oviedo/00031698046663312339866.htm" target="_blank">La Voz de Asturias</a>, 23.10.2023</li>
+            </ol>
+        </div>
     </div>
 </body>
 </html>

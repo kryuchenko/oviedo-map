@@ -6,75 +6,99 @@
     <title>Olivares - Овьедо</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            padding: 20px;
-            background: #fafafa;
-        }
-        .header {
-            background: linear-gradient(135deg, #2c3e50, #34495e);
-            color: white;
-            padding: 20px;
-            margin: -20px -20px 20px -20px;
-        }
-        .header h1 {
-            font-size: 1.4rem;
-            margin-bottom: 5px;
-        }
-        .header .subtitle {
-            font-size: 0.85rem;
-            opacity: 0.8;
-        }
-        .content {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        h3 {
-            color: #2c3e50;
-            margin: 20px 0 10px 0;
-            font-size: 1.1rem;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 5px;
-        }
-        p {
-            margin-bottom: 12px;
-        }
-        ul {
-            margin: 10px 0 15px 20px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        strong {
-            color: #2c3e50;
-        }
-        .type-badge {
-            display: inline-block;
-            padding: 3px 10px;
-            border-radius: 12px;
-            font-size: 0.75rem;
-            margin-top: 8px;
-        }
-        .urban { background: #e74c3c; color: white; }
-        .rural { background: #27ae60; color: white; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: #333; padding: 20px; background: #fafafa; }
+        .header { background: linear-gradient(135deg, #558b2f, #689f38); color: white; padding: 25px; margin: -20px -20px 20px -20px; }
+        .header h1 { font-size: 1.5rem; margin-bottom: 5px; }
+        .header .subtitle { font-size: 1rem; opacity: 0.9; font-style: italic; }
+        .content { background: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h2 { color: #558b2f; margin: 30px 0 15px 0; font-size: 1.3rem; border-bottom: 3px solid #9ccc65; padding-bottom: 8px; }
+        h3 { color: #689f38; margin: 20px 0 10px 0; font-size: 1.05rem; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .intro { font-size: 1.05rem; color: #444; border-left: 4px solid #9ccc65; padding-left: 15px; margin-bottom: 25px; }
+        .type-badge { display: inline-block; padding: 4px 12px; border-radius: 12px; font-size: 0.8rem; margin-top: 10px; background: #9ccc65; color: white; }
+        ul { margin: 10px 0 15px 20px; } li { margin-bottom: 10px; }
+        .highlight { background: #f1f8e9; border-left: 4px solid #9ccc65; padding: 15px; margin: 15px 0; }
+        .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 15px 0; }
+        .stat-item { display: flex; justify-content: space-between; padding: 8px 12px; background: #f1f8e9; border-radius: 4px; border: 1px solid #c5e1a5; }
+        .stat-value { font-weight: bold; color: #558b2f; }
+        .verdict { background: linear-gradient(135deg, #558b2f, #689f38); color: white; padding: 20px; border-radius: 8px; margin-top: 30px; }
+        .verdict p { text-align: left; margin-bottom: 0; }
+        sup a { color: #689f38; text-decoration: none; font-weight: bold; } sup a:hover { text-decoration: underline; }
+        .references { margin-top: 30px; padding-top: 15px; border-top: 2px solid #9ccc65; font-size: 0.8rem; color: #666; }
+        .references h2 { font-size: 1.1rem; border-bottom: 1px solid #9ccc65; }
+        .references ol { margin: 10px 0 0 20px; } .references li { margin-bottom: 5px; }
+        .references a { color: #689f38; word-break: break-all; }
+        @media (max-width: 600px) { .stats-grid { grid-template-columns: 1fr; } }
     </style>
 </head>
 <body>
     <div class="header">
         <h1>Olivares</h1>
-        <div class="subtitle">Оливарес</div>
-        <span class="type-badge urban">Городской район</span>
+        <div class="subtitle">Тихий омут на западе Овьедо: оливковые деревья кончились, осталась только тишина</div>
+        <span class="type-badge">Городской район</span>
     </div>
     <div class="content">
-        
-            <p>Район на северо-востоке города.</p>
-            <h3>Характер района</h3>
-            <p>Жилая и коммерческая зона.</p>
-        
+        <p class="intro">Оливарес — это район, который существует, и этим, в общем-то, исчерпывается перечень его достижений. Расположенный к западу от центра, рядом с Parque del Oeste, он настолько тих и незаметен, что даже в испанской Википедии о нём нет отдельной статьи. Район-невидимка, район-фоновый шум, район, где ничего не происходит — и именно это его главное конкурентное преимущество.</p>
+
+        <h2>География и характер</h2>
+
+        <p>Оливарес занимает западный сектор Овьедо, граничит с районами Centro Oeste и Buenavista. Название, предположительно, связано с оливковыми рощами, которые когда-то покрывали эти склоны — хотя в климате Астурии, где дождь идёт 200 дней в году, оливки чувствуют себя примерно как пингвин в сауне.</p>
+
+        <p>Застройка смешанная: многоквартирные дома 1970-80-х годов соседствуют с более новыми зданиями 2000-х. Архитектурных шедевров нет, но и откровенного уродства тоже. Район сдержанный, как бухгалтер в пятницу вечером — хочется развернуться, но воспитание не позволяет.</p>
+
+        <h2>Зелёная зона: Parque del Oeste</h2>
+
+        <p>Главный козырь Оливарес — близость к <strong>Парке-дель-Оэсте</strong> (Parque del Oeste), одному из крупнейших парков Овьедо. Это настоящие зелёные лёгкие западной части города: дорожки для бега, детские площадки, пруд с утками и бесконечные скамейки для пенсионеров, обсуждающих политику. Если вам нужен утренний променад без необходимости ехать за город — Оливарес предоставит.</p>
+
+        <h2>Доходы</h2>
+
+        <p>По данным Агенции Трибутария (IRPF), средний доход домохозяйства в почтовом индексе 33013, покрывающем Оливарес, составляет около <strong>32 742 евро в год</strong><sup><a href="#ref1">[1]</a></sup>. Это выше среднего по Овьедо — район не богатый, но определённо не бедный. Крепкий средний класс: учителя, медсёстры, мелкие предприниматели, бухгалтеры. Люди, которые не шикуют, но и в долги не влезают.</p>
+
+        <h2>Демография</h2>
+
+        <div class="stats-grid">
+            <div class="stat-item"><span>Население</span><span class="stat-value">3 043</span></div>
+            <div class="stat-item"><span>Иностранцев</span><span class="stat-value">5,7% (174)</span></div>
+            <div class="stat-item"><span>Европа (ЕС)</span><span class="stat-value">38</span></div>
+            <div class="stat-item"><span>Европа (вне ЕС)</span><span class="stat-value">42</span></div>
+            <div class="stat-item"><span>Латинская Америка</span><span class="stat-value">80</span></div>
+            <div class="stat-item"><span>Африка</span><span class="stat-value">10</span></div>
+            <div class="stat-item"><span>Азия</span><span class="stat-value">4</span></div>
+            <div class="stat-item"><span>Средний доход</span><span class="stat-value">~32 742 &euro;/год</span></div>
+        </div>
+
+        <p>Население — 3 043 человека<sup><a href="#ref2">[2]</a></sup>, район небольшой. Доля иностранцев — 5,7%<sup><a href="#ref2">[2]</a></sup>, что близко к среднему по городу. Интересная деталь: среди иммигрантов необычно высокая доля европейцев вне ЕС (42 человека)<sup><a href="#ref2">[2]</a></sup> — украинцы, молдаване, грузины. Район привлекает восточноевропейских мигрантов доступной арендой и тихим укладом жизни.</p>
+
+        <h2>Жизнь в районе</h2>
+
+        <p>Оливарес — это район для тех, кто ценит покой больше, чем удобство. До центра пешком минут двадцать, автобусы ходят, но не так часто, как хотелось бы. Магазины есть, но выбор скромный. Бары имеются, но после десяти вечера район засыпает.</p>
+
+        <div class="highlight">
+            <strong>Типичный житель Оливарес:</strong> человек 50-60 лет, купивший квартиру ещё при Аснаре, выгуливающий собаку в Парке-дель-Оэсте ровно в 8:30 утра. Знает всех соседей по имени. Ходит за хлебом в одну и ту же пекарню 20 лет. Считает свой район лучшим в городе, но не может объяснить почему.
+        </div>
+
+        <div class="rating-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:15px 0">
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f1f8e9;border-radius:4px;border:1px solid #c5e1a5"><span>Жильё</span><span style="font-weight:bold;color:#558b2f">Средние цены</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f1f8e9;border-radius:4px;border:1px solid #c5e1a5"><span>Безопасность</span><span style="font-weight:bold;color:#558b2f">Хорошо</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f1f8e9;border-radius:4px;border:1px solid #c5e1a5"><span>Транспорт</span><span style="font-weight:bold;color:#558b2f">Средне</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f1f8e9;border-radius:4px;border:1px solid #c5e1a5"><span>Зелень</span><span style="font-weight:bold;color:#558b2f">Отлично (парк)</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f1f8e9;border-radius:4px;border:1px solid #c5e1a5"><span>Развлечения</span><span style="font-weight:bold;color:#558b2f">Минимум</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f1f8e9;border-radius:4px;border:1px solid #c5e1a5"><span>Атмосфера</span><span style="font-weight:bold;color:#558b2f">Сонная</span></div>
+        </div>
+
+        <div class="verdict">
+            <h3 style="color:#9ccc65;margin-bottom:10px">Вердикт</h3>
+            <p>Оливарес — район для интровертов и мизантропов с хорошим вкусом. Тихо, зелено, рядом с центром, но не в центре. Никаких сюрпризов, никаких приключений, никаких историй для рассказа за ужином. Если ваш идеал — чтобы вас оставили в покое, добро пожаловать.</p>
+            <p class="rating" style="font-size:1.5rem;text-align:center;margin-top:15px"><strong>6.5 из 10</strong></p>
+        </div>
+
+        <div class="references">
+            <h2>Источники</h2>
+            <ol>
+                <li id="ref1">Агенция Трибутария, IRPF — <a href="https://www.lavozdeasturias.es/noticia/oviedo/voz-oviedo/2023/10/23/riqueza-va-barrios-ricos-pobres-oviedo/00031698046663312339866.htm" target="_blank">La Voz de Asturias: «La riqueza va por barrios»</a>, 23.10.2023</li>
+                <li id="ref2">Padrón Municipal, 1 de enero de 2024 — <a href="https://www.odina.es" target="_blank">Odina / Ayuntamiento de Oviedo</a></li>
+            </ol>
+        </div>
     </div>
 </body>
 </html>

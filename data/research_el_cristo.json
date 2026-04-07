@@ -1,0 +1,63 @@
+{
+  "district": "El Cristo (Эль-Кристо)",
+  "district_type": "urban",
+  "summary_ru": "Университетский район Овьедо на холме к юго-западу от центра. Здесь расположен Кампус дель Кристо (право, экономика, медицина, химия, биология), первый в Астурии публичный спортивный комплекс (1952) и историческое святилище Христа в Цепях. Население ~3925 чел., преобладают жители 65+.",
+  "total_validated_pois": 4,
+  "pois": [
+    {
+      "name": "Campus del Cristo (Universidad de Oviedo)",
+      "name_ru": "Кампус дель Кристо (Университет)",
+      "category": "building",
+      "lat": 43.3557001,
+      "lon": -5.8605647,
+      "description": "Один из 7 кампусов Университета Овьедо с факультетами права, экономики, медицины, химии и биологии.",
+      "coord_source": "Nominatim: Avenida del Cristo de las Cadenas, Oviedo"
+    },
+    {
+      "name": "Facultad de Medicina",
+      "name_ru": "Медицинский факультет",
+      "category": "building",
+      "lat": 43.35644,
+      "lon": -5.870752,
+      "description": "Факультет медицины и медицинских наук: медсестринское дело, физиотерапия, стоматология, биохимия."
+    },
+    {
+      "name": "Centro de Salud El Cristo",
+      "name_ru": "Центр здоровья Эль-Кристо",
+      "category": "health",
+      "lat": 43.356158,
+      "lon": -5.862588,
+      "description": "Амбулаторный медицинский центр на ул. Альваро Флорес Эстрада, 21."
+    },
+    {
+      "name": "Instalaciones Deportivas El Cristo",
+      "name_ru": "Спортивный комплекс Эль-Кристо",
+      "category": "sports",
+      "lat": 43.353842,
+      "lon": -5.870256,
+      "description": "Первый публичный спортивный комплекс Астурии (1952). 3 крытых бассейна, 5 теннисных кортов, футбольное поле. Центр подготовки по плаванию и бадминтону."
+    }
+  ],
+  "demographics": {
+    "source": "Padrón Municipal 2024 (Odina/Ayuntamiento de Oviedo)",
+    "total_population": 6736,
+    "foreign_total": 764,
+    "pct_foreign": 11.3,
+    "foreign_by_continent": {
+      "eu": 231,
+      "europe_non_eu": 59,
+      "america": 422,
+      "africa": 26,
+      "asia": 23,
+      "oceania": 1,
+      "stateless": 2
+    }
+  },
+  "income": {
+    "source": "Agencia Tributaria IRPF 2023, via La Voz de Asturias",
+    "renta_bruta_media_2023": 49333,
+    "oviedo_average_2023": 33407,
+    "rank_in_oviedo": 2,
+    "postal_code": "33005"
+  }
+}

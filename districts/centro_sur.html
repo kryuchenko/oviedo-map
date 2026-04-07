@@ -8,78 +8,156 @@
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
+            line-height: 1.7;
             color: #333;
             padding: 20px;
-            background: #fafafa;
+            background: #f5f8fa;
         }
         .header {
-            background: linear-gradient(135deg, #2c3e50, #34495e);
+            background: linear-gradient(135deg, #1a2a3a, #2c4a6a);
             color: white;
-            padding: 20px;
+            padding: 25px;
             margin: -20px -20px 20px -20px;
+            border-bottom: 3px solid #5dade2;
         }
-        .header h1 {
-            font-size: 1.4rem;
-            margin-bottom: 5px;
-        }
-        .header .subtitle {
-            font-size: 0.85rem;
-            opacity: 0.8;
-        }
+        .header h1 { font-size: 1.5rem; margin-bottom: 5px; }
+        .header .subtitle { font-size: 1rem; opacity: 0.9; font-style: italic; color: #85c1e9; }
         .content {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            background: white; padding: 25px; border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
         }
-        h3 {
-            color: #2c3e50;
-            margin: 20px 0 10px 0;
-            font-size: 1.1rem;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 5px;
+        h2 {
+            color: #1a2a3a; margin: 30px 0 15px 0; font-size: 1.3rem;
+            border-bottom: 3px solid #5dade2; padding-bottom: 8px;
         }
-        p {
-            margin-bottom: 12px;
-        }
-        ul {
-            margin: 10px 0 15px 20px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        strong {
-            color: #2c3e50;
+        h3 { color: #2c4a6a; margin: 20px 0 10px 0; font-size: 1.05rem; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .intro {
+            font-size: 1.05rem; color: #444;
+            border-left: 4px solid #5dade2;
+            padding-left: 15px; margin-bottom: 25px;
         }
         .type-badge {
-            display: inline-block;
-            padding: 3px 10px;
-            border-radius: 12px;
-            font-size: 0.75rem;
-            margin-top: 8px;
+            display: inline-block; padding: 4px 12px; border-radius: 12px;
+            font-size: 0.8rem; margin-top: 10px;
+            background: #5dade2; color: white;
         }
-        .urban { background: #e74c3c; color: white; }
-        .rural { background: #27ae60; color: white; }
+        ul { margin: 10px 0 15px 20px; }
+        li { margin-bottom: 10px; }
+        strong { color: #1a2a3a; }
+        .arch-box {
+            background: #eaf2f8; border: 1px solid #5dade2;
+            padding: 15px; border-radius: 8px; margin: 15px 0;
+        }
+        .arch-box h4 { color: #2c4a6a; margin-bottom: 8px; }
+        .fact-box {
+            background: #f0f6ff; border-left: 4px solid #2c4a6a;
+            padding: 15px; margin: 15px 0;
+        }
+        .quote {
+            background: #f5f8fa; border-left: 4px solid #5dade2;
+            padding: 15px 20px; margin: 20px 0;
+            font-style: italic; color: #666;
+        }
+        .stats-grid {
+            display: grid; grid-template-columns: 1fr 1fr;
+            gap: 10px; margin: 15px 0;
+        }
+        .stat-item {
+            display: flex; justify-content: space-between;
+            padding: 8px 12px; background: #f5f8fa; border-radius: 4px;
+            border: 1px solid #d6eaf8;
+        }
+        .stat-value { font-weight: bold; color: #1a2a3a; }
+        .verdict {
+            background: linear-gradient(135deg, #1a2a3a, #2c4a6a);
+            color: white; padding: 20px; border-radius: 8px; margin-top: 30px;
+        }
+        .verdict p { text-align: left; margin-bottom: 10px; color: #d6eaf8; }
+        .verdict .rating { font-size: 1.5rem; text-align: center; margin-top: 15px; }
+        sup a { color: #2c4a6a; text-decoration: none; font-weight: bold; }
+        sup a:hover { text-decoration: underline; }
+        .references {
+            margin-top: 30px; padding-top: 15px;
+            border-top: 2px solid #5dade2; font-size: 0.8rem; color: #666;
+        }
+        .references h2 { font-size: 1.1rem; border-bottom: 1px solid #5dade2; }
+        .references ol { margin: 10px 0 0 20px; }
+        .references li { margin-bottom: 5px; }
+        .references a { color: #2c4a6a; word-break: break-all; }
+        @media (max-width: 600px) { .stats-grid { grid-template-columns: 1fr; } }
     </style>
 </head>
 <body>
     <div class="header">
         <h1>Centro Sur</h1>
-        <div class="subtitle">Центр Юг</div>
-        <span class="type-badge urban">Городской район</span>
+        <div class="subtitle">Район Калатравы: где стадион стал конгресс-центром</div>
+        <span class="type-badge">Городской район</span>
     </div>
     <div class="content">
-        
-            <p>Южная часть центра, включающая главный парк города и транспортный узел.</p>
-            <h3>Достопримечательности</h3>
-            <ul>
-                <li><strong>Парк Сан-Франциско</strong> — зелёное сердце города с павлинами</li>
-                <li><strong>Железнодорожный вокзал</strong> — связь с другими городами Астурии</li>
-            </ul>
-            <h3>Характер района</h3>
-            <p>Зелёная зона для отдыха, популярная среди местных жителей и туристов.</p>
-        
+        <p class="intro">Centro Sur — район, где стоит Аудиторио Принсипе Фелипе (дом Симфонического оркестра Астурии) и проходят мероприятия Премии Принцессы Астурийской. Рядом (но технически уже в Buenavista) сияет Дворец конгрессов Калатравы. Centro Sur — это тихие жилые кварталы, которые живут за счёт близости к большим зданиям, а не сами по себе.</p>
+
+        <h2>Общие сведения</h2>
+
+        <p><strong>Centro Sur</strong> (исп. «Центр Юг») — район к югу от Antiguo и Campo de San Francisco. Если Centro Oeste — это витрина, а Centro Norte — душа, то Centro Sur — это <strong>амбиции Овьедо</strong>. Именно здесь город решил доказать, что он не только средневековые камни и сидра, а ещё и архитектура XXI века, конгрессы и симфоническая музыка.</p>
+
+        <p>Население — <strong>7 131 человек</strong>. Иностранцев — 5,7% (405 чел.)<sup><a href="#ref1">[1]</a></sup>, в основном латиноамериканцы (206) и европейцы. Район спокойный, респектабельный, без особых сюрпризов.</p>
+
+        <h2>Auditorio Príncipe Felipe</h2>
+
+        <p><strong>Аудиторио Принсипе Фелипе</strong> (инаугурация <strong>29 апреля 1999</strong>, арх. Рафаэль Бека, бюджет ~18 млн €)<sup><a href="#ref3">[3]</a></sup><sup><a href="#ref5">[5]</a></sup> — 4 500 м² площади, 18 500 м² общей поверхности<sup><a href="#ref5">[5]</a></sup>. Дом <strong>Sinfónica del Principado de Asturias</strong><sup><a href="#ref3">[3]</a></sup>. Построен на месте городского водохранилища 1846 года — каменные стены резервуара вписаны в интерьер<sup><a href="#ref5">[5]</a></sup>.</p>
+
+        <p>Акустика — первый класс. Неоклассика снаружи, хай-тек внутри. Большие окна, естественный свет. Здесь проходят концерты, конгрессы и мероприятия <strong>Фонда Принцессы Астурийской</strong><sup><a href="#ref3">[3]</a></sup>.</p>
+
+        <h2>Площади</h2>
+
+        <ul>
+            <li><strong>Plaza de la Gesta</strong> (Площадь Подвига) — перед Аудиторио. Строгая, официальная. Сюда приезжают лауреаты Премии Принцессы.</li>
+            <li><strong>Plaza de América</strong> (формально в Centro Oeste) — связующее звено между районом Аудиторио и центральными кварталами.</li>
+        </ul>
+
+        <h2>Демография</h2>
+
+        <div class="stats-grid">
+            <div class="stat-item"><span>Население</span><span class="stat-value">7 131</span></div>
+            <div class="stat-item"><span>Иностранцев</span><span class="stat-value">5,7%</span></div>
+            <div class="stat-item"><span>Латинская Америка</span><span class="stat-value">206</span></div>
+            <div class="stat-item"><span>Европа (ЕС)</span><span class="stat-value">104</span></div>
+            <div class="stat-item"><span>Африка</span><span class="stat-value">18</span></div>
+            <div class="stat-item"><span>Азия</span><span class="stat-value">24</span></div>
+            <div class="stat-item"><span>Доход (ранг)</span><span class="stat-value">#3 в Овьедо</span></div>
+            <div class="stat-item"><span>Доход (€/год)</span><span class="stat-value">46 254 €</span></div>
+        </div>
+
+        <p>Район входит в зону почтового индекса 33003 (вместе с Centro Norte, Centro Este и Antiguo) — совокупный средний доход 46 254 €, третья позиция в городе<sup><a href="#ref4">[4]</a></sup>. Здесь живут не богатейшие, но определённо upper-middle: юристы, врачи, чиновники — публика, которая ходит в Аудиторио не только на День открытых дверей.</p>
+
+        <h2>Вердикт</h2>
+
+        <p>Centro Sur — это район двух зданий. Калатрава и Аудиторио — всё, что туристы здесь видят. Остальное — тихие жилые кварталы, где ничего не происходит, и это, собственно, главное достоинство. Если вы хотите жить в центре, но чтобы под окнами не орали в три часа ночи — вот ваш район.</p>
+
+        <div class="rating-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:15px 0">
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f5f8fa;border-radius:4px;border:1px solid #d0dbe6"><span>Жильё</span><span style="font-weight:bold;color:#2c4a6a">Средне-дорого</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f5f8fa;border-radius:4px;border:1px solid #d0dbe6"><span>Безопасность</span><span style="font-weight:bold;color:#2c4a6a">Хорошо</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f5f8fa;border-radius:4px;border:1px solid #d0dbe6"><span>Транспорт</span><span style="font-weight:bold;color:#2c4a6a">Норм</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f5f8fa;border-radius:4px;border:1px solid #d0dbe6"><span>Культура</span><span style="font-weight:bold;color:#2c4a6a">Аудиторио + Калатрава рядом</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f5f8fa;border-radius:4px;border:1px solid #d0dbe6"><span>Атмосфера</span><span style="font-weight:bold;color:#2c4a6a">Тихо</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f5f8fa;border-radius:4px;border:1px solid #d0dbe6"><span>Ночная жизнь</span><span style="font-weight:bold;color:#2c4a6a">Пустыня</span></div>
+        </div>
+
+        <div class="verdict">
+            <p><strong>Суть:</strong> Современный Овьедо в двух зданиях. Калатрава сияет, оркестр играет, а 7 131 житель тихо радуются, что живут не в Тендерине.</p>
+            <p class="rating"><strong>7 из 10</strong></p>
+        </div>
+        <div class="references">
+            <h2>Источники</h2>
+            <ol>
+                <li id="ref1">Padrón Municipal, 1 de enero de 2024 — <a href="https://www.odina.es/data/ficheros/2024/04/1144_ODINA_Poblaci%C3%B3n_extranjera_Oviedo_1_enero_2024-1.xlsx" target="_blank">Odina / Ayuntamiento de Oviedo (xlsx)</a></li>
+                <li id="ref2">Palacio de Congresos de Oviedo — <a href="https://es.wikipedia.org/wiki/Palacio_de_Congresos_de_Oviedo" target="_blank">Wikipedia (es)</a></li>
+                <li id="ref3">Auditorio Príncipe Felipe — <a href="https://turismo-oviedo.lne.es/que-hacer/monumentos/auditorio-principe-felipe.html" target="_blank">Turismo Oviedo / La Nueva España</a></li>
+                <li id="ref4">Агенция Трибутария, IRPF 2023 — <a href="https://www.lavozdeasturias.es/noticia/asturias/2025/10/09/barrio-barrio-cambiado-riqueza-oviedo-gijon/00031760028933658467784.htm" target="_blank">La Voz de Asturias: «Barrio a barrio»</a>, 09.10.2025</li>
+                <li id="ref5">Auditorio Príncipe Felipe (RTPA) — <a href="https://www.rtpa.es/noticias-asturias/2024-08-12/El-Auditorio-Principe-Felipe-de-Oviedo-re" target="_blank">RTPA</a>. 29.04.1999, Rafael Beca, 18M€, 18.500 m², depósito 1846.</li>
+            </ol>
+        </div>
     </div>
 </body>
 </html>

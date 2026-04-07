@@ -8,78 +8,185 @@
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
+            line-height: 1.7;
             color: #333;
             padding: 20px;
-            background: #fafafa;
+            background: #f8f5f0;
         }
         .header {
-            background: linear-gradient(135deg, #2c3e50, #34495e);
+            background: linear-gradient(135deg, #6c3483, #884ea0);
             color: white;
-            padding: 20px;
+            padding: 25px;
             margin: -20px -20px 20px -20px;
+            border-bottom: 3px solid #c39bd3;
         }
-        .header h1 {
-            font-size: 1.4rem;
-            margin-bottom: 5px;
-        }
-        .header .subtitle {
-            font-size: 0.85rem;
-            opacity: 0.8;
-        }
+        .header h1 { font-size: 1.5rem; margin-bottom: 5px; }
+        .header .subtitle { font-size: 1rem; opacity: 0.9; font-style: italic; color: #d7bde2; }
         .content {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            background: white; padding: 25px; border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
         }
-        h3 {
-            color: #2c3e50;
-            margin: 20px 0 10px 0;
-            font-size: 1.1rem;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 5px;
+        h2 {
+            color: #6c3483; margin: 30px 0 15px 0; font-size: 1.3rem;
+            border-bottom: 3px solid #c39bd3; padding-bottom: 8px;
         }
-        p {
-            margin-bottom: 12px;
-        }
-        ul {
-            margin: 10px 0 15px 20px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        strong {
-            color: #2c3e50;
+        h3 { color: #884ea0; margin: 20px 0 10px 0; font-size: 1.05rem; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .intro {
+            font-size: 1.05rem; color: #444;
+            border-left: 4px solid #c39bd3;
+            padding-left: 15px; margin-bottom: 25px;
         }
         .type-badge {
-            display: inline-block;
-            padding: 3px 10px;
-            border-radius: 12px;
-            font-size: 0.75rem;
-            margin-top: 8px;
+            display: inline-block; padding: 4px 12px; border-radius: 12px;
+            font-size: 0.8rem; margin-top: 10px;
+            background: #c39bd3; color: #4a235a;
         }
-        .urban { background: #e74c3c; color: white; }
-        .rural { background: #27ae60; color: white; }
+        ul { margin: 10px 0 15px 20px; }
+        li { margin-bottom: 10px; }
+        strong { color: #4a235a; }
+        .history-box {
+            background: #f5eef8; border: 1px solid #c39bd3;
+            padding: 15px; border-radius: 8px; margin: 15px 0;
+        }
+        .history-box h4 { color: #6c3483; margin-bottom: 8px; }
+        .warning-box {
+            background: #fdedec; border: 1px solid #e74c3c;
+            padding: 15px; border-radius: 8px; margin: 15px 0;
+        }
+        .warning-box h4 { color: #c0392b; margin-bottom: 8px; }
+        .fact-box {
+            background: #faf0ff; border-left: 4px solid #884ea0;
+            padding: 15px; margin: 15px 0;
+        }
+        .quote {
+            background: #faf5ff; border-left: 4px solid #c39bd3;
+            padding: 15px 20px; margin: 20px 0;
+            font-style: italic; color: #666;
+        }
+        .stats-grid {
+            display: grid; grid-template-columns: 1fr 1fr;
+            gap: 10px; margin: 15px 0;
+        }
+        .stat-item {
+            display: flex; justify-content: space-between;
+            padding: 8px 12px; background: #faf5ff; border-radius: 4px;
+            border: 1px solid #e8d5f5;
+        }
+        .stat-value { font-weight: bold; color: #4a235a; }
+        .verdict {
+            background: linear-gradient(135deg, #6c3483, #884ea0);
+            color: white; padding: 20px; border-radius: 8px; margin-top: 30px;
+        }
+        .verdict p { text-align: left; margin-bottom: 10px; color: #e8d5f5; }
+        .verdict .rating { font-size: 1.5rem; text-align: center; margin-top: 15px; color: #d7bde2; }
+        @media (max-width: 600px) { .stats-grid { grid-template-columns: 1fr; } }
     </style>
 </head>
 <body>
     <div class="header">
         <h1>Buenavista</h1>
-        <div class="subtitle">Буэнависта</div>
-        <span class="type-badge urban">Городской район</span>
+        <div class="subtitle">Район-пенсионер: бывший стадион, будущий не-арена для не-корриды</div>
+        <span class="type-badge">Городской район</span>
     </div>
     <div class="content">
-        
-            <p>Престижный жилой район на севере города.</p>
-            <h3>Достопримечательности</h3>
-            <ul>
-                <li><strong>ТЦ Салесас</strong> — торговый центр</li>
-                <li><strong>Жилые комплексы</strong> — качественное жильё</li>
+        <p class="intro">Buenavista — крупный жилой район к западу от центра, где на месте снесённого стадиона сияет Дворец конгрессов Калатравы, арену для корриды вот-вот переделают в концертный зал, а население стареет и убывает — но район держится на инерции, парках и воспоминаниях о чемпионате мира 1982 года.</p>
+
+        <h2>Palacio de Congresos: Калатрава на месте стадиона</h2>
+
+        <p><strong>Дворец конгрессов Овьедо</strong><sup><a href="#ref1">[1]</a></sup> — творение знаменитого валенсийского архитектора <strong>Сантьяго Калатравы</strong>. Стоит на «parcela de Buenavista»<sup><a href="#ref1">[1]</a></sup> — том самом месте, где раньше был стадион Карлос Тартьере.</p>
+
+        <div class="history-box">
+            <h4>Технические данные</h4>
+            <ul style="margin-bottom:0">
+                <li><strong>Главный зал:</strong> 2 144 места</li>
+                <li><strong>Белый купол:</strong> 45 метров (изначально задумывался подвижным, но кто-то посчитал бюджет)<sup><a href="#ref1">[1]</a></sup></li>
+                <li><strong>12 конференц-залов</strong> на третьем этаже</li>
+                <li><strong>1 777 парковочных мест</strong></li>
+                <li><strong>Отель на 150 номеров</strong> в комплексе</li>
             </ul>
-            <h3>Характер района</h3>
-            <p>Район среднего и высшего класса с хорошими услугами.</p>
-        
+        </div>
+
+        <p>Торговый центр в комплексе открылся в 2007-м, но закрылся в 2019-м<sup><a href="#ref1">[1]</a></sup>. Конгресс-зал — в 2011-м после долгостроя. Типичная история испанских мегапроектов: грандиозный замысел, бюджет ×3, скандалы, но в итоге стоит и работает.</p>
+
+        <div class="quote">Калатрава — это как Apple среди архитекторов: красиво, дорого, периодически ломается, но все хотят.</div>
+
+        <h2>Стадион, которого нет</h2>
+
+        <p>Старый <strong>Estadio Carlos Tartiere</strong> стоял в Буэнависте с 1932 по 2000 год. Первоначально назывался «Стадион Буэнависта», потом получил имя первого президента Реал Овьедо. Вмещал 16 485 зрителей. Газон — натуральный, размеры — 105×68 м, стандарт.</p>
+
+        <div class="history-box">
+            <h4>ЧМ-1982 в Овьедо</h4>
+            <p style="margin-bottom:0">Здесь, в Буэнависте, прошли <strong>три матча группового этапа Чемпионата мира по футболу 1982 года</strong><sup><a href="#ref2">[2]</a></sup>. Алжир — ФРГ (знаменитый «позор Хихона»), Чили — Австрия и Чили — ФРГ. Это был звёздный час района. С тех пор — только воспоминания и старые фотографии в барах.</p>
+        </div>
+
+        <p>Стадион снесли в 2000-м, Реал Овьедо переехал на новый Карлос Тартьере в другой части города. На месте старого стадиона теперь — жилые дома и парк. Стандартная испанская история: память вытеснена квадратными метрами.</p>
+
+        <h2>Plaza de Toros: конец корриды</h2>
+
+        <p><strong>Plaza de Toros de Oviedo</strong> (Coso de Buenavista) — историческая арена для боя быков, имеющая статус <strong>Bien de Interés Cultural</strong> (памятник культурного наследия). Но в 2026 году начнётся реконструкция, и самое главное:</p>
+
+        <div class="warning-box">
+            <h4>Коррида не вернётся</h4>
+            <p style="margin-bottom:0">Мэрия Овьедо официально подтвердила: после реконструкции арена станет <strong>многофункциональным культурным пространством</strong>, и корриды здесь больше не будет<sup><a href="#ref3">[3]</a></sup>. Никогда. Проект утверждён Дирекцией Культурного Наследия. Быки выдохнули.</p>
+        </div>
+
+        <p>Решение вызвало ожидаемые споры: одни аплодируют, другие кричат о «разрушении традиций». Но факт есть факт — Овьедо присоединяется к растущему списку испанских городов, отказывающихся от тавромахии.</p>
+
+        <h2>Parroquia de los Santos Apóstoles</h2>
+
+        <p><strong>Приход Святых Апостолов</strong><sup><a href="#ref4">[4]</a></sup> — главная церковь района, на ул. Артуро Альварес Буйя, 7. Мессы: пн–вс в 19:30, праздники — 10:00. Работает как общественный центр для района.</p>
+
+        <h2>Парки</h2>
+
+        <ul>
+            <li><strong>Parque de Buenavista</strong> — основной парк, бывший напротив старого стадиона. Детские площадки, лавочки, пенсионеры.</li>
+            <li><strong>Parque Clarín</strong> — рядом с церковью Святых Апостолов. Названный, видимо, в честь Леопольдо Аласа «Кларина», великого астурийского писателя.</li>
+        </ul>
+
+        <h2>Демография</h2>
+
+        <div class="stats-grid">
+            <div class="stat-item"><span>Население</span><span class="stat-value">8 504</span></div>
+            <div class="stat-item"><span>Иностранцев</span><span class="stat-value">11,8%</span></div>
+            <div class="stat-item"><span>Латинская Америка</span><span class="stat-value">488</span></div>
+            <div class="stat-item"><span>Европа (ЕС)</span><span class="stat-value">234</span></div>
+            <div class="stat-item"><span>Европа вне ЕС</span><span class="stat-value">139</span></div>
+            <div class="stat-item"><span>Африка</span><span class="stat-value">82</span></div>
+            <div class="stat-item"><span>Азия</span><span class="stat-value">60</span></div>
+            <div class="stat-item"><span>Доход (€/год)</span><span class="stat-value">35 344 €</span></div>
+        </div>
+
+        <div class="fact-box">
+            <p style="margin-bottom:0"><strong>8 504 жителя</strong><sup><a href="#ref5">[5]</a></sup>, но тенденция грустная: <strong>−4,5% за 10 лет</strong>. Большинство жителей — 65+. Район строился в 70-х, те, кто тогда заезжали молодыми, теперь — пенсионеры. Молодёжь уезжает в Корредорию или вообще из Овьедо. 11,8% иностранцев — латиноамериканцы (488), европейцы (373 суммарно), африканцы (82). Доход — 35 344 € — чуть выше среднего по городу. Не бедный, но и не шикарный. Крепкий средний класс на пенсии.</p>
+        </div>
+
+        <h2>Вердикт</h2>
+
+        <div class="rating-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:15px 0">
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#faf5ff;border-radius:4px;border:1px solid #d4b8e8"><span>Жильё</span><span style="font-weight:bold;color:#6c3483">Средне</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#faf5ff;border-radius:4px;border:1px solid #d4b8e8"><span>Безопасность</span><span style="font-weight:bold;color:#6c3483">Норм</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#faf5ff;border-radius:4px;border:1px solid #d4b8e8"><span>Транспорт</span><span style="font-weight:bold;color:#6c3483">Норм</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#faf5ff;border-radius:4px;border:1px solid #d4b8e8"><span>Инфраструктура</span><span style="font-weight:bold;color:#6c3483">Стареет</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#faf5ff;border-radius:4px;border:1px solid #d4b8e8"><span>Атмосфера</span><span style="font-weight:bold;color:#6c3483">Пенсионерская</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#faf5ff;border-radius:4px;border:1px solid #d4b8e8"><span>Перспектива</span><span style="font-weight:bold;color:#6c3483">Арена → культ. центр</span></div>
+        </div>
+
+        <div class="verdict">
+            <p><strong>Суть:</strong> Buenavista — район, живущий прошлым (ЧМ-82, старый стадион) и ожиданием будущего (реконструкция арены). Настоящее — это тихий, стареющий жилой массив 70-х годов, где всё на месте, но ничего не блестит. Для покупки жилья — опция с перспективой: когда арену переделают, район может ожить.</p>
+            <p class="rating"><strong>6 из 10</strong></p>
+        </div>
+        <div class="references" style="margin-top:30px;padding-top:15px;border-top:2px solid #c39bd3;font-size:0.8rem;color:#888">
+            <h2 style="font-size:1.1rem;border-bottom:1px solid #c39bd3;color:#6c3483">Источники</h2>
+            <ol style="margin:10px 0 0 20px">
+                <li id="ref1">Palacio de Congresos de Oviedo — <a href="https://es.wikipedia.org/wiki/Palacio_de_Congresos_de_Oviedo" target="_blank" style="color:#6c3483">Wikipedia (es)</a></li>
+                <li id="ref2">Estadio Carlos Tartiere (1932) — <a href="https://es.wikipedia.org/wiki/Estadio_Carlos_Tartiere_(1932)" target="_blank" style="color:#6c3483">Wikipedia (es)</a></li>
+                <li id="ref3">Plaza de Toros de Oviedo, obras 2026 — <a href="https://www.larazon.es/cultura/toros/plaza-toros-oviedo-iniciara-obras-2026-futuro-tauromaquia_202507306889c308abb2960d1fb97a52.html" target="_blank" style="color:#6c3483">La Razón, 30.07.2025</a></li>
+                <li id="ref4">Parroquia de los Santos Apóstoles — <a href="https://santosapostoles.es" target="_blank" style="color:#6c3483">santosapostoles.es (sitio oficial)</a></li>
+                <li id="ref5">Padrón Municipal, 1 de enero de 2024 — <a href="https://www.odina.es/data/ficheros/2024/04/1144_ODINA_Poblaci%C3%B3n_extranjera_Oviedo_1_enero_2024-1.xlsx" target="_blank" style="color:#6c3483">Odina / Ayuntamiento de Oviedo</a></li>
+                <li id="ref6">Агенция Трибутария, IRPF 2021 — <a href="https://www.lavozdeasturias.es/noticia/oviedo/voz-oviedo/2023/10/23/riqueza-va-barrios-ricos-pobres-oviedo/00031698046663312339866.htm" target="_blank" style="color:#6c3483">La Voz de Asturias: «La riqueza va por barrios»</a></li>
+            </ol>
+        </div>
     </div>
 </body>
 </html>

@@ -137,8 +137,18 @@
             text-align: left;
             margin-bottom: 0;
         }
+        .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 15px 0; }
+        .stat-item { display: flex; justify-content: space-between; padding: 8px 12px; background: #f5f0ff; border-radius: 4px; border: 1px solid #d5c0f0; }
+        .stat-value { font-weight: bold; color: #4a1942; }
+        sup a { color: #8e44ad; text-decoration: none; font-weight: bold; }
+        sup a:hover { text-decoration: underline; }
+        .references { margin-top: 30px; padding-top: 15px; border-top: 2px solid #8e44ad; font-size: 0.8rem; color: #666; }
+        .references h2 { font-size: 1.1rem; border-bottom: 1px solid #8e44ad; }
+        .references ol { margin: 10px 0 0 20px; }
+        .references li { margin-bottom: 5px; }
+        .references a { color: #8e44ad; word-break: break-all; }
         @media (max-width: 600px) {
-            .rating-grid {
+            .rating-grid, .stats-grid {
                 grid-template-columns: 1fr;
             }
         }
@@ -167,7 +177,7 @@
         <h2>Уровень 1. История: ожидание vs реальность</h2>
 
         <h3>Буржуазная утопия (Колония Астур)</h3>
-        <p>В начале XX века богачи Овьедо посмотрели на склон Наранко и сказали: "О, какое отличное место, чтобы построить виллы в стиле города-сада и держаться подальше от простолюдинов". Так появились Колония Астур и зона <em>Los Catalanes</em>. План был простой: жить в милых домиках среди зелени и дышать чистым воздухом.</p>
+        <p>В начале XX века богачи Овьедо посмотрели на склон Наранко и сказали: "О, какое отличное место, чтобы построить виллы в стиле города-сада и держаться подальше от простолюдинов". Так появилась <strong>Колония Астур</strong> — район начал формироваться в 50-х при строителе Хулио Родригесе<sup><a href="#ref1">[1]</a></sup>. Название «Ciudad Naranco» закрепилось только после урбанизации 1975 года<sup><a href="#ref2">[2]</a></sup>.</p>
 
         <h3>"Кирпичный бум" эпохи застройщиков</h3>
         <p>Потом пришли 60–70-е и "развитие" при Пако (из Ферроля). Буржуазия разъехалась, а застройщики увидели золотую жилу. Там, где помещался один дом с садом, втиснули десятиэтажку из кирпича.</p>
@@ -198,17 +208,17 @@
 
         <div class="fail-box">
             <h4>1) СПА Наранко (памятник расточительству)</h4>
-            <p style="margin-bottom:0">Построили муниципальное СПА, закончили… и никогда не открыли. Компания обанкротилась, здание забросили, его разграбили, заселились окупасы и крысы. После 12 лет судов мэрия заплатила миллионы подрядчику (за здание, которое не работает), а теперь ещё потратит деньги на снос.</p>
+            <p style="margin-bottom:0">Построили муниципальное СПА, закончили… и никогда не открыли. Компания обанкротилась, здание забросили, его разграбили, заселились окупасы и крысы. В сентябре 2024 наконец опубликована лицитация на снос за <strong>459 693 €</strong><sup><a href="#ref5">[5]</a></sup> — конец «монстра», ставшего иконической руиной района.</p>
         </div>
 
         <div class="fail-box">
             <h4>2) Мост Николаса Сория (вечное бутылочное горлышко)</h4>
-            <p style="margin-bottom:0">Единственный нормальный выезд к центру — узкий тоннель под путями, где два автобуса не разъезжались. Десятилетиями проехать там — это рискнуть зеркалом. Расширение открыли в 2024 — люди плакали от счастья, увидев две полосы.</p>
+            <p style="margin-bottom:0">Единственный нормальный выезд к центру — узкий тоннель под путями, где два автобуса не разъезжались. Десятилетиями проехать там — это рискнуть зеркалом. Расширение наконец открыли в марте 2024 после <strong>4+ лет</strong> задержек<sup><a href="#ref3">[3]</a></sup> — вход в район стал двухполосным.</p>
         </div>
 
         <div class="fail-box">
             <h4>3) Паркинг в Феррерос (паркинг Шрёдингера)</h4>
-            <p style="margin-bottom:0">Подземный паркинг на 421 место под «Ла Лоса» — построен, готов, но закрыт годами. Компания обанкротилась, паркинг завис в юридическом лимбе. Соседи паркуются на тротуарах, пока 400 пустых мест смеются над ними из-под земли.</p>
+            <p style="margin-bottom:0">Подземный паркинг <strong>Ferreros II на 421 место</strong> — построен, готов, но закрыт годами. Компания обанкротилась, паркинг завис в юридическом лимбе. В ноябре 2025 мэрия наконец объявила о субаста плазas с приоритетом для жителей и работников Ciudad Naranco<sup><a href="#ref4">[4]</a></sup>.</p>
         </div>
 
         <h2>Уровень 4. Тюрьма: от расстрелов до PDF</h2>
@@ -227,7 +237,7 @@
         <ul>
             <li><strong>Студенты:</strong> много — аренда чуть дешевле, чем в центре, и рядом ж/д и автобусные станции</li>
             <li><strong>Пенсионеры:</strong> те, кто купил квартиры в эпоху "развития" за копейки</li>
-            <li><strong>Окупасы:</strong> в заброшенных промзданиях в районе Николаса Сория</li>
+            <li><strong>Окупасы:</strong> в заброшенных промзданиях на Николаса Сория и Торресерредо<sup><a href="#ref6">[6]</a></sup>. Соседи требовали усилить полицейское присутствие в 2020<sup><a href="#ref6">[6]</a></sup></li>
             <li><strong>Фрики:</strong> тут базируется Radio QK — легендарное свободное радио Астурии</li>
             <li><strong>Ночная жизнь:</strong> слабая. Есть бары "как раньше" — вермут, пинчос, легендарный <em>bocata de calamares</em>. Но тусить — в центр. Плюс: обратно поднимаешься — и трезвеешь</li>
         </ul>
@@ -259,8 +269,35 @@
             </div>
         </div>
 
+        <h2>Демография</h2>
+
+        <div class="stats-grid">
+            <div class="stat-item"><span>Население</span><span class="stat-value">13 901</span></div>
+            <div class="stat-item"><span>Иностранцев</span><span class="stat-value">10,2% (1 424)</span></div>
+            <div class="stat-item"><span>Латинская Америка</span><span class="stat-value">833</span></div>
+            <div class="stat-item"><span>Европа (ЕС)</span><span class="stat-value">250</span></div>
+            <div class="stat-item"><span>Африка</span><span class="stat-value">180</span></div>
+            <div class="stat-item"><span>Азия</span><span class="stat-value">29</span></div>
+        </div>
+
+        <p><strong>13 901 жителей</strong><sup><a href="#ref7">[7]</a></sup>, более 13 500 по данным La Voz de Asturias<sup><a href="#ref1">[1]</a></sup>. Район «un barrio que son dos» (два района в одном)<sup><a href="#ref1">[1]</a></sup>: от Центра здоровья вниз — старая часть, вверх — новые семьи. Строительный бум конца 90-х привёл молодёжь, но торговля на склонах не выживает: «выше calle Fernández de Oviedo — магазины обречены»<sup><a href="#ref1">[1]</a></sup>.</p>
+
         <div class="verdict">
-            <p><strong>Итог:</strong> Район с характером — пусть и травматичным. Если выживешь под ветром и научишься ходить в гору с продуктами — станешь местным.</p>
+            <p><strong>Итог:</strong> Район с характером — пусть и травматичным. Если выживешь под ветром и научишься ходить в гору с продуктами — станешь местным. Паркинг наконец субастируют, СПА сносят, мост расширили — может, Сьюдад-Наранко наконец выбирается из 20-летней ямы.</p>
+            <p style="font-size:1.5rem;text-align:center;margin-top:15px"><strong>6 из 10</strong></p>
+        </div>
+
+        <div class="references">
+            <h2>Источники</h2>
+            <ol>
+                <li id="ref1">«Ciudad Naranco, un barrio que son dos» — <a href="https://www.lavozdeasturias.es/noticia/oviedo/2018/04/30/ciudad-naranco/00031525112356596805730.htm" target="_blank">La Voz de Asturias</a>, 30.04.2018. Колония Астур, Julio Rodríguez, brecha generacional, cuestas, Radio QK.</li>
+                <li id="ref2">«Polígono Industrial de Ferreros (Oviedo)» — <a href="https://fusionasturias.com/asturias-empresarial/poligonos-industriales/poligono-industrial-de-ferreros-oviedo-un-poligono-con-solera.htm" target="_blank">Fusión Asturias</a>. Historia Ferreros, Colonia Astur 1975, La Losa, Almacenes Industriales.</li>
+                <li id="ref3">«Abren al tráfico los dos nuevos carriles bajo el puente de Nicolás Soria» — <a href="https://www.rtpa.es/noticias-asturias:Abren-al-trafico-los-dos-nuevos-carriles-de-acceso-a-La-Ciudad-Naranco-bajo-el-puente-de-Nicolas-Soria_111710333129.html" target="_blank">RTPA</a>, 13.03.2024</li>
+                <li id="ref4">«Los aparcamientos de Ferreros se subastarán entre vecinos de Ciudad Naranco» — <a href="https://www.europapress.es/asturias/noticia-ayuntamiento-oviedo-aclara-aparcamientos-ferreros-subastaran-vecinos-ciudad-naranco-20251104122440.html" target="_blank">Europa Press</a>, 04.11.2025. 421 plazas Ferreros II.</li>
+                <li id="ref5">«Licitación demolición del fallido spa de Ciudad Naranco» — <a href="https://activaciudadnaranco.org/blog/" target="_blank">Activa Ciudad Naranco (blog asoc. vecinos)</a>, septiembre 2024. 459 693 €, plazo 3 meses.</li>
+                <li id="ref6">«Vecinos de Ciudad Naranco reclaman mayor presencia policial» — <a href="https://www.lavozdeasturias.es/noticia/oviedo/2020/01/27/vecinos-ciudad-naranco-reclaman-mayor-presencia-policial-barrio/00031580152349362674794.htm" target="_blank">La Voz de Asturias</a>, 27.01.2020. Ocupas, edificios abandonados Torrecerredo y Nicolás Soria.</li>
+                <li id="ref7">Padrón Municipal, 1 de enero de 2024 — <a href="https://www.odina.es/data/ficheros/2024/04/1144_ODINA_Poblaci%C3%B3n_extranjera_Oviedo_1_enero_2024-1.xlsx" target="_blank">Odina / Ayuntamiento de Oviedo</a></li>
+            </ol>
         </div>
     </div>
 </body>

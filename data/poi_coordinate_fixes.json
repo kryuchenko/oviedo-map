@@ -1,0 +1,57 @@
+{
+  "HUCA (Hospital Universitario Central de Asturias)": {
+    "lat": 43.375222,
+    "lon": -5.825028,
+    "source": "Wikipedia: Hospital Universitario Central de Asturias"
+  },
+  "Palacio de los Deportes": {
+    "lat": 43.3675,
+    "lon": -5.83139,
+    "source": "Wikipedia: Palacio de los Deportes de Oviedo"
+  },
+  "Palacio de Congresos (Calatrava)": {
+    "lat": 43.358056,
+    "lon": -5.860833,
+    "source": "Wikipedia: Palacio de Congresos de Oviedo"
+  },
+  "Parque Purificación Tomás": {
+    "lat": 43.3628265,
+    "lon": -5.8513346,
+    "source": "Nominatim: Calle Toreno, Oviedo"
+  },
+  "Plaza de América": {
+    "lat": 43.3613428,
+    "lon": -5.856982,
+    "source": "Nominatim: Plaza América, Oviedo"
+  },
+  "Parque Principado": {
+    "lat": 43.3899644,
+    "lon": -5.8019998,
+    "source": "Nominatim: Centro Comercial Parque Principado, Siero, Asturias"
+  },
+  "Gran Bulevar El Vasco": {
+    "lat": 43.3655828,
+    "lon": -5.842606,
+    "source": "Nominatim: Calle Víctor Chávarri, Oviedo"
+  },
+  "Campus del Cristo (Universidad de Oviedo)": {
+    "lat": 43.3557001,
+    "lon": -5.8605647,
+    "source": "Nominatim: Avenida del Cristo de las Cadenas, Oviedo"
+  },
+  "Santuario del Cristo de las Cadenas": {
+    "lat": 43.3524646,
+    "lon": -5.8753501,
+    "source": "Nominatim: Avenida del Cristo 99, Oviedo"
+  },
+  "Universidad de Oviedo (edificio histórico)": {
+    "lat": 43.3617483,
+    "lon": -5.8465155,
+    "source": "Nominatim: Calle San Francisco, Universidad de Oviedo"
+  },
+  "La Maternidad (Botero)": {
+    "lat": 43.3622054,
+    "lon": -5.8480485,
+    "source": "Nominatim: Plaza de la Escandalera, Oviedo"
+  }
+}

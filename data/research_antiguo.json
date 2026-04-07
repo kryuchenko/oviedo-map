@@ -1,0 +1,161 @@
+{
+  "district": "Antiguo (Старый город)",
+  "district_type": "urban",
+  "summary_ru": "Средневековое ядро Овьедо внутри бывших крепостных стен. Кафедральный собор, Камара Санта (ЮНЕСКО), дворцы, музеи, рынок Фонтан. Самая высокая концентрация исторических памятников.",
+  "total_validated_pois": 17,
+  "pois": [
+    {
+      "name": "Catedral de San Salvador",
+      "name_ru": "Кафедральный собор Сан-Сальвадор",
+      "category": "church",
+      "lat": 43.362522,
+      "lon": -5.843294,
+      "description": "Готический собор XIII-XVI вв., третий по красоте в Испании. Шпиль высотой 80 м. Внутри — Камара Санта (ЮНЕСКО)."
+    },
+    {
+      "name": "Plaza de la Constitución",
+      "name_ru": "Площадь Конституции",
+      "category": "plaza",
+      "lat": 43.360419,
+      "lon": -5.844943,
+      "description": "Главная административная площадь с Ратушей (1622) и церковью Сан-Исидоро."
+    },
+    {
+      "name": "Plaza del Fontán",
+      "name_ru": "Площадь Фонтан",
+      "category": "plaza",
+      "lat": 43.359752,
+      "lon": -5.845843,
+      "description": "Средневековая рыночная площадь с цветными домами и историческим рынком Эль Фонтан."
+    },
+    {
+      "name": "Plaza de Alfonso II el Casto",
+      "name_ru": "Площадь Альфонсо II",
+      "category": "plaza",
+      "lat": 43.362399,
+      "lon": -5.844315,
+      "description": "Кафедральная площадь, ключевая точка на Камино-де-Сантьяго."
+    },
+    {
+      "name": "Mercado El Fontán",
+      "name_ru": "Рынок Эль Фонтан",
+      "category": "market",
+      "lat": 43.360237,
+      "lon": -5.84568,
+      "description": "Исторический рынок викторианского стиля с мясом, рыбой, сырами."
+    },
+    {
+      "name": "Iglesia de San Isidoro El Real",
+      "name_ru": "Церковь Сан-Исидоро-эль-Реаль",
+      "category": "church",
+      "lat": 43.360504,
+      "lon": -5.845592,
+      "description": "Ренессансная церковь XVI в. на площади Конституции, памятник культуры."
+    },
+    {
+      "name": "Capilla de La Balesquida",
+      "name_ru": "Капелла Балескида",
+      "category": "church",
+      "lat": 43.362314,
+      "lon": -5.844932,
+      "description": "Барочная капелла (1725) у собора, с постоянным хранением Святых Даров."
+    },
+    {
+      "name": "Monasterio de San Pelayo",
+      "name_ru": "Монастырь Сан-Пелайо",
+      "category": "monastery",
+      "lat": 43.363305,
+      "lon": -5.842778,
+      "description": "Действующий бенедиктинский женский монастырь X века. Монахини пекут знаменитое печенье."
+    },
+    {
+      "name": "Museo Arqueológico de Asturias",
+      "name_ru": "Археологический музей Астурии",
+      "category": "museum",
+      "lat": 43.362705,
+      "lon": -5.842543,
+      "description": "Музей в бывшем монастыре Сан-Висенте (VIII в.) за собором."
+    },
+    {
+      "name": "Museo de Bellas Artes de Asturias",
+      "name_ru": "Музей изящных искусств",
+      "category": "museum",
+      "lat": 43.361897,
+      "lon": -5.844376,
+      "description": "Музей в трёх дворцах: Веларде, Овьедо-Порталь и Солис. Бесплатный вход."
+    },
+    {
+      "name": "Ayuntamiento de Oviedo",
+      "name_ru": "Ратуша Овьедо",
+      "category": "building",
+      "lat": 43.360529,
+      "lon": -5.844672,
+      "description": "Ратуша XVII века с аркой Симадевилья — проход паломников Камино-де-Сантьяго."
+    },
+    {
+      "name": "Palacio del Fontán",
+      "name_ru": "Дворец Фонтан",
+      "category": "palace",
+      "lat": 43.359397,
+      "lon": -5.845841,
+      "description": "Лучший образец барочной дворцовой архитектуры Овьедо XVIII в."
+    },
+    {
+      "name": "Plaza Porlier",
+      "name_ru": "Площадь Порльер",
+      "category": "plaza",
+      "lat": 43.362556,
+      "lon": -5.845667,
+      "description": "Площадь с Дворцом Кампосаградо (суд) и историческим зданием университета."
+    },
+    {
+      "name": "Palacio de Valdecarzana",
+      "name_ru": "Дворец Вальдекарсана",
+      "category": "palace",
+      "lat": 43.362692,
+      "lon": -5.844781,
+      "description": "Готический дворец XV века — старейшее гражданское здание Овьедо."
+    },
+    {
+      "name": "Palacio de Camposagrado",
+      "name_ru": "Дворец Кампосаградо",
+      "category": "palace",
+      "lat": 43.362578,
+      "lon": -5.845232,
+      "description": "Дворец XVIII в. на площади Порльер, сейчас — Верховный суд Астурии."
+    },
+    {
+      "name": "Universidad de Oviedo (edificio histórico)",
+      "name_ru": "Университет Овьедо (историческое здание)",
+      "category": "building",
+      "lat": 43.3617483,
+      "lon": -5.8465155,
+      "description": "Здание XVI века, основанное архиепископом Фернандо де Вальдес-и-Салас. Статуя основателя во дворе.",
+      "coord_source": "Nominatim: Calle San Francisco, Universidad de Oviedo"
+    },
+    {
+      "name": "La Maternidad (Botero)",
+      "name_ru": "Материнство (Ботеро)",
+      "category": "sculpture",
+      "lat": 43.3622054,
+      "lon": -5.8480485,
+      "description": "Скульптура Фернандо Ботеро (1989) — женщина с сыном на коленях, 2.5 м, 800 кг. Местные называют 'La Gorda'.",
+      "coord_source": "Nominatim: Plaza de la Escandalera, Oviedo"
+    }
+  ],
+  "demographics": {
+    "source": "Padrón Municipal 2024",
+    "total_population": 3159,
+    "foreign_total": 333,
+    "pct_foreign": 10.5,
+    "foreign_by_continent": {
+      "eu": 73,
+      "europe_non_eu": 28,
+      "america": 208,
+      "africa": 13,
+      "asia": 9,
+      "oceania": 2,
+      "stateless": 0
+    }
+  }
+}

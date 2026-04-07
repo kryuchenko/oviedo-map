@@ -134,8 +134,18 @@
             color: #92400e;
             margin-bottom: 8px;
         }
+        .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 15px 0; }
+        .stat-item { display: flex; justify-content: space-between; padding: 8px 12px; background: #f0f5ff; border-radius: 4px; border: 1px solid #d0dbe6; }
+        .stat-value { font-weight: bold; color: #1a3a5c; }
+        sup a { color: #2980b9; text-decoration: none; font-weight: bold; }
+        sup a:hover { text-decoration: underline; }
+        .references { margin-top: 30px; padding-top: 15px; border-top: 2px solid #2980b9; font-size: 0.8rem; color: #666; }
+        .references h2 { font-size: 1.1rem; border-bottom: 1px solid #2980b9; }
+        .references ol { margin: 10px 0 0 20px; }
+        .references li { margin-bottom: 5px; }
+        .references a { color: #2980b9; word-break: break-all; }
         @media (max-width: 600px) {
-            .pros-cons {
+            .pros-cons, .stats-grid {
                 grid-template-columns: 1fr;
             }
         }
@@ -159,9 +169,9 @@
         <h2>Глава 1. История: От Дурдома до Хай-тека</h2>
 
         <h3>1.1. Призраки Ла-Кадельяды</h3>
-        <p>Раньше на месте госпиталя стояла "La Cadellada" — психиатрическая лечебница. Это было легендарное место, окруженное стенами и деревьями, которые пациенты годами подстригали в причудливые формы (топиарное искусство как терапия).</p>
+        <p>Раньше на месте госпиталя стояла "La Cadellada" — психиатрическая лечебница, открытая в 1933 году по проекту, вдохновлённому австрийскими моделями<sup><a href="#ref1">[1]</a></sup>. На пике в ней содержалось 1 300–1 400 пациентов<sup><a href="#ref1">[1]</a></sup>. Это было легендарное место, окруженное стенами и деревьями, которые пациенты годами подстригали в причудливые формы (топиарное искусство как терапия).</p>
 
-        <p>Когда строили новый HUCA, психушку снесли. От нее осталась только старая часовня (которую чудом вписали в ландшафт) и часть тех самых деревьев, пересаженных в новый парк.</p>
+        <p>В 2003 году начался снос зданий психиатрической больницы для строительства нового HUCA<sup><a href="#ref1">[1]</a></sup>. Сохранилась только неороманская капелла 1944 года (арх. Мануэль Бобес), вписанная в ландшафт нового комплекса<sup><a href="#ref2">[2]</a></sup>.</p>
 
         <div class="quote">
             Местные шутят, что аура безумия никуда не делась, просто теперь она выражается в поисках парковки, а не в медицинских диагнозах.
@@ -172,7 +182,7 @@
 
         <h2>Глава 2. HUCA: Звезда Смерти</h2>
 
-        <p>Открытый в 2014 году, новый госпиталь занимает площадь, сопоставимую с небольшим городом.</p>
+        <p>Открытый в июне 2014 года<sup><a href="#ref3">[3]</a></sup>, новый госпиталь — здание из 9 этажей и 300 метров длиной, с 1 039 койками, 33 операционными и 40% одноместных палат<sup><a href="#ref3">[3]</a></sup>. Стоимость строительства — 205,3 млн евро, начатое в 2005-м и обещанное к 2010-му<sup><a href="#ref3">[3]</a></sup>.</p>
 
         <div class="highlight-box">
             <h4>Архитектура</h4>
@@ -196,7 +206,7 @@
         <h3>3.1. Война за асфальт</h3>
         <p>Сотрудники больницы (тысячи их!), пациенты и жители дерутся за каждый сантиметр. Подземный паркинг дорогой. Бесплатных мест нет.</p>
 
-        <p>Ситуацию усугубляет политика "трилеризма" (наперсточничества) от управляющей компании Gispasa: врачам и медсестрам часто не дают пропуска, заставляя их парковаться в жилых дворах. В 15:00, во время пересменки, район встает в мертвую пробку.</p>
+        <p>Ситуацию усугубляет политика «трилеризма» (наперсточничества) от управляющей компании Gispasa: парковочные места «появляются и исчезают, как по волшебству, в хорошо рассчитанные моменты», — заявила Junta de Personal del HUCA, объявившая протестные акции в июле 2024-го<sup><a href="#ref8">[8]</a></sup>. «Прошло уже 10 лет с открытия HUCA, и проблемы только усугубились»<sup><a href="#ref8">[8]</a></sup>.</p>
 
         <h3>3.2. Империя "Горрильяс"</h3>
         <p>Дефицит породил мафию. <strong>Gorrillas</strong> (нелегальные парковщики) оккупировали все пустыри ("leira parking").</p>
@@ -243,10 +253,48 @@
             </div>
         </div>
 
+        <h2>Глава 5. Демография</h2>
+
+        <div class="stats-grid">
+            <div class="stat-item"><span>Население</span><span class="stat-value">15 386</span></div>
+            <div class="stat-item"><span>Иностранцев</span><span class="stat-value">10,7% (1 652)</span></div>
+            <div class="stat-item"><span>Латинская Америка</span><span class="stat-value">900</span></div>
+            <div class="stat-item"><span>Европа (ЕС)</span><span class="stat-value">318</span></div>
+            <div class="stat-item"><span>Африка</span><span class="stat-value">271</span></div>
+            <div class="stat-item"><span>Азия</span><span class="stat-value">70</span></div>
+        </div>
+
+        <p><strong>15 386 жителей</strong>, <strong>10,7% иностранцев</strong><sup><a href="#ref5">[5]</a></sup>. Третий район по числу иностранцев после Pumarín (2 552) и La Argañosa (2 069)<sup><a href="#ref6">[6]</a></sup>. Крупнейшие общины: Колумбия (344), Венесуэла (229), Румыния (164), Сенегал (161)<sup><a href="#ref6">[6]</a></sup>.</p>
+
+        <p>Кстати, «Viejo HUCA» в El Cristo — в состоянии руин с 2014 года. 130 тонн асбеста, разворованные интерьеры, граффити. Снос наконец начат в 2025-м за 4,3 млн евро<sup><a href="#ref4">[4]</a></sup>. На его месте планируется новый кампус университета<sup><a href="#ref4">[4]</a></sup>.</p>
+
+        <div class="rating-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:15px 0">
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f0f5ff;border-radius:4px;border:1px solid #d0dbe6"><span>Жильё</span><span style="font-weight:bold;color:#1a3a5c">Новое дорого, старое норм</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f0f5ff;border-radius:4px;border:1px solid #d0dbe6"><span>Медицина</span><span style="font-weight:bold;color:#1a3a5c">Под боком HUCA</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f0f5ff;border-radius:4px;border:1px solid #d0dbe6"><span>Парковка</span><span style="font-weight:bold;color:#1a3a5c">0 из 10</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f0f5ff;border-radius:4px;border:1px solid #d0dbe6"><span>Безопасность</span><span style="font-weight:bold;color:#1a3a5c">Горрильяс</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f0f5ff;border-radius:4px;border:1px solid #d0dbe6"><span>Атмосфера</span><span style="font-weight:bold;color:#1a3a5c">Стерильно</span></div>
+            <div style="display:flex;justify-content:space-between;padding:8px 12px;background:#f0f5ff;border-radius:4px;border:1px solid #d0dbe6"><span>Ночная жизнь</span><span style="font-weight:bold;color:#1a3a5c">Сирены скорых</span></div>
+        </div>
+
         <div class="verdict">
             <h3>Итог</h3>
             <p class="rating">6 из 10</p>
             <p>Идеальное место, чтобы лечиться или работать, но спорное место, чтобы растить детей или наслаждаться тишиной. Район, который город принес в жертву Богу Медицины.</p>
+        </div>
+
+        <div class="references">
+            <h2>Источники</h2>
+            <ol>
+                <li id="ref1">Hospital Psiquiátrico Provincial de Oviedo — <a href="https://www.archivosdeasturias.info/feaa/action/detalle?buttons%5B1%5D=loadDetailFondo&idTipo=1197" target="_blank">Archivo Histórico de Asturias</a>. La Cadellada 1933, 1300-1400 pacientes, снос 2003.</li>
+                <li id="ref2">Capilla de La Cadellada — <a href="https://dialnet.unirioja.es/descarga/articulo/7997491.pdf" target="_blank">Liño. Revista de Historia del Arte, №27, 2021 (PDF)</a>. Neorrománico, 1940/1944, arq. Manuel Bobes.</li>
+                <li id="ref3">Hospital Universitario Central de Asturias — <a href="https://es.wikipedia.org/wiki/Hospital_Universitario_Central_de_Asturias" target="_blank">Wikipedia (es)</a>. 1039 camas, 33 quirófanos, 205.3M€, inauguración junio 2014.</li>
+                <li id="ref4">«El HUCA, un desvalijado hospital espera su derribo 11 años después» — <a href="https://www.infobae.com/espana/agencias/2025/04/17/el-huca-un-desvalijado-hospital-ovetense-espera-su-derribo-11-anos-despues-de-su-cierre/" target="_blank">Infobae/EFE</a>, 17.04.2025. 130 т. асбеста, 4.3M€ снос, будущий campus.</li>
+                <li id="ref5">Padrón Municipal, 1 de enero de 2024 — <a href="https://www.odina.es/data/ficheros/2024/04/1144_ODINA_Poblaci%C3%B3n_extranjera_Oviedo_1_enero_2024-1.xlsx" target="_blank">Odina / Ayuntamiento de Oviedo</a></li>
+                <li id="ref6">«Oviedo tiene 24.345 vecinos extranjeros de 106 países» — <a href="https://www.lavozdeasturias.es/noticia/oviedo/2025/09/29/oviedo-24345-vecinos-extranjeros-106-paises-mayoria-vive-pumarin-arganosa-teatinos/00031759144868897234309.htm" target="_blank">La Voz de Asturias</a>, 30.09.2025. Teatinos: Colombia 344, Venezuela 229, Rumanía 164, Senegal 161.</li>
+                <li id="ref7">«La Cadellada en tres actos» — <a href="https://www.cronistasoficiales.com/la-cadellada-en-tres-actos-%E2%80%A2-sobre-la-transformacion-de-parte-de-la-zona-rural-en-populosos-barrios-de-la-urbe/" target="_blank">Cronistas Oficiales de España</a>. Historia barrio, Casa Faldetes, bares.</li>
+                <li id="ref8">«Personal del HUCA anuncia acciones de presión por gestión del aparcamiento» — <a href="https://www.europapress.es/asturias/noticia-personal-huca-anuncia-acciones-presion-protesta-gestion-aparcamiento-hospital-20240723110655.html" target="_blank">Europa Press</a>, 23.07.2024. Gispasa «trilerismo», plazas aparecen/desaparecen, 10 años sin solución.</li>
+            </ol>
         </div>
     </div>
 </body>

@@ -1,0 +1,22 @@
+{
+  "district": "Cerdeño (Серденьо)",
+  "district_type": "urban",
+  "summary_ru": "Небольшой район между центром и Наранко.",
+  "total_validated_pois": 0,
+  "pois": [],
+  "demographics": {
+    "source": "Padrón Municipal 2024",
+    "total_population": 1184,
+    "foreign_total": 64,
+    "pct_foreign": 5.4,
+    "foreign_by_continent": {
+      "eu": 14,
+      "europe_non_eu": 2,
+      "america": 24,
+      "africa": 24,
+      "asia": 0,
+      "oceania": 0,
+      "stateless": 0
+    }
+  }
+}
