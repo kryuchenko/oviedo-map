@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiñana (Meres) - Сьеро</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.7;
+            color: #111827;
+            padding: 20px;
+            background: #fafafa;
+        }
+        .header {
+            background: linear-gradient(135deg, #7c3aed, #5b21b6);
+            color: white;
+            padding: 25px;
+            margin: -20px -20px 20px -20px;
+        }
+        .header h1 { font-size: 1.5rem; margin-bottom: 5px; }
+        .header .subtitle { font-size: 1rem; opacity: 0.9; font-style: italic; }
+        .type-badge {
+            display: inline-block; padding: 4px 12px; border-radius: 12px;
+            font-size: 0.8rem; margin-top: 10px;
+            background: #a78bfa; color: white;
+        }
+        .content {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #5b21b6;
+            margin: 30px 0 15px 0;
+            font-size: 1.3rem;
+            border-bottom: 3px solid #a78bfa;
+            padding-bottom: 8px;
+        }
+        h3 { color: #7c3aed; margin: 20px 0 10px 0; font-size: 1.05rem; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .intro {
+            font-size: 1.05rem; color: #111827;
+            border-left: 4px solid #a78bfa;
+            padding-left: 15px; margin-bottom: 25px;
+        }
+        ul { margin: 10px 0 15px 20px; }
+        li { margin-bottom: 10px; }
+        strong { color: #1e1b4b; }
+        .fact-box {
+            background: #f5f3ff;
+            border-left: 4px solid #7c3aed;
+            padding: 15px; margin: 15px 0;
+        }
+        .gold-box {
+            background: #f5f3ff;
+            border: 1px solid #a78bfa;
+            padding: 15px; border-radius: 8px; margin: 15px 0;
+        }
+        .gold-box h4 { color: #5b21b6; margin-bottom: 8px; }
+        .stats-grid {
+            display: grid; grid-template-columns: 1fr 1fr;
+            gap: 10px; margin: 15px 0;
+        }
+        .stat-item {
+            display: flex; justify-content: space-between;
+            padding: 8px 12px; background: #f5f3ff; border-radius: 4px;
+            border: 1px solid #e9e5f5;
+        }
+        .stat-value { font-weight: bold; color: #5b21b6; }
+        .rating-grid {
+            display: grid; grid-template-columns: 1fr 1fr;
+            gap: 10px; margin: 15px 0;
+        }
+        .rating-item {
+            display: flex; justify-content: space-between;
+            padding: 8px 12px; background: #f5f3ff; border-radius: 4px;
+            border: 1px solid #e9e5f5;
+        }
+        .rating-score { font-weight: bold; color: #7c3aed; }
+        .verdict {
+            background: linear-gradient(135deg, #7c3aed, #5b21b6);
+            color: white; padding: 20px; border-radius: 8px; margin-top: 30px;
+        }
+        .verdict p { text-align: left; margin-bottom: 10px; color: #ede9fe; }
+        .verdict strong { color: #ffffff; }
+        .verdict .rating { color: #ffffff; font-size: 1.5rem; text-align: center; margin-top: 15px; }
+        .verdict .rating strong { color: #ffffff; }
+        sup a { color: #7c3aed; text-decoration: none; font-weight: bold; }
+        sup a:hover { text-decoration: underline; }
+        .references {
+            margin-top: 30px; padding-top: 15px;
+            border-top: 2px solid #a78bfa; font-size: 0.8rem; color: #374151;
+        }
+        .references h2 { font-size: 1.1rem; border-bottom: 1px solid #a78bfa; color: #5b21b6; }
+        .references ol { margin: 10px 0 0 20px; }
+        .references li { margin-bottom: 5px; }
+        .references a { color: #7c3aed; word-break: break-all; }
+        @media (max-width: 600px) {
+            .stats-grid, .rating-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Tiñana (Meres)</h1>
+        <div class="subtitle">Сельский приход в Сьеро, где стоит лучшая школа Астурии</div>
+        <span class="type-badge">Муниципалитет Сьеро</span>
+    </div>
+    <div class="content">
+        <p class="intro">Tiñana — сельский приход в муниципалитете Сьеро, в 12 км к юго-востоку от центра Овьедо. 997 жителей<sup><a href="#ref1">[1]</a></sup>, шесть деревень, каштановые рощи и помарады. Место, через которое все проезжают — но мало кто знает зачем. А зачем — стоит на холме среди зелени и называется <strong>Colegio Internacional Meres</strong>: лучшая школа Астурии и #11 в Испании.</p>
+
+        <h2>Colegio Internacional Meres</h2>
+
+        <div class="gold-box">
+            <h4>Лучшая школа Астурии</h4>
+            <ul style="margin-bottom:0">
+                <li><strong>Рейтинг:</strong> #11 в Испании, #1 в Астурии (El Mundo, 2024)<sup><a href="#ref2">[2]</a></sup>. Forbes 2026: в списке 100 лучших<sup><a href="#ref3">[3]</a></sup>. Micole: 4.1/5 (85 отзывов)<sup><a href="#ref4">[4]</a></sup></li>
+                <li><strong>Программа:</strong> Bachillerato Internacional (PYP, MYP, Diploma) + национальный бачильерато (Sociales, Biosanitario, Tecnológico)<sup><a href="#ref3">[3]</a></sup></li>
+                <li><strong>Сеть:</strong> Cognita (международная сеть частных школ)<sup><a href="#ref3">[3]</a></sup></li>
+                <li><strong>Территория:</strong> 150 000 м² спортивных объектов, 9 000 м² учебных помещений<sup><a href="#ref4">[4]</a></sup></li>
+                <li><strong>Стоимость:</strong> матрикула 700 €, ежемесячно от 700 €. Транспорт включён<sup><a href="#ref5">[5]</a></sup></li>
+                <li><strong>Тип:</strong> частная, от инфантиль до бачильерато</li>
+            </ul>
+        </div>
+
+        <p>Школа расположена в природном окружении — «en un entorno natural a las afueras de Oviedo»<sup><a href="#ref3">[3]</a></sup>. Это не случайно: основатели выбрали место подальше от города, чтобы дети бегали по траве, а не по асфальту. Результат — академические показатели выше средних по Астурии и двойной диплом (испанский + IB).</p>
+
+        <h2>Приход Tiñana</h2>
+
+        <p>Помимо школы, Tiñana — это шесть деревень<sup><a href="#ref1">[1]</a></sup>:</p>
+        <ul>
+            <li><strong>Meres</strong> — 279 жителей, здесь школа и урбанизация «Palacio de Meres» (125 жителей)</li>
+            <li><strong>Fozana</strong> — 211 жителей</li>
+            <li><strong>Fonciello</strong> — 180 жителей</li>
+            <li><strong>Fueyo</strong> — 171 житель</li>
+            <li><strong>San Juan Obispo</strong> — 31 житель</li>
+        </ul>
+
+        <h2>История</h2>
+
+        <p>Церковь <strong>Santa María de Tiñana</strong> — наследница храма IX века, подаренного Альфонсо III собору Сантьяго<sup><a href="#ref6">[6]</a></sup>. Нынешнее здание XVIII века, после реконструкции после Гражданской войны. В Campo de la Iglesia — дом, где родился <strong>Ramón Martínez Vigil</strong>, епископ Овьедо XIX века<sup><a href="#ref6">[6]</a></sup>.</p>
+
+        <p>Tiñana исторически — край сидры. <strong>Estación Pomológica</strong> (1911) была ключевой в модернизации сидрового производства Астурии<sup><a href="#ref6">[6]</a></sup>.</p>
+
+        <h2>Демография</h2>
+
+        <div class="stats-grid">
+            <div class="stat-item"><span>Население</span><span class="stat-value">997</span></div>
+            <div class="stat-item"><span>Деревень</span><span class="stat-value">6</span></div>
+            <div class="stat-item"><span>Площадь</span><span class="stat-value">6,89 км²</span></div>
+            <div class="stat-item"><span>Муниципалитет</span><span class="stat-value">Siero</span></div>
+            <div class="stat-item"><span>До Овьедо</span><span class="stat-value">12 км</span></div>
+            <div class="stat-item"><span>Транспорт</span><span class="stat-value">Автобус OVI, TIÑ</span></div>
+        </div>
+
+        <div class="rating-grid">
+            <div class="rating-item"><span>Школа</span><span class="rating-score">#1 Астурия</span></div>
+            <div class="rating-item"><span>Природа</span><span class="rating-score">Каштаны и помарады</span></div>
+            <div class="rating-item"><span>Инфраструктура</span><span class="rating-score">Минимум</span></div>
+            <div class="rating-item"><span>Транспорт</span><span class="rating-score">Автобус есть</span></div>
+            <div class="rating-item"><span>Атмосфера</span><span class="rating-score">Деревня</span></div>
+            <div class="rating-item"><span>Для семей</span><span class="rating-score">Если в Meres</span></div>
+        </div>
+
+        <div class="verdict">
+            <p><strong>Суть:</strong> Tiñana — это деревня, которую знают только из-за школы. Если ваш ребёнок учится в Meres — вы знаете это место. Если нет — вы проедете мимо и даже не заметите. 997 человек, каштаны, сидра, церковь IX века и лучшая школа региона. Такие контрасты бывают только в Астурии.</p>
+            <p class="rating"><strong>Не оцениваем</strong> — это не район Овьедо</p>
+        </div>
+
+        <div class="references">
+            <h2>Источники</h2>
+            <ol>
+                <li id="ref1">Tiñana — <a href="https://es.wikipedia.org/wiki/Ti%C3%B1ana" target="_blank">Wikipedia (es)</a>. 997 habitantes, 6 entidades, 6,89 km².</li>
+                <li id="ref2">Los 100 mejores colegios de España — <a href="https://www.elmundo.es/mejores-colegios.html" target="_blank">El Mundo, 2024</a>. Meres #11.</li>
+                <li id="ref3">Lista Forbes 100 mejores colegios 2026 — <a href="https://forbes.es/listas/885405/lista-forbes-los-100-mejores-colegios-2026/" target="_blank">Forbes</a>. Cognita, IB continuum.</li>
+                <li id="ref4">Colegio Internacional Meres — <a href="https://www.micole.net/asturias/siero/colegio-internacional-meres" target="_blank">Micole.net</a>. 4.1/5, 85 valoraciones.</li>
+                <li id="ref5">Cuotas Colegio Meres — <a href="https://www.colegiomeres.com/cuotas/" target="_blank">colegiomeres.com</a>. Matrícula 700€, transporte incluido.</li>
+                <li id="ref6">Tiñana, Siero — <a href="https://www.elconfidencial.com/viajes/2025-10-23/visita-otono-pueblo-asturias-castanos-1tna-1qrt_4233533/" target="_blank">El Confidencial</a>. Iglesia s. IX, Estación Pomológica 1911, sidra.</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
