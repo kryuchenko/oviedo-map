@@ -1,0 +1,107 @@
+{
+  "source": "Informe Consejería de Ordenación de Territorio, Urbanismo, Vivienda y Derechos Ciudadanos del Principado de Asturias, enero 2025",
+  "source_url": "https://www.europapress.es/asturias/noticia-principado-construira-300-viviendas-oviedo-propone-centro-casco-montecerrao-cristo-zonas-tensionadas-20250120113008.html",
+  "source_psoe": "PSOE Oviedo, septiembre 2025 (cruce informe Principado + estudio pobreza por barrios)",
+  "source_psoe_url": "https://www.europapress.es/asturias/noticia-psoe-urge-ayuntamiento-analizar-zonas-tensionadas-alquiler-oviedo-tomar-medidas-20250901113810.html",
+  "methodology": "Media superficie viviendas × precio/m², deflactado a junio 2023. Zona tensionada = alquiler+suministros > 30% renta media",
+  "centro_detail": {
+    "precio_m2": 10.78,
+    "superficie_media_m2": 84,
+    "alquiler_medio": 906,
+    "alquiler_deflactado": 876,
+    "suministros": 263,
+    "coste_total": 1139,
+    "renta_media_mensual": 3219.01,
+    "umbral_30pct": 965.7,
+    "pct_renta": 35.4,
+    "tensionada": true
+  },
+  "by_group": [
+    {
+      "grupo": 1,
+      "precio_m2": 10.78,
+      "tensionada": true,
+      "barrios": [
+        "Antiguo",
+        "Centro Norte",
+        "Centro Sur",
+        "Centro Este",
+        "Centro Oeste"
+      ]
+    },
+    {
+      "grupo": 2,
+      "precio_m2": 10.55,
+      "tensionada": true,
+      "barrios": [
+        "El Cristo",
+        "Monte Cerráu"
+      ]
+    },
+    {
+      "grupo": 3,
+      "precio_m2": 9.59,
+      "tensionada": true,
+      "barrios": [
+        "Monxina - El Rancho",
+        "La Corredoria"
+      ]
+    },
+    {
+      "grupo": 4,
+      "precio_m2": 9.25,
+      "tensionada": true,
+      "barrios": [
+        "La Ciudá Naranco",
+        "El Vallobín",
+        "La Florida",
+        "Les Campes"
+      ]
+    },
+    {
+      "grupo": 5,
+      "precio_m2": 9.13,
+      "tensionada": true,
+      "barrios": [
+        "San Lázaro / San Llázaro",
+        "Otero",
+        "Tenderina - Fozaneldi",
+        "Ventanielles"
+      ]
+    },
+    {
+      "grupo": 6,
+      "precio_m2": 8.33,
+      "tensionada": true,
+      "barrios": [
+        "Argañosa",
+        "Buenavista"
+      ]
+    },
+    {
+      "grupo": 0,
+      "precio_m2": null,
+      "tensionada": false,
+      "barrios": [
+        "Pumarín",
+        "Teatinos",
+        "Pando",
+        "El Pontón de Vaqueros",
+        "Colloto / Cualloto"
+      ]
+    }
+  ],
+  "no_data": [
+    "San Claudio / San Cloyo",
+    "Olivares"
+  ],
+  "psoe_pct_renta": {
+    "Tenderina - Fozaneldi": 43.13,
+    "Ventanielles": 42.38,
+    "Otero": 37.6,
+    "Antiguo": 29.95,
+    "Parque de Invierno": 29.83,
+    "La Florida": 23.3
+  },
+  "psoe_note": "PSOE recalculó con renta media POR BARRIO (no media ciudad). Resultado: casi todos barrios tensionados excepto Llamaquique, Campillín-Parque Invierno y Antiguo"
+}
