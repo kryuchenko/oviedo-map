@@ -108,9 +108,12 @@ info.addTo(map);
 var switcher = L.control({position: 'topleft'});
 switcher.onAdd = function() {
     var div = L.DomUtil.create('div', 'switcher');
-    div.innerHTML = '<button id="btn-cis" style="--clr:#7c3aed" class="active" onclick="setMode(\\\'cis\\\')">Все СНГ</button>' +
-        '<button id="btn-ua" style="--clr:#2563eb" onclick="setMode(\\\'ua\\\')">Украина</button>' +
-        '<button id="btn-ru" style="--clr:#dc2626" onclick="setMode(\\\'ru\\\')">Россия</button>';
+    div.innerHTML = '<button id="btn-cis" style="--clr:#7c3aed" class="active">Все СНГ</button>' +
+        '<button id="btn-ua" style="--clr:#2563eb">Украина</button>' +
+        '<button id="btn-ru" style="--clr:#dc2626">Россия</button>';
+    div.querySelector('#btn-cis').addEventListener('click', function(){setMode('cis')});
+    div.querySelector('#btn-ua').addEventListener('click', function(){setMode('ua')});
+    div.querySelector('#btn-ru').addEventListener('click', function(){setMode('ru')});
     L.DomEvent.disableClickPropagation(div);
     return div;
 };
