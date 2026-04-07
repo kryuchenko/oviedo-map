@@ -6,31 +6,151 @@
     <title>Tudela Agüeria - Овьедо</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: #333; padding: 20px; background: #fafafa; }
-        .header { background: linear-gradient(135deg, #4e342e, #6d4c41); color: white; padding: 25px; margin: -20px -20px 20px -20px; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.7;
+            color: #333;
+            padding: 20px;
+            background: #fafafa;
+        }
+        .header {
+            background: linear-gradient(135deg, #7c3aed, #5b21b6);
+            color: white;
+            padding: 25px;
+            margin: -20px -20px 20px -20px;
+        }
         .header h1 { font-size: 1.5rem; margin-bottom: 5px; }
         .header .subtitle { font-size: 1rem; opacity: 0.9; font-style: italic; }
-        .content { background: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-        h2 { color: #4e342e; margin: 25px 0 12px 0; font-size: 1.2rem; border-bottom: 3px solid #6d4c41; padding-bottom: 6px; }
-        p { margin-bottom: 14px; text-align: justify; }
-        .intro { font-size: 1.05rem; color: #444; border-left: 4px solid #6d4c41; padding-left: 15px; margin-bottom: 20px; }
-        .type-badge { display: inline-block; padding: 4px 12px; border-radius: 12px; font-size: 0.8rem; margin-top: 10px; background: #2e7d32; color: white; }
-        .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 15px 0; }
-        .stats-grid div { display: flex; justify-content: space-between; padding: 8px 12px; background: #efebe9; border-radius: 4px; font-size: 0.9rem; }
-        .stats-grid div span:last-child { font-weight: bold; color: #4e342e; }
-        .rating-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 15px 0; }
-        .rating-grid div { display: flex; justify-content: space-between; padding: 8px 12px; background: #efebe9; border-radius: 4px; border: 1px solid #d7ccc8; }
-        .rating-grid div span:last-child { font-weight: bold; color: #6d4c41; }
-        .verdict { background: linear-gradient(135deg, #4e342e, #6d4c41); color: white; padding: 20px; border-radius: 8px; margin-top: 25px; text-align: center; }
-        .verdict h3 { color: #d7ccc8; margin-bottom: 10px; }
-        .rating { font-size: 1.5rem; font-weight: bold; color: #d7ccc8; }
-        sup a { color: #e67e22; text-decoration: none; font-weight: bold; }
+        .content {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #5b21b6;
+            margin: 30px 0 15px 0;
+            font-size: 1.3rem;
+            border-bottom: 3px solid #a78bfa;
+            padding-bottom: 8px;
+        }
+        h3 { color: #7c3aed; margin: 20px 0 10px 0; font-size: 1.05rem; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .intro {
+            font-size: 1.05rem; color: #444;
+            border-left: 4px solid #a78bfa;
+            padding-left: 15px; margin-bottom: 25px;
+        }
+        .type-badge {
+            display: inline-block; padding: 4px 12px; border-radius: 12px;
+            font-size: 0.8rem; margin-top: 10px;
+            background: #a78bfa; color: white;
+        }
+        ul { margin: 10px 0 15px 20px; }
+        li { margin-bottom: 10px; }
+        strong { color: #3b0764; }
+        .highlight, .fact-box, .park-box, .uni-box, .culture-box, .arch-box, .history-box, .heritage-box, .cider-box {
+            background: #f5f3ff;
+            border-left: 4px solid #7c3aed;
+            padding: 15px; margin: 15px 0;
+        }
+        .gold-box, .alert-box {
+            background: #f5f3ff;
+            border: 1px solid #a78bfa;
+            padding: 15px; border-radius: 8px; margin: 15px 0;
+        }
+        .gold-box h4, .alert-box h4 { color: #5b21b6; margin-bottom: 8px; }
+        .danger-box, .fail-box, .warning-box, .revolution-box {
+            background: #fef2f2;
+            border: 1px solid #fca5a5;
+            padding: 15px; border-radius: 8px; margin: 15px 0;
+        }
+        .danger-box h4, .fail-box h4, .warning-box h4, .revolution-box h4 { color: #991b1b; margin-bottom: 8px; }
+        .wind-warning {
+            background: #fef3c7; border: 2px solid #f59e0b;
+            padding: 15px; border-radius: 8px; margin: 15px 0;
+        }
+        .wind-warning h4 { color: #92400e; margin-bottom: 8px; }
+        .unesco-box {
+            background: #fffbeb; border: 1px solid #f59e0b;
+            padding: 15px; border-radius: 8px; margin: 15px 0;
+        }
+        .unesco-box h4 { color: #92400e; margin-bottom: 8px; }
+        .quote {
+            background: #f5f3ff;
+            border-left: 4px solid #a78bfa;
+            padding: 15px 20px; margin: 20px 0;
+            font-style: italic; color: #666;
+        }
+        .tldr {
+            background: #f5f3ff; padding: 20px;
+            border-radius: 8px; margin: 20px 0;
+        }
+        .tldr h3 { margin-top: 0; }
+        .stats-grid {
+            display: grid; grid-template-columns: 1fr 1fr;
+            gap: 10px; margin: 15px 0;
+        }
+        .stat-item {
+            display: flex; justify-content: space-between;
+            padding: 8px 12px; background: #f5f3ff; border-radius: 4px;
+            border: 1px solid #e9e5f5;
+        }
+        .stat-value { font-weight: bold; color: #5b21b6; }
+        .rating-grid {
+            display: grid; grid-template-columns: 1fr 1fr;
+            gap: 10px; margin: 15px 0;
+        }
+        .rating-item {
+            display: flex; justify-content: space-between;
+            padding: 8px 12px; background: #f5f3ff; border-radius: 4px;
+            border: 1px solid #e9e5f5;
+        }
+        .rating-score { font-weight: bold; color: #7c3aed; }
+        .zone-grid, .two-parts, .nationality-grid {
+            display: grid; grid-template-columns: 1fr 1fr;
+            gap: 15px; margin: 15px 0;
+        }
+        .zone, .part, .nat-item {
+            background: #f5f3ff; padding: 15px; border-radius: 8px;
+            border: 1px solid #e9e5f5;
+        }
+        .zone h4, .part h4 { color: #5b21b6; margin-bottom: 8px; font-size: 0.95rem; }
+        .nat-item .country { font-size: 0.85rem; color: #666; }
+        .nat-item .count { font-size: 1.1rem; font-weight: bold; color: #7c3aed; }
+        .pros-cons {
+            display: grid; grid-template-columns: 1fr 1fr;
+            gap: 20px; margin: 20px 0;
+        }
+        .pros, .cons { padding: 15px; border-radius: 8px; }
+        .pros { background: #f0fdf4; border: 1px solid #86efac; }
+        .cons { background: #fef2f2; border: 1px solid #fca5a5; }
+        .pros h4 { color: #166534; margin-bottom: 10px; }
+        .cons h4 { color: #991b1b; margin-bottom: 10px; }
+        .verdict {
+            background: linear-gradient(135deg, #7c3aed, #5b21b6);
+            color: white; padding: 20px; border-radius: 8px; margin-top: 30px;
+        }
+        .verdict p { text-align: left; margin-bottom: 10px; color: #e9e5f5; }
+        .verdict h3 { color: white; margin-bottom: 10px; }
+        .verdict .rating { font-size: 1.5rem; text-align: center; margin-top: 15px; }
+        sup a { color: #7c3aed; text-decoration: none; font-weight: bold; }
         sup a:hover { text-decoration: underline; }
-        .references { margin-top: 25px; padding-top: 12px; border-top: 2px solid #6d4c41; font-size: 0.8rem; color: #888; }
-        .references h2 { font-size: 1rem; color: #6d4c41; border-bottom: 1px solid #6d4c41; }
+        .references {
+            margin-top: 30px; padding-top: 15px;
+            border-top: 2px solid #a78bfa; font-size: 0.8rem; color: #666;
+        }
+        .references h2 { font-size: 1.1rem; border-bottom: 1px solid #a78bfa; color: #5b21b6; }
         .references ol { margin: 10px 0 0 20px; }
         .references li { margin-bottom: 5px; }
-        .references a { color: #e67e22; word-break: break-all; }
+        .references a { color: #7c3aed; word-break: break-all; }
+        table { width: 100%; border-collapse: collapse; margin: 15px 0; }
+        th { background: #7c3aed; color: white; padding: 10px; text-align: left; border-bottom: 2px solid #5b21b6; }
+        td { padding: 10px; border-bottom: 1px solid #e9e5f5; }
+        tr:hover { background: #f5f3ff; }
+        @media (max-width: 600px) {
+            .stats-grid, .rating-grid, .zone-grid, .two-parts, .pros-cons, .nationality-grid { grid-template-columns: 1fr; }
+        }
     </style>
 </head>
 <body>
