@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pruvia - Льянера</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; color: #111827; padding: 20px; background: #fafafa; }
+        .header { background: linear-gradient(135deg, #7c3aed, #5b21b6); color: white; padding: 25px; margin: -20px -20px 20px -20px; }
+        .header h1 { font-size: 1.5rem; margin-bottom: 5px; }
+        .header .subtitle { font-size: 1rem; opacity: 0.9; font-style: italic; }
+        .type-badge { display: inline-block; padding: 4px 12px; border-radius: 12px; font-size: 0.8rem; margin-top: 10px; background: #a78bfa; color: white; }
+        .content { background: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h2 { color: #5b21b6; margin: 30px 0 15px 0; font-size: 1.3rem; border-bottom: 3px solid #a78bfa; padding-bottom: 8px; }
+        h3 { color: #7c3aed; margin: 20px 0 10px 0; font-size: 1.05rem; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .intro { font-size: 1.05rem; color: #111827; border-left: 4px solid #a78bfa; padding-left: 15px; margin-bottom: 25px; }
+        ul { margin: 10px 0 15px 20px; }
+        li { margin-bottom: 10px; }
+        strong { color: #1e1b4b; }
+        .fact-box { background: #f5f3ff; border-left: 4px solid #7c3aed; padding: 15px; margin: 15px 0; }
+        .gold-box { background: #f5f3ff; border: 1px solid #a78bfa; padding: 15px; border-radius: 8px; margin: 15px 0; }
+        .gold-box h4 { color: #5b21b6; margin-bottom: 8px; }
+        .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 15px 0; }
+        .stat-item { display: flex; justify-content: space-between; padding: 8px 12px; background: #f5f3ff; border-radius: 4px; border: 1px solid #e9e5f5; }
+        .stat-value { font-weight: bold; color: #5b21b6; }
+        .rating-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 15px 0; }
+        .rating-item { display: flex; justify-content: space-between; padding: 8px 12px; background: #f5f3ff; border-radius: 4px; border: 1px solid #e9e5f5; }
+        .rating-score { font-weight: bold; color: #7c3aed; }
+        .verdict { background: linear-gradient(135deg, #7c3aed, #5b21b6); color: white; padding: 20px; border-radius: 8px; margin-top: 30px; }
+        .verdict p { text-align: left; margin-bottom: 10px; color: #ede9fe; }
+        .verdict strong { color: #ffffff; }
+        .verdict .rating { color: #ffffff; font-size: 1.5rem; text-align: center; margin-top: 15px; }
+        .verdict .rating strong { color: #ffffff; }
+        sup a { color: #7c3aed; text-decoration: none; font-weight: bold; }
+        sup a:hover { text-decoration: underline; }
+        .references { margin-top: 30px; padding-top: 15px; border-top: 2px solid #a78bfa; font-size: 0.8rem; color: #374151; }
+        .references h2 { font-size: 1.1rem; border-bottom: 1px solid #a78bfa; color: #5b21b6; }
+        .references ol { margin: 10px 0 0 20px; }
+        .references li { margin-bottom: 5px; }
+        .references a { color: #7c3aed; word-break: break-all; }
+        @media (max-width: 600px) { .stats-grid, .rating-grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Pruvia</h1>
+        <div class="subtitle">Приход в Льянере, где учат по-английски и делают сидру по-астурийски</div>
+        <span class="type-badge">Муниципалитет Llanera</span>
+    </div>
+    <div class="content">
+        <p class="intro">Pruvia — третий по населению приход Льянеры (2 707 жителей<sup><a href="#ref1">[1]</a></sup>), на восточной границе муниципалитета, между Сьеро и Хихоном. Место, о котором большинство овьедцев знает ровно одно: тут стоит <strong>The English School of Asturias</strong> — британская школа, куда возят детей со всей центральной Астурии. Остальные знают Pruvia по центру верховой езды, экологическим фермам 80-х и единственному на весь район лагару «El Güelu».</p>
+
+        <h2>The English School of Asturias</h2>
+
+        <div class="gold-box">
+            <h4>Единственная британская школа в Астурии</h4>
+            <ul style="margin-bottom:0">
+                <li><strong>Основана:</strong> 1997 год (25 лет в 2023)<sup><a href="#ref2">[2]</a></sup></li>
+                <li><strong>Учеников:</strong> 764 (от 3 до 18 лет, 16 национальностей)<sup><a href="#ref3">[3]</a></sup></li>
+                <li><strong>Программа:</strong> British curriculum (EYFS → Primary → IGCSE → A-levels). Билингвальное обучение, основной язык — английский<sup><a href="#ref4">[4]</a></sup></li>
+                <li><strong>Владелец:</strong> Dukes Education (международная сеть, с 2018 через IEP)<sup><a href="#ref3">[3]</a></sup></li>
+                <li><strong>Кампус:</strong> Finca La Llosona — современные аулы, лаборатории, спортивные площадки, зелёные зоны<sup><a href="#ref4">[4]</a></sup></li>
+                <li><strong>Стоимость:</strong> 497—1 192 €/мес (зависит от возраста) + матрикула 1 000 €<sup><a href="#ref5">[5]</a></sup></li>
+                <li><strong>Рейтинг:</strong> 3.9/5 (Micole, 52 отзыва)<sup><a href="#ref6">[6]</a></sup></li>
+                <li><strong>Расписание:</strong> 8:15—16:20, транспорт включён<sup><a href="#ref4">[4]</a></sup></li>
+            </ul>
+        </div>
+
+        <p>Школа стоит в чистом поле на холме — буквально Finca (усадьба) с видом на зелёные долины. 764 ученика из 16 стран — это не Итон и не Хэрроу, но для Астурии вполне себе международная среда. Большинство учеников — испанцы из семей, которые хотят британскую модель образования без переезда в Лондон. 20 минут на машине из центра Овьедо.</p>
+
+        <h2>Что ещё есть в Pruvia</h2>
+
+        <ul>
+            <li><strong>Centro Ecuestre Arabian</strong> — конноспортивный центр: 120 учеников, 26 лошадей, работает более 10 лет<sup><a href="#ref1">[1]</a></sup></li>
+            <li><strong>Llagar «El Güelu»</strong> — единственный лагар (сидродельня) во всём муниципалитете Llanera<sup><a href="#ref1">[1]</a></sup></li>
+            <li><strong>Экологические фермы</strong> — Pruvia была пионером органического земледелия в Астурии с 80-х годов. До сих пор снабжает рынки<sup><a href="#ref1">[1]</a></sup></li>
+            <li><strong>Urbanización Soto de Llanera</strong> — жилой массив на территории прихода</li>
+            <li><strong>Хостелерия для мероприятий</strong> — несколько площадок для свадеб и корпоративов<sup><a href="#ref1">[1]</a></sup></li>
+        </ul>
+
+        <h2>Демография</h2>
+
+        <div class="stats-grid">
+            <div class="stat-item"><span>Население</span><span class="stat-value">2 707 (2021)</span></div>
+            <div class="stat-item"><span>Муниципалитет</span><span class="stat-value">Llanera (13 938)</span></div>
+            <div class="stat-item"><span>Ранг в Llanera</span><span class="stat-value">#3 по населению</span></div>
+            <div class="stat-item"><span>До Овьедо</span><span class="stat-value">~20 мин на авто</span></div>
+            <div class="stat-item"><span>Транспорт</span><span class="stat-value">Автобус OVI, VEN, SOT</span></div>
+            <div class="stat-item"><span>Характер</span><span class="stat-value">Сельский + школа</span></div>
+        </div>
+
+        <div class="fact-box">
+            <p style="margin-bottom:0">Pruvia — самая растущая парроквия Льянеры. Население увеличивается, строятся новые дома, жители требуют больше сервисов. Приход граничит с Сьеро и Хихоном, фактически входит в метрополитанскую зону центральной Астурии<sup><a href="#ref1">[1]</a></sup>.</p>
+        </div>
+
+        <div class="rating-grid">
+            <div class="rating-item"><span>Школа</span><span class="rating-score">Британская</span></div>
+            <div class="rating-item"><span>Природа</span><span class="rating-score">Поля и лошади</span></div>
+            <div class="rating-item"><span>Инфраструктура</span><span class="rating-score">Минимум</span></div>
+            <div class="rating-item"><span>Транспорт</span><span class="rating-score">Автобус ~50 мин</span></div>
+            <div class="rating-item"><span>Сидра</span><span class="rating-score">El Güelu</span></div>
+            <div class="rating-item"><span>Для семей</span><span class="rating-score">Если в ESA</span></div>
+        </div>
+
+        <div class="verdict">
+            <p><strong>Суть:</strong> Pruvia — это деревня, которая стала известна благодаря школе. Без The English School это была бы ещё одна красивая парроквия с коровами и каштанами. Со школой — это место, куда каждое утро едут 764 ребёнка из Овьедо, Хихона и Авилеса, а их родители оплачивают до 1 200 € в месяц за привилегию учиться на холме среди зелени.</p>
+            <p class="rating"><strong>Не оцениваем</strong> — это не район Овьедо</p>
+        </div>
+
+        <div class="references">
+            <h2>Источники</h2>
+            <ol>
+                <li id="ref1">«Pruvia, la tercera parroquia más poblada de Llanera» — <a href="https://www.rtpa.es/noticias-asturias:Pruvia,-la-tercera-parroquia-mas-poblada-de-Llanera,-con-mas-de-2.700-habitantes_111714130689.html" target="_blank">RTPA</a>. 2 707 hab., centro ecuestre, llagar El Güelu, agricultura ecológica.</li>
+                <li id="ref2">«El Colegio Inglés cumple 25 años en Asturias» — <a href="https://cadenaser.com/asturias/2023/04/24/el-colegio-ingles-cumple-25-anos-en-asturias-apostando-por-un-modelo-educativo-basado-en-la-capacidad-de-reflexion-ser-gijon/" target="_blank">Cadena SER</a>, abril 2023.</li>
+                <li id="ref3">The English School of Asturias — <a href="https://dukeseducation.com/schools-colleges/english-school-of-asturias/" target="_blank">Dukes Education</a>. 764 alumnos, 16 nacionalidades.</li>
+                <li id="ref4">Instalaciones y vida escolar — <a href="https://english-school-asturias.dukeseducation.es/vida-escolar/instalaciones/" target="_blank">english-school-asturias.dukeseducation.es</a>. Horario, campus.</li>
+                <li id="ref5">Tarifas — <a href="https://english-school-asturias.dukeseducation.es/admisiones/tarifas/" target="_blank">english-school-asturias.dukeseducation.es</a>. 497—1 192 €/mes, matrícula 1 000 €.</li>
+                <li id="ref6">Micole.net — <a href="https://www.micole.net/asturias/lugo-de-llanera/colegio-the-english-school-of-asturias" target="_blank">rating 3.9/5, 52 valoraciones</a>.</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
