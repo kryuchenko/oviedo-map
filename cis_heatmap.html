@@ -58,8 +58,8 @@ var modes = {
 var currentMode = 'cis';
 
 var map = L.map('map').setView([43.362, -5.850], 13);
-L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; OSM, &copy; CARTO', maxZoom: 18
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+    attribution: 'Tiles &copy; Esri &mdash; Esri, HERE, Garmin, &copy; OpenStreetMap', maxNativeZoom: 16, maxZoom: 18
 }).addTo(map);
 
 function getColor(n, mode) {
